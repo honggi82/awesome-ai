@@ -1,26 +1,19 @@
 # Awesome AI
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![Open Interactive Website](https://img.shields.io/badge/Open%20Interactive%20Website-GitHub%20Pages-0f766e)](https://honggi82.github.io/awesome-ai/)
 
-<p align="center">
-  <a href="https://honggi82.github.io/awesome-ai/">
-    <img src="https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--ai-0f766e?style=for-the-badge" alt="Open Interactive Website">
-  </a>
-</p>
+A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
 
-> Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-ai/
-
-A taxonomy-first, citation-ranked map of AI research from 2020 through 2026.
-
-Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2020-2026, keeps an audited candidate pool of 7,000 records, selects the top 100 papers from each year by citation count (700 papers total), and reorganizes them by AI research taxonomy.
+Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
 
 ## Project Links
 
 - Open Interactive Website: https://honggi82.github.io/awesome-ai/
-- Selected dataset: `data/papers_2020_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2020_2026.csv`
-- Precomputed period and language analysis: `data/period_analysis_2020_2026.json`
-- Candidate Pool: `data/candidates_top1000_2020_2026.csv`
+- Selected dataset: `data/papers_2000_2026.csv`
+- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
+- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
+- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
 
@@ -28,6 +21,7 @@ Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition
 
 These badges define the AI keyword tags used to read and extend this collection.
 
+- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: Statistical learning, neural networks, SVMs, trees/boosting, data mining, pattern recognition, clustering, or core ML methods.
 - ![foundation-models](https://img.shields.io/badge/keyword-foundation--models-2563eb) **foundation-models**: Large language models, foundation models, scaling, prompting, alignment, or retrieval-augmented systems.
 - ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**: Generative adversarial, diffusion, synthetic media, text-to-image, or other model-based generation work.
 - ![multimodal](https://img.shields.io/badge/keyword-multimodal-0891b2) **multimodal**: Vision-language, audio-language, video-language, or cross-modal representation learning.
@@ -40,27 +34,152 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 ## Taxonomy Overview
 
-- **Total selected papers**: 700 papers
-- **Candidate pool audited**: 7,000 papers (2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 1,584,599
-- **Foundation Models and Large Language Models**: 417 papers
-- **AI for Science, Healthcare, and Robotics**: 70 papers
-- **Vision and Multimodal Learning**: 67 papers
-- **Reinforcement Learning and Agents**: 33 papers
-- **General AI Methods and Systems**: 27 papers
-- **Graph Learning, Recommendation, and Core Methods**: 24 papers
-- **Generative Models and Synthetic Media**: 19 papers
-- **Natural Language Processing and Knowledge**: 16 papers
-- **Trustworthy, Explainable, and Responsible AI**: 15 papers
-- **Representation, Self-Supervised, and Transfer Learning**: 12 papers
+- **Total selected papers**: 2,700 papers
+- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
+- **Citation count in selected set**: 8,567,142
+- **General AI Methods and Systems**: 688 papers
+- **Foundation Models and Large Language Models**: 490 papers
+- **Vision and Multimodal Learning**: 477 papers
+- **AI for Science, Healthcare, and Robotics**: 279 papers
+- **Graph Learning, Recommendation, and Core Methods**: 195 papers
+- **Reinforcement Learning and Agents**: 175 papers
+- **Natural Language Processing and Knowledge**: 160 papers
+- **Trustworthy, Explainable, and Responsible AI**: 98 papers
+- **Generative Models and Synthetic Media**: 83 papers
+- **Representation, Self-Supervised, and Transfer Learning**: 55 papers
 
 ## Taxonomy Collections
 
+### General AI Methods and Systems
+
+- Papers selected: **688**
+- Years covered: **2000-2026**
+- Citation count in selected set: **1,366,275**
+- Category Overview (main research trends):
+  - General AI methods consolidate architectures, benchmarks, surveys, datasets, and system-level observations that cut across subfields.
+  - This category often captures high-citation survey or infrastructure work that shapes how later papers define progress.
+  - Citation-ranked views can be especially useful here, but they should be read as a map of influence rather than a complete quality assessment.
+- Limitations:
+  - Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.
+  - Broad claims need careful mapping to specific tasks, datasets, and operational constraints.
+  - Metadata-driven ranking cannot replace expert reading of full papers and experimental details.
+
+<details>
+<summary><strong>Show representative papers for General AI Methods and Systems</strong></summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="12%">
+<col width="12%">
+<col width="25%">
+<col width="12%">
+<col width="12%">
+</colgroup>
+<thead><tr>
+<th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
+</tr></thead><tbody>
+<tr>
+<td align="right">11</td>
+<td>[XGBoost: A Scalable Tree Boosting System](https://doi.org/10.1145/2939672.2939785)<br><sub>Tianqi Chen, Carlos Guestrin</sub></td>
+<td>2016<br>Knowledge Discovery and Data Mining<br>55,903 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Tree boosting is a highly effective and widely used machine learning method.</td>
+<td>high citation signal (55,903); influential citation signal (4,189); open-access PDF metadata</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td>[LIBSVM: A library for support vector machines](https://doi.org/10.1145/1961189.1961199)<br><sub>Chih-Chung Chang, Chih-Jen Lin</sub></td>
+<td>2011<br>TIST<br>44,933 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions LIBSVM: A library for support vector machines within General AI Methods and Systems.</td>
+<td>high citation signal (44,933); influential citation signal (3,802)</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">18</td>
+<td>[Dropout: a simple way to prevent neural networks from overfitting](https://doi.org/10.5555/2627435.2670313)<br><sub>Nitish Srivastava, Geoffrey E. Hinton, A. Krizhevsky, I. Sutskever, R. Salakhutdinov</sub></td>
+<td>2014<br>Journal of machine learning research<br>43,470 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Dropout: a simple way to prevent neural networks from overfitting within General AI Methods and Systems.</td>
+<td>high citation signal (43,470); influential citation signal (3,879); recognized venue</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">46</td>
+<td>[The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://doi.org/10.1007/978-0-387-84858-7)<br><sub>T. Hastie, J. Friedman, R. Tibshirani</sub></td>
+<td>2001<br>Springer Series in Statistics<br>21,652 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions The Elements of Statistical Learning: Data Mining, Inference, and Prediction within General AI Methods and Systems.</td>
+<td>high citation signal (21,652); influential citation signal (1,197)</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">48</td>
+<td>[The WEKA data mining software: an update](https://doi.org/10.1145/1656274.1656278)<br><sub>M. Hall, E. Frank, G. Holmes, Bernhard Pfahringer, P. Reutemann, I. Witten</sub></td>
+<td>2009<br>SKDD<br>20,731 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions The WEKA data mining software: an update within General AI Methods and Systems.</td>
+<td>high citation signal (20,731); influential citation signal (2,167); recognized venue</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">53</td>
+<td>[Classification and Regression by randomForest](https://www.semanticscholar.org/paper/6e633b41d93051375ef9135102d54fa097dc8cf8)<br><sub>Andy Liaw, M. Wiener</sub></td>
+<td>2007<br>Unknown venue<br>19,408 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Classification and Regression by randomForest within General AI Methods and Systems.</td>
+<td>high citation signal (19,408); influential citation signal (1,114)</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">55</td>
+<td>[Understanding the difficulty of training deep feedforward neural networks](https://www.semanticscholar.org/paper/ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649)<br><sub>Xavier Glorot, Yoshua Bengio</sub></td>
+<td>2010<br>International Conference on Artificial Intelligence and Statistics<br>19,308 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Understanding the difficulty of training deep feedforward neural networks within General AI Methods and Systems.</td>
+<td>high citation signal (19,308); influential citation signal (918); recognized venue</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">56</td>
+<td>[Mastering the game of Go with deep neural networks and tree search](https://doi.org/10.1038/nature16961)<br><sub>David Silver, Aja Huang, Chris J. Maddison, A. Guez, L. Sifre, George van den Driessche, Julian Schrittwieser, Ioannis Antonoglou, et al.</sub></td>
+<td>2016<br>Nature<br>18,935 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Mastering the game of Go with deep neural networks and tree search within General AI Methods and Systems.</td>
+<td>high citation signal (18,935); influential citation signal (617); recognized venue; open-access PDF metadata</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">57</td>
+<td>[The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://doi.org/10.1198/jasa.2004.s339)<br><sub>D. Ruppert</sub></td>
+<td>2004<br>Unknown venue<br>18,639 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions The Elements of Statistical Learning: Data Mining, Inference, and Prediction within General AI Methods and Systems.</td>
+<td>high citation signal (18,639); influential citation signal (2,028)</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr>
+<td align="right">63</td>
+<td>[Data Mining Practical Machine Learning Tools and Techniques](https://www.semanticscholar.org/paper/730ca170962a58607e092035beb2afc4b5fa6242)<br><sub>อนิรุธ สืบสิงห์</sub></td>
+<td>2014<br>Unknown venue<br>17,706 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Data Mining Practical Machine Learning Tools and Techniques within General AI Methods and Systems.</td>
+<td>high citation signal (17,706); influential citation signal (1,797)</td>
+<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
+</tr>
+<tr><td colspan="7"><em>678 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+</tbody></table>
+
+</details>
+
 ### Foundation Models and Large Language Models
 
-- Papers selected: **417**
-- Years covered: **2020-2026**
-- Citation count in selected set: **879,746**
+- Papers selected: **490**
+- Years covered: **2000-2026**
+- Citation count in selected set: **1,376,019**
 - Category Overview (main research trends):
   - The main trend is a shift from task-specific NLP systems toward general-purpose foundation models that transfer across tasks through prompting, retrieval, and instruction tuning.
   - Scaling laws, retrieval augmentation, alignment, and data governance are now central design axes rather than afterthoughts.
@@ -87,7 +206,16 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">2</td>
+<td align="right">6</td>
+<td>[Scikit-learn: Machine Learning in Python](https://doi.org/10.5555/1953048.2078195)<br><sub>Fabian Pedregosa, G. Varoquaux, Alexandre Gramfort, V. Michel, B. Thirion, O. Grisel, Mathieu Blondel, Gilles Louppe, et al.</sub></td>
+<td>2011<br>Journal of machine learning research<br>90,486 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems.</td>
+<td>high citation signal (90,486); influential citation signal (7,928); recognized venue</td>
+<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
+</tr>
+<tr>
+<td align="right">10</td>
 <td>[Language Models are Few-Shot Learners](https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0)<br><sub>Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, J. Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, et al.</sub></td>
 <td>2020<br>Neural Information Processing Systems<br>59,605 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
@@ -96,7 +224,43 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
 </tr>
 <tr>
-<td align="right">6</td>
+<td align="right">12</td>
+<td>[PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1)<br><sub>Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, et al.</sub></td>
+<td>2019<br>Neural Information Processing Systems<br>52,984 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>Deep learning frameworks have often focused on either usability or speed, but not both.</td>
+<td>high citation signal (52,984); influential citation signal (5,672)</td>
+<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
+</tr>
+<tr>
+<td align="right">30</td>
+<td>[Language Models are Unsupervised Multitask Learners](https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe)<br><sub>Alec Radford, Jeff Wu, R. Child, D. Luan, Dario Amodei, I. Sutskever</sub></td>
+<td>2019<br>Unknown venue<br>29,070 citations</td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
+<td>Positions Language Models are Unsupervised Multitask Learners within Foundation Models and Large Language Models.</td>
+<td>high citation signal (29,070); influential citation signal (4,029)</td>
+<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
+</tr>
+<tr>
+<td align="right">37</td>
+<td>[Communication-Efficient Learning of Deep Networks from Decentralized Data](https://www.semanticscholar.org/paper/d1dbf643447405984eeef098b1b320dee0b3b8a7)<br><sub>H. B. McMahan, Eider Moore, Daniel Ramage, S.C.D. Hampson, B. A. Y. Arcas</sub></td>
+<td>2016<br>International Conference on Artificial Intelligence and Statistics<br>24,984 citations</td>
+<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device.</td>
+<td>high citation signal (24,984); influential citation signal (5,037); recognized venue</td>
+<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
+</tr>
+<tr>
+<td align="right">38</td>
+<td>[Distilling the Knowledge in a Neural Network](https://www.semanticscholar.org/paper/0c908739fbff75f03469d13d4a1a07de3414ee19)<br><sub>Geoffrey E. Hinton, O. Vinyals, J. Dean</sub></td>
+<td>2015<br>arXiv.org<br>24,671 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions.</td>
+<td>high citation signal (24,671); influential citation signal (2,790)</td>
+<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
+</tr>
+<tr>
+<td align="right">45</td>
 <td>[Training language models to follow instructions with human feedback](https://doi.org/10.52202/068431-2011)<br><sub>Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, S. Agarwal, et al.</sub></td>
 <td>2022<br>Neural Information Processing Systems<br>21,755 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
@@ -105,7 +269,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
 </tr>
 <tr>
-<td align="right">7</td>
+<td align="right">50</td>
 <td>[LLaMA: Open and Efficient Foundation Language Models](https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75)<br><sub>Hugo Touvron, Thibaut Lavril, Gautier Izacard, X. Martinet, M. Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, et al.</sub></td>
 <td>2023<br>arXiv.org<br>20,427 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
@@ -114,7 +278,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
 </tr>
 <tr>
-<td align="right">8</td>
+<td align="right">51</td>
 <td>[LoRA: Low-Rank Adaptation of Large Language Models](https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092)<br><sub>J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen</sub></td>
 <td>2021<br>International Conference on Learning Representations<br>20,108 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
@@ -123,7 +287,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
 </tr>
 <tr>
-<td align="right">9</td>
+<td align="right">54</td>
 <td>[Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://doi.org/10.52202/068431-1800)<br><sub>Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed H. Chi, F. Xia, Quoc Le, Denny Zhou</sub></td>
 <td>2022<br>Neural Information Processing Systems<br>19,316 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
@@ -131,186 +295,16 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td>high citation signal (19,316); influential citation signal (1,316)</td>
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
 </tr>
-<tr>
-<td align="right">10</td>
-<td>[Llama 2: Open Foundation and Fine-Tuned Chat Models](https://www.semanticscholar.org/paper/104b0bb1da562d53cbda87aec79ef6a2827d191a)<br><sub>Hugo Touvron, Louis Martin, Kevin R. Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Niko-lay Bashlykov, Soumya Batra, et al.</sub></td>
-<td>2023<br>arXiv.org<br>17,320 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters.</td>
-<td>high citation signal (17,320); influential citation signal (2,177)</td>
-<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
-</tr>
-<tr>
-<td align="right">11</td>
-<td>[The Llama 3 Herd of Models](https://www.semanticscholar.org/paper/40e8af970329135ec95057d73e239dab805ad128)<br><sub>Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, A. Schelten, et al.</sub></td>
-<td>2024<br>Unknown venue<br>16,216 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Modern artificial intelligence (AI) systems are powered by foundation models.</td>
-<td>high citation signal (16,216); influential citation signal (3,038)</td>
-<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
-</tr>
-<tr>
-<td align="right">12</td>
-<td>[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://www.semanticscholar.org/paper/659bf9ce7175e1ec266ff54359e2bd76e0b7ff31)<br><sub>Patrick Lewis, Ethan Perez, Aleksandara Piktus, F. Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Kuttler, M. Lewis, et al.</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>15,004 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks.</td>
-<td>high citation signal (15,004); influential citation signal (1,402)</td>
-<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
-</tr>
-<tr>
-<td align="right">16</td>
-<td>[Evaluating Large Language Models Trained on Code](https://www.semanticscholar.org/paper/acbdbf49f9bc3f151b93d9ca9a06009f4f6eb269)<br><sub>Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Pondé, Jared Kaplan, Harrison Edwards, Yura Burda, et al.</sub></td>
-<td>2021<br>arXiv.org<br>10,122 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>We introduce Codex, a GPT language model fine-tuned on publicly available code from GitHub, and study its Python code-writing capabilities.</td>
-<td>high citation signal (10,122); influential citation signal (1,555)</td>
-<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
-</tr>
-<tr>
-<td align="right">17</td>
-<td>[Visual Instruction Tuning](https://doi.org/10.48550/arXiv.2304.08485)<br><sub>Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee</sub></td>
-<td>2023<br>Neural Information Processing Systems<br>9,932 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Instruction tuning large language models (LLMs) using machine-generated instruction-following data has improved zero-shot capabilities on new tasks, but the idea is less explored in the multimodal field.</td>
-<td>high citation signal (9,932); influential citation signal (1,598); open-access PDF metadata</td>
-<td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
-</tr>
-<tr><td colspan="7"><em>407 additional selected papers in this category are available in the dataset and website.</em></td></tr>
-</tbody></table>
-
-</details>
-
-### AI for Science, Healthcare, and Robotics
-
-- Papers selected: **70**
-- Years covered: **2020-2026**
-- Citation count in selected set: **168,581**
-- Category Overview (main research trends):
-  - Applied AI for science and healthcare is shifting from proof-of-concept prediction toward validated workflows for biology, medicine, molecules, and robotics.
-  - The most visible work couples domain data with deep learning architectures that can transfer into laboratory, clinical, or embodied settings.
-  - Evaluation increasingly needs external validation, prospective testing, reproducible datasets, and domain-specific safety constraints.
-- Limitations:
-  - External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.
-  - Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.
-  - Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.
-
-<details>
-<summary><strong>Show representative papers for AI for Science, Healthcare, and Robotics</strong></summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="12%">
-<col width="12%">
-<col width="25%">
-<col width="12%">
-<col width="12%">
-</colgroup>
-<thead><tr>
-<th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
-</tr></thead><tbody>
-<tr>
-<td align="right">4</td>
-<td>[Highly accurate protein structure prediction with AlphaFold](https://doi.org/10.1038/s41586-021-03819-2)<br><sub>J. Jumper, Richard Evans, A. Pritzel, Tim Green, Michael Figurnov, O. Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, et al.</sub></td>
-<td>2021<br>Nature<br>36,697 citations</td>
-<td><img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function.</td>
-<td>high citation signal (36,697); influential citation signal (3,767); recognized venue; open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">21</td>
-<td>[nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation](https://doi.org/10.1038/s41592-020-01008-z)<br><sub>Fabian Isensee, P. Jaeger, Simon A. A. Kohl, Jens Petersen, Klaus Hermann Maier-Hein</sub></td>
-<td>2020<br>Nature Methods<br>9,048 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Positions nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation within AI for Science, Healthcare, and Robotics.</td>
-<td>high citation signal (9,048); influential citation signal (859); recognized venue; open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">28</td>
-<td>[From Local Explanations to Global Understanding with Explainable AI for Trees](https://doi.org/10.1038/s42256-019-0138-9)<br><sub>Scott M. Lundberg, Gabriel Erion-Barner, Hugh Chen, A. DeGrave, J. Prutkin, Bala G. Nair, R. Katz, J. Himmelfarb, et al.</sub></td>
-<td>2020<br>Nature Machine Intelligence<br>7,955 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Tree-based machine learning models such as random forests, decision trees and gradient boosted trees are popular nonlinear predictive models, yet comparatively little attention has been paid to explaining their predictions.</td>
-<td>high citation signal (7,955); influential citation signal (474); recognized venue; open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">36</td>
-<td>[Review of deep learning: concepts, CNN architectures, challenges, applications, future directions](https://doi.org/10.1186/s40537-021-00444-8)<br><sub>Laith Alzubaidi, Jinglan Zhang, A. Humaidi, Ayad Al-dujaili, Y. Duan, O. Al-Shamma, José I. Santamaría, M. Fadhel, et al.</sub></td>
-<td>2021<br>Journal of Big Data<br>6,602 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community.</td>
-<td>high citation signal (6,602); influential citation signal (207); open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">49</td>
-<td>[Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation](https://doi.org/10.1007/978-3-031-25066-8_9)<br><sub>Hu Cao, Yueyue Wang, Jieneng Chen, Dongsheng Jiang, Xiaopeng Zhang, Qi Tian, Manning Wang</sub></td>
-<td>2021<br>ECCV Workshops<br>5,179 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>In the past few years, convolutional neural networks (CNNs) have achieved milestones in medical image analysis.</td>
-<td>high citation signal (5,179); influential citation signal (498); recognized venue</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">60</td>
-<td>[Machine Learning: Algorithms, Real-World Applications and Research Directions](https://doi.org/10.1007/s42979-021-00592-x)<br><sub>Iqbal H. Sarker</sub></td>
-<td>2021<br>SN Computer Science<br>4,424 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>In the current age of the Fourth Industrial Revolution (4IR or Industry 4.0), the digital world has a wealth of data, such as Internet of Things (IoT) data, cybersecurity data, mobile data, business data, social media data, health data, etc.</td>
-<td>high citation signal (4,424); influential citation signal (166); recognized venue; open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">80</td>
-<td>[Image Segmentation Using Deep Learning: A Survey](https://doi.org/10.1109/TPAMI.2021.3059968)<br><sub>Shervin Minaee, Yuri Boykov, F. Porikli, A. Plaza, N. Kehtarnavaz, Demetri Terzopoulos</sub></td>
-<td>2020<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>3,751 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>n computer vision and image processing with important applications such as scene understanding, medical image analysis, robotic perception, video surveillance, augmented reality, and image compression, among others, and numerous segmentation algorithms are found in the literature.</td>
-<td>high citation signal (3,751); influential citation signal (94); recognized venue; open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">98</td>
-<td>[Accurate prediction of protein structures and interactions using a 3-track neural network](https://doi.org/10.1126/science.abj8754)<br><sub>B. M, D. f, A. I, D. J, O. S, Lee Gr, W. J, C. Q., et al.</sub></td>
-<td>2021<br>Science<br>3,327 citations</td>
-<td><img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Deep learning takes on protein folding In 1972, Anfinsen won a Nobel prize for demonstrating a connection between a protein&#x27;s amino acid sequence and its three-dimensional structure.</td>
-<td>high citation signal (3,327); influential citation signal (146); recognized venue; open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">119</td>
-<td>[Improved protein structure prediction using potentials from deep learning](https://doi.org/10.1038/s41586-019-1923-7)<br><sub>A. Senior, Richard Evans, J. Jumper, J. Kirkpatrick, L. Sifre, Tim Green, Chongli Qin, Augustin Žídek, et al.</sub></td>
-<td>2020<br>Nature<br>2,913 citations</td>
-<td><img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Positions Improved protein structure prediction using potentials from deep learning within AI for Science, Healthcare, and Robotics.</td>
-<td>high citation signal (2,913); influential citation signal (99); recognized venue</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr>
-<td align="right">126</td>
-<td>[The future of digital health with federated learning](https://doi.org/10.1038/s41746-020-00323-1)<br><sub>Nicola Rieke, Jonny Hancox, Wenqi Li, Fausto Milletarì, H. Roth, Shadi Albarqouni, S. Bakas, M. Galtier, et al.</sub></td>
-<td>2020<br>npj Digital Medicine<br>2,831 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Data-driven machine learning (ML) has emerged as a promising approach for building accurate and robust statistical models from medical data, which is collected in huge volumes by modern healthcare systems.</td>
-<td>high citation signal (2,831); influential citation signal (81); open-access PDF metadata</td>
-<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
-</tr>
-<tr><td colspan="7"><em>60 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>480 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
 ### Vision and Multimodal Learning
 
-- Papers selected: **67**
-- Years covered: **2020-2026**
-- Citation count in selected set: **322,698**
+- Papers selected: **477**
+- Years covered: **2000-2026**
+- Citation count in selected set: **2,784,705**
 - Category Overview (main research trends):
   - Vision research is increasingly organized around transformer backbones, self-supervised pretraining, segmentation/detection foundation models, and vision-language alignment.
   - The strongest papers often combine large-scale data, reusable architectures, and transfer to multiple downstream tasks.
@@ -338,115 +332,115 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr></thead><tbody>
 <tr>
 <td align="right">1</td>
+<td>[Deep Residual Learning for Image Recognition](https://doi.org/10.1109/cvpr.2016.90)<br><sub>Kaiming He, X. Zhang, Shaoqing Ren, Jian Sun</sub></td>
+<td>2015<br>Computer Vision and Pattern Recognition<br>231,401 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>Deeper neural networks are more difficult to train.</td>
+<td>high citation signal (231,401); influential citation signal (32,345); recognized venue; open-access PDF metadata</td>
+<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td>[ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386)<br><sub>A. Krizhevsky, I. Sutskever, Geoffrey E. Hinton</sub></td>
+<td>2012<br>Communications of the ACM<br>129,676 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions ImageNet classification with deep convolutional neural networks within Vision and Multimodal Learning.</td>
+<td>high citation signal (129,676); influential citation signal (13,395); open-access PDF metadata</td>
+<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td>[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108)<br><sub>K. Simonyan, Andrew Zisserman</sub></td>
+<td>2014<br>International Conference on Learning Representations<br>112,194 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting.</td>
+<td>high citation signal (112,194); influential citation signal (14,543)</td>
+<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td>[ImageNet: A large-scale hierarchical image database](https://doi.org/10.1109/CVPR.2009.5206848)<br><sub>Jia Deng, Wei Dong, R. Socher, Li-Jia Li, K. Li, Li Fei-Fei</sub></td>
+<td>2009<br>2009 IEEE Conference on Computer Vision and Pattern Recognition<br>73,960 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>Positions ImageNet: A large-scale hierarchical image database within Vision and Multimodal Learning.</td>
+<td>high citation signal (73,960); influential citation signal (10,493); recognized venue; open-access PDF metadata</td>
+<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td>[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://doi.org/10.1109/TPAMI.2016.2577031)<br><sub>Shaoqing Ren, Kaiming He, Ross B. Girshick, Jian Sun</sub></td>
+<td>2015<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>73,399 citations</td>
+<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations.</td>
+<td>high citation signal (73,399); influential citation signal (9,719); recognized venue; open-access PDF metadata</td>
+<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
+</tr>
+<tr>
+<td align="right">9</td>
 <td>[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a)<br><sub>Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, M. Minderer, et al.</sub></td>
 <td>2020<br>International Conference on Learning Representations<br>64,585 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited.</td>
 <td>high citation signal (64,585); influential citation signal (7,105)</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
 </tr>
 <tr>
-<td align="right">3</td>
+<td align="right">13</td>
 <td>[Learning Transferable Visual Models From Natural Language Supervision](https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4)<br><sub>Alec Radford, Jong Wook Kim, Chris Hallacy, A. Ramesh, Gabriel Goh, S. Agarwal, G. Sastry, Amanda Askell, et al.</sub></td>
 <td>2021<br>International Conference on Machine Learning<br>50,664 citations</td>
-<td><img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories.</td>
 <td>high citation signal (50,664); influential citation signal (9,732); recognized venue</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
 </tr>
 <tr>
-<td align="right">5</td>
-<td>[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://doi.org/10.1109/ICCV48922.2021.00986)<br><sub>Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, B. Guo</sub></td>
-<td>2021<br>IEEE International Conference on Computer Vision<br>33,057 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>This paper presents a new vision Transformer, called Swin Transformer, that capably serves as a general-purpose backbone for computer vision.</td>
-<td>high citation signal (33,057); influential citation signal (3,952); open-access PDF metadata</td>
-<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
-</tr>
-<tr>
-<td align="right">13</td>
-<td>[Segment Anything](https://doi.org/10.1109/ICCV51070.2023.00371)<br><sub>A. Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloé Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, et al.</sub></td>
-<td>2023<br>IEEE International Conference on Computer Vision<br>14,026 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation.</td>
-<td>high citation signal (14,026); influential citation signal (1,884)</td>
-<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
-</tr>
-<tr>
 <td align="right">14</td>
-<td>[Masked Autoencoders Are Scalable Vision Learners](https://doi.org/10.1109/CVPR52688.2022.01553)<br><sub>Kaiming He, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Doll&#x27;ar, Ross B. Girshick</sub></td>
-<td>2021<br>Computer Vision and Pattern Recognition<br>11,814 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision.</td>
-<td>high citation signal (11,814); influential citation signal (1,984); recognized venue; open-access PDF metadata</td>
+<td>[Going deeper with convolutions](https://doi.org/10.1109/CVPR.2015.7298594)<br><sub>Christian Szegedy, Wei Liu, Yangqing Jia, P. Sermanet, Scott E. Reed, Dragomir Anguelov, D. Erhan, Vincent Vanhoucke, et al.</sub></td>
+<td>2014<br>Computer Vision and Pattern Recognition<br>47,471 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>We propose a deep convolutional neural network architecture codenamed Inception that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14).</td>
+<td>high citation signal (47,471); influential citation signal (4,438); recognized venue; open-access PDF metadata</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
 </tr>
 <tr>
 <td align="right">15</td>
-<td>[YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors](https://doi.org/10.1109/CVPR52729.2023.00721)<br><sub>Chien-Yao Wang, Alexey Bochkovskiy, H. Liao</sub></td>
-<td>2022<br>Computer Vision and Pattern Recognition<br>10,472 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Real-time object detection is one of the most important research topics in computer vision.</td>
-<td>high citation signal (10,472); influential citation signal (823); recognized venue; open-access PDF metadata</td>
+<td>[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://www.semanticscholar.org/paper/995c5f5e62614fcb4d2796ad2faab969da51713e)<br><sub>Sergey Ioffe, Christian Szegedy</sub></td>
+<td>2015<br>International Conference on Machine Learning<br>46,995 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>Training Deep Neural Networks is complicated by the fact that the distribution of each layer&#x27;s inputs changes during training, as the parameters of the previous layers change.</td>
+<td>high citation signal (46,995); influential citation signal (2,264); recognized venue</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
 </tr>
 <tr>
-<td align="right">18</td>
-<td>[Training data-efficient image transformers &amp; distillation through attention](https://www.semanticscholar.org/paper/ad7ddcc14984caae308c397f1a589aae75d4ab71)<br><sub>Hugo Touvron, M. Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, Hervé Jégou</sub></td>
-<td>2020<br>International Conference on Machine Learning<br>9,283 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Recently, neural networks purely based on attention were shown to address image understanding tasks such as image classification.</td>
-<td>high citation signal (9,283); influential citation signal (1,210); recognized venue</td>
+<td align="right">16</td>
+<td>[You Only Look Once: Unified, Real-Time Object Detection](https://doi.org/10.1109/CVPR.2016.91)<br><sub>J. Redmon, S. Divvala, Ross B. Girshick, Ali Farhadi</sub></td>
+<td>2015<br>Computer Vision and Pattern Recognition<br>46,088 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>We present YOLO, a new approach to object detection.</td>
+<td>high citation signal (46,088); influential citation signal (3,280); recognized venue; open-access PDF metadata</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
 </tr>
-<tr>
-<td align="right">22</td>
-<td>[DINOv2: Learning Robust Visual Features without Supervision](https://doi.org/10.48550/arXiv.2304.07193)<br><sub>M. Oquab, Timothée Darcet, Théo Moutakanni, Huy V. Vo, Marc Szafraniec, Vasil Khalidov, Pierre Fernandez, Daniel Haziza, et al.</sub></td>
-<td>2023<br>Trans. Mach. Learn. Res.<br>8,740 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision.</td>
-<td>high citation signal (8,740); influential citation signal (1,307); open-access PDF metadata</td>
-<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
-</tr>
-<tr>
-<td align="right">24</td>
-<td>[A ConvNet for the 2020s](https://doi.org/10.1109/CVPR52688.2022.01167)<br><sub>Zhuang Liu, Hanzi Mao, Chaozheng Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie</sub></td>
-<td>2022<br>Computer Vision and Pattern Recognition<br>8,457 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>The “Roaring 20s” of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classification model.</td>
-<td>high citation signal (8,457); influential citation signal (971); recognized venue</td>
-<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
-</tr>
-<tr>
-<td align="right">51</td>
-<td>[Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions](https://doi.org/10.1109/ICCV48922.2021.00061)<br><sub>Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao Song, Ding Liang, Tong Lu, P. Luo, et al.</sub></td>
-<td>2021<br>IEEE International Conference on Computer Vision<br>5,064 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Although convolutional neural networks (CNNs) have achieved great success in computer vision, this work investigates a simpler, convolution-free backbone network use-fid for many dense prediction tasks.</td>
-<td>high citation signal (5,064); influential citation signal (554); open-access PDF metadata</td>
-<td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
-</tr>
-<tr><td colspan="7"><em>57 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>467 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
-### Reinforcement Learning and Agents
+### AI for Science, Healthcare, and Robotics
 
-- Papers selected: **33**
-- Years covered: **2020-2026**
-- Citation count in selected set: **38,128**
+- Papers selected: **279**
+- Years covered: **2000-2026**
+- Citation count in selected set: **633,472**
 - Category Overview (main research trends):
-  - Reinforcement learning is converging with human feedback, offline datasets, robotics, planning, and agentic tool-use settings.
-  - A major thread is reducing sample inefficiency while improving robustness under distribution shift and sparse rewards.
-  - The field is increasingly judged by transfer, safety, and real-world interaction rather than benchmark score alone.
+  - Applied AI for science and healthcare is shifting from proof-of-concept prediction toward validated workflows for biology, medicine, molecules, and robotics.
+  - The most visible work couples domain data with deep learning architectures that can transfer into laboratory, clinical, or embodied settings.
+  - Evaluation increasingly needs external validation, prospective testing, reproducible datasets, and domain-specific safety constraints.
 - Limitations:
-  - Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.
-  - Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.
-  - Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.
+  - External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.
+  - Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.
+  - Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.
 
 <details>
-<summary><strong>Show representative papers for Reinforcement Learning and Agents</strong></summary>
+<summary><strong>Show representative papers for AI for Science, Healthcare, and Robotics</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -462,230 +456,105 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">72</td>
-<td>[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://doi.org/10.48550/arXiv.2501.12948)<br><sub>Adam Suma, Sam Dauncey</sub></td>
-<td>2025<br>arXiv.org<br>4,015 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>Positions DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning within Reinforcement Learning and Agents.</td>
-<td>high citation signal (4,015); influential citation signal (709)</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
+<td align="right">21</td>
+<td>[Highly accurate protein structure prediction with AlphaFold](https://doi.org/10.1038/s41586-021-03819-2)<br><sub>J. Jumper, Richard Evans, A. Pritzel, Tim Green, Michael Figurnov, O. Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, et al.</sub></td>
+<td>2021<br>Nature<br>36,737 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function.</td>
+<td>high citation signal (36,737); influential citation signal (3,767); recognized venue; open-access PDF metadata</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
 </tr>
 <tr>
-<td align="right">95</td>
-<td>[Diffusion policy: Visuomotor policy learning via action diffusion](https://doi.org/10.1177/02783649241273668)<br><sub>Cheng Chi, S. Feng, Yilun Du, Zhenjia Xu, Eric Cousineau, B. Burchfiel, Shuran Song</sub></td>
-<td>2023<br>Robotics: Science and Systems<br>3,397 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>This paper introduces Diffusion Policy, a new way of generating robot behavior by representing a robot’s visuomotor policy as a conditional denoising diffusion process.</td>
-<td>high citation signal (3,397); influential citation signal (729); recognized venue; open-access PDF metadata</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
+<td align="right">33</td>
+<td>[Graph Attention Networks](https://doi.org/10.17863/CAM.48429)<br><sub>Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio</sub></td>
+<td>2017<br>International Conference on Learning Representations<br>26,745 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.</td>
+<td>high citation signal (26,745); influential citation signal (3,772)</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
+</tr>
+<tr>
+<td align="right">74</td>
+<td>[Are we ready for autonomous driving? The KITTI vision benchmark suite](https://doi.org/10.1109/CVPR.2012.6248074)<br><sub>Andreas Geiger, Philip Lenz, R. Urtasun</sub></td>
+<td>2012<br>2012 IEEE Conference on Computer Vision and Pattern Recognition<br>15,202 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Positions Are we ready for autonomous driving? The KITTI vision benchmark suite within AI for Science, Healthcare, and Robotics.</td>
+<td>high citation signal (15,202); influential citation signal (2,668); recognized venue</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
+</tr>
+<tr>
+<td align="right">91</td>
+<td>[A survey on deep learning in medical image analysis](https://doi.org/10.1016/j.media.2017.07.005)<br><sub>G. Litjens, Thijs Kooi, B. Bejnordi, A. Setio, F. Ciompi, Mohsen Ghafoorian, J. Laak, B. Ginneken, et al.</sub></td>
+<td>2017<br>Medical Image Anal.<br>13,570 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Deep learning algorithms, in particular convolutional networks, have rapidly become a methodology of choice for analyzing medical images.</td>
+<td>high citation signal (13,570); influential citation signal (314); open-access PDF metadata</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
+</tr>
+<tr>
+<td align="right">92</td>
+<td>[K/DOQI clinical practice guidelines for chronic kidney disease: evaluation, classification, and stratification.](https://www.semanticscholar.org/paper/82ebe5479edf45c47a02e0d7d5e7e18ebea16417)<br><sub>A. Levey, J. Coresh, K. Bolton, B. Culleton, K. Harvey, T. Ikizler, C. Johnson, A. Kausz, et al.</sub></td>
+<td>2002<br>American Journal of Kidney Diseases<br>13,177 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Positions K/DOQI clinical practice guidelines for chronic kidney disease: evaluation, classification, and stratification. within AI for Science, Healthcare, and Robotics.</td>
+<td>high citation signal (13,177); influential citation signal (154)</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
+</tr>
+<tr>
+<td align="right">93</td>
+<td>[Pattern Classification](https://doi.org/10.1002/9781118142882.ch8)<br><sub>Katherine L. Silversides</sub></td>
+<td>2021<br>Encyclopedia of Mathematical Geosciences<br>13,174 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>The computational neural-network structures described in the literature are often based on the concept of linear neural units (LNUs).</td>
+<td>high citation signal (13,174); influential citation signal (198); recognized venue; open-access PDF metadata</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
+</tr>
+<tr>
+<td align="right">103</td>
+<td>[TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.semanticscholar.org/paper/9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d)<br><sub>Martín Abadi, Ashish Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. Corrado, Andy Davis, et al.</sub></td>
+<td>2016<br>arXiv.org<br>11,751 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>TensorFlow is an interface for expressing machine learning algorithms, and an implementation for executing such algorithms.</td>
+<td>high citation signal (11,751); influential citation signal (1,207)</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
 </tr>
 <tr>
 <td align="right">105</td>
-<td>[Constitutional AI: Harmlessness from AI Feedback](https://doi.org/10.48550/arXiv.2212.08073)<br><sub>Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, John Kernion, Andy Jones, A. Chen, Anna Goldie, et al.</sub></td>
-<td>2022<br>arXiv.org<br>3,186 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>As AI systems become more capable, we would like to enlist their help to supervise other AIs.</td>
-<td>high citation signal (3,186); influential citation signal (237); open-access PDF metadata</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
+<td>[A survey on Image Data Augmentation for Deep Learning](https://doi.org/10.1186/s40537-019-0197-0)<br><sub>Connor Shorten, T. Khoshgoftaar</sub></td>
+<td>2019<br>Journal of Big Data<br>11,666 citations</td>
+<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Deep convolutional neural networks have performed remarkably well on many Computer Vision tasks.</td>
+<td>high citation signal (11,666); influential citation signal (300); open-access PDF metadata</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
 </tr>
 <tr>
-<td align="right">116</td>
-<td>[Shortcut learning in deep neural networks](https://doi.org/10.1038/s42256-020-00257-z)<br><sub>Robert Geirhos, J. Jacobsen, Claudio Michaelis, R. Zemel, Wieland Brendel, M. Bethge, Felix Wichmann</sub></td>
-<td>2020<br>Nature Machine Intelligence<br>2,990 citations</td>
-<td><img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Deep learning has triggered the current rise of artificial intelligence and is the workhorse of today’s machine intelligence.</td>
-<td>high citation signal (2,990); influential citation signal (143); recognized venue; open-access PDF metadata</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
+<td align="right">111</td>
+<td>[V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation](https://doi.org/10.1109/3DV.2016.79)<br><sub>Fausto Milletarì, N. Navab, Seyed-Ahmad Ahmadi</sub></td>
+<td>2016<br>International Conference on 3D Vision<br>10,842 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis fields.</td>
+<td>high citation signal (10,842); influential citation signal (843); open-access PDF metadata</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
 </tr>
 <tr>
-<td align="right">120</td>
-<td>[Stable-Baselines3: Reliable Reinforcement Learning Implementations](https://www.semanticscholar.org/paper/e3fc5b5627af62ee6981a02090cf6bae368202d7)<br><sub>A. Raffin, Ashley Hill, A. Gleave, A. Kanervisto, M. Ernestus, Noah Dormann</sub></td>
-<td>2021<br>Journal of machine learning research<br>2,896 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>Positions Stable-Baselines3: Reliable Reinforcement Learning Implementations within Reinforcement Learning and Agents.</td>
-<td>high citation signal (2,896); influential citation signal (187); recognized venue</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
+<td align="right">148</td>
+<td>[Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://doi.org/10.1038/s42256-019-0048-x)<br><sub>C. Rudin</sub></td>
+<td>2018<br>Nature Machine Intelligence<br>9,180 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Black box machine learning models are currently being used for high-stakes decision making throughout society, causing problems in healthcare, criminal justice and other domains.</td>
+<td>high citation signal (9,180); influential citation signal (463); recognized venue; open-access PDF metadata</td>
+<td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
 </tr>
-<tr>
-<td align="right">143</td>
-<td>[Conservative Q-Learning for Offline Reinforcement Learning](https://www.semanticscholar.org/paper/28db20a81eec74a50204686c3cf796c42a020d2e)<br><sub>Aviral Kumar, Aurick Zhou, G. Tucker, S. Levine</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>2,600 citations</td>
-<td><img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>Effectively leveraging large, previously collected datasets in reinforcement learning (RL) is a key challenge for large-scale real-world applications.</td>
-<td>high citation signal (2,600); influential citation signal (629)</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
-</tr>
-<tr>
-<td align="right">217</td>
-<td>[Gradient Surgery for Multi-Task Learning](https://www.semanticscholar.org/paper/449c5660d637741f7aa7ff42549c32b43c9968bf)<br><sub>Tianhe Yu, Saurabh Kumar, Abhishek Gupta, S. Levine, Karol Hausman, Chelsea Finn</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>1,891 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>While deep learning and deep reinforcement learning (RL) systems have demonstrated impressive results in domains such as image classification, game playing, and robotic control, data efficiency remains a major challenge.</td>
-<td>high citation signal (1,891); influential citation signal (367)</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
-</tr>
-<tr>
-<td align="right">222</td>
-<td>[Introduction to Reinforcement Learning](https://doi.org/10.1007/978-981-13-8285-7_1)<br><sub>Mohit Sewak</sub></td>
-<td>2020<br>Deep Reinforcement Learning in Unity<br>1,869 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>Positions Introduction to Reinforcement Learning within Reinforcement Learning and Agents.</td>
-<td>high citation signal (1,869); influential citation signal (152)</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
-</tr>
-<tr>
-<td align="right">231</td>
-<td>[D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://www.semanticscholar.org/paper/a326d9f2d2d351001fece788165dbcbb524da2e4)<br><sub>Justin Fu, Aviral Kumar, Ofir Nachum, G. Tucker, S. Levine</sub></td>
-<td>2020<br>arXiv.org<br>1,826 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>The offline reinforcement learning (RL) problem, also known as batch RL, refers to the setting where a policy must be learned from a static dataset, without additional online data collection.</td>
-<td>high citation signal (1,826); influential citation signal (605)</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
-</tr>
-<tr>
-<td align="right">277</td>
-<td>[Learning quadrupedal locomotion over challenging terrain](https://doi.org/10.1126/scirobotics.abc5986)<br><sub>Joonho Lee, Jemin Hwangbo, Lorenz Wellhausen, V. Koltun, Marco Hutter</sub></td>
-<td>2020<br>Science Robotics<br>1,644 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>A learning-based locomotion controller enables a quadrupedal ANYmal robot to traverse challenging natural environments.</td>
-<td>high citation signal (1,644); influential citation signal (100); recognized venue; open-access PDF metadata</td>
-<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
-</tr>
-<tr><td colspan="7"><em>23 additional selected papers in this category are available in the dataset and website.</em></td></tr>
-</tbody></table>
-
-</details>
-
-### General AI Methods and Systems
-
-- Papers selected: **27**
-- Years covered: **2020-2026**
-- Citation count in selected set: **34,189**
-- Category Overview (main research trends):
-  - General AI methods consolidate architectures, benchmarks, surveys, datasets, and system-level observations that cut across subfields.
-  - This category often captures high-citation survey or infrastructure work that shapes how later papers define progress.
-  - Citation-ranked views can be especially useful here, but they should be read as a map of influence rather than a complete quality assessment.
-- Limitations:
-  - Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.
-  - Broad claims need careful mapping to specific tasks, datasets, and operational constraints.
-  - Metadata-driven ranking cannot replace expert reading of full papers and experimental details.
-
-<details>
-<summary><strong>Show representative papers for General AI Methods and Systems</strong></summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="12%">
-<col width="12%">
-<col width="25%">
-<col width="12%">
-<col width="12%">
-</colgroup>
-<thead><tr>
-<th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
-</tr></thead><tbody>
-<tr>
-<td align="right">33</td>
-<td>[Physics-informed machine learning](https://doi.org/10.1038/s42254-021-00314-5)<br><sub>G. Karniadakis, I. Kevrekidis, Lu Lu, P. Perdikaris, Sifan Wang, Liu Yang</sub></td>
-<td>2021<br>Nature Reviews Physics<br>6,974 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Positions Physics-informed machine learning within General AI Methods and Systems.</td>
-<td>high citation signal (6,974); influential citation signal (186); recognized venue; open-access PDF metadata</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">114</td>
-<td>[A review on the attention mechanism of deep learning](https://doi.org/10.1016/J.NEUCOM.2021.03.091)<br><sub>Zhaoyang Niu, G. Zhong, Hui Yu</sub></td>
-<td>2021<br>Neurocomputing<br>3,013 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Positions A review on the attention mechanism of deep learning within General AI Methods and Systems.</td>
-<td>high citation signal (3,013); influential citation signal (35)</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">135</td>
-<td>[International evaluation of an AI system for breast cancer screening](https://doi.org/10.1038/s41586-019-1799-6)<br><sub>S. McKinney, Marcin Sieniek, Varun Godbole, Jonathan Godwin, Natasha Antropova, H. Ashrafian, T. Back, Mary Chesus, et al.</sub></td>
-<td>2020<br>Nature<br>2,665 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Positions International evaluation of an AI system for breast cancer screening within General AI Methods and Systems.</td>
-<td>high citation signal (2,665); influential citation signal (103); recognized venue</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">164</td>
-<td>[AI in health and medicine](https://doi.org/10.1038/s41591-021-01614-0)<br><sub>P. Rajpurkar, E. Chen, Oishi Banerjee, E. Topol</sub></td>
-<td>2022<br>Nature Medicine<br>2,308 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Positions AI in health and medicine within General AI Methods and Systems.</td>
-<td>high citation signal (2,308); influential citation signal (41); recognized venue</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">198</td>
-<td>[Human Trust in Artificial Intelligence: Review of Empirical Research](https://doi.org/10.5465/annals.2018.0057)<br><sub>Ella Glikson, A. Woolley</sub></td>
-<td>2020<br>The Academy of Management Annals<br>2,037 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Artificial intelligence (AI) characterizes a new generation of technologies capable of interacting with the environment and aiming to simulate human intelligence.</td>
-<td>high citation signal (2,037); influential citation signal (141)</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">209</td>
-<td>[Simple and Deep Graph Convolutional Networks](https://www.semanticscholar.org/paper/1d81e7f428fea2b2e15ee3a96fe843ca603acc4c)<br><sub>Ming Chen, Zhewei Wei, Zengfeng Huang, Bolin Ding, Yaliang Li</sub></td>
-<td>2020<br>International Conference on Machine Learning<br>1,969 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Graph convolutional networks (GCNs) are a powerful deep learning approach for graph-structured data.</td>
-<td>high citation signal (1,969); influential citation signal (341); recognized venue</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">214</td>
-<td>[Time-series forecasting with deep learning: a survey](https://doi.org/10.1098/rsta.2020.0209)<br><sub>Bryan Lim, Stefan Zohren</sub></td>
-<td>2020<br>Philosophical Transactions of the Royal Society A<br>1,931 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Numerous deep learning architectures have been developed to accommodate the diversity of time-series datasets across different domains.</td>
-<td>high citation signal (1,931); influential citation signal (39); open-access PDF metadata</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">247</td>
-<td>[Machine learning and deep learning](https://doi.org/10.1007/s12525-021-00475-2)<br><sub>Christian Janiesch, Patrick Zschech, K. Heinrich</sub></td>
-<td>2021<br>Electronic Markets<br>1,769 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Today, intelligent systems that offer artificial intelligence capabilities often rely on machine learning.</td>
-<td>high citation signal (1,769); influential citation signal (25); open-access PDF metadata</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">262</td>
-<td>[A review on the long short-term memory model](https://doi.org/10.1007/s10462-020-09838-1)<br><sub>G. V. Houdt, Carlos Mosquera, Gonzalo Nápoles</sub></td>
-<td>2020<br>Artificial Intelligence Review<br>1,704 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Positions A review on the long short-term memory model within General AI Methods and Systems.</td>
-<td>high citation signal (1,704); influential citation signal (30); recognized venue; open-access PDF metadata</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr>
-<td align="right">267</td>
-<td>[Artificial Intelligence and Management: The Automation–Augmentation Paradox](https://doi.org/10.5465/2018.0072)<br><sub>Sebastian Raisch, Sebastian Krakowski</sub></td>
-<td>2020<br>Academy of Management Review<br>1,675 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Taking three recent business books on artificial intelligence (AI) as a starting point, we explore the automation and augmentation concepts in the management domain.</td>
-<td>high citation signal (1,675); influential citation signal (96); open-access PDF metadata</td>
-<td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
-</tr>
-<tr><td colspan="7"><em>17 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>269 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
 ### Graph Learning, Recommendation, and Core Methods
 
-- Papers selected: **24**
-- Years covered: **2020-2026**
-- Citation count in selected set: **41,649**
+- Papers selected: **195**
+- Years covered: **2000-2026**
+- Citation count in selected set: **441,156**
 - Category Overview (main research trends):
   - Core AI methods include graph neural networks, recommender systems, optimization, neural architecture search, Bayesian methods, and efficient training recipes.
   - Many papers in this category become reusable algorithmic infrastructure for applied AI systems.
@@ -712,116 +581,116 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">48</td>
-<td>[LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](https://doi.org/10.1145/3397271.3401063)<br><sub>Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang</sub></td>
-<td>2020<br>Annual International ACM SIGIR Conference on Research and Development in Information Retrieval<br>5,278 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>Graph Convolution Network (GCN) has become new state-of-the-art for collaborative filtering.</td>
-<td>high citation signal (5,278); influential citation signal (888); recognized venue</td>
+<td align="right">22</td>
+<td>[Semi-Supervised Classification with Graph Convolutional Networks](https://www.semanticscholar.org/paper/36eff562f65125511b5dfab68ce7f7a943c27478)<br><sub>Thomas Kipf, M. Welling</sub></td>
+<td>2016<br>International Conference on Learning Representations<br>35,590 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
+<td>We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs.</td>
+<td>high citation signal (35,590); influential citation signal (7,363)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">85</td>
-<td>[Open Graph Benchmark: Datasets for Machine Learning on Graphs](https://www.semanticscholar.org/paper/597bd2e45427563cdf025e53a3239006aa364cfc)<br><sub>Weihua Hu, Matthias Fey, M. Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta, J. Leskovec</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>3,645 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>We present the Open Graph Benchmark (OGB), a diverse set of challenging and realistic benchmark datasets to facilitate scalable, robust, and reproducible graph machine learning (ML) research.</td>
-<td>high citation signal (3,645); influential citation signal (646)</td>
+<td align="right">42</td>
+<td>[“Why Should I Trust You?”: Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)<br><sub>Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin</sub></td>
+<td>2016<br>North American Chapter of the Association for Computational Linguistics<br>22,598 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>Despite widespread adoption, machine learning models remain mostly black boxes.</td>
+<td>high citation signal (22,598); influential citation signal (2,170); open-access PDF metadata</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">124</td>
-<td>[On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice](https://doi.org/10.1016/j.neucom.2020.07.061)<br><sub>Li Yang, A. Shami</sub></td>
-<td>2020<br>Neurocomputing<br>2,835 citations</td>
-<td><img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>Abstract Machine learning algorithms have been used widely in various applications and areas.</td>
-<td>high citation signal (2,835); influential citation signal (85); open-access PDF metadata</td>
+<td align="right">52</td>
+<td>[TensorFlow: A system for large-scale machine learning](https://www.semanticscholar.org/paper/4954fa180728932959997a4768411ff9136aac81)<br><sub>Martín Abadi, P. Barham, Jianmin Chen, Z. Chen, Andy Davis, J. Dean, M. Devin, S. Ghemawat, et al.</sub></td>
+<td>2016<br>USENIX Symposium on Operating Systems Design and Implementation<br>19,730 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments.</td>
+<td>high citation signal (19,730); influential citation signal (2,228)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">125</td>
-<td>[Graph Contrastive Learning with Augmentations](https://www.semanticscholar.org/paper/76c124786ccf4263e6403a15a8e350ac28be4e65)<br><sub>Yuning You, Tianlong Chen, Yongduo Sui, Ting Chen, Zhangyang Wang, Yang Shen</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>2,833 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>Generalizable, transferrable, and robust representation learning on graph-structured data remains a challenge for current graph neural networks (GNNs).</td>
-<td>high citation signal (2,833); influential citation signal (461)</td>
+<td align="right">109</td>
+<td>[A Comprehensive Survey on Graph Neural Networks](https://doi.org/10.1109/TNNLS.2020.2978386)<br><sub>Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu</sub></td>
+<td>2019<br>IEEE Transactions on Neural Networks and Learning Systems<br>11,346 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
+<td>Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding.</td>
+<td>high citation signal (11,346); influential citation signal (506); recognized venue; open-access PDF metadata</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">188</td>
-<td>[E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials](https://doi.org/10.1038/s41467-022-29939-5)<br><sub>Simon L. Batzner, Albert Musaelian, Lixin Sun, M. Geiger, J. Mailoa, M. Kornbluth, Nicola Molinari, T. Smidt, et al.</sub></td>
-<td>2021<br>Nature Communications<br>2,115 citations</td>
-<td><img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>This work presents Neural Equivariant Interatomic Potentials (NequIP), an E(3)-equivariant neural network approach for learning interatomic potentials from ab-initio calculations for molecular dynamics simulations.</td>
-<td>high citation signal (2,115); influential citation signal (130); recognized venue; open-access PDF metadata</td>
+<td align="right">127</td>
+<td>[How Powerful are Graph Neural Networks?](https://www.semanticscholar.org/paper/62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9)<br><sub>Keyulu Xu, Weihua Hu, J. Leskovec, S. Jegelka</sub></td>
+<td>2018<br>International Conference on Learning Representations<br>9,953 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
+<td>Graph Neural Networks (GNNs) are an effective framework for representation learning of graphs.</td>
+<td>high citation signal (9,953); influential citation signal (1,771)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">189</td>
-<td>[Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks](https://doi.org/10.1145/3394486.3403118)<br><sub>Zonghan Wu, Shirui Pan, Guodong Long, Jing Jiang, Xiaojun Chang, Chengqi Zhang</sub></td>
-<td>2020<br>Knowledge Discovery and Data Mining<br>2,108 citations</td>
-<td><img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>Modeling multivariate time series has long been a subject that has attracted researchers from a diverse range of fields including economics, finance, and traffic.</td>
-<td>high citation signal (2,108); influential citation signal (197); open-access PDF metadata</td>
+<td align="right">131</td>
+<td>[Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond](https://doi.org/10.1198/jasa.2003.s270)<br><sub>Christopher K. I. Williams</sub></td>
+<td>2003<br>IEEE Transactions on Neural Networks<br>9,760 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond within Graph Learning, Recommendation, and Core Methods.</td>
+<td>high citation signal (9,760); influential citation signal (1,174); recognized venue; open-access PDF metadata</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">196</td>
-<td>[Tabular Data: Deep Learning is Not All You Need](https://doi.org/10.1016/j.inffus.2021.11.011)<br><sub>Ravid Shwartz-Ziv, Amitai Armon</sub></td>
-<td>2021<br>Information Fusion<br>2,040 citations</td>
-<td><img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>A key element in solving real-life data science problems is selecting the types of models to use.</td>
-<td>high citation signal (2,040); influential citation signal (64); open-access PDF metadata</td>
+<td align="right">138</td>
+<td>[The Graph Neural Network Model](https://doi.org/10.1109/TNN.2008.2005605)<br><sub>F. Scarselli, M. Gori, A. Tsoi, M. Hagenbuchner, G. Monfardini</sub></td>
+<td>2009<br>IEEE Transactions on Neural Networks<br>9,468 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
+<td>Positions The Graph Neural Network Model within Graph Learning, Recommendation, and Core Methods.</td>
+<td>high citation signal (9,468); influential citation signal (448); recognized venue; open-access PDF metadata</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">207</td>
-<td>[Ensemble deep learning: A review](https://doi.org/10.1016/j.engappai.2022.105151)<br><sub>M. A. Ganaie, Minghui Hu, M. Tanveer, P. Suganthan</sub></td>
-<td>2021<br>Engineering applications of artificial intelligence<br>1,975 citations</td>
-<td><img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>Ensemble learning combines several individual models to obtain better generalization performance.</td>
-<td>high citation signal (1,975); influential citation signal (40); recognized venue; open-access PDF metadata</td>
+<td align="right">139</td>
+<td>[Practical Bayesian Optimization of Machine Learning Algorithms](https://www.semanticscholar.org/paper/2e2089ae76fe914706e6fa90081a79c8fe01611e)<br><sub>Jasper Snoek, H. Larochelle, Ryan P. Adams</sub></td>
+<td>2012<br>Neural Information Processing Systems<br>9,467 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters.</td>
+<td>high citation signal (9,467); influential citation signal (630)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">210</td>
-<td>[Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting](https://www.semanticscholar.org/paper/8b163b75a6b833911c4e958f8bd52124205382ec)<br><sub>Lei Bai, Lina Yao, Can Li, Xianzhi Wang, Can Wang</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>1,962 citations</td>
-<td><img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>Modeling complex spatial and temporal correlations in the correlated time series data is indispensable for understanding the traffic dynamics and predicting the future status of an evolving traffic system.</td>
-<td>high citation signal (1,962); influential citation signal (243)</td>
+<td align="right">151</td>
+<td>[An Introduction to Support Vector Machines and Other Kernel-Based Learning Methods](https://doi.org/10.1609/aimag.v22i2.1566)<br><sub>Tong Zhang</sub></td>
+<td>2001<br>The AI Magazine<br>9,078 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions An Introduction to Support Vector Machines and Other Kernel-Based Learning Methods within Graph Learning, Recommendation, and Core Methods.</td>
+<td>high citation signal (9,078); influential citation signal (906)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
 <tr>
-<td align="right">241</td>
-<td>[Graph Neural Networks in Recommender Systems: A Survey](https://doi.org/10.1145/3535101)<br><sub>Shiwen Wu, Fei Sun, Fei Sun, Bin Cui</sub></td>
-<td>2020<br>ACM Computing Surveys<br>1,788 citations</td>
-<td><img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
-<td>With the explosive growth of online information, recommender systems play a key role to alleviate such information overload.</td>
-<td>high citation signal (1,788); influential citation signal (39); open-access PDF metadata</td>
+<td align="right">174</td>
+<td>[An Introduction to Support Vector Machines and Other Kernel-based Learning Methods](https://doi.org/10.1017/CBO9780511801389.013)<br><sub>N. Cristianini, J. Shawe-Taylor</sub></td>
+<td>2000<br>Unknown venue<br>8,367 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions An Introduction to Support Vector Machines and Other Kernel-based Learning Methods within Graph Learning, Recommendation, and Core Methods.</td>
+<td>high citation signal (8,367); influential citation signal (331); open-access PDF metadata</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
 </tr>
-<tr><td colspan="7"><em>14 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>185 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
-### Generative Models and Synthetic Media
+### Reinforcement Learning and Agents
 
-- Papers selected: **19**
-- Years covered: **2020-2026**
-- Citation count in selected set: **29,855**
+- Papers selected: **175**
+- Years covered: **2000-2026**
+- Citation count in selected set: **456,581**
 - Category Overview (main research trends):
-  - Generative AI research has moved from GAN-centered image synthesis toward diffusion, score-based modeling, and controllable multimodal generation.
-  - The area increasingly connects generation quality with data curation, safety, copyright, controllability, and evaluation reliability.
-  - Highly cited papers often introduce reusable model families, training objectives, or evaluation protocols that become infrastructure for later systems.
+  - Reinforcement learning is converging with human feedback, offline datasets, robotics, planning, and agentic tool-use settings.
+  - A major thread is reducing sample inefficiency while improving robustness under distribution shift and sparse rewards.
+  - The field is increasingly judged by transfer, safety, and real-world interaction rather than benchmark score alone.
 - Limitations:
-  - Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.
-  - Training data provenance and copyright constraints can be under-specified in highly cited generation work.
-  - Robust evaluation across cultures, modalities, and adversarial uses remains difficult.
+  - Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.
+  - Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.
+  - Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.
 
 <details>
-<summary><strong>Show representative papers for Generative Models and Synthetic Media</strong></summary>
+<summary><strong>Show representative papers for Reinforcement Learning and Agents</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -837,105 +706,105 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">47</td>
-<td>[LAION-5B: An open large-scale dataset for training next generation image-text models](https://doi.org/10.48550/arXiv.2210.08402)<br><sub>Christoph Schuhmann, R. Beaumont, R. Vencu, Cade Gordon, Ross Wightman, Mehdi Cherti, Theo Coombes, Aarush Katta, et al.</sub></td>
-<td>2022<br>Neural Information Processing Systems<br>5,281 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Groundbreaking language-vision architectures like CLIP and DALL-E proved the utility of training on large amounts of noisy image-text data, without relying on expensive accurate labels used in standard vision unimodal supervised learning.</td>
-<td>high citation signal (5,281); influential citation signal (494); open-access PDF metadata</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">27</td>
+<td>[Human-level control through deep reinforcement learning](https://doi.org/10.1038/nature14236)<br><sub>Volodymyr Mnih, K. Kavukcuoglu, David Silver, Andrei A. Rusu, J. Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, et al.</sub></td>
+<td>2015<br>Nature<br>32,039 citations</td>
+<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>Positions Human-level control through deep reinforcement learning within Reinforcement Learning and Agents.</td>
+<td>high citation signal (32,039); influential citation signal (3,413); recognized venue</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">53</td>
-<td>[SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis](https://www.semanticscholar.org/paper/d7890d1906d95c4ae4c430b350455156d6d8aed9)<br><sub>Dustin Podell, Zion English, Kyle Lacey, A. Blattmann, Tim Dockhorn, Jonas Muller, Joe Penna, Robin Rombach</sub></td>
-<td>2023<br>International Conference on Learning Representations<br>4,896 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>We present SDXL, a latent diffusion model for text-to-image synthesis.</td>
-<td>high citation signal (4,896); influential citation signal (893)</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">31</td>
+<td>[Proximal Policy Optimization Algorithms](https://www.semanticscholar.org/paper/dce6f9d4017b1785979e7520fd0834ef8cf02f4b)<br><sub>John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov</sub></td>
+<td>2017<br>arXiv.org<br>28,532 citations</td>
+<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a &quot;surrogate&quot; objective function using stochastic gradient ascent.</td>
+<td>high citation signal (28,532); influential citation signal (4,891)</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">141</td>
-<td>[Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets](https://doi.org/10.48550/arXiv.2311.15127)<br><sub>A. Blattmann, Tim Dockhorn, Sumith Kulal, Daniel Mendelevitch, Maciej Kilian, Dominik Lorenz</sub></td>
-<td>2023<br>arXiv.org<br>2,607 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>We present Stable Video Diffusion - a latent video diffusion model for high-resolution, state-of-the-art text-to-video and image-to-video generation.</td>
-<td>high citation signal (2,607); influential citation signal (318)</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">65</td>
+<td>[Deep learning in neural networks: An overview](https://doi.org/10.1016/j.neunet.2014.09.003)<br><sub>J. Schmidhuber</sub></td>
+<td>2014<br>Neural Networks<br>17,547 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>In recent years, deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning.</td>
+<td>high citation signal (17,547); influential citation signal (467); open-access PDF metadata</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">162</td>
-<td>[What is AI Literacy? Competencies and Design Considerations](https://doi.org/10.1145/3313831.3376727)<br><sub>D. Long, Brian Magerko</sub></td>
-<td>2020<br>International Conference on Human Factors in Computing Systems<br>2,347 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
-<td>Artificial intelligence (AI) is becoming increasingly integrated in user-facing technology, but public understanding of these technologies is often limited.</td>
-<td>high citation signal (2,347); influential citation signal (228)</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">73</td>
+<td>[Continuous control with deep reinforcement learning](https://www.semanticscholar.org/paper/024006d4c2a89f7acacc6e4438d156525b60a98f)<br><sub>T. Lillicrap, Jonathan J. Hunt, A. Pritzel, N. Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra</sub></td>
+<td>2015<br>International Conference on Learning Representations<br>15,535 citations</td>
+<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>We adapt the ideas underlying the success of Deep Q-Learning to the continuous action domain.</td>
+<td>high citation signal (15,535); influential citation signal (2,203)</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">186</td>
-<td>[Diffusion Models in Vision: A Survey](https://doi.org/10.1109/TPAMI.2023.3261988)<br><sub>Florinel-Alin Croitoru, Vlad Hondru, Radu Tudor Ionescu, M. Shah</sub></td>
-<td>2022<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>2,153 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Denoising diffusion models represent a recent emerging topic in computer vision, demonstrating remarkable results in the area of generative modeling.</td>
-<td>high citation signal (2,153); influential citation signal (45); recognized venue; open-access PDF metadata</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">82</td>
+<td>[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://www.semanticscholar.org/paper/c889d6f98e6d79b89c3a6adf8a921f88fa6ba518)<br><sub>Chelsea Finn, P. Abbeel, S. Levine</sub></td>
+<td>2017<br>International Conference on Machine Learning<br>14,605 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>We propose an algorithm for meta-learning that is model-agnostic, in the sense that it is compatible with any model trained with gradient descent and applicable to a variety of different learning problems, including classification, regression, and reinforcement learning.</td>
+<td>high citation signal (14,605); influential citation signal (2,715); recognized venue</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">190</td>
-<td>[GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://www.semanticscholar.org/paper/1882f194cb43828852cc052887671e55a80f945a)<br><sub>Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, M. Krikun, Noam Shazeer, et al.</sub></td>
-<td>2020<br>International Conference on Learning Representations<br>2,098 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Neural network scaling has been critical for improving the model quality in many real-world machine learning applications with vast amounts of training data and compute.</td>
-<td>high citation signal (2,098); influential citation signal (207)</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">88</td>
+<td>[Playing Atari with Deep Reinforcement Learning](https://www.semanticscholar.org/paper/2319a491378867c7049b3da055c5df60e1671158)<br><sub>Volodymyr Mnih, K. Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin A. Riedmiller</sub></td>
+<td>2013<br>arXiv.org<br>13,759 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning.</td>
+<td>high citation signal (13,759); influential citation signal (1,487)</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">297</td>
-<td>[A Survey of Quantization Methods for Efficient Neural Network Inference](https://doi.org/10.1201/9781003162810-13)<br><sub>A. Gholami, Sehoon Kim, Zhen Dong, Z. Yao, Michael W. Mahoney, K. Keutzer</sub></td>
-<td>2021<br>Low-Power Computer Vision<br>1,595 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>As soon as abstract mathematical computations were adapted to computation on digital computers, the problem of efficient representation, manipulation, and communication of the numerical values in those computations arose.</td>
-<td>high citation signal (1,595); influential citation signal (103); open-access PDF metadata</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">99</td>
+<td>[Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://www.semanticscholar.org/paper/f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6)<br><sub>Y. Gal, Zoubin Ghahramani</sub></td>
+<td>2015<br>International Conference on Machine Learning<br>11,994 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Deep learning tools have gained tremendous attention in applied machine learning.</td>
+<td>high citation signal (11,994); influential citation signal (1,630); recognized venue</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">310</td>
-<td>[Efficient Transformers: A Survey](https://doi.org/10.1145/3530811)<br><sub>Yi Tay, Mostafa Dehghani, Dara Bahri, Donald Metzler</sub></td>
-<td>2020<br>ACM Computing Surveys<br>1,537 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>Transformer model architectures have garnered immense interest lately due to their effectiveness across a range of domains like language, vision, and reinforcement learning.</td>
-<td>high citation signal (1,537); influential citation signal (88); open-access PDF metadata</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">108</td>
+<td>[Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://www.semanticscholar.org/paper/811df72e210e20de99719539505da54762a11c6d)<br><sub>Tuomas Haarnoja, Aurick Zhou, P. Abbeel, S. Levine</sub></td>
+<td>2018<br>International Conference on Machine Learning<br>11,486 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>Model-free deep reinforcement learning (RL) algorithms have been demonstrated on a range of challenging decision making and control tasks.</td>
+<td>high citation signal (11,486); influential citation signal (2,047); recognized venue</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">360</td>
-<td>[Generative AI](https://doi.org/10.1007/s12599-023-00834-7)<br><sub>S. Feuerriegel, Jochen Hartmann, Christian Janiesch, Patrick Zschech</sub></td>
-<td>2023<br>Business &amp; Information Systems Engineering<br>1,402 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Recent advancements in generative artificial intelligence (AI) have made it possible for machines to independently produce a variety of creative content.</td>
-<td>high citation signal (1,402); influential citation signal (47); open-access PDF metadata</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">118</td>
+<td>[Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning](https://doi.org/10.1023/A:1022672621406)<br><sub>Ronald J. Williams</sub></td>
+<td>2004<br>Machine-mediated learning<br>10,344 citations</td>
+<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>Positions Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning within Reinforcement Learning and Agents.</td>
+<td>high citation signal (10,344); influential citation signal (1,202); open-access PDF metadata</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
 <tr>
-<td align="right">410</td>
-<td>[MaskGIT: Masked Generative Image Transformer](https://doi.org/10.1109/CVPR52688.2022.01103)<br><sub>Huiwen Chang, Han Zhang, Lu Jiang, Ce Liu, W. Freeman</sub></td>
-<td>2022<br>Computer Vision and Pattern Recognition<br>1,201 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Generative transformers have experienced rapid popularity growth in the computer vision community in synthesizing high-fidelity and high-resolution images.</td>
-<td>high citation signal (1,201); influential citation signal (224); recognized venue; open-access PDF metadata</td>
-<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+<td align="right">123</td>
+<td>[Overcoming catastrophic forgetting in neural networks](https://doi.org/10.1073/pnas.1611835114)<br><sub>J. Kirkpatrick, Razvan Pascanu, Neil C. Rabinowitz, J. Veness, Guillaume Desjardins, Andrei A. Rusu, Kieran Milan, John Quan, et al.</sub></td>
+<td>2016<br>Proceedings of the National Academy of Sciences of the United States of America<br>10,109 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>Significance Deep neural networks are currently the most successful machine-learning technique for solving a variety of tasks, including language translation, image classification, and image generation.</td>
+<td>high citation signal (10,109); influential citation signal (1,410); recognized venue; open-access PDF metadata</td>
+<td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
 </tr>
-<tr><td colspan="7"><em>9 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>165 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
 ### Natural Language Processing and Knowledge
 
-- Papers selected: **16**
-- Years covered: **2020-2024**
-- Citation count in selected set: **30,397**
+- Papers selected: **160**
+- Years covered: **2000-2024**
+- Citation count in selected set: **746,046**
 - Category Overview (main research trends):
   - NLP is moving from supervised task pipelines toward pretrained language models, retrieval-augmented methods, and knowledge-intensive reasoning benchmarks.
   - Search, retrieval, summarization, dialogue, and domain adaptation are increasingly evaluated as integrated knowledge workflows.
@@ -962,105 +831,105 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">31</td>
-<td>[Robust Speech Recognition via Large-Scale Weak Supervision](https://www.semanticscholar.org/paper/a02fbaf22237a1aedacb1320b6007cd70c1fe6ec)<br><sub>Alec Radford, Jong Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, I. Sutskever</sub></td>
-<td>2022<br>International Conference on Machine Learning<br>7,414 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>We study the capabilities of speech processing systems trained simply to predict large amounts of transcripts of audio on the internet.</td>
-<td>high citation signal (7,414); influential citation signal (1,015); recognized venue</td>
+<td align="right">2</td>
+<td>[Attention is All you Need](https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776)<br><sub>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, I. Polosukhin</sub></td>
+<td>2017<br>Neural Information Processing Systems<br>181,426 citations</td>
+<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration.</td>
+<td>high citation signal (181,426); influential citation signal (20,067)</td>
 <td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
 </tr>
 <tr>
-<td align="right">121</td>
-<td>[Big Bird: Transformers for Longer Sequences](https://www.semanticscholar.org/paper/044e13d7dd4e0655eb76f0bd00b2c1bdb44e2be3)<br><sub>M. Zaheer, Guru Guruganesh, Kumar Avinava Dubey, J. Ainslie, Chris Alberti, Santiago Ontañón, Philip Pham, Anirudh Ravula, et al.</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>2,875 citations</td>
+<td align="right">4</td>
+<td>[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/N19-1423)<br><sub>Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova</sub></td>
+<td>2019<br>North American Chapter of the Association for Computational Linguistics<br>116,382 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Transformers-based models, such as BERT, have been one of the most successful deep learning models for NLP.</td>
-<td>high citation signal (2,875); influential citation signal (320)</td>
+<td>We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers.</td>
+<td>high citation signal (116,382); influential citation signal (22,457)</td>
 <td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
 </tr>
 <tr>
-<td align="right">160</td>
-<td>[Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next](https://doi.org/10.1007/s10915-022-01939-z)<br><sub>S. Cuomo, Vincenzo Schiano Di Cola, F. Giampaolo, G. Rozza, Maizar Raissi, F. Piccialli</sub></td>
-<td>2022<br>Journal of Scientific Computing<br>2,358 citations</td>
+<td align="right">34</td>
+<td>[Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://doi.org/10.3115/v1/D14-1179)<br><sub>Kyunghyun Cho, B. V. Merrienboer, Çaglar Gülçehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio</sub></td>
+<td>2014<br>Conference on Empirical Methods in Natural Language Processing<br>26,531 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>In this paper, we propose a novel neural network model called RNN Encoder‐ Decoder that consists of two recurrent neural networks (RNN).</td>
+<td>high citation signal (26,531); influential citation signal (3,130); open-access PDF metadata</td>
+<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
+</tr>
+<tr>
+<td align="right">35</td>
+<td>[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://www.semanticscholar.org/paper/6c4b76232bb72897685d19b3d264c6ee3005bc2b)<br><sub>Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, et al.</sub></td>
+<td>2019<br>Journal of machine learning research<br>26,182 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP).</td>
+<td>high citation signal (26,182); influential citation signal (2,550); recognized venue</td>
+<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
+</tr>
+<tr>
+<td align="right">44</td>
+<td>[Sequence to Sequence Learning with Neural Networks](https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d)<br><sub>I. Sutskever, O. Vinyals, Quoc V. Le</sub></td>
+<td>2014<br>Neural Information Processing Systems<br>22,110 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself.</td>
-<td>high citation signal (2,358); influential citation signal (37); open-access PDF metadata</td>
+<td>Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks.</td>
+<td>high citation signal (22,110); influential citation signal (1,414)</td>
 <td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
 </tr>
 <tr>
-<td align="right">166</td>
-<td>[Linformer: Self-Attention with Linear Complexity](https://www.semanticscholar.org/paper/c0b79e6a5fd88ef13aa4780df5aae0aaa6b2be87)<br><sub>Sinong Wang, Belinda Z. Li, Madian Khabsa, Han Fang, Hao Ma</sub></td>
-<td>2020<br>arXiv.org<br>2,296 citations</td>
+<td align="right">84</td>
+<td>[Convolutional Neural Networks for Sentence Classification](https://doi.org/10.3115/v1/D14-1181)<br><sub>Yoon Kim</sub></td>
+<td>2014<br>Conference on Empirical Methods in Natural Language Processing<br>14,275 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks.</td>
+<td>high citation signal (14,275); influential citation signal (2,136); open-access PDF metadata</td>
+<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
+</tr>
+<tr>
+<td align="right">136</td>
+<td>[Thumbs up? Sentiment Classification using Machine Learning Techniques](https://doi.org/10.3115/1118693.1118704)<br><sub>B. Pang, Lillian Lee, Shivakumar Vaithyanathan</sub></td>
+<td>2002<br>Conference on Empirical Methods in Natural Language Processing<br>9,570 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative.</td>
+<td>high citation signal (9,570); influential citation signal (818); open-access PDF metadata</td>
+<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
+</tr>
+<tr>
+<td align="right">137</td>
+<td>[Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank](https://doi.org/10.18653/v1/d13-1170)<br><sub>R. Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, A. Ng, Christopher Potts</sub></td>
+<td>2013<br>Conference on Empirical Methods in Natural Language Processing<br>9,491 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>Semantic word spaces have been very useful but cannot express the meaning of longer phrases in a principled way.</td>
+<td>high citation signal (9,491); influential citation signal (1,505)</td>
+<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
+</tr>
+<tr>
+<td align="right">154</td>
+<td>[Speech recognition with deep recurrent neural networks](https://doi.org/10.1109/ICASSP.2013.6638947)<br><sub>Alex Graves, Abdel-rahman Mohamed, Geoffrey E. Hinton</sub></td>
+<td>2013<br>IEEE International Conference on Acoustics, Speech, and Signal Processing<br>9,003 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>Recurrent neural networks (RNNs) are a powerful model for sequential data.</td>
+<td>high citation signal (9,003); influential citation signal (432); open-access PDF metadata</td>
+<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
+</tr>
+<tr>
+<td align="right">182</td>
+<td>[Spatial Transformer Networks](https://www.semanticscholar.org/paper/dbb6ded623159c867fbeca0772db7b2eb9489523)<br><sub>Max Jaderberg, K. Simonyan, Andrew Zisserman, K. Kavukcuoglu</sub></td>
+<td>2015<br>Neural Information Processing Systems<br>8,100 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Large transformer models have shown extraordinary success in achieving state-of-the-art results in many natural language processing applications.</td>
-<td>high citation signal (2,296); influential citation signal (185)</td>
+<td>Convolutional Neural Networks define an exceptionally powerful class of models, but are still limited by the lack of ability to be spatially invariant to the input data in a computationally and parameter efficient manner.</td>
+<td>high citation signal (8,100); influential citation signal (764)</td>
 <td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
 </tr>
-<tr>
-<td align="right">192</td>
-<td>[Stanza: A Python Natural Language Processing Toolkit for Many Human Languages](https://doi.org/10.18653/v1/2020.acl-demos.14)<br><sub>Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton, Christopher D. Manning</sub></td>
-<td>2020<br>Annual Meeting of the Association for Computational Linguistics<br>2,082 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>We introduce Stanza, an open-source Python natural language processing toolkit supporting 66 human languages.</td>
-<td>high citation signal (2,082); influential citation signal (233); open-access PDF metadata</td>
-<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
-</tr>
-<tr>
-<td align="right">263</td>
-<td>[Pre-trained models for natural language processing: A survey](https://doi.org/10.1007/s11431-020-1647-3)<br><sub>Xipeng Qiu, Tianxiang Sun, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang</sub></td>
-<td>2020<br>Science China Technological Sciences<br>1,703 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Recently, the emergence of pre-trained models (PTMs) has brought natural language processing (NLP) to a new era.</td>
-<td>high citation signal (1,703); influential citation signal (53); recognized venue</td>
-<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
-</tr>
-<tr>
-<td align="right">278</td>
-<td>[A Survey of the Usages of Deep Learning for Natural Language Processing](https://doi.org/10.1109/TNNLS.2020.2979670)<br><sub>Dan Otter, Julian R. Medina, J. Kalita</sub></td>
-<td>2020<br>IEEE Transactions on Neural Networks and Learning Systems<br>1,636 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Over the last several years, the field of natural language processing has been propelled forward by an explosion in the use of deep learning models.</td>
-<td>high citation signal (1,636); influential citation signal (35); recognized venue; open-access PDF metadata</td>
-<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
-</tr>
-<tr>
-<td align="right">316</td>
-<td>[Deep Learning Enabled Semantic Communication Systems](https://doi.org/10.1109/TSP.2021.3071210)<br><sub>Huiqiang Xie, Zhijin Qin, Geoffrey Y. Li, B. Juang</sub></td>
-<td>2020<br>IEEE Transactions on Signal Processing<br>1,524 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Recently, deep learned enabled end-to-end communication systems have been developed to merge all physical layer blocks in the traditional communication systems, which make joint transceiver optimization possible.</td>
-<td>high citation signal (1,524); influential citation signal (182); recognized venue; open-access PDF metadata</td>
-<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
-</tr>
-<tr>
-<td align="right">371</td>
-<td>[A survey on security and privacy of federated learning](https://doi.org/10.1016/j.future.2020.10.007)<br><sub>Viraaji Mothukuri, R. Parizi, Seyedamin Pouriyeh, Yan-ping Huang, A. Dehghantanha, Gautam Srivastava</sub></td>
-<td>2021<br>Future generations computer systems<br>1,359 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Abstract Federated learning (FL) is a new breed of Artificial Intelligence (AI) that builds upon decentralized data and training that brings learning to the edge or directly on-device.</td>
-<td>high citation signal (1,359); influential citation signal (43)</td>
-<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
-</tr>
-<tr>
-<td align="right">412</td>
-<td>[SUPERB: Speech processing Universal PERformance Benchmark](https://doi.org/10.21437/interspeech.2021-1775)<br><sub>Shu-Wen Yang, Po-Han Chi, Yung-Sung Chuang, Cheng-I Lai, Kushal Lakhotia, Yist Y. Lin, Andy T. Liu, Jiatong Shi, et al.</sub></td>
-<td>2021<br>Interspeech<br>1,190 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Self-supervised learning (SSL) has proven vital for advancing research in natural language processing (NLP) and computer vision (CV).</td>
-<td>high citation signal (1,190); influential citation signal (200); open-access PDF metadata</td>
-<td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
-</tr>
-<tr><td colspan="7"><em>6 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>150 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
 ### Trustworthy, Explainable, and Responsible AI
 
-- Papers selected: **15**
-- Years covered: **2020-2026**
-- Citation count in selected set: **18,586**
+- Papers selected: **98**
+- Years covered: **2000-2026**
+- Citation count in selected set: **239,459**
 - Category Overview (main research trends):
   - Trustworthy AI work is broadening from post-hoc explanations to robustness, fairness, privacy, calibration, uncertainty, and safety-aware evaluation.
   - Highly cited papers provide taxonomies, metrics, attacks, or toolkits that make system behavior easier to inspect and compare.
@@ -1087,105 +956,230 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">154</td>
-<td>[Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks](https://www.semanticscholar.org/paper/18939eadc9c4460c8385e0591cde214a1ead067b)<br><sub>Francesco Croce, Matthias Hein</sub></td>
-<td>2020<br>International Conference on Machine Learning<br>2,404 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>The field of defense strategies against adversarial attacks has significantly grown over the last years, but progress is hampered as the evaluation of adversarial defenses is often insufficient and thus gives a wrong impression of robustness.</td>
-<td>high citation signal (2,404); influential citation signal (507); recognized venue</td>
+<td align="right">79</td>
+<td>[Towards Deep Learning Models Resistant to Adversarial Attacks](https://www.semanticscholar.org/paper/7aa38b85fa8cba64d6a4010543f6695dbf5f1386)<br><sub>A. Ma̧dry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu</sub></td>
+<td>2017<br>International Conference on Learning Representations<br>14,919 citations</td>
+<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Recent work has demonstrated that deep neural networks are vulnerable to adversarial examples---inputs that are almost indistinguishable from natural data and yet classified incorrectly by the network.</td>
+<td>high citation signal (14,919); influential citation signal (3,852)</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
 </tr>
 <tr>
-<td align="right">194</td>
-<td>[Transparency In The reporting of Artificial INtelligence – the TITAN guideline](https://doi.org/10.70389/pjs.100082)<br><sub>R. Agha, Ginimol Mathew, Rasha Rashid, Ahmed Kerwan, A. Al-Jabir, C. Sohrabi, T. Franchi, Maria Nicola, et al.</sub></td>
-<td>2025<br>Premier Journal of Science<br>2,052 citations</td>
+<td align="right">94</td>
+<td>[Layer Normalization](https://www.semanticscholar.org/paper/97fb4e3d45bb098e27e0071448b6152217bd35a5)<br><sub>Jimmy Ba, J. Kiros, Geoffrey E. Hinton</sub></td>
+<td>2016<br>arXiv.org<br>12,696 citations</td>
+<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Training state-of-the-art, deep neural networks is computationally expensive.</td>
+<td>high citation signal (12,696); influential citation signal (549)</td>
+<td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+</tr>
+<tr>
+<td align="right">128</td>
+<td>[Towards Evaluating the Robustness of Neural Networks](https://doi.org/10.1109/SP.2017.49)<br><sub>Nicholas Carlini, D. Wagner</sub></td>
+<td>2016<br>IEEE Symposium on Security and Privacy<br>9,937 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Neural networks provide state-of-the-art results for most machine learning tasks.</td>
+<td>high citation signal (9,937); influential citation signal (1,361); open-access PDF metadata</td>
+<td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+</tr>
+<tr>
+<td align="right">140</td>
+<td>[The Algorithmic Foundations of Differential Privacy](https://doi.org/10.1561/0400000042)<br><sub>C. Dwork, Aaron Roth</sub></td>
+<td>2014<br>Foundations and Trends® in Theoretical Computer Science<br>9,457 citations</td>
 <td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>The use of AI in research and the literature is increasing.</td>
-<td>high citation signal (2,052); influential citation signal (21); recognized venue</td>
+<td>Positions The Algorithmic Foundations of Differential Privacy within Trustworthy, Explainable, and Responsible AI.</td>
+<td>high citation signal (9,457); influential citation signal (1,622); recognized venue; open-access PDF metadata</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
 </tr>
 <tr>
-<td align="right">276</td>
-<td>[Why do tree-based models still outperform deep learning on typical tabular data?](https://doi.org/10.52202/068431-0037)<br><sub>Léo Grinsztajn, Edouard Oyallon, G. Varoquaux</sub></td>
-<td>2022<br>Neural Information Processing Systems<br>1,646 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>While deep learning has enabled tremendous progress on text and image datasets, its superiority on tabular data is not clear.</td>
-<td>high citation signal (1,646); influential citation signal (107)</td>
+<td align="right">160</td>
+<td>[Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI](https://doi.org/10.1016/j.inffus.2019.12.012)<br><sub>Alejandro Barredo Arrieta, Natalia Díaz Rodríguez, J. Ser, Adrien Bennetot, S. Tabik, A. Barbado, S. García, S. Gil-Lopez, et al.</sub></td>
+<td>2019<br>Information Fusion<br>8,760 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>In the last years, Artificial Intelligence (AI) has achieved a notable momentum that may deliver the best of expectations over many application sectors across the field.</td>
+<td>high citation signal (8,760); influential citation signal (441); open-access PDF metadata</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
 </tr>
 <tr>
-<td align="right">330</td>
-<td>[Ensemble Distillation for Robust Model Fusion in Federated Learning](https://www.semanticscholar.org/paper/053f4d6715a4dba6f8103456fc1bb5fd6a5266c4)<br><sub>Tao Lin, Lingjing Kong, Sebastian U. Stich, Martin Jaggi</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>1,489 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Federated Learning (FL) is a machine learning setting where many devices collaboratively train a machine learning model while keeping the training data decentralized.</td>
-<td>high citation signal (1,489); influential citation signal (153)</td>
+<td align="right">188</td>
+<td>[Deep Learning with Differential Privacy](https://doi.org/10.1145/2976749.2978318)<br><sub>Martín Abadi, Andy Chu, I. Goodfellow, H. B. McMahan, Ilya Mironov, Kunal Talwar, Li Zhang</sub></td>
+<td>2016<br>Conference on Computer and Communications Security<br>7,901 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Machine learning techniques based on neural networks are achieving remarkable results in a wide variety of domains.</td>
+<td>high citation signal (7,901); influential citation signal (1,428); open-access PDF metadata</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
 </tr>
 <tr>
-<td align="right">358</td>
-<td>[Personalized Federated Learning with Moreau Envelopes](https://www.semanticscholar.org/paper/70f1b279f96a9ba8e15f599635ba0e3ec449ef5f)<br><sub>Canh T. Dinh, N. H. Tran, Tuan Dung Nguyen</sub></td>
-<td>2020<br>Neural Information Processing Systems<br>1,407 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Federated learning (FL) is a decentralized and privacy-preserving machine learning technique in which a group of clients collaborate with a server to learn a global model without sharing clients&#x27; data.</td>
-<td>high citation signal (1,407); influential citation signal (132)</td>
+<td align="right">248</td>
+<td>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](https://www.semanticscholar.org/paper/f63e917638553414526a0cc8550de4ad2d83fe7a)<br><sub>Djork-Arné Clevert, Thomas Unterthiner, Sepp Hochreiter</sub></td>
+<td>2015<br>International Conference on Learning Representations<br>6,108 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>We introduce the &quot;exponential linear unit&quot; (ELU) which speeds up learning in deep neural networks and leads to higher classification accuracies.</td>
+<td>high citation signal (6,108); influential citation signal (569)</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
 </tr>
 <tr>
-<td align="right">366</td>
-<td>[Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence](https://doi.org/10.1016/j.inffus.2023.101805)<br><sub>Sajid Ali, T. Abuhmed, Shaker El-Sappagh, Khan Muhammad, J. Alonso-Moral, R. Confalonieri, Riccardo Guidotti, J. Ser, et al.</sub></td>
-<td>2023<br>Information Fusion<br>1,379 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Positions Explainable Artificial Intelligence (XAI): What we know and what is left to attain Trustworthy Artificial Intelligence within Trustworthy, Explainable, and Responsible AI.</td>
-<td>high citation signal (1,379); influential citation signal (51); open-access PDF metadata</td>
+<td align="right">251</td>
+<td>[Federated Learning: Challenges, Methods, and Future Directions](https://doi.org/10.1109/MSP.2020.2975749)<br><sub>Tian Li, Anit Kumar Sahu, Ameet Talwalkar, Virginia Smith</sub></td>
+<td>2019<br>IEEE Signal Processing Magazine<br>6,030 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Federated learning involves training statistical models over remote devices or siloed data centers, such as mobile phones or hospitals, while keeping data localized.</td>
+<td>high citation signal (6,030); influential citation signal (312); open-access PDF metadata</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
 </tr>
 <tr>
-<td align="right">388</td>
-<td>[Loss of Life Transformer Prediction Based on Stacking Ensemble Improved by Genetic Algorithm By IJISRT](https://doi.org/10.38124/ijisrt/ijisrt24mar1125)<br><sub>R. Shintabella, Catur Edi Widodo, Adi Wibowo</sub></td>
-<td>2024<br>International Journal of Innovative Science and Research Technology<br>1,319 citations</td>
+<td align="right">267</td>
+<td>[A Survey on Bias and Fairness in Machine Learning](https://doi.org/10.1145/3457607)<br><sub>Ninareh Mehrabi, Fred Morstatter, N. Saxena, Kristina Lerman, A. Galstyan</sub></td>
+<td>2019<br>ACM Computing Surveys<br>5,934 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>With the widespread use of artificial intelligence (AI) systems and applications in our everyday lives, accounting for fairness has gained significant importance in designing and engineering of such systems.</td>
+<td>high citation signal (5,934); influential citation signal (390); open-access PDF metadata</td>
+<td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+</tr>
+<tr>
+<td align="right">293</td>
+<td>[Explanation in Artificial Intelligence: Insights from the Social Sciences](https://doi.org/10.1016/J.ARTINT.2018.07.007)<br><sub>Tim Miller</sub></td>
+<td>2017<br>Artificial Intelligence<br>5,342 citations</td>
 <td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
-<td>Prediction for loss of life transfomer is very important to ensure the reliability and efficiency of the power system.</td>
-<td>high citation signal (1,319); recognized venue; open-access PDF metadata</td>
+<td>There has been a recent resurgence in the area of explainable artificial intelligence as researchers and practitioners seek to make their algorithms more understandable.</td>
+<td>high citation signal (5,342); influential citation signal (510); recognized venue; open-access PDF metadata</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+</tr>
+<tr><td colspan="7"><em>88 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+</tbody></table>
+
+</details>
+
+### Generative Models and Synthetic Media
+
+- Papers selected: **83**
+- Years covered: **2000-2026**
+- Citation count in selected set: **277,971**
+- Category Overview (main research trends):
+  - Generative AI research has moved from GAN-centered image synthesis toward diffusion, score-based modeling, and controllable multimodal generation.
+  - The area increasingly connects generation quality with data curation, safety, copyright, controllability, and evaluation reliability.
+  - Highly cited papers often introduce reusable model families, training objectives, or evaluation protocols that become infrastructure for later systems.
+- Limitations:
+  - Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.
+  - Training data provenance and copyright constraints can be under-specified in highly cited generation work.
+  - Robust evaluation across cultures, modalities, and adversarial uses remains difficult.
+
+<details>
+<summary><strong>Show representative papers for Generative Models and Synthetic Media</strong></summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="12%">
+<col width="12%">
+<col width="25%">
+<col width="12%">
+<col width="12%">
+</colgroup>
+<thead><tr>
+<th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
+</tr></thead><tbody>
+<tr>
+<td align="right">64</td>
+<td>[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/J.JCP.2018.10.045)<br><sub>M. Raissi, P. Perdikaris, G. Karniadakis</sub></td>
+<td>2019<br>Journal of Computational Physics<br>17,614 citations</td>
+<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
+<td>Abstract We introduce physics-informed neural networks – neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations.</td>
+<td>high citation signal (17,614); influential citation signal (1,077); open-access PDF metadata</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
 </tr>
 <tr>
-<td align="right">389</td>
-<td>[Federated Learning on Non-IID Data: A Survey](https://doi.org/10.1016/j.neucom.2021.07.098)<br><sub>Hangyu Zhu, Jinjin Xu, Shiqing Liu, Yaochu Jin</sub></td>
-<td>2021<br>Neurocomputing<br>1,310 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Federated learning is an emerging distributed machine learning framework for privacy preservation.</td>
-<td>high citation signal (1,310); influential citation signal (40); open-access PDF metadata</td>
-<td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+<td align="right">75</td>
+<td>[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://www.semanticscholar.org/paper/8388f1be26329fa45e5807e968a641ce170ea078)<br><sub>Alec Radford, Luke Metz, Soumith Chintala</sub></td>
+<td>2015<br>International Conference on Learning Representations<br>15,122 citations</td>
+<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications.</td>
+<td>high citation signal (15,122); influential citation signal (1,751)</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
 </tr>
 <tr>
-<td align="right">403</td>
-<td>[PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation](https://doi.org/10.1145/3620665.3640366)<br><sub>Jason Ansel, Edward Yang, Horace He, N. Gimelshein, Animesh Jain, Michael Voznesensky, Bin Bao, Peter Bell, et al.</sub></td>
-<td>2024<br>International Conference on Architectural Support for Programming Languages and Operating Systems<br>1,215 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>This paper introduces two extensions to the popular PyTorch machine learning framework, TorchDynamo and TorchInductor, which implement the torch.compile feature released in PyTorch 2.</td>
-<td>high citation signal (1,215); influential citation signal (150)</td>
-<td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+<td align="right">98</td>
+<td>[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://doi.org/10.1109/CVPR.2017.19)<br><sub>C. Ledig, Lucas Theis, Ferenc Huszár, Jose Caballero, Andrew P. Aitken, Alykhan Tejani, J. Totz, Zehan Wang, et al.</sub></td>
+<td>2016<br>Computer Vision and Pattern Recognition<br>12,152 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors?</td>
+<td>high citation signal (12,152); influential citation signal (1,373); recognized venue; open-access PDF metadata</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
 </tr>
 <tr>
-<td align="right">405</td>
-<td>[Explaining Deep Neural Networks and Beyond: A Review of Methods and Applications](https://doi.org/10.1109/JPROC.2021.3060483)<br><sub>W. Samek, G. Montavon, S. Lapuschkin, Christopher J. Anders, K. Müller</sub></td>
-<td>2021<br>Proceedings of the IEEE<br>1,212 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>With the broader and highly successful usage of machine learning (ML) in industry and the sciences, there has been a growing demand for explainable artificial intelligence (XAI).</td>
-<td>high citation signal (1,212); influential citation signal (33); open-access PDF metadata</td>
-<td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
+<td align="right">100</td>
+<td>[mixup: Beyond Empirical Risk Minimization](https://www.semanticscholar.org/paper/4feef0fd284feb1233399b400eb897f59ec92755)<br><sub>Hongyi Zhang, Moustapha Cissé, Yann Dauphin, David Lopez-Paz</sub></td>
+<td>2017<br>International Conference on Learning Representations<br>11,909 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples.</td>
+<td>high citation signal (11,909); influential citation signal (1,764)</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
 </tr>
-<tr><td colspan="7"><em>5 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr>
+<td align="right">110</td>
+<td>[Score-Based Generative Modeling through Stochastic Differential Equations](https://www.semanticscholar.org/paper/633e2fbfc0b21e959a244100937c5853afca4853)<br><sub>Yang Song, Jascha Narain Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole</sub></td>
+<td>2020<br>International Conference on Learning Representations<br>11,057 citations</td>
+<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td>Creating noise from data is easy; creating data from noise is generative modeling.</td>
+<td>high citation signal (11,057); influential citation signal (1,881)</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+</tr>
+<tr>
+<td align="right">121</td>
+<td>[Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c)<br><sub>Jascha Narain Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, S. Ganguli</sub></td>
+<td>2015<br>International Conference on Machine Learning<br>10,158 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
+<td>A central problem in machine learning involves modeling complex data-sets using highly flexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable.</td>
+<td>high citation signal (10,158); influential citation signal (525); recognized venue</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+</tr>
+<tr>
+<td align="right">135</td>
+<td>[Wasserstein Generative Adversarial Networks](https://www.semanticscholar.org/paper/acd87843a451d18b4dc6474ddce1ae946429eaf1)<br><sub>Martín Arjovsky, Soumith Chintala, L. Bottou</sub></td>
+<td>2017<br>International Conference on Machine Learning<br>9,588 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Positions Wasserstein Generative Adversarial Networks within Generative Models and Synthetic Media.</td>
+<td>high citation signal (9,588); influential citation signal (1,220); recognized venue</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+</tr>
+<tr>
+<td align="right">152</td>
+<td>[Machine learning in automated text categorization](https://doi.org/10.1145/505282.505283)<br><sub>F. Sebastiani</sub></td>
+<td>2001<br>CSUR<br>9,067 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>The automated categorization (or classification) of texts into predefined categories has witnessed a booming interest in the last 10 years, due to the increased availability of documents in digital form and the ensuing need to organize them.</td>
+<td>high citation signal (9,067); influential citation signal (745); open-access PDF metadata</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+</tr>
+<tr>
+<td align="right">159</td>
+<td>[Advances and Open Problems in Federated Learning](https://doi.org/10.1561/2200000083)<br><sub>P. Kairouz, H. B. McMahan, Brendan Avent, A. Bellet, M. Bennis, A. Bhagoji, Keith Bonawitz, Zachary B. Charles, et al.</sub></td>
+<td>2019<br>Found. Trends Mach. Learn.<br>8,772 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td>Federated learning (FL) is a machine learning setting where many clients (e.g.</td>
+<td>high citation signal (8,772); influential citation signal (560); open-access PDF metadata</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+</tr>
+<tr>
+<td align="right">201</td>
+<td>[Neural Discrete Representation Learning](https://www.semanticscholar.org/paper/f466157848d1a7772fb6d02cdac9a7a5e7ef982e)<br><sub>Aäron van den Oord, O. Vinyals, K. Kavukcuoglu</sub></td>
+<td>2017<br>Neural Information Processing Systems<br>7,422 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
+<td>Learning useful representations without supervision remains a key challenge in machine learning.</td>
+<td>high citation signal (7,422); influential citation signal (985)</td>
+<td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
+</tr>
+<tr><td colspan="7"><em>73 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
 
 ### Representation, Self-Supervised, and Transfer Learning
 
-- Papers selected: **12**
-- Years covered: **2020-2023**
-- Citation count in selected set: **20,770**
+- Papers selected: **55**
+- Years covered: **2001-2026**
+- Citation count in selected set: **245,458**
 - Category Overview (main research trends):
   - Self-supervised and contrastive methods are reducing dependence on labeled data while improving transfer across tasks and domains.
   - Reusable representations, distillation, domain adaptation, and few-shot learning form the connective tissue between specialized AI subfields.
@@ -1212,96 +1206,96 @@ These badges define the AI keyword tags used to read and extend this collection.
 <th align="right">Rank</th><th>Paper</th><th>Meta</th><th>Keywords</th><th>Key idea</th><th>Strengths</th><th>Limitations</th>
 </tr></thead><tbody>
 <tr>
-<td align="right">103</td>
-<td>[Sigmoid Loss for Language Image Pre-Training](https://doi.org/10.1109/ICCV51070.2023.01100)<br><sub>Xiaohua Zhai, Basil Mustafa, Alexander Kolesnikov, Lucas Beyer</sub></td>
-<td>2023<br>IEEE International Conference on Computer Vision<br>3,223 citations</td>
-<td><img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>We propose a simple pairwise sigmoid loss for imagetext pre-training.</td>
-<td>high citation signal (3,223); influential citation signal (349)</td>
+<td align="right">25</td>
+<td>[Efficient Estimation of Word Representations in Vector Space](https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09)<br><sub>Tomas Mikolov, Kai Chen, G. Corrado, J. Dean</sub></td>
+<td>2013<br>International Conference on Learning Representations<br>34,503 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>We propose two novel model architectures for computing continuous vector representations of words from very large data sets.</td>
+<td>high citation signal (34,503); influential citation signal (4,335)</td>
+<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
+</tr>
+<tr>
+<td align="right">41</td>
+<td>[A Survey on Transfer Learning](https://doi.org/10.1109/TKDE.2009.191)<br><sub>Sinno Jialin Pan, Qiang Yang</sub></td>
+<td>2010<br>IEEE Transactions on Knowledge and Data Engineering<br>23,383 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>A major assumption in many machine learning and data mining algorithms is that the training and future data must be in the same feature space and have the same distribution.</td>
+<td>high citation signal (23,383); influential citation signal (1,041); recognized venue</td>
+<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
+</tr>
+<tr>
+<td align="right">43</td>
+<td>[Explaining and Harnessing Adversarial Examples](https://www.semanticscholar.org/paper/bee044c8e8903fb67523c1f8c105ab4718600cdb)<br><sub>I. Goodfellow, Jonathon Shlens, Christian Szegedy</sub></td>
+<td>2014<br>International Conference on Learning Representations<br>22,363 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>cluding neural networks, consistently misclassify adversarial examples---inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence.</td>
+<td>high citation signal (22,363); influential citation signal (4,184)</td>
+<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
+</tr>
+<tr>
+<td align="right">86</td>
+<td>[Representation Learning: A Review and New Perspectives](https://doi.org/10.1109/TPAMI.2013.50)<br><sub>Yoshua Bengio, Aaron C. Courville, P. Vincent</sub></td>
+<td>2012<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>13,937 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.</td>
+<td>high citation signal (13,937); influential citation signal (584); recognized venue; open-access PDF metadata</td>
+<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
+</tr>
+<tr>
+<td align="right">90</td>
+<td>[Representation Learning with Contrastive Predictive Coding](https://www.semanticscholar.org/paper/b227f3e4c0dc96e5ac5426b85485a70f2175a205)<br><sub>Aäron van den Oord, Yazhe Li, O. Vinyals</sub></td>
+<td>2018<br>arXiv.org<br>13,607 citations</td>
+<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td>While supervised learning has enabled great progress in many applications, unsupervised learning has not seen such widespread adoption, and remains an important and challenging endeavor for artificial intelligence.</td>
+<td>high citation signal (13,607); influential citation signal (1,535)</td>
+<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
+</tr>
+<tr>
+<td align="right">106</td>
+<td>[Domain-Adversarial Training of Neural Networks](https://doi.org/10.1007/978-3-319-58347-1_10)<br><sub>Yaroslav Ganin, E. Ustinova, Hana Ajakan, Pascal Germain, H. Larochelle, François Laviolette, M. Marchand, V. Lempitsky</sub></td>
+<td>2015<br>Journal of machine learning research<br>11,560 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>We introduce a new representation learning approach for domain adaptation, in which data at training and test time come from similar but different distributions.</td>
+<td>high citation signal (11,560); influential citation signal (1,660); recognized venue</td>
+<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
+</tr>
+<tr>
+<td align="right">130</td>
+<td>[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://www.semanticscholar.org/paper/a54b56af24bb4873ed0163b77df63b92bd018ddc)<br><sub>Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf</sub></td>
+<td>2019<br>arXiv.org<br>9,924 citations</td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td>As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging.</td>
+<td>high citation signal (9,924); influential citation signal (1,225)</td>
 <td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
 </tr>
 <tr>
 <td align="right">133</td>
-<td>[Meta-Learning in Neural Networks: A Survey](https://doi.org/10.1109/TPAMI.2021.3079209)<br><sub>Timothy M. Hospedales, Antreas Antoniou, P. Micaelli, A. Storkey</sub></td>
-<td>2020<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>2,682 citations</td>
-<td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
-<td>The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years.</td>
-<td>high citation signal (2,682); influential citation signal (108); recognized venue; open-access PDF metadata</td>
-<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
-</tr>
-<tr>
-<td align="right">182</td>
-<td>[Self-Supervised Learning: Generative or Contrastive](https://doi.org/10.1109/TKDE.2021.3090866)<br><sub>Xiao Liu, Fanjin Zhang, Zhenyu Hou, Zhaoyu Wang, Li Mian, Jing Zhang, Jie Tang</sub></td>
-<td>2020<br>IEEE Transactions on Knowledge and Data Engineering<br>2,181 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
-<td>Deep supervised learning has achieved great success in the last decade.</td>
-<td>high citation signal (2,181); influential citation signal (98); recognized venue; open-access PDF metadata</td>
-<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
-</tr>
-<tr>
-<td align="right">252</td>
-<td>[Generalizing to Unseen Domains: A Survey on Domain Generalization](https://doi.org/10.1109/TKDE.2022.3178128)<br><sub>Jindong Wang, Cuiling Lan, Chang Liu, Yidong Ouyang, Tao Qin</sub></td>
-<td>2021<br>IEEE Transactions on Knowledge and Data Engineering<br>1,749 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Machine learning systems generally assume that the training and testing distributions are the same.</td>
-<td>high citation signal (1,749); influential citation signal (86); recognized venue; open-access PDF metadata</td>
-<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
-</tr>
-<tr>
-<td align="right">265</td>
-<td>[Model-Contrastive Federated Learning](https://doi.org/10.1109/CVPR46437.2021.01057)<br><sub>Qinbin Li, Bingsheng He, D. Song</sub></td>
-<td>2021<br>Computer Vision and Pattern Recognition<br>1,696 citations</td>
+<td>[Deep Learning Face Attributes in the Wild](https://doi.org/10.1109/ICCV.2015.425)<br><sub>Ziwei Liu, Ping Luo, Xiaogang Wang, Xiaoou Tang</sub></td>
+<td>2014<br>IEEE International Conference on Computer Vision<br>9,701 citations</td>
 <td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Federated learning enables multiple parties to collaboratively train a machine learning model without communicating their local data.</td>
-<td>high citation signal (1,696); influential citation signal (250); recognized venue; open-access PDF metadata</td>
+<td>Predicting face attributes in the wild is challenging due to complex face variations.</td>
+<td>high citation signal (9,701); influential citation signal (1,868); open-access PDF metadata</td>
 <td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
 </tr>
 <tr>
-<td align="right">312</td>
-<td>[Unsupervised Dense Information Retrieval with Contrastive Learning](https://www.semanticscholar.org/paper/4f4a409f701f7552d45c46a5b0fea69dca6f8e84)<br><sub>Gautier Izacard, Mathilde Caron, Lucas Hosseini, Sebastian Riedel, Piotr Bojanowski, Armand Joulin, Edouard Grave</sub></td>
-<td>2021<br>Trans. Mach. Learn. Res.<br>1,531 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
-<td>Recently, information retrieval has seen the emergence of dense retrievers, using neural networks, as an alternative to classical sparse methods based on term-frequency.</td>
-<td>high citation signal (1,531); influential citation signal (248)</td>
+<td align="right">259</td>
+<td>[Distance Metric Learning for Large Margin Nearest Neighbor Classification](https://doi.org/10.5555/1577069.1577078)<br><sub>Kilian Q. Weinberger, L. Saul</sub></td>
+<td>2005<br>Neural Information Processing Systems<br>5,983 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td>Positions Distance Metric Learning for Large Margin Nearest Neighbor Classification within Representation, Self-Supervised, and Transfer Learning.</td>
+<td>high citation signal (5,983); influential citation signal (754)</td>
 <td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
 </tr>
 <tr>
-<td align="right">324</td>
-<td>[A Survey of Transformers](https://doi.org/10.1016/j.aiopen.2022.10.001)<br><sub>Tianyang Lin, Yuxin Wang, Xiangyang Liu, Xipeng Qiu</sub></td>
-<td>2021<br>AI Open<br>1,505 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>Transformers have achieved great success in many artificial intelligence fields, such as natural language processing, computer vision, and audio processing.</td>
-<td>high citation signal (1,505); influential citation signal (37); open-access PDF metadata</td>
+<td align="right">266</td>
+<td>[Learning Transferable Features with Deep Adaptation Networks](https://www.semanticscholar.org/paper/7340f090f8a0df5b109682e9f6d57e4b8ca1a2f7)<br><sub>Mingsheng Long, Yue Cao, Jianmin Wang, Michael I. Jordan</sub></td>
+<td>2015<br>International Conference on Machine Learning<br>5,954 citations</td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td>Recent studies reveal that a deep neural network can learn transferable features which generalize well to novel tasks for domain adaptation.</td>
+<td>high citation signal (5,954); influential citation signal (741); recognized venue</td>
 <td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
 </tr>
-<tr>
-<td align="right">337</td>
-<td>[Toward Causal Representation Learning](https://doi.org/10.1109/JPROC.2021.3058954)<br><sub>Bernhard Schölkopf, Francesco Locatello, Stefan Bauer, Nan Rosemary Ke, Nal Kalchbrenner, Anirudh Goyal, Y. Bengio</sub></td>
-<td>2021<br>Proceedings of the IEEE<br>1,460 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>The two fields of machine learning and graphical causality arose and are developed separately.</td>
-<td>high citation signal (1,460); influential citation signal (134); open-access PDF metadata</td>
-<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
-</tr>
-<tr>
-<td align="right">338</td>
-<td>[Do Transformers Really Perform Badly for Graph Representation?](https://www.semanticscholar.org/paper/acf87283fa8ae426f1a4987b345b401bf2913f61)<br><sub>Chengxuan Ying, Tianle Cai, Shengjie Luo, Shuxin Zheng, Guolin Ke, Di He, Yanming Shen, Tie-Yan Liu</sub></td>
-<td>2021<br>Neural Information Processing Systems<br>1,455 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
-<td>Positions Do Transformers Really Perform Badly for Graph Representation? within Representation, Self-Supervised, and Transfer Learning.</td>
-<td>high citation signal (1,455); influential citation signal (182)</td>
-<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
-</tr>
-<tr>
-<td align="right">415</td>
-<td>[CutPaste: Self-Supervised Learning for Anomaly Detection and Localization](https://doi.org/10.1109/CVPR46437.2021.00954)<br><sub>Chun-Liang Li, Kihyuk Sohn, Jinsung Yoon, Tomas Pfister</sub></td>
-<td>2021<br>Computer Vision and Pattern Recognition<br>1,182 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
-<td>We aim at constructing a high performance model for defect detection that detects unknown anomalous patterns of an image without anomalous data.</td>
-<td>high citation signal (1,182); influential citation signal (176); recognized venue; open-access PDF metadata</td>
-<td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>
-</tr>
-<tr><td colspan="7"><em>2 additional selected papers in this category are available in the dataset and website.</em></td></tr>
+<tr><td colspan="7"><em>45 additional selected papers in this category are available in the dataset and website.</em></td></tr>
 </tbody></table>
 
 </details>
@@ -1310,17 +1304,37 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 | Year | Candidate papers audited | Selected top-100 papers | Citations in selected set | Top selected paper |
 |---:|---:|---:|---:|---|
-| 2020 | 1,000 | 100 | 384,464 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a) |
-| 2021 | 1,000 | 100 | 389,229 | [Learning Transferable Visual Models From Natural Language Supervision](https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4) |
-| 2022 | 1,000 | 100 | 274,691 | [Training language models to follow instructions with human feedback](https://doi.org/10.52202/068431-2011) |
-| 2023 | 1,000 | 100 | 319,073 | [LLaMA: Open and Efficient Foundation Language Models](https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75) |
-| 2024 | 1,000 | 100 | 138,468 | [The Llama 3 Herd of Models](https://www.semanticscholar.org/paper/40e8af970329135ec95057d73e239dab805ad128) |
-| 2025 | 1,000 | 100 | 72,294 | [Qwen3 Technical Report](https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a) |
-| 2026 | 1,000 | 100 | 6,380 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://www.semanticscholar.org/paper/1b6e16cc72aee038eb1879b8686b53776be3d51f) |
+| 2000 | 1,000 | 100 | 151,750 | [Data Mining: Concepts and Techniques](https://www.semanticscholar.org/paper/c36991759325bedd19f69264f72d1cbf59a6158c) |
+| 2001 | 1,000 | 100 | 199,666 | [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://doi.org/10.1007/978-0-387-84858-7) |
+| 2002 | 1,000 | 100 | 163,015 | [Data Mining - Concepts and Techniques](https://www.semanticscholar.org/paper/982b955c900b04e9da64e3b39422690c13d6b94f) |
+| 2003 | 1,000 | 100 | 124,417 | [Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond](https://doi.org/10.1198/jasa.2003.s270) |
+| 2004 | 1,000 | 100 | 142,172 | [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://doi.org/10.1198/jasa.2004.s339) |
+| 2005 | 1,000 | 100 | 124,983 | [Survey of clustering algorithms](https://doi.org/10.1109/TNN.2005.845141) |
+| 2006 | 1,000 | 100 | 117,674 | [Supporting Online Material for Reducing the Dimensionality of Data with Neural Networks](https://www.semanticscholar.org/paper/02552a8b40f3a82a5353f596264db71d899a9b4a) |
+| 2007 | 1,000 | 100 | 128,381 | [Classification and Regression by randomForest](https://www.semanticscholar.org/paper/6e633b41d93051375ef9135102d54fa097dc8cf8) |
+| 2008 | 1,000 | 100 | 116,790 | [LIBLINEAR: A Library for Large Linear Classification](https://doi.org/10.5555/1390681.1442794) |
+| 2009 | 1,000 | 100 | 247,309 | [ImageNet: A large-scale hierarchical image database](https://doi.org/10.1109/CVPR.2009.5206848) |
+| 2010 | 1,000 | 100 | 184,831 | [A Survey on Transfer Learning](https://doi.org/10.1109/TKDE.2009.191) |
+| 2011 | 1,000 | 100 | 254,295 | [Scikit-learn: Machine Learning in Python](https://doi.org/10.5555/1953048.2078195) |
+| 2012 | 1,000 | 100 | 332,579 | [ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386) |
+| 2013 | 1,000 | 100 | 274,215 | [Efficient Estimation of Word Representations in Vector Space](https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09) |
+| 2014 | 1,000 | 100 | 742,024 | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108) |
+| 2015 | 1,000 | 100 | 960,511 | [Deep Residual Learning for Image Recognition](https://doi.org/10.1109/cvpr.2016.90) |
+| 2016 | 1,000 | 100 | 738,490 | [XGBoost: A Scalable Tree Boosting System](https://doi.org/10.1145/2939672.2939785) |
+| 2017 | 1,000 | 100 | 775,257 | [Attention is All you Need](https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776) |
+| 2018 | 1,000 | 100 | 445,723 | [CBAM: Convolutional Block Attention Module](https://doi.org/10.1007/978-3-030-01234-2_1) |
+| 2019 | 1,000 | 100 | 638,014 | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/N19-1423) |
+| 2020 | 1,000 | 100 | 436,445 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a) |
+| 2021 | 1,000 | 100 | 425,132 | [Learning Transferable Visual Models From Natural Language Supervision](https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4) |
+| 2022 | 1,000 | 100 | 284,273 | [Training language models to follow instructions with human feedback](https://doi.org/10.52202/068431-2011) |
+| 2023 | 1,000 | 100 | 334,364 | [LLaMA: Open and Efficient Foundation Language Models](https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75) |
+| 2024 | 1,000 | 100 | 145,505 | [The Llama 3 Herd of Models](https://www.semanticscholar.org/paper/40e8af970329135ec95057d73e239dab805ad128) |
+| 2025 | 1,000 | 100 | 72,745 | [Qwen3 Technical Report](https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a) |
+| 2026 | 1,000 | 100 | 6,582 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://www.semanticscholar.org/paper/1b6e16cc72aee038eb1879b8686b53776be3d51f) |
 
 ## Methodology
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2020 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
 
 The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
 

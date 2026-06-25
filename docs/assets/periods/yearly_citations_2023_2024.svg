@@ -3,5 +3,5 @@
 <text x="32" y="38" fill="#0f172a" font-size="24" font-weight="800">Yearly Citation Mass, 2023-2024</text>
 <text x="32" y="60" fill="#64748b" font-size="14">Citation counts among visible selected papers</text>
 <line x1="80" y1="340" x2="930" y2="340" stroke="#cbd5e1" stroke-width="2"/>
-<rect x="80" y="70" width="418" height="270" rx="5" fill="#7c3aed"/><text x="289.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2023</text><text x="289.0" y="62" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">319,073</text><rect x="512" y="223" width="418" height="117" rx="5" fill="#7c3aed"/><text x="721.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2024</text><text x="721.0" y="215" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">138,468</text>
+<rect x="80" y="70" width="418" height="270" rx="5" fill="#7c3aed"/><text x="289.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2023</text><text x="289.0" y="62" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">334,364</text><rect x="512" y="223" width="418" height="117" rx="5" fill="#7c3aed"/><text x="721.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2024</text><text x="721.0" y="215" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">145,505</text>
 </svg>

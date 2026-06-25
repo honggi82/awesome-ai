@@ -21,7 +21,7 @@ DOCS_DIR = ROOT / "docs"
 PAPER_DIR = ROOT / "paper"
 CACHE_DIR = DATA_DIR / "cache"
 
-START_YEAR = 2020
+START_YEAR = 2000
 END_YEAR = 2026
 YEARS = list(range(START_YEAR, END_YEAR + 1))
 YEAR_RANGE_TEXT = f"{START_YEAR}-{END_YEAR}"
@@ -64,6 +64,11 @@ QUERIES = [
     "artificial intelligence",
     "machine learning",
     "deep learning",
+    "neural networks",
+    "support vector machines",
+    "data mining",
+    "pattern recognition",
+    "bayesian networks",
     "foundation models",
     "large language models",
     "natural language processing",
@@ -82,6 +87,14 @@ AI_RELEVANCE_PATTERNS = [
     r"\bmachine learning\b",
     r"\bdeep learning\b",
     r"\bneural network",
+    r"\bneural networks\b",
+    r"\bsupport vector machine",
+    r"\bSVM\b",
+    r"\bdata mining\b",
+    r"\bpattern recognition\b",
+    r"\bbayesian network",
+    r"\bclassification\b",
+    r"\bclustering\b",
     r"\btransformer",
     r"\blanguage model",
     r"\blarge language model",
@@ -315,6 +328,11 @@ CATEGORIES = [
 ]
 
 KEYWORD_CONVENTION = [
+    (
+        "machine-learning",
+        "Statistical learning, neural networks, SVMs, trees/boosting, data mining, pattern recognition, clustering, or core ML methods.",
+        "475569",
+    ),
     (
         "foundation-models",
         "Large language models, foundation models, scaling, prompting, alignment, or retrieval-augmented systems.",
@@ -716,6 +734,8 @@ def method_tags(paper):
 def keyword_tags(paper, category=None):
     text = text_for(paper)
     tags = set()
+    if re.search(r"\b(machine learning|statistical learning|neural network|support vector|svm|decision tree|random forest|xgboost|boosting|classification|clustering|data mining|pattern recognition|bayesian network)\b", text, re.I):
+        tags.add("machine-learning")
     if re.search(r"\b(language model|large language|llm|foundation model|gpt|bert|prompt|rag|retrieval-augmented|scaling law)\b", text, re.I):
         tags.add("foundation-models")
     if re.search(r"\b(diffusion|generative|gan|vae|synthetic|text-to-image|image synthesis)\b", text, re.I):
@@ -745,11 +765,12 @@ def keyword_tags(paper, category=None):
         "Trustworthy, Explainable, and Responsible AI": "trustworthy-ai",
         "Graph Learning, Recommendation, and Core Methods": "graph-learning",
         "AI for Science, Healthcare, and Robotics": "ai4science",
+        "General AI Methods and Systems": "machine-learning",
     }
     if not tags and category in defaults:
         tags.add(defaults[category])
     ordered = [keyword for keyword, _, _ in KEYWORD_CONVENTION if keyword in tags]
-    return ordered or ["foundation-models"]
+    return ordered or ["machine-learning"]
 
 
 def first_sentence(value, fallback):
@@ -946,18 +967,20 @@ def select_papers_by_year(candidates_by_year):
 
 
 def reuse_existing_candidates():
-    path = DATA_DIR / CANDIDATES_JSON
-    if not path.exists():
-        raise FileNotFoundError(f"Missing existing candidate pool: {path}")
-    payload = json.loads(path.read_text(encoding="utf-8"))
     rows = []
-    for row in payload.get("candidates") or []:
-        normalized = dict(row)
-        normalized["year"] = int(normalized.get("year") or 0)
-        normalized["citationCount"] = int(normalized.get("citationCount") or 0)
-        normalized["influentialCitationCount"] = int(normalized.get("influentialCitationCount") or 0)
-        normalized["importanceScore"] = float(normalized.get("importanceScore") or 0)
-        rows.append(enrich_paper(normalized))
+    path = DATA_DIR / CANDIDATES_JSON
+    if path.exists():
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        for row in payload.get("candidates") or []:
+            rows.append(normalize_candidate_row(row))
+    if not rows:
+        for year in YEARS:
+            year_path = DATA_DIR / f"candidates_top1000_{year}.json"
+            if not year_path.exists():
+                raise FileNotFoundError(f"Missing existing candidate pool: {year_path}")
+            payload = json.loads(year_path.read_text(encoding="utf-8"))
+            for row in payload.get("candidates") or []:
+                rows.append(normalize_candidate_row(row))
     candidates_by_year = {}
     for year in YEARS:
         year_rows = [p for p in rows if p["year"] == year]
@@ -967,6 +990,15 @@ def reuse_existing_candidates():
     selected, selected_by_year = select_papers_by_year(candidates_by_year)
     print(f"[reuse] regenerated {len(selected):,} selected papers ({TARGET_PER_YEAR:,} per year) from {len(all_candidates):,} existing candidates", flush=True)
     return selected, selected_by_year, candidates_by_year
+
+
+def normalize_candidate_row(row):
+    normalized = dict(row)
+    normalized["year"] = int(normalized.get("year") or 0)
+    normalized["citationCount"] = int(normalized.get("citationCount") or 0)
+    normalized["influentialCitationCount"] = int(normalized.get("influentialCitationCount") or 0)
+    normalized["importanceScore"] = float(normalized.get("importanceScore") or 0)
+    return enrich_paper(normalized)
 
 
 def csv_ready(row):
@@ -1008,7 +1040,17 @@ def write_data(selected, selected_by_year, candidates_by_year):
         encoding="utf-8",
     )
     (DATA_DIR / CANDIDATES_JSON).write_text(
-        json.dumps({"metadata": metadata, "candidates": flat_candidates, "byYear": candidates_by_year}, ensure_ascii=False, indent=2),
+        json.dumps(
+            {
+                "metadata": metadata,
+                "candidate_count": len(flat_candidates),
+                "combined_csv": CANDIDATES_CSV,
+                "year_files": {str(year): f"candidates_top1000_{year}.json" for year in YEARS},
+                "note": "Candidate records are stored in the combined CSV and per-year JSON files to keep GitHub file sizes below the 100 MB single-file limit.",
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
         encoding="utf-8",
     )
     fields = [
@@ -1307,7 +1349,7 @@ def write_readme(selected, candidates):
         "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
         "[![Open Interactive Website](https://img.shields.io/badge/Open%20Interactive%20Website-GitHub%20Pages-0f766e)](https://honggi82.github.io/awesome-ai/)",
         "",
-        "A taxonomy-first, citation-ranked map of AI research from 2020 through 2026.",
+        f"A taxonomy-first, citation-ranked map of AI research from {START_YEAR} through {END_YEAR}.",
         "",
         f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. This edition investigates up to {CANDIDATES_PER_YEAR:,} AI-related candidate papers per year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool of {len(candidates):,} records, selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total), and reorganizes them by AI research taxonomy.",
         "",
@@ -1379,7 +1421,7 @@ def write_readme(selected, candidates):
             "",
             "## Methodology",
             "",
-            "The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2020 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.",
+            f"The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from {START_YEAR} through {END_YEAR}, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most {CANDIDATES_PER_YEAR:,} candidates by citation count. The final awesome list selects the top {TARGET_PER_YEAR:,} papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.",
             "",
             "The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.",
             "",
@@ -2095,7 +2137,7 @@ def review_sections(selected, korean=False):
         findings = [
             f"선정 논문 {len(selected):,}편은 총 {total_cites:,}회의 인용을 포함하며, citation mass가 가장 큰 연도는 {peak_year}년이다.",
             f"가장 큰 분류는 {KOREAN_CATEGORY_NAMES.get(leading_cat, leading_cat)}({leading_count}편)이다.",
-            "2020-2026 구간은 비전 트랜스포머, LLM, RAG, self-supervised learning, diffusion/generative AI, trustworthy AI, AI for science가 서로 연결되는 흐름을 보인다.",
+            f"{YEAR_RANGE_TEXT} 구간은 전통적 machine learning, data mining, pattern recognition부터 vision transformer, LLM, RAG, self-supervised learning, diffusion/generative AI, trustworthy AI, AI for science까지 이어지는 흐름을 보인다.",
             f"{END_YEAR}년 논문은 아직 인용 누적 시간이 짧으므로 최신성과 영향력은 분리해서 읽어야 한다.",
         ]
         caveat = "이 문서는 PDF 전문 기반 systematic review가 아니라 공개 메타데이터 기반의 citation map이다. 인용수는 영향력을 보여주지만 방법론적 품질, 안전성, 재현성을 직접 보장하지 않는다."
@@ -2284,7 +2326,7 @@ if errorlevel 1 (
 
 "%GH_EXE%" repo view honggi82/awesome-ai >nul 2>nul
 if errorlevel 1 (
-  "%GH_EXE%" repo create honggi82/awesome-ai --public --description "Awesome AI: metadata-driven AI paper curation, 2020-2026" --source . --remote origin --push
+  "%GH_EXE%" repo create honggi82/awesome-ai --public --description "Awesome AI: metadata-driven AI paper curation, 2000-2026" --source . --remote origin --push
 ) else (
   git remote set-url origin https://github.com/honggi82/awesome-ai.git
   git push -u origin main

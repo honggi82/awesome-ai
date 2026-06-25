@@ -16,7 +16,7 @@ if errorlevel 1 (
 
 "%GH_EXE%" repo view honggi82/awesome-ai >nul 2>nul
 if errorlevel 1 (
-  "%GH_EXE%" repo create honggi82/awesome-ai --public --description "Awesome AI: metadata-driven AI paper curation, 2020-2026" --source . --remote origin --push
+  "%GH_EXE%" repo create honggi82/awesome-ai --public --description "Awesome AI: metadata-driven AI paper curation, 2000-2026" --source . --remote origin --push
 ) else (
   git remote set-url origin https://github.com/honggi82/awesome-ai.git
   git push -u origin main

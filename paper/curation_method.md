@@ -3,9 +3,9 @@
 ## Scope
 
 - Topic: AI research across machine learning, deep learning, foundation models, NLP, vision, reinforcement learning, generative AI, trustworthy AI, graph learning, multimodal learning, and AI for science.
-- Period: 2020-2026.
+- Period: 2000-2026.
 - Candidate target: up to 1,000 papers per year.
-- Final selection: top 100 papers per year by citation count from the audited yearly candidate pools (700 papers total).
+- Final selection: top 100 papers per year by citation count from the audited yearly candidate pools (2,700 papers total).
 
 ## Data Source
 

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="Yearly citation mass 2008-2010">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="32" y="38" fill="#0f172a" font-size="24" font-weight="800">Yearly Citation Mass, 2008-2010</text>
+<text x="32" y="60" fill="#64748b" font-size="14">Citation counts among visible selected papers</text>
+<line x1="80" y1="340" x2="930" y2="340" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="80" y="213" width="274" height="127" rx="5" fill="#7c3aed"/><text x="217.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2008</text><text x="217.0" y="205" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">116,790</text><rect x="368" y="70" width="274" height="270" rx="5" fill="#7c3aed"/><text x="505.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2009</text><text x="505.0" y="62" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">247,309</text><rect x="656" y="139" width="274" height="201" rx="5" fill="#7c3aed"/><text x="793.0" y="368" text-anchor="middle" fill="#475569" font-size="14">2010</text><text x="793.0" y="131" text-anchor="middle" fill="#172033" font-size="13" font-weight="700">184,831</text>
+</svg>
