@@ -1827,8 +1827,13 @@ def taxonomy_icon_svg(category):
 def write_taxonomy_icons(selected):
     icon_dir = DOCS_DIR / "assets" / "taxonomy"
     icon_dir.mkdir(parents=True, exist_ok=True)
+    missing = []
     for category in category_stats(selected):
-        write_svg(icon_dir / f"{safe_slug(category)}.svg", taxonomy_icon_svg(category))
+        target = icon_dir / f"{safe_slug(category)}.png"
+        if not target.exists():
+            missing.append(target.as_posix())
+    if missing:
+        raise FileNotFoundError("Missing taxonomy PNG assets: " + ", ".join(missing))
 
 
 def html_attrs(paper):
@@ -1901,14 +1906,14 @@ def taxonomy_section(category, rows):
     <section class="taxonomy-section" data-category="{slug}">
       <details>
         <summary>
-          <img class="summary-thumb" src="assets/taxonomy/{slug}.svg" alt="">
+          <img class="summary-thumb" src="assets/taxonomy/{slug}.png" alt="">
           <span class="summary-title">{html.escape(category)}</span>
           <span class="category-count">{len(rows):,} papers</span>
           <span class="category-years">{years[0]}-{years[-1]}</span>
           <span class="category-citations">{citations:,} citations</span>
         </summary>
         <div class="section-intro">
-          <figure class="section-visual"><img src="assets/taxonomy/{slug}.svg" alt="{html.escape(category)} illustration"></figure>
+          <figure class="section-visual"><img src="assets/taxonomy/{slug}.png" alt="{html.escape(category)} illustration"></figure>
           <p><strong>Top paper:</strong> <span class="top-paper">{html.escape(top['title'])}</span></p>
           <div class="insight-grid">
             <div class="insight-box">
