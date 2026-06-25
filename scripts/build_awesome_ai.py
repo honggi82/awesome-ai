@@ -1146,6 +1146,57 @@ def period_select_ranges():
     return [full] + [pair for pair in all_period_ranges() if pair != full]
 
 
+def research_overview_html():
+    return """
+    <section class="research-brief" aria-labelledby="research-timeline-title">
+      <h2 id="research-timeline-title">Research Timeline</h2>
+      <div class="timeline-copy">
+        <p>2000-2026년 AI 연구 코퍼스는 통계적 머신러닝과 커널·그래프·추천 방법론에서 출발해 deep learning, vision, representation learning, transformer 기반 NLP, foundation model, generative AI, multimodal learning, reinforcement learning과 agents, trustworthy AI, AI for Science로 확장된 흐름을 보여준다. 총 2,700편의 선별 논문과 856만 회 이상의 인용 신호는 AI가 개별 태스크 알고리즘의 집합에서 범용 representation과 대규모 사전학습 인프라 중심의 연구 생태계로 이동했음을 드러낸다.</p>
+        <p>큰 taxonomy 축은 General AI Methods and Systems, Foundation Models and Large Language Models, Vision and Multimodal Learning이며, 이 세 축이 나머지 생성 모델, NLP/knowledge, RL/agents, graph learning, trustworthy AI, AI4Science를 연결한다. 2010년대 중반 이후 ResNet, attention/transformer, BERT류 사전학습, diffusion과 multimodal model이 인용 질량을 끌어올렸고, 2020년대에는 모델 규모보다 평가, alignment, 데이터 출처, 효율성, 배포 책임성이 더 중요한 연구 질문으로 부상했다.</p>
+      </div>
+      <h2>Research Insights</h2>
+      <div class="research-insights">
+        <article class="insight-box">
+          <div class="insight-label">Foundation Layer</div>
+          <h3>파운데이션 모델이 공통 연구 층이 된다</h3>
+          <p>LLM과 대규모 사전학습은 NLP 내부의 한 흐름을 넘어 retrieval, code, multimodal, robotics, science 응용이 공유하는 기본 인프라가 되었다.</p>
+          <p class="insight-implication">시사점: 새 연구는 모델 자체뿐 아니라 데이터, instruction, evaluation, deployment interface를 함께 설계해야 한다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Vision And Multimodal</div>
+          <h3>비전과 멀티모달은 AI 영향력의 핵심 증폭기다</h3>
+          <p>ImageNet, ResNet, vision transformer, CLIP 계열 흐름은 시각 인식에서 언어·영상·로봇·의료 데이터까지 연결되는 표현학습 기반을 만들었다.</p>
+          <p class="insight-implication">시사점: 단일 modality benchmark보다 cross-modal grounding과 실제 데이터 변화에 대한 강건성이 중요하다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Generative AI</div>
+          <h3>생성 모델은 합성 미디어에서 설계 도구로 이동한다</h3>
+          <p>GAN, VAE, diffusion, text-to-image 흐름은 이미지 생성에 머물지 않고 데이터 증강, 시뮬레이션, 과학·의료·콘텐츠 제작 워크플로로 확장된다.</p>
+          <p class="insight-implication">시사점: 생성 품질과 함께 provenance, controllability, misuse risk를 같이 평가해야 한다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Agents And RL</div>
+          <h3>RL과 agents는 벤치마크에서 도구 사용으로 이동한다</h3>
+          <p>강화학습, planning, control, human feedback은 게임·로봇 문제를 넘어 LLM agent, tool use, embodied decision-making과 연결된다.</p>
+          <p class="insight-implication">시사점: agent 연구는 reward 설계보다 장기 안정성, 관찰 가능성, 실패 복구, human oversight가 핵심이다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Trustworthy AI</div>
+          <h3>신뢰성은 배포의 병목으로 남는다</h3>
+          <p>explainability, robustness, fairness, privacy, safety 연구는 성능 중심 논문 지형에 비해 규모는 작지만 실제 적용의 승인 조건을 결정한다.</p>
+          <p class="insight-implication">시사점: 높은 benchmark score는 calibration, uncertainty, auditability 없이는 충분한 배포 근거가 되지 않는다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">AI4Science</div>
+          <h3>AI4Science는 모델의 외부 타당성을 시험한다</h3>
+          <p>단백질, 분자, 의료, 로보틱스, 자율주행 연구는 AI 모델이 텍스트와 이미지 밖의 물리·생물학적 제약을 얼마나 잘 다루는지 검증한다.</p>
+          <p class="insight-implication">시사점: 향후 영향력은 leaderboard보다 실험 검증, 도메인 제약, 실패 비용을 반영하는 평가에서 갈린다.</p>
+        </article>
+      </div>
+    </section>
+"""
+
+
 def top_metadata_values(rows, key, limit=3):
     counts = Counter()
     for row in rows:
@@ -1700,6 +1751,7 @@ def write_site(selected):
     )
     sections = all_taxonomy_section(selected) + "".join(taxonomy_section(category, groups[category]) for category, _ in stats.most_common())
     keyword_html = site_keyword_convention_html()
+    research_overview = research_overview_html()
     year_script = f"""
   <script>
     (() => {{
@@ -1989,6 +2041,13 @@ def write_site(selected):
     .stat {{ background:white; border:1px solid var(--line); border-radius:8px; padding:16px; }}
     .stat strong {{ display:block; font-size:28px; color:var(--accent); }}
     .stat span {{ display:block; margin-top:8px; color:var(--muted); }}
+    .research-brief {{ margin:28px 0; padding:24px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }}
+    .timeline-copy {{ max-width:1080px; }}
+    .research-insights {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:12px; }}
+    .research-insights .insight-label {{ color:var(--accent); font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:0; }}
+    .research-insights .insight-box h3 {{ margin:6px 0 8px; font-size:17px; }}
+    .research-insights .insight-box p {{ margin:8px 0 0; }}
+    .insight-implication {{ color:var(--ink); font-weight:700; }}
     .filters {{ display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin:24px 0; padding:14px; background:white; border:1px solid var(--line); border-radius:8px; }}
     .filter-field {{ display:grid; gap:6px; }}
     .wide-field {{ min-width:min(100%,280px); }}
@@ -2081,6 +2140,7 @@ def write_site(selected):
       <button type="button" id="resetYears">Reset</button>
       <span id="rangeStatus"></span>
     </form>
+    {research_overview}
     <section class="keyword-section" id="keywords-convention">
       <h2>Keywords Convention</h2>
       <p>These clickable keyword tags define the AI-specific convention used to scan, filter, and extend this collection.</p>
