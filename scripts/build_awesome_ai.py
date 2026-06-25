@@ -33,6 +33,7 @@ CANDIDATES_JSON = f"candidates_top1000_{YEAR_FILE_STEM}.json"
 CANDIDATES_CSV = f"candidates_top1000_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
+GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
 
 CANDIDATES_PER_YEAR = 1000
 TARGET_PER_YEAR = 100
@@ -992,6 +993,49 @@ def select_papers_by_year(candidates_by_year):
     return selected, selected_by_year
 
 
+def title_key(value):
+    text = norm_text(value).lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_github_url(value):
+    text = norm_text(value)
+    match = re.search(r"https?://github\.com/[^\s<>\"')]+", text, flags=re.I)
+    if not match:
+        return ""
+    path = match.group(0).split("github.com/", 1)[1].rstrip(".,;")
+    return f"https://github.com/{path}"
+
+
+def load_github_links():
+    path = DATA_DIR / GITHUB_LINKS_JSON
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    links = {}
+    for key, value in payload.get("links", {}).items():
+        github_url = clean_github_url(value.get("githubUrl") if isinstance(value, dict) else value)
+        if github_url:
+            links[key] = {**value, "githubUrl": github_url} if isinstance(value, dict) else {"githubUrl": github_url}
+    return links
+
+
+def apply_github_links(rows):
+    links = load_github_links()
+    if not links:
+        return rows
+    for row in rows:
+        github_url = clean_github_url(row.get("githubUrl"))
+        if github_url:
+            row["githubUrl"] = github_url
+            continue
+        match = links.get(title_key(row.get("title")))
+        if match:
+            row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
+    return rows
+
+
 def reuse_existing_candidates():
     rows = []
     path = DATA_DIR / CANDIDATES_JSON
@@ -1046,6 +1090,9 @@ def write_csv(path, rows, fields):
 
 def write_data(selected, selected_by_year, candidates_by_year):
     DATA_DIR.mkdir(exist_ok=True)
+    apply_github_links(selected)
+    for rows in selected_by_year.values():
+        apply_github_links(rows)
     flat_candidates = [p for rows in candidates_by_year.values() for p in rows]
     metadata = {
         "topic": "AI research",
@@ -1100,6 +1147,7 @@ def write_data(selected, selected_by_year, candidates_by_year):
         "url",
         "semanticScholarUrl",
         "openAccessPdf",
+        "githubUrl",
         "doi",
         "arxiv",
         "pubmed",
@@ -1488,6 +1536,7 @@ def write_taxonomy_dataset(selected):
         "url",
         "semanticScholarUrl",
         "openAccessPdf",
+        "githubUrl",
         "doi",
         "arxiv",
         "pubmed",
@@ -1811,7 +1860,8 @@ def paper_card(paper, taxonomy_rank):
     semantic = f'<a href="{html.escape(paper["semanticScholarUrl"])}">Semantic Scholar</a>' if paper.get("semanticScholarUrl") else ""
     pdf = f'<a href="{html.escape(paper["openAccessPdf"])}">PDF</a>' if paper.get("openAccessPdf") else ""
     doi = f'<a href="{html.escape(paper["url"])}">Paper</a>' if paper.get("url") else ""
-    links = " ".join(x for x in (doi, semantic, pdf) if x)
+    github = f'<a href="{html.escape(paper["githubUrl"])}">GitHub</a>' if paper.get("githubUrl") else ""
+    links = " ".join(x for x in (doi, semantic, pdf, github) if x)
     return f"""
       <article class="paper-card" {html_attrs(paper)}>
         <div class="paper-rank">#{paper['rank']}</div>
@@ -1908,6 +1958,7 @@ def site_keyword_convention_html():
 
 
 def write_site(selected):
+    apply_github_links(selected)
     DOCS_DIR.mkdir(exist_ok=True)
     (DOCS_DIR / "data").mkdir(exist_ok=True)
     (DOCS_DIR / "paper").mkdir(exist_ok=True)
@@ -2674,6 +2725,8 @@ Taxonomy, key ideas, strengths, limitations, method tags, and keyword convention
 def copy_public_assets():
     for filename in (PAPERS_CSV, TAXONOMY_CSV, CANDIDATES_CSV, PERIOD_ANALYSIS_JSON):
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
+    if (DATA_DIR / GITHUB_LINKS_JSON).exists():
+        shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
     shutil.copyfile(PAPER_DIR / "curation_method.html", DOCS_DIR / "paper" / "curation_method.html")
