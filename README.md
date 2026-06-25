@@ -1,7 +1,14 @@
 # Awesome AI
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-[![Open Interactive Website](https://img.shields.io/badge/Open%20Interactive%20Website-GitHub%20Pages-0f766e)](https://honggi82.github.io/awesome-ai/)
+
+<p align="center">
+  <a href="https://honggi82.github.io/awesome-ai/">
+    <img src="https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--ai-0f766e?style=for-the-badge" alt="Open Interactive Website">
+  </a>
+</p>
+
+> Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-ai/
 
 A taxonomy-first, citation-ranked map of AI research from 2020 through 2026.
 
