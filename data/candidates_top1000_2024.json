@@ -13,7 +13,9 @@
       2026
     ],
     "candidate_pool_per_year": 1000,
-    "selected_total": 100,
+    "selected_per_year": 100,
+    "selected_total": 700,
+    "selection_scope": "top 100 papers per publication year by citation count",
     "ranking": "citationCount desc, influentialCitationCount desc",
     "queries": [
       "artificial intelligence",
@@ -65,7 +67,8 @@
       "keyIdea": "Modern artificial intelligence (AI) systems are powered by foundation models.",
       "strengths": "high citation signal (16,216); influential citation signal (3,038)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
-      "rank": 11
+      "rank": 11,
+      "yearRank": 1
     },
     {
       "paperId": "a22b23b65cdbc0335b872ed7c7a7206c710f8997",
@@ -97,7 +100,8 @@
       "keyIdea": "We present the Qwen2-VL Series, an advanced upgrade of the previous Qwen-VL models that redefines the conventional predetermined-resolution approach in visual processing.",
       "strengths": "high citation signal (4,318); influential citation signal (590)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
-      "rank": 61
+      "rank": 61,
+      "yearRank": 2
     },
     {
       "paperId": "88aa6b1f37d1fd8e0a40499ce9bb87873f03aaa8",
@@ -129,7 +133,8 @@
       "keyIdea": "In this report, we introduce Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs.",
       "strengths": "high citation signal (4,243); influential citation signal (582)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
-      "rank": 65
+      "rank": 65,
+      "yearRank": 3
     },
     {
       "paperId": "cf70392a3b1ae92fdb1b70448aaddcbd03726d3d",
@@ -161,7 +166,8 @@
       "keyIdea": "Today's deep learning methods focus on how to design the most appropriate objective functions so that the prediction results of the model can be closest to the ground truth.",
       "strengths": "high citation signal (3,870); influential citation signal (256)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
-      "rank": 77
+      "rank": 77,
+      "yearRank": 4
     },
     {
       "paperId": "c811bedbe8f4c21d0cba9f9175f7c2eb203284a7",
@@ -193,7 +199,8 @@
       "keyIdea": "duce the Gemini 1.5 family of models, representing the next generation of highly compute-efficient multimodal models capable of recalling and reasoning over fine-grained information from millions of tokens of context, including multiple long documents and hours of video and audio.",
       "strengths": "high citation signal (3,706); influential citation signal (806)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
-      "rank": 83
+      "rank": 83,
+      "yearRank": 5
     },
     {
       "paperId": "92a09cdfc19f3f582d89c28c1b4f386299cc69e1",
@@ -225,7 +232,8 @@
       "keyIdea": "We present Segment Anything Model 2 (SAM 2), a foundation model towards solving promptable visual segmentation in images and videos.",
       "strengths": "high citation signal (3,469); influential citation signal (504)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
-      "rank": 92
+      "rank": 92,
+      "yearRank": 6
     },
     {
       "paperId": "adccc00dbd0fe63e4e34bc3445a29bc2ec910cbc",
@@ -256,7 +264,9 @@
       "keywordTags": "vision",
       "keyIdea": "This study presents an architectural analysis of YOLOv11, the latest iteration in the YOLO (You Only Look Once) series of object detection models.",
       "strengths": "high citation signal (2,854); influential citation signal (222)",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 7,
+      "rank": 123
     },
     {
       "paperId": "b24e899ec0f77eef2fc87a9b8e50516367aa1f97",
@@ -287,7 +297,9 @@
       "keywordTags": "foundation-models; nlp; vision",
       "keyIdea": "Designing computationally efficient network architectures remains an ongoing necessity in computer vision.",
       "strengths": "high citation signal (2,430); influential citation signal (344)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 8,
+      "rank": 152
     },
     {
       "paperId": "54fb839f621e3fe787437ab8ca5f37e7e4726bfe",
@@ -318,7 +330,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; trustworthy-ai",
       "keyIdea": "This report introduces the Qwen2 series, the latest addition to our large language models and large multimodal models.",
       "strengths": "high citation signal (2,237); influential citation signal (268)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 9,
+      "rank": 176
     },
     {
       "paperId": "1b0f498d3d314d69850046574272404c52539302",
@@ -349,7 +363,9 @@
       "keywordTags": "graph-learning; ai4science",
       "keyIdea": "The TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) statement was published in 2015 to provide the minimum reporting recommendations for studies developing or evaluating the performance of a prediction model.",
       "strengths": "high citation signal (2,197); influential citation signal (57); open-access PDF metadata",
-      "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation."
+      "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
+      "yearRank": 10,
+      "rank": 179
     },
     {
       "paperId": "7e7e59d2e247d99954081080ddd5aae93d10b9e0",
@@ -380,7 +396,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; reinforcement-learning",
       "keyIdea": "Robot learning holds tremendous promise to unlock the full potential of flexible, general, and dexterous robot systems, as well as to address some of the deepest questions in artificial intelligence.",
       "strengths": "high citation signal (1,900); influential citation signal (365)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 11,
+      "rank": 216
     },
     {
       "paperId": "f2d0f3d47ae850f49a58f4977393bd0025af4bec",
@@ -411,7 +429,9 @@
       "keywordTags": "foundation-models; nlp; reinforcement-learning",
       "keyIdea": "Reinforcement Learning from Human Feedback (RLHF) is widely used in Large Language Model (LLM) alignment.",
       "strengths": "high citation signal (1,873); influential citation signal (146); open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 12,
+      "rank": 220
     },
     {
       "paperId": "8292083dd8f6ae898ea0ee54a6b97997d1a51c9d",
@@ -442,7 +462,9 @@
       "keywordTags": "foundation-models; nlp; reinforcement-learning",
       "keyIdea": "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language.",
       "strengths": "high citation signal (1,871); influential citation signal (135)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 13,
+      "rank": 221
     },
     {
       "paperId": "38c48a1cd296d16dc9c56717495d6e44cc354444",
@@ -473,7 +495,9 @@
       "keywordTags": "vision",
       "keyIdea": "Recently the state space models (SSMs) with efficient hardware-aware designs, i.e., the Mamba deep learning model, have shown great potential for long sequence modeling.",
       "strengths": "high citation signal (1,864); influential citation signal (195); recognized venue",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 14,
+      "rank": 223
     },
     {
       "paperId": "afea54c7f17f4fac0f71bebed6bc782ed69d8bd0",
@@ -504,7 +528,9 @@
       "keywordTags": "foundation-models; vision; trustworthy-ai",
       "keyIdea": "This work presents Depth Anything11While the grammatical soundness of this name may be questionable, we treat it as a whole and pay homage to Segment Anything [26]., a highly practical solution for robust monocular depth estimation.",
       "strengths": "high citation signal (1,863); influential citation signal (232); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 15,
+      "rank": 224
     },
     {
       "paperId": "1406bb4cb6801bc4767b661308118c888a9b09da",
@@ -535,7 +561,9 @@
       "keywordTags": "foundation-models; trustworthy-ai",
       "keyIdea": "In the age of large-scale language models, benchmarks like the Massive Multitask Language Understanding (MMLU) have been pivotal in pushing the boundaries of what AI can achieve in language comprehension and reasoning across diverse domains.",
       "strengths": "high citation signal (1,788); influential citation signal (203)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 16,
+      "rank": 240
     },
     {
       "paperId": "d5d7b26dbdf09737878644530b226a79c9f43bfb",
@@ -566,7 +594,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks.",
       "strengths": "high citation signal (1,737); influential citation signal (72)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 17,
+      "rank": 256
     },
     {
       "paperId": "1f2a20a6efaf83214861dddae4a38a83ae18fe32",
@@ -597,7 +627,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "The rapid development of large language models has revolutionized code intelligence in software development.",
       "strengths": "high citation signal (1,699); influential citation signal (249)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 18,
+      "rank": 264
     },
     {
       "paperId": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
@@ -628,7 +660,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "Large Language Models (LLMs) applied to code-related applications have emerged as a prominent field, attracting significant interest from both academia and industry.",
       "strengths": "high citation signal (1,693); influential citation signal (273)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 19,
+      "rank": 266
     },
     {
       "paperId": "c1799bf28d1ae93e1631be5b59196ee1e568f538",
@@ -659,7 +693,9 @@
       "keywordTags": "foundation-models; nlp; graph-learning",
       "keyIdea": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections.",
       "strengths": "high citation signal (1,614); influential citation signal (234)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 20,
+      "rank": 285
     },
     {
       "paperId": "c3c01a94e04d8d6e3f3e2a501467cb1f77da76af",
@@ -690,7 +726,9 @@
       "keywordTags": "vision",
       "keyIdea": "In recent years, the You Only Look Once (YOLO) series of object detection algorithms have garnered significant attention for their speed and accuracy in real-time applications.",
       "strengths": "high citation signal (1,605); influential citation signal (72)",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 21,
+      "rank": 290
     },
     {
       "paperId": "ca9f5b3bf0f54ad97513e6175b30497873670fed",
@@ -721,7 +759,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "While Transformers have been the main architecture behind deep learning's success in language modeling, state-space models (SSMs) such as Mamba have recently been shown to match or outperform Transformers at small to medium scale.",
       "strengths": "high citation signal (1,603); influential citation signal (277); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 22,
+      "rank": 292
     },
     {
       "paperId": "c7f9706898bdfa3241601e075b1305649b174ff1",
@@ -752,7 +792,9 @@
       "keywordTags": "foundation-models; generative-ai; nlp; vision; reinforcement-learning",
       "keyIdea": "We introduce ChatGLM, an evolving family of large language models that we have been developing over time.",
       "strengths": "high citation signal (1,585); influential citation signal (173)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 23,
+      "rank": 298
     },
     {
       "paperId": "5f49ec9560ca9e03eff32a607f6caabc08f98926",
@@ -783,7 +825,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; vision",
       "keyIdea": "We introduce InternVL 2.5, an advanced multimodal large language model (MLLM) series that builds upon InternVL 2.0, maintaining its core model architecture while introducing significant enhancements in training and testing strategies as well as data quality.",
       "strengths": "high citation signal (1,536); influential citation signal (255)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 24,
+      "rank": 311
     },
     {
       "paperId": "cac496ddebbff6bbba78242780cde01bd962bfc9",
@@ -814,7 +858,9 @@
       "keywordTags": "foundation-models; vision; ai4science",
       "keyIdea": "Quantitative evaluation of tissue images is crucial for computational pathology (CPath) tasks, requiring the objective characterization of histopathological entities from whole-slide images (WSIs).",
       "strengths": "high citation signal (1,491); influential citation signal (190); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 25,
+      "rank": 329
     },
     {
       "paperId": "e24424283c02fbe7f641e5b3490d7bb059f8355a",
@@ -845,7 +891,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "Accurate and consistent evaluation is crucial for decision-making across numerous fields, yet it remains a challenging task due to inherent subjectivity, variability, and scale.",
       "strengths": "high citation signal (1,451); influential citation signal (120)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 26,
+      "rank": 341
     },
     {
       "paperId": "1fa298e3f745099d39ca5bd088fcb62f87e8cc2f",
@@ -876,7 +924,9 @@
       "keywordTags": "foundation-models; generative-ai; nlp; vision",
       "keyIdea": "Recent advancements in video generation have significantly impacted daily life for both individuals and industries.",
       "strengths": "high citation signal (1,381); influential citation signal (231)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 27,
+      "rank": 365
     },
     {
       "paperId": "ad2f4f35aef9cc66d756a9a846136a7d38f9f664",
@@ -907,7 +957,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "Abstract The PRoteomics IDEntifications (PRIDE) database (https://www.ebi.ac.uk/pride/) is the world’s leading mass spectrometry (MS)-based proteomics data repository and one of the founding members of the ProteomeXchange consortium.",
       "strengths": "high citation signal (1,357); influential citation signal (29); open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 28,
+      "rank": 373
     },
     {
       "paperId": "f82f49c20c6acc69f884f05e3a9f1ceea91061ce",
@@ -938,7 +990,9 @@
       "keywordTags": "foundation-models; nlp; reinforcement-learning; trustworthy-ai; ai4science",
       "keyIdea": "Large language model (LLM) systems, such as ChatGPT1 or Gemini2, can show impressive reasoning and question-answering capabilities but often ‘hallucinate’ false outputs and unsubstantiated answers3,4.",
       "strengths": "high citation signal (1,337); influential citation signal (140); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 29,
+      "rank": 380
     },
     {
       "paperId": "53f4fb0e9972989194368faf288ff8e3cba5bd60",
@@ -969,7 +1023,9 @@
       "keywordTags": "foundation-models; trustworthy-ai",
       "keyIdea": "Large Language Models (LLMs) have unlocked new capabilities and applications; however, evaluating the alignment with human preferences still poses significant challenges.",
       "strengths": "high citation signal (1,328); influential citation signal (189); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 30,
+      "rank": 385
     },
     {
       "paperId": "61ec7be824db60d4e40385c17ef5aab40f831195",
@@ -1000,7 +1056,9 @@
       "keywordTags": "trustworthy-ai; ai4science",
       "keyIdea": "Prediction for loss of life transfomer is very important to ensure the reliability and efficiency of the power system.",
       "strengths": "high citation signal (1,319); recognized venue; open-access PDF metadata",
-      "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings."
+      "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
+      "yearRank": 31,
+      "rank": 388
     },
     {
       "paperId": "22552dd0e7789f175a302055f06444a12e22b652",
@@ -1031,7 +1089,9 @@
       "keywordTags": "foundation-models; multimodal; vision; trustworthy-ai",
       "keyIdea": "In the quest for artificial general intelligence, Multi-modal Large Language Models (MLLMs) have emerged as a focal point in recent advancements.",
       "strengths": "high citation signal (1,309); influential citation signal (249); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 32,
+      "rank": 390
     },
     {
       "paperId": "53a803388e83ae89261624099d7be4287ace67cb",
@@ -1062,7 +1122,9 @@
       "keywordTags": "foundation-models; nlp; reinforcement-learning",
       "keyIdea": "We present DeepSeek-V2, a strong Mixture-of-Experts (MoE) language model characterized by economical training and efficient inference.",
       "strengths": "high citation signal (1,253); influential citation signal (124)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 33,
+      "rank": 395
     },
     {
       "paperId": "b82ccc66c14f531a444c74d2a9a9d86a86a8be99",
@@ -1093,7 +1155,9 @@
       "keywordTags": "foundation-models; trustworthy-ai",
       "keyIdea": "Automated red teaming holds substantial promise for uncovering and mitigating the risks associated with the malicious use of large language models (LLMs), yet the field lacks a standardized evaluation framework to rigorously assess new methods.",
       "strengths": "high citation signal (1,230); influential citation signal (292); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 34,
+      "rank": 399
     },
     {
       "paperId": "a509670659e8b054e2b7d1b6f8a0bc722398fa62",
@@ -1124,7 +1188,9 @@
       "keywordTags": "trustworthy-ai",
       "keyIdea": "This paper introduces two extensions to the popular PyTorch machine learning framework, TorchDynamo and TorchInductor, which implement the torch.compile feature released in PyTorch 2.",
       "strengths": "high citation signal (1,215); influential citation signal (150)",
-      "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings."
+      "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
+      "yearRank": 35,
+      "rank": 403
     },
     {
       "paperId": "887306ee7ebd9eebd7faea24106ec8e8f1a50987",
@@ -1155,7 +1221,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; vision; ai4science",
       "keyIdea": "In this paper, we introduce InternVL 1.5, an open-source multimodal large language model (MLLM) to bridge the capability gap between open-source and proprietary commercial models in multimodal understanding.",
       "strengths": "high citation signal (1,201); influential citation signal (184); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 36,
+      "rank": 411
     },
     {
       "paperId": "bd0fae435b93819d407f36d9d52565d5dfb5f87c",
@@ -1186,7 +1254,9 @@
       "keywordTags": "foundation-models; multimodal; vision; trustworthy-ai",
       "keyIdea": "The recent surge of Multimodal Large Language Models (MLLMs) has fundamentally reshaped the landscape of AI research and industry, shedding light on a promising path toward the next AI milestone.",
       "strengths": "high citation signal (1,157); influential citation signal (234)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 37,
+      "rank": 419
     },
     {
       "paperId": "bcf2c7e3f4ed64c8294c35a59220a26dd4f40060",
@@ -1217,7 +1287,9 @@
       "keywordTags": "foundation-models; multimodal",
       "keyIdea": "Recent advancements have seen Large Language Models (LLMs) and Large Multimodal Models (LMMs) surpassing general human capabilities in various tasks, approaching the proficiency level of human experts across multiple domains.",
       "strengths": "high citation signal (1,142); influential citation signal (135)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 38,
+      "rank": 421
     },
     {
       "paperId": "4a2b5058000d567036fc9aaad75bbf71cce53002",
@@ -1248,7 +1320,9 @@
       "keywordTags": "nlp; vision",
       "keyIdea": "Research on different machine learning (ML) has become incredibly popular during the past few decades.",
       "strengths": "high citation signal (1,128); influential citation signal (58); open-access PDF metadata",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 39,
+      "rank": 423
     },
     {
       "paperId": "13dc81fce2c73de67dbe3829a32ec23d663cec89",
@@ -1279,7 +1353,9 @@
       "keywordTags": "foundation-models; generative-ai; vision; ai4science",
       "keyIdea": "Generative pretrained models have achieved remarkable success in various domains such as language and computer vision.",
       "strengths": "high citation signal (1,097); influential citation signal (100); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 40,
+      "rank": 430
     },
     {
       "paperId": "81e8666325b02b1287d4fdcf33232c74e7144f9a",
@@ -1310,7 +1386,9 @@
       "keywordTags": "generative-ai; nlp; ai4science",
       "keyIdea": "The growing integration of artificial intelligence (AI) dialogue systems within educational and research settings highlights the importance of learning aids.",
       "strengths": "high citation signal (1,070); influential citation signal (42); open-access PDF metadata",
-      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs."
+      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
+      "yearRank": 41,
+      "rank": 435
     },
     {
       "paperId": "9fb201282f53a4ce89f28cbe5026af78912aa8c1",
@@ -1341,7 +1419,9 @@
       "keywordTags": "foundation-models; reinforcement-learning",
       "keyIdea": "In this report, we present a series of math-specific large language models: Qwen2.5-Math and Qwen2.5-Math-Instruct-1.5B/7B/72B.",
       "strengths": "high citation signal (1,006); influential citation signal (93)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 42,
+      "rank": 453
     },
     {
       "paperId": "ac5824e9ff924a937d9eef379d0b581de2417678",
@@ -1372,7 +1452,9 @@
       "keywordTags": "generative-ai",
       "keyIdea": "The needle-in-a-haystack (NIAH) test, which examines the ability to retrieve a piece of information (the\"needle\") from long distractor texts (the\"haystack\"), has been widely adopted to evaluate long-context language models (LMs).",
       "strengths": "high citation signal (1,000); influential citation signal (244)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 43,
+      "rank": 456
     },
     {
       "paperId": "a1f76db91c0debcf93ae9889736bce8470902113",
@@ -1403,7 +1485,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "Large Language Models (LLMs) have drawn a lot of attention due to their strong performance on a wide range of natural language tasks, since the release of ChatGPT in November 2022.",
       "strengths": "high citation signal (997); influential citation signal (44)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 44,
+      "rank": 457
     },
     {
       "paperId": "a052d88ba5e144bb86ffcd8656b40e4a7e05b7f8",
@@ -1434,7 +1518,9 @@
       "keywordTags": "trustworthy-ai",
       "keyIdea": "This guide explains the focus, rigor, and relevance of qualitative research, highlighting its role in dissecting complex social phenomena and providing in-depth, human-centered insights.",
       "strengths": "high citation signal (993); influential citation signal (15)",
-      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs."
+      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
+      "yearRank": 45,
+      "rank": 458
     },
     {
       "paperId": "9472e198f790cb396c088c8e98bd4c5f5134cf62",
@@ -1465,7 +1551,9 @@
       "keywordTags": "foundation-models; generative-ai; nlp; trustworthy-ai; ai4science",
       "keyIdea": "Comprehensive clinical documentation is crucial for effective healthcare delivery, yet it poses a significant burden on healthcare professionals, leading to burnout, increased medical errors, and compromised patient safety.",
       "strengths": "high citation signal (985); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 46,
+      "rank": 459
     },
     {
       "paperId": "c8b18682965ff9dccc0130dab3d679f78cefa617",
@@ -1496,7 +1584,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "Large Language Models (LLMs) have garnered remarkable advancements across diverse code-related tasks, known as Code LLMs, particularly in code generation that generates source code with LLM from natural language descriptions.",
       "strengths": "high citation signal (977); influential citation signal (39)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 47,
+      "rank": 460
     },
     {
       "paperId": "8f070e301979732e0dd73f6aa6170309cf73aa7d",
@@ -1527,7 +1617,9 @@
       "keywordTags": "foundation-models; nlp; reinforcement-learning",
       "keyIdea": "Large Language Models (LLMs) have achieved remarkable success across a wide array of tasks.",
       "strengths": "high citation signal (976); influential citation signal (48); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 48,
+      "rank": 461
     },
     {
       "paperId": "0746410e1250576cc1b9621ef602e4bceb1c07ca",
@@ -1558,7 +1650,9 @@
       "keywordTags": "foundation-models; generative-ai; nlp; vision; trustworthy-ai; ai4science",
       "keyIdea": "The accelerated adoption of digital pathology and advances in deep learning have enabled the development of robust models for various pathology tasks across a diverse array of diseases and patient cohorts.",
       "strengths": "high citation signal (961); influential citation signal (119); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 49,
+      "rank": 463
     },
     {
       "paperId": "ad06c8a5fd292af518f878c7ced132b61739cdd8",
@@ -1589,7 +1683,9 @@
       "keywordTags": "vision",
       "keyIdea": "In computer vision, a series of exemplary advances have been made in several areas involving image classification, semantic segmentation, object detection, and image super-resolution reconstruction with the rapid development of deep convolutional neural network (CNN).",
       "strengths": "high citation signal (943); influential citation signal (22); recognized venue; open-access PDF metadata",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 50,
+      "rank": 467
     },
     {
       "paperId": "b83a9e35c3aeeb37708e362473c7617d59b815b5",
@@ -1620,7 +1716,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "The performance of a large language model (LLM) depends heavily on the quality and size of its pretraining dataset.",
       "strengths": "high citation signal (942); influential citation signal (145)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 51,
+      "rank": 468
     },
     {
       "paperId": "3b6d06cad165e6e886fa69a86af54e02218c3b53",
@@ -1651,7 +1749,9 @@
       "keywordTags": "reinforcement-learning; ai4science",
       "keyIdea": "Climaate prediction plays a vital role in various sectors, including agriculture, disaster management, and urban planning.",
       "strengths": "high citation signal (941); recognized venue; open-access PDF metadata",
-      "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight."
+      "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
+      "yearRank": 52,
+      "rank": 469
     },
     {
       "paperId": "f64446de8b1e7d487dd1b837b5a97835e978e7b9",
@@ -1682,7 +1782,9 @@
       "keywordTags": "trustworthy-ai; ai4science",
       "keyIdea": "Within the scope of the research, we put forward a technique of exactly confirming the distinctiveness of agricultural leaf pathologies with the assist of deep mastering algorithms and switch getting to know generation.",
       "strengths": "high citation signal (931); recognized venue; open-access PDF metadata",
-      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs."
+      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
+      "yearRank": 53,
+      "rank": 470
     },
     {
       "paperId": "eb9c4a07a336e8deefe7b399c550d3af0241238e",
@@ -1713,7 +1815,9 @@
       "keywordTags": "foundation-models; generative-ai; graph-learning",
       "keyIdea": "As one of the most advanced techniques in AI, Retrieval-Augmented Generation (RAG) can offer reliable and up-to-date external knowledge, providing huge convenience for numerous tasks.",
       "strengths": "high citation signal (928); influential citation signal (21)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 54,
+      "rank": 471
     },
     {
       "paperId": "0d2c38b39f73003ec23ee3e2382e319e20bd5d18",
@@ -1744,7 +1848,9 @@
       "keywordTags": "vision; ai4science",
       "keyIdea": "Fruit diseases play a major role in global agriculture, leading to substantial crop losses and influencing food production and economic stability.",
       "strengths": "high citation signal (927); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 55,
+      "rank": 472
     },
     {
       "paperId": "16d6e1ed1cf72212f6154644f3aa59d18bc95fda",
@@ -1775,7 +1881,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "In the era of large language models, Mixture-of-Experts (MoE) is a promising architecture for managing computational costs when scaling up model parameters.",
       "strengths": "high citation signal (900); influential citation signal (106)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 56,
+      "rank": 474
     },
     {
       "paperId": "31d2ccff82e313eb5c1620c44bb8322da4a38513",
@@ -1806,7 +1914,9 @@
       "keywordTags": "foundation-models; multimodal; nlp",
       "keyIdea": "Prompt engineering has emerged as an indispensable technique for extending the capabilities of large language models (LLMs) and vision-language models (VLMs).",
       "strengths": "high citation signal (899); influential citation signal (33)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 57,
+      "rank": 475
     },
     {
       "paperId": "37c112454a236ab91c9c6b5cc165a6c3251e9206",
@@ -1837,7 +1947,9 @@
       "keywordTags": "multimodal; nlp; vision",
       "keyIdea": "The You Only Look Once (YOLO) series of detectors have established themselves as efficient and practical tools.",
       "strengths": "high citation signal (896); influential citation signal (115); recognized venue; open-access PDF metadata",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 58,
+      "rank": 477
     },
     {
       "paperId": "5b3969e0404b96524e03ddbbae6ac10e3357dc75",
@@ -1868,7 +1980,9 @@
       "keywordTags": "foundation-models; vision",
       "keyIdea": "Digital pathology poses unique computational challenges, as a standard gigapixel slide may comprise tens of thousands of image tiles1–3.",
       "strengths": "high citation signal (875); influential citation signal (91); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 59,
+      "rank": 478
     },
     {
       "paperId": "32112b798f70faab00e14806f51d46058cf5e597",
@@ -1899,7 +2013,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; vision",
       "keyIdea": "We present Chameleon, a family of early-fusion token-based mixed-modal models capable of understanding and generating images and text in any arbitrary sequence.",
       "strengths": "high citation signal (869); influential citation signal (105)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 60,
+      "rank": 479
     },
     {
       "paperId": "33161a5a9b5dcb635b5a97475e6a6209a69ada7d",
@@ -1930,7 +2046,9 @@
       "keywordTags": "foundation-models; generative-ai",
       "keyIdea": "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge.",
       "strengths": "high citation signal (869); influential citation signal (80)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 61,
+      "rank": 480
     },
     {
       "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
@@ -1961,7 +2079,9 @@
       "keywordTags": "multimodal; vision",
       "keyIdea": "We introduce Cambrian-1, a family of multimodal LLMs (MLLMs) designed with a vision-centric approach.",
       "strengths": "high citation signal (860); influential citation signal (140)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 62,
+      "rank": 481
     },
     {
       "paperId": "c0b454e0a6aa51ff3ba56778787d0c43932ef6ba",
@@ -1992,7 +2112,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; vision",
       "keyIdea": "We introduce the Yi model family, a series of language and multimodal models that demonstrate strong multi-dimensional capabilities.",
       "strengths": "high citation signal (849); influential citation signal (76)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 63,
+      "rank": 483
     },
     {
       "paperId": "b3954728823a82d6bc45ce2921ccb71c10406480",
@@ -2023,7 +2145,9 @@
       "keywordTags": "trustworthy-ai",
       "keyIdea": "Christoph Molnar. 2020. Interpretable Machine Learning: A Guide for Making Black Box Models Explainable, Lulu.com, pp.",
       "strengths": "high citation signal (846); influential citation signal (80)",
-      "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings."
+      "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
+      "yearRank": 64,
+      "rank": 484
     },
     {
       "paperId": "8a9e11addba791860a9dbf15de75cc28d2cf844c",
@@ -2054,7 +2178,9 @@
       "keywordTags": "foundation-models; multimodal; vision",
       "keyIdea": "Large vision-language models (LVLMs) have recently achieved rapid progress, sparking numerous studies to evaluate their multi-modal capabilities.",
       "strengths": "high citation signal (844); influential citation signal (142)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 65,
+      "rank": 485
     },
     {
       "paperId": "b767c165e7e9621c38c98c247856087f76e9f340",
@@ -2085,7 +2211,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "The present discussion examines the transformative impact of Artificial Intelligence (AI) in educational settings, focusing on the necessity for AI literacy, prompt engineering proficiency, and enhanced critical thinking skills.",
       "strengths": "high citation signal (830); influential citation signal (43); open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 66,
+      "rank": 486
     },
     {
       "paperId": "603d3f90fc40f79ff51258f0295de3ec5107f73e",
@@ -2116,7 +2244,9 @@
       "keywordTags": "foundation-models; generative-ai; nlp; vision",
       "keyIdea": "Stable diffusion revolutionized image creation from descriptive text.",
       "strengths": "high citation signal (828); influential citation signal (51); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 67,
+      "rank": 487
     },
     {
       "paperId": "b14e5138d4d1f3577b2390541dc7b730a41bb651",
@@ -2147,7 +2277,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; vision; trustworthy-ai",
       "keyIdea": "We present DeepSeek-VL, an open-source Vision-Language (VL) Model designed for real-world vision and language understanding applications.",
       "strengths": "high citation signal (825); influential citation signal (90)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 68,
+      "rank": 488
     },
     {
       "paperId": "02fa77e4f355198cb4270f6d4a07517bf09c46dd",
@@ -2178,7 +2310,9 @@
       "keywordTags": "foundation-models; generative-ai; nlp",
       "keyIdea": "We introduce Chronos, a simple yet effective framework for pretrained probabilistic time series models.",
       "strengths": "high citation signal (796); influential citation signal (163)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 69,
+      "rank": 489
     },
     {
       "paperId": "de0cd1cb27ab7a8774b61cb0ee7d6795cb99c690",
@@ -2209,7 +2343,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "We study the use and economic impact of AI technologies among U.S.",
       "strengths": "high citation signal (783); influential citation signal (21); open-access PDF metadata",
-      "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details."
+      "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
+      "yearRank": 70,
+      "rank": 490
     },
     {
       "paperId": "88f9af8b0a28e14c42d4f70ce2d911b51a06cd16",
@@ -2240,7 +2376,9 @@
       "keywordTags": "foundation-models; trustworthy-ai",
       "keyIdea": "Conversational large language models are fine-tuned for both instruction-following and safety, resulting in models that obey benign requests but refuse harmful ones.",
       "strengths": "high citation signal (773); influential citation signal (156)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 71,
+      "rank": 491
     },
     {
       "paperId": "c6dd31c40836d616b50feab17aff569591c4262e",
@@ -2271,7 +2409,9 @@
       "keywordTags": "foundation-models; multimodal; nlp; vision",
       "keyIdea": "In this paper, we present the VideoLLaMA 2, a set of Video Large Language Models (Video-LLMs) designed to enhance spatial-temporal modeling and audio understanding in video and audio-oriented tasks.",
       "strengths": "high citation signal (771); influential citation signal (145)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 72,
+      "rank": 492
     },
     {
       "paperId": "7260442ef9c0448f07ce3803efd49cebaffcebe9",
@@ -2302,7 +2442,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "The rapid development of open-source large language models (LLMs) has been truly remarkable.",
       "strengths": "high citation signal (768); influential citation signal (69)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 73,
+      "rank": 493
     },
     {
       "paperId": "ca00f4056f9039d3c1a4c3a113f5ee0527149b66",
@@ -2333,7 +2475,9 @@
       "keywordTags": "foundation-models; multimodal; vision",
       "keyIdea": "Is vision good enough for language? Recent advancements in multimodal models primarily stem from the powerful reasoning abilities of large language models (LLMs).",
       "strengths": "high citation signal (767); influential citation signal (97); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 74,
+      "rank": 494
     },
     {
       "paperId": "a21ab8824cdba6f16324e93efc15551445ed34b6",
@@ -2364,7 +2508,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "Positions Artificial intelligence in education: A systematic literature review within General AI Methods and Systems.",
       "strengths": "high citation signal (755); influential citation signal (45); open-access PDF metadata",
-      "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details."
+      "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
+      "yearRank": 75,
+      "rank": 496
     },
     {
       "paperId": "57e7af0b69325fafb371ef5d502e39ef9c90ef7e",
@@ -2395,7 +2541,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "Large Language Models (LLMs) employ auto-regressive decoding that requires sequential computation, with each step reliant on the previous one's output.",
       "strengths": "high citation signal (753); influential citation signal (147); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 76,
+      "rank": 497
     },
     {
       "paperId": "cafe66a9bdcef9ec43c91d57ece9087203b0a0e3",
@@ -2426,7 +2574,9 @@
       "keywordTags": "reinforcement-learning",
       "keyIdea": "Reinforcement Learning (RL) is a continuously growing field that has the potential to revolutionize many areas of artificial intelligence.",
       "strengths": "high citation signal (737); influential citation signal (54)",
-      "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight."
+      "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
+      "yearRank": 77,
+      "rank": 498
     },
     {
       "paperId": "b15e6e2b1d81bc110f8fc98c3caf2e25e2512539",
@@ -2457,7 +2607,9 @@
       "keywordTags": "foundation-models; generative-ai; multimodal; nlp; vision",
       "keyIdea": "We introduce LlamaGen, a new family of image generation models that apply original ``next-token prediction'' paradigm of large language models to visual generation domain.",
       "strengths": "high citation signal (733); influential citation signal (167)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 78,
+      "rank": 499
     },
     {
       "paperId": "49873ee415619efd9e1e4c16f73ee066ff008c1f",
@@ -2488,7 +2640,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "The burgeoning interest in developing Large Language Models (LLMs) with up to trillion parameters has been met with concerns regarding resource efficiency and practical expense, particularly given the immense cost of experimentation.",
       "strengths": "high citation signal (726); influential citation signal (78)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 79,
+      "rank": 500
     },
     {
       "paperId": "6a7c29829227bfd65ae0ffec294a874bb9ea0871",
@@ -2519,7 +2673,9 @@
       "keywordTags": "foundation-models; nlp; reinforcement-learning; trustworthy-ai",
       "keyIdea": "Language model post-training is applied to refine behaviors and unlock new skills across a wide range of recent language models, but open recipes for applying these techniques lag behind proprietary ones.",
       "strengths": "high citation signal (725); influential citation signal (86)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 80,
+      "rank": 501
     },
     {
       "paperId": "1d07e5b6f978cf69c0186f3d5f434fa92d471e46",
@@ -2550,7 +2706,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "Software is one of the most powerful tools that we humans have at our disposal; it allows a skilled programmer to interact with the world in complex and profound ways.",
       "strengths": "high citation signal (713); influential citation signal (80)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 81,
+      "rank": 503
     },
     {
       "paperId": "3281d5a46c9de4f7d80c28f58f3aea03e445bd0a",
@@ -2581,7 +2739,9 @@
       "keywordTags": "generative-ai; multimodal; nlp; vision",
       "keyIdea": "While next-token prediction is considered a promising path towards artificial general intelligence, it has struggled to excel in multimodal tasks, which are still dominated by diffusion models (e.g., Stable Diffusion) and compositional approaches (e.g., CLIP combined with LLMs).",
       "strengths": "high citation signal (707); influential citation signal (61)",
-      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce."
+      "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
+      "yearRank": 82,
+      "rank": 504
     },
     {
       "paperId": "5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8",
@@ -2612,7 +2772,9 @@
       "keywordTags": "foundation-models; nlp; vision",
       "keyIdea": "We introduce a novel 3D generation method for versatile and high-quality 3D asset creation.",
       "strengths": "high citation signal (704); influential citation signal (197); recognized venue",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 83,
+      "rank": 505
     },
     {
       "paperId": "c181d9e2e488d3e4a78f67e9e8884565f3c7051e",
@@ -2643,7 +2805,9 @@
       "keywordTags": "generative-ai; nlp; ai4science",
       "keyIdea": "In the field of natural language processing, the task of writing long concepts into short expressions has attracted attention due to its ability to simplify the processing and understanding of information.",
       "strengths": "high citation signal (703); recognized venue; open-access PDF metadata",
-      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs."
+      "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
+      "yearRank": 84,
+      "rank": 506
     },
     {
       "paperId": "19f6ed24abf591c4c592cf52106e7b8248df7155",
@@ -2674,7 +2838,9 @@
       "keywordTags": "generative-ai; trustworthy-ai; ai4science",
       "keyIdea": "Advancements in face synthesis technology have enabled innovative methods for modeling facial aging.",
       "strengths": "high citation signal (702); recognized venue; open-access PDF metadata",
-      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult."
+      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
+      "yearRank": 85,
+      "rank": 507
     },
     {
       "paperId": "72f77a393079431e4207b3afe678ee80b420e6f8",
@@ -2705,7 +2871,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "DistServe improves the performance of large language models (LLMs) serving by disaggregating the prefill and decoding computation.",
       "strengths": "high citation signal (699); influential citation signal (124)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 86,
+      "rank": 508
     },
     {
       "paperId": "14969de024c6e2e396fae835d737602733d9418a",
@@ -2736,7 +2904,9 @@
       "keywordTags": "generative-ai; nlp; vision",
       "keyIdea": "Vision and language are the two foundational senses for humans, and they build up our cognitive ability and intelligence.",
       "strengths": "high citation signal (692); influential citation signal (66)",
-      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult."
+      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
+      "yearRank": 87,
+      "rank": 509
     },
     {
       "paperId": "1784c987e681d60c634765fe64c8d9c26f73d5ff",
@@ -2767,7 +2937,9 @@
       "keywordTags": "foundation-models; trustworthy-ai",
       "keyIdea": "Large Language Models (LLMs) have made remarkable progress in processing extensive contexts, with the Key-Value (KV) cache playing a vital role in enhancing their performance.",
       "strengths": "high citation signal (688); influential citation signal (149)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 88,
+      "rank": 510
     },
     {
       "paperId": "5d4a6ce39cfe7bfc6305cba86464efff8bc20c97",
@@ -2798,7 +2970,9 @@
       "keywordTags": "foundation-models; nlp; ai4science",
       "keyIdea": "Large Language Models (LLMs) recently demonstrated extraordinary capability in various natural language processing (NLP) tasks including language translation, text generation, question answering, etc.",
       "strengths": "high citation signal (683); influential citation signal (30); open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 89,
+      "rank": 511
     },
     {
       "paperId": "a779f5dd28c8aaab0e1bdceeb6700f17d655c0a4",
@@ -2829,7 +3003,9 @@
       "keywordTags": "nlp; vision; trustworthy-ai; ai4science",
       "keyIdea": "As healthcare systems around the world face challenges such as escalating costs, limited access, and growing demand for personalized care, artificial intelligence (AI) is emerging as a key force for transformation.",
       "strengths": "high citation signal (683); influential citation signal (20); open-access PDF metadata",
-      "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation."
+      "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
+      "yearRank": 90,
+      "rank": 512
     },
     {
       "paperId": "9dc337bd18bc0201839942931b12aff8ec1c93f5",
@@ -2860,7 +3036,9 @@
       "keywordTags": "foundation-models; generative-ai; multimodal; nlp; vision",
       "keyIdea": "We present a unified transformer, i.e., Show-o, that unifies multimodal understanding and generation.",
       "strengths": "high citation signal (678); influential citation signal (60)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 91,
+      "rank": 513
     },
     {
       "paperId": "41ba8127b73abd32051a89764cb976095b1dee94",
@@ -2891,7 +3069,9 @@
       "keywordTags": "foundation-models; generative-ai; multimodal; reinforcement-learning; ai4science",
       "keyIdea": "Bimanual manipulation is essential in robotics, yet developing foundation models is extremely challenging due to the inherent complexity of coordinating two robot arms (leading to multi-modal action distributions) and the scarcity of training data.",
       "strengths": "high citation signal (673); influential citation signal (67)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 92,
+      "rank": 515
     },
     {
       "paperId": "18e7ab056c16928d8f9539509a4b366889106d97",
@@ -2922,7 +3102,9 @@
       "keywordTags": "foundation-models; trustworthy-ai",
       "keyIdea": "The BigCode project, an open-scientific collaboration focused on the responsible development of Large Language Models for Code (Code LLMs), introduces StarCoder2.",
       "strengths": "high citation signal (667); influential citation signal (80)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 93,
+      "rank": 516
     },
     {
       "paperId": "6d017adda6b2b1ea627dde2f0e85401ebb9fe566",
@@ -2953,7 +3135,9 @@
       "keywordTags": "foundation-models; multimodal; vision",
       "keyIdea": "The remarkable progress of Multi-modal Large Language Models (MLLMs) has garnered unparalleled attention, due to their superior performance in visual contexts.",
       "strengths": "high citation signal (666); influential citation signal (57)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 94,
+      "rank": 517
     },
     {
       "paperId": "fcf75f759b6df9312d66267229f74ecd3979ead5",
@@ -2984,7 +3168,9 @@
       "keywordTags": "trustworthy-ai",
       "keyIdea": "Accurate state-of-health (SOH) estimation is critical for reliable and safe operation of lithium-ion batteries.",
       "strengths": "high citation signal (659); influential citation signal (13); recognized venue; open-access PDF metadata",
-      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult."
+      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
+      "yearRank": 95,
+      "rank": 518
     },
     {
       "paperId": "732ce53c573475f2691a7cfc716cf4f568d17360",
@@ -3015,7 +3201,9 @@
       "keywordTags": "foundation-models; trustworthy-ai; ai4science",
       "keyIdea": "Most traditional AI safety research has approached AI models as machines and centered on algorithm-focused attacks developed by security experts.",
       "strengths": "high citation signal (645); influential citation signal (75)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 96,
+      "rank": 520
     },
     {
       "paperId": "c064de2c71ebc5cf05493f49dc312b033c36b3b9",
@@ -3046,7 +3234,9 @@
       "keywordTags": "generative-ai; nlp; vision",
       "keyIdea": "We introduce Genie, the first generative interactive environment trained in an unsupervised manner from unlabelled Internet videos.",
       "strengths": "high citation signal (629); influential citation signal (53); recognized venue",
-      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult."
+      "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
+      "yearRank": 97,
+      "rank": 522
     },
     {
       "paperId": "e2a6ffba64331989858e5078bfb8277343aa90bd",
@@ -3077,7 +3267,9 @@
       "keywordTags": "foundation-models",
       "keyIdea": "In the 1990s, the constant error carousel and gating were introduced as the central ideas of the Long Short-Term Memory (LSTM).",
       "strengths": "high citation signal (620); influential citation signal (59)",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 98,
+      "rank": 523
     },
     {
       "paperId": "0e8297549b4ec852ce8fd55dee9ae21501805af2",
@@ -3108,7 +3300,9 @@
       "keywordTags": "foundation-models; nlp; ai4science",
       "keyIdea": "ro-shot performance of GPT-4 against prior generations of GPT on the entire uniform bar examination (UBE), including not only the multiple-choice multistate bar examination (MBE), but also the open-ended multistate essay exam (MEE) and multistate performance test (MPT) components.",
       "strengths": "high citation signal (620); influential citation signal (19); open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 99,
+      "rank": 524
     },
     {
       "paperId": "da54bda4ef0ba0f013ac639fb6a3dea1e4745ad4",
@@ -3139,7 +3333,9 @@
       "keywordTags": "foundation-models; nlp",
       "keyIdea": "Extracting structured knowledge from scientific text remains a challenging task for machine learning models.",
       "strengths": "high citation signal (616); influential citation signal (17); recognized venue; open-access PDF metadata",
-      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions."
+      "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
+      "yearRank": 100,
+      "rank": 525
     },
     {
       "paperId": "8ca1fdca69d780881f905ef9a4612e62f49a1014",

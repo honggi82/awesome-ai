@@ -35,7 +35,8 @@ TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 
 CANDIDATES_PER_YEAR = 1000
-TARGET_TOTAL = 100
+TARGET_PER_YEAR = 100
+TARGET_TOTAL = TARGET_PER_YEAR * len(YEARS)
 S2_BULK_URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 REQUEST_DELAY = 0.05
 
@@ -868,7 +869,6 @@ def normalize_paper(paper, year, candidate_rank):
 
 
 def collect_papers():
-    selected_by_year = {}
     candidates_by_year = {}
     for year in YEARS:
         merged = {}
@@ -906,15 +906,30 @@ def collect_papers():
         candidate_pool = ranked[:CANDIDATES_PER_YEAR]
         normalized = [normalize_paper(p, year, i + 1) for i, p in enumerate(candidate_pool)]
         candidates_by_year[year] = normalized
-        selected_by_year[year] = []
         print(
             f"[collect] {year}: retained {len(normalized):,}/{CANDIDATES_PER_YEAR:,} candidates from {len(ranked):,} relevant records",
             flush=True,
         )
 
+    selected, selected_by_year = select_papers_by_year(candidates_by_year)
     all_candidates = [p for rows in candidates_by_year.values() for p in rows]
-    selected = sorted(
-        all_candidates,
+    print(f"[collect] selected {len(selected):,} papers ({TARGET_PER_YEAR:,} per year where available)", flush=True)
+    return selected, selected_by_year, candidates_by_year
+
+
+def select_papers_by_year(candidates_by_year):
+    selected_by_year = {year: [] for year in YEARS}
+    selected = []
+    for year in YEARS:
+        rows = sorted(
+            candidates_by_year.get(year, []),
+            key=lambda p: int(p.get("candidateRank") or 999999),
+        )[:TARGET_PER_YEAR]
+        for year_rank, paper in enumerate(rows, 1):
+            paper["yearRank"] = year_rank
+            selected_by_year[year].append(paper)
+            selected.append(paper)
+    selected.sort(
         key=lambda p: (
             p["citationCount"],
             p["influentialCitationCount"],
@@ -922,14 +937,12 @@ def collect_papers():
             p["title"],
         ),
         reverse=True,
-    )[:TARGET_TOTAL]
+    )
     for rank, paper in enumerate(selected, 1):
         paper["rank"] = rank
-        selected_by_year[paper["year"]].append(paper)
     for rows in selected_by_year.values():
-        rows.sort(key=lambda p: p["rank"])
-    print(f"[collect] selected {len(selected):,} top-cited papers overall", flush=True)
-    return selected, selected_by_year, candidates_by_year
+        rows.sort(key=lambda p: p.get("yearRank") or 999999)
+    return selected, selected_by_year
 
 
 def reuse_existing_candidates():
@@ -951,23 +964,8 @@ def reuse_existing_candidates():
         year_rows.sort(key=lambda p: int(p.get("candidateRank") or 999999))
         candidates_by_year[year] = year_rows[:CANDIDATES_PER_YEAR]
     all_candidates = [p for values in candidates_by_year.values() for p in values]
-    selected = sorted(
-        all_candidates,
-        key=lambda p: (
-            p["citationCount"],
-            p["influentialCitationCount"],
-            p["importanceScore"],
-            p["title"],
-        ),
-        reverse=True,
-    )[:TARGET_TOTAL]
-    selected_by_year = {year: [] for year in YEARS}
-    for rank, paper in enumerate(selected, 1):
-        paper["rank"] = rank
-        selected_by_year[paper["year"]].append(paper)
-    for values in selected_by_year.values():
-        values.sort(key=lambda p: p["rank"])
-    print(f"[reuse] regenerated {len(selected):,} selected papers from {len(all_candidates):,} existing candidates", flush=True)
+    selected, selected_by_year = select_papers_by_year(candidates_by_year)
+    print(f"[reuse] regenerated {len(selected):,} selected papers ({TARGET_PER_YEAR:,} per year) from {len(all_candidates):,} existing candidates", flush=True)
     return selected, selected_by_year, candidates_by_year
 
 
@@ -997,7 +995,9 @@ def write_data(selected, selected_by_year, candidates_by_year):
         "generated": date.today().isoformat(),
         "years": YEARS,
         "candidate_pool_per_year": CANDIDATES_PER_YEAR,
+        "selected_per_year": TARGET_PER_YEAR,
         "selected_total": TARGET_TOTAL,
+        "selection_scope": "top 100 papers per publication year by citation count",
         "ranking": "citationCount desc, influentialCitationCount desc",
         "queries": QUERIES,
         "openalex_concept": "https://openalex.org/C154945302",
@@ -1013,6 +1013,7 @@ def write_data(selected, selected_by_year, candidates_by_year):
     )
     fields = [
         "rank",
+        "yearRank",
         "candidateRank",
         "year",
         "title",
@@ -1042,7 +1043,7 @@ def write_data(selected, selected_by_year, candidates_by_year):
         "importanceReasons",
         "abstract",
     ]
-    candidate_fields = [field for field in fields if field != "rank"]
+    candidate_fields = [field for field in fields if field not in ("rank", "yearRank")]
     write_csv(DATA_DIR / PAPERS_CSV, selected, fields)
     write_csv(DATA_DIR / CANDIDATES_CSV, flat_candidates, candidate_fields)
     for year, rows in candidates_by_year.items():
@@ -1199,6 +1200,7 @@ def write_taxonomy_dataset(selected):
         "category",
         "taxonomyRank",
         "rank",
+        "yearRank",
         "candidateRank",
         "year",
         "title",
@@ -1307,7 +1309,7 @@ def write_readme(selected, candidates):
         "",
         "A taxonomy-first, citation-ranked map of AI research from 2020 through 2026.",
         "",
-        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. This edition investigates up to {CANDIDATES_PER_YEAR:,} AI-related candidate papers per year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool of {len(candidates):,} records, selects the top {TARGET_TOTAL:,} papers overall by citation count, and reorganizes them by AI research taxonomy.",
+        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. This edition investigates up to {CANDIDATES_PER_YEAR:,} AI-related candidate papers per year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool of {len(candidates):,} records, selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total), and reorganizes them by AI research taxonomy.",
         "",
         "## Project Links",
         "",
@@ -1377,7 +1379,7 @@ def write_readme(selected, candidates):
             "",
             "## Methodology",
             "",
-            "The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2020 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers overall by citation count from those audited yearly pools; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.",
+            "The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2020 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.",
             "",
             "The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.",
             "",
@@ -1554,6 +1556,7 @@ def paper_card(paper, taxonomy_rank):
             <span>{paper['citationCount']:,} citations</span>
             <span>{paper['influentialCitationCount']:,} influential</span>
             <span>score {paper['importanceScore']}</span>
+            <span>year #{paper.get('yearRank', paper.get('candidateRank', ''))}</span>
             <span>taxonomy #{taxonomy_rank}</span>
           </div>
           <div class="paper-keywords" aria-label="Keywords">{keyword_chips_html(paper['keywordTags'])}</div>
@@ -1942,7 +1945,7 @@ def write_site(selected):
 <body>
   <header>
     <h1>Awesome AI</h1>
-    <p>A taxonomy-first, citation-ranked map of AI research from {START_YEAR} through {END_YEAR}. Each year investigates up to {CANDIDATES_PER_YEAR:,} candidate papers; the final collection selects the top {TARGET_TOTAL:,} papers overall by citation count.</p>
+    <p>A taxonomy-first, citation-ranked map of AI research from {START_YEAR} through {END_YEAR}. Each year investigates up to {CANDIDATES_PER_YEAR:,} candidate papers; the final collection selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total).</p>
     <nav>
       <a href="https://github.com/honggi82/awesome-ai">README</a>
       <a href="data/{PAPERS_CSV}">CSV Dataset</a>
@@ -2027,12 +2030,12 @@ def review_sections(selected, korean=False):
         title = f"{YEAR_RANGE_TEXT} AI 연구 동향: 공개 메타데이터 기반 citation-ranked 리뷰"
         abstract = (
             f"이 리뷰 초안은 {START_YEAR}년부터 {END_YEAR}년까지 AI 연구를 연도별 최대 {CANDIDATES_PER_YEAR:,}편의 후보 논문으로 조사하고, "
-            f"그 후보군 중 citation이 높은 {TARGET_TOTAL:,}편을 선정해 taxonomy-first 방식으로 분석한다. "
+            f"각 연도에서 citation이 높은 {TARGET_PER_YEAR:,}편씩 총 {TARGET_TOTAL:,}편을 선정해 taxonomy-first 방식으로 분석한다. "
             "선정과 분류는 Semantic Scholar 공개 메타데이터, 명시적 AI 관련성 필터, DOI/arXiv/PubMed/CorpusId/paperId 중복 제거, 인용수 정렬을 사용했다."
         )
         methods = (
             "각 연도에 대해 AI, machine learning, deep learning, foundation model, LLM, NLP, computer vision, reinforcement learning, generative AI, graph learning, multimodal learning, trustworthy AI, AI for science 관련 질의를 보냈다. "
-            "제목/초록/venue에서 AI 관련 표현이 확인되는 record만 유지하고, 연도별 최대 1,000편을 citation count 기준 후보군으로 저장했다. 최종 목록은 전체 후보군에서 citation count 상위 100편이다."
+            f"제목/초록/venue에서 AI 관련 표현이 확인되는 record만 유지하고, 연도별 최대 {CANDIDATES_PER_YEAR:,}편을 citation count 기준 후보군으로 저장했다. 최종 목록은 각 연도별 citation count 상위 {TARGET_PER_YEAR:,}편이다."
         )
         findings = [
             f"선정 논문 {len(selected):,}편은 총 {total_cites:,}회의 인용을 포함하며, citation mass가 가장 큰 연도는 {peak_year}년이다.",
@@ -2046,11 +2049,11 @@ def review_sections(selected, korean=False):
         title = f"AI Research from {START_YEAR} to {END_YEAR}: A Metadata-Driven Citation Map"
         abstract = (
             f"This draft review maps AI research from {START_YEAR} through {END_YEAR}, investigating up to {CANDIDATES_PER_YEAR:,} candidate papers per year "
-            f"from free public Semantic Scholar metadata and selecting the top {TARGET_TOTAL:,} papers overall by citation count. "
+            f"from free public Semantic Scholar metadata and selecting the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total). "
             "The resulting collection is organized by research taxonomy and enriched with deterministic key ideas, strengths, limitations, and AI-specific keyword tags."
         )
         methods = (
-            "For each year, broad AI-oriented queries were sent to Semantic Scholar Academic Graph bulk search. Records were retained when title, abstract, or venue metadata matched explicit AI relevance expressions, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates per year by citation count. The final 100 papers were selected across the full period by citation count, with influential citation count and metadata importance score retained as tie-breakers and audit signals."
+            f"For each year, broad AI-oriented queries were sent to Semantic Scholar Academic Graph bulk search. Records were retained when title, abstract, or venue metadata matched explicit AI relevance expressions, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most {CANDIDATES_PER_YEAR:,} candidates per year by citation count. The final collection selects the top {TARGET_PER_YEAR:,} papers within each publication year by citation count, with influential citation count and metadata importance score retained as tie-breakers and audit signals."
         )
         findings = [
             f"The {len(selected):,} selected papers account for {total_cites:,} citations in the selected set, with the largest citation mass in {peak_year}.",
@@ -2250,7 +2253,7 @@ echo Pages: https://honggi82.github.io/awesome-ai/
 - Topic: AI research across machine learning, deep learning, foundation models, NLP, vision, reinforcement learning, generative AI, trustworthy AI, graph learning, multimodal learning, and AI for science.
 - Period: {YEAR_RANGE_TEXT}.
 - Candidate target: up to {CANDIDATES_PER_YEAR:,} papers per year.
-- Final selection: top {TARGET_TOTAL:,} papers overall by citation count from the audited yearly candidate pools.
+- Final selection: top {TARGET_PER_YEAR:,} papers per year by citation count from the audited yearly candidate pools ({TARGET_TOTAL:,} papers total).
 
 ## Data Source
 
@@ -2258,7 +2261,7 @@ Metadata comes from the free public Semantic Scholar Academic Graph bulk search 
 
 ## Ranking
 
-Records are filtered to the requested publication year, screened for explicit AI relevance in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, and normalized title, then ranked by citation count. Influential citation count and a deterministic metadata importance score are retained as audit fields.
+Records are filtered to the requested publication year, screened for explicit AI relevance in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, and normalized title, then ranked by citation count. The selected set keeps the top {TARGET_PER_YEAR:,} papers in each year. Influential citation count and a deterministic metadata importance score are retained as audit fields.
 
 ## Enrichment
 
