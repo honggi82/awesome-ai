@@ -384,6 +384,8 @@ KEYWORD_COLORS = {keyword: color for keyword, _, color in KEYWORD_CONVENTION}
 LANGUAGES = {
     "en": "English",
     "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語",
 }
 
 UI_LABELS = {
@@ -410,6 +412,30 @@ UI_LABELS = {
         "keyIdea": "핵심 아이디어",
         "strengths": "장점",
         "paperLimitations": "한계",
+    },
+    "zh": {
+        "papers": "篇论文",
+        "categories": "个分类",
+        "overview": "分类概览",
+        "limitations": "局限性",
+        "analysis": "所选期间分析",
+        "totalSelected": "入选论文总数",
+        "categoryCount": "分类数",
+        "keyIdea": "核心思想",
+        "strengths": "优势",
+        "paperLimitations": "局限性",
+    },
+    "ja": {
+        "papers": "本",
+        "categories": "分類",
+        "overview": "カテゴリ概要",
+        "limitations": "限界",
+        "analysis": "選択期間の分析",
+        "totalSelected": "選定論文総数",
+        "categoryCount": "カテゴリ数",
+        "keyIdea": "主要アイデア",
+        "strengths": "強み",
+        "paperLimitations": "限界",
     },
 }
 
@@ -1282,6 +1308,117 @@ def language_period_analysis(language, category, rows, start, end):
     }
 
 
+def overall_period_summary(rows, start, end):
+    category_counts = Counter(p["category"] for p in rows)
+    category_citations = defaultdict(int)
+    keyword_counts = Counter()
+    year_counts = Counter()
+    year_citations = defaultdict(int)
+    for paper in rows:
+        category_citations[paper["category"]] += paper["citationCount"]
+        year_counts[paper["year"]] += 1
+        year_citations[paper["year"]] += paper["citationCount"]
+        for keyword in str(paper.get("keywordTags") or "").split("; "):
+            if keyword:
+                keyword_counts[keyword] += 1
+    peak_year, peak_count = year_counts.most_common(1)[0] if year_counts else (None, 0)
+    peak_citation_year = max(year_citations, key=year_citations.get) if year_citations else None
+    top = max(rows, key=lambda p: (p["citationCount"], p["influentialCitationCount"], p["title"])) if rows else None
+    return {
+        "startYear": start,
+        "endYear": end,
+        "rangeLabel": str(start) if start == end else f"{start}-{end}",
+        "totalPapers": len(rows),
+        "activeYears": len(year_counts),
+        "citationCount": sum(p["citationCount"] for p in rows),
+        "categoryCount": len(category_counts),
+        "topCategories": [
+            {"name": category, "count": count, "citations": category_citations[category]}
+            for category, count in category_counts.most_common(6)
+        ],
+        "topKeywords": [
+            {"name": keyword, "count": count}
+            for keyword, count in keyword_counts.most_common(6)
+        ],
+        "peakYear": peak_year,
+        "peakYearCount": peak_count,
+        "peakCitationYear": peak_citation_year,
+        "peakCitationCount": year_citations.get(peak_citation_year, 0) if peak_citation_year else 0,
+        "topPaper": {
+            "title": top["title"],
+            "year": top["year"],
+            "category": top["category"],
+            "url": top["url"],
+            "citations": top["citationCount"],
+        } if top else None,
+    }
+
+
+def overall_research_templates():
+    return {
+        "en": {
+            "timelineTitle": "Research Timeline",
+            "summary": [
+                "For {range}, the AI corpus contains {papers} selected papers across {activeYears} active years, with {citations} citations. The strongest taxonomy signals are {topCategories}, and the most active year is {peakYear} ({peakYearCount} papers).",
+                "The leading citation-ranked paper is \"{topPaper}\" ({topPaperYear}, {topPaperCitations} citations) in {topPaperCategory}. Keywords such as {topKeywords} show how this period connects machine learning methods, foundation models, multimodal systems, generative AI, agents, trustworthy AI, and AI for Science.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Foundation Layer", "title": "General representations become shared infrastructure", "body": "{topCategories} dominate {range}, showing which layers of AI became reusable research infrastructure.", "implication": "Implication: compare periods by data, model scale, evaluation, and deployment interface, not by algorithm names alone."},
+                {"label": "Citation Mass", "title": "Citation peaks reveal infrastructure moments", "body": "The selected range carries {citations} citations, with citation mass peaking around {peakCitationYear}.", "implication": "Implication: high-impact AI work often packages reusable architectures, objectives, datasets, or benchmarks."},
+                {"label": "Multimodal Shift", "title": "AI impact grows when modalities connect", "body": "Frequent tags such as {topKeywords} indicate whether the period is centered on language, vision, generation, graphs, agents, or scientific domains.", "implication": "Implication: robust cross-modal grounding and external validation matter more than isolated benchmark gains."},
+                {"label": "Trust And Deployment", "title": "Trustworthiness remains the adoption bottleneck", "body": "Even when the leading paper is in {topPaperCategory}, responsible deployment questions shape how the period's methods are used outside benchmarks.", "implication": "Implication: calibration, uncertainty, provenance, privacy, and auditability should be tracked with performance."},
+                {"label": "Open Gaps", "title": "Citation-ranked AI maps need recency correction", "body": "Recent model families, open-source systems, safety work, and negative results can be underweighted before citation signals mature.", "implication": "Implication: use this view as a stable map, then layer in recent expert review for fast-moving subfields."},
+            ],
+        },
+        "ko": {
+            "timelineTitle": "연구 타임라인",
+            "summary": [
+                "{range} 기간의 AI 코퍼스는 활성 연도 {activeYears}년에 걸쳐 선별 논문 {papers}편과 인용 {citations}회를 포함합니다. 가장 강한 taxonomy 신호는 {topCategories}이며, 논문 수가 가장 많은 해는 {peakYear}년({peakYearCount}편)입니다.",
+                "인용 기준 최상위 논문은 {topPaperCategory} 분류의 \"{topPaper}\"({topPaperYear}, {topPaperCitations}회 인용)입니다. {topKeywords} 같은 키워드는 이 기간이 machine learning 방법론, foundation model, multimodal system, generative AI, agent, trustworthy AI, AI for Science를 어떻게 연결하는지 보여줍니다.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Foundation Layer", "title": "범용 representation이 공유 인프라가 됩니다", "body": "{topCategories}가 {range}를 주도하며, AI의 어떤 층이 재사용 가능한 연구 인프라가 되었는지 보여줍니다.", "implication": "시사점: 기간 비교는 알고리즘 이름만이 아니라 data, model scale, evaluation, deployment interface를 함께 봐야 합니다."},
+                {"label": "Citation Mass", "title": "인용 피크는 인프라 전환점을 드러냅니다", "body": "선택 기간은 총 {citations}회 인용을 가지며, 인용 질량은 {peakCitationYear}년 부근에서 정점입니다.", "implication": "시사점: 영향력 큰 AI 연구는 재사용 가능한 architecture, objective, dataset, benchmark를 함께 제공하는 경우가 많습니다."},
+                {"label": "Multimodal Shift", "title": "AI 영향력은 modality가 연결될 때 커집니다", "body": "{topKeywords} 같은 빈도 높은 태그는 해당 기간이 language, vision, generation, graph, agent, scientific domain 중 어디에 중심을 두는지 나타냅니다.", "implication": "시사점: 단일 benchmark 향상보다 cross-modal grounding과 외부 검증이 중요합니다."},
+                {"label": "Trust And Deployment", "title": "신뢰성은 여전히 도입의 병목입니다", "body": "최상위 논문이 {topPaperCategory}에 속하더라도, responsible deployment 질문은 benchmark 밖에서 방법이 쓰이는 방식을 결정합니다.", "implication": "시사점: 성능과 함께 calibration, uncertainty, provenance, privacy, auditability를 추적해야 합니다."},
+                {"label": "Open Gaps", "title": "인용 기반 AI 지도에는 최신성 보정이 필요합니다", "body": "최신 모델 계열, open-source system, safety 연구, 부정 결과는 인용 신호가 성숙하기 전까지 과소평가될 수 있습니다.", "implication": "시사점: 이 뷰는 안정적 지도층으로 쓰고, 빠르게 움직이는 하위 분야는 최신 전문가 리뷰를 덧붙여야 합니다."},
+            ],
+        },
+        "zh": {
+            "timelineTitle": "研究时间线",
+            "summary": [
+                "在 {range} 期间，AI 语料包含 {papers} 篇入选论文，覆盖 {activeYears} 个活跃年份，总引用为 {citations} 次。最强的 taxonomy 信号是 {topCategories}，论文数量峰值出现在 {peakYear} 年（{peakYearCount} 篇）。",
+                "按引用排序的领先论文是 {topPaperCategory} 中的《{topPaper}》（{topPaperYear}，{topPaperCitations} 次引用）。{topKeywords} 等关键词显示该时期如何连接机器学习方法、基础模型、多模态系统、生成式 AI、智能体、可信 AI 和 AI for Science。",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Foundation Layer", "title": "通用表示成为共享基础设施", "body": "{topCategories} 主导 {range}，显示 AI 的哪些层变成可复用研究基础设施。", "implication": "启示：比较时期时应同时看数据、模型规模、评估和部署接口，而不只是算法名称。"},
+                {"label": "Citation Mass", "title": "引用峰值揭示基础设施时刻", "body": "所选时期共有 {citations} 次引用，引用质量在 {peakCitationYear} 年附近达到峰值。", "implication": "启示：高影响 AI 工作往往提供可复用架构、目标函数、数据集或基准。"},
+                {"label": "Multimodal Shift", "title": "模态连接时 AI 影响力扩大", "body": "{topKeywords} 等高频标签显示该时期是围绕语言、视觉、生成、图、智能体还是科学领域组织的。", "implication": "启示：稳健的跨模态 grounding 和外部验证比孤立 benchmark 增益更重要。"},
+                {"label": "Trust And Deployment", "title": "可信性仍是采用瓶颈", "body": "即使领先论文属于 {topPaperCategory}，负责任部署问题也会塑造这些方法在 benchmark 之外的使用方式。", "implication": "启示：应与性能一起追踪校准、不确定性、来源、隐私和可审计性。"},
+                {"label": "Open Gaps", "title": "引用排序 AI 地图需要新近性校正", "body": "最新模型家族、开源系统、安全研究和负结果在引用信号成熟前可能被低估。", "implication": "启示：把此视图作为稳定地图，再为快速变化的子领域叠加最新专家评审。"},
+            ],
+        },
+        "ja": {
+            "timelineTitle": "研究タイムライン",
+            "summary": [
+                "{range} の AI コーパスには、{activeYears} の対象年にわたる選定論文 {papers} 本、引用 {citations} 件が含まれます。最も強い taxonomy 信号は {topCategories} で、論文数のピークは {peakYear} 年（{peakYearCount} 本）です。",
+                "引用順で最上位の論文は {topPaperCategory} の「{topPaper}」（{topPaperYear}、{topPaperCitations} 件引用）です。{topKeywords} などのキーワードは、この期間が machine learning 方法、foundation model、multimodal system、generative AI、agent、trustworthy AI、AI for Science をどう結びつけているかを示します。",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Foundation Layer", "title": "汎用表現が共有インフラになります", "body": "{topCategories} が {range} を主導し、AI のどの層が再利用可能な研究インフラになったかを示します。", "implication": "示唆：期間比較ではアルゴリズム名だけでなく、data、model scale、evaluation、deployment interface を見る必要があります。"},
+                {"label": "Citation Mass", "title": "引用ピークはインフラ化の瞬間を示します", "body": "選択期間の引用は {citations} 件で、引用質量は {peakCitationYear} 年付近でピークになります。", "implication": "示唆：高インパクトな AI 研究は再利用可能な architecture、objective、dataset、benchmark を伴うことが多いです。"},
+                {"label": "Multimodal Shift", "title": "モダリティがつながると AI の影響は広がります", "body": "{topKeywords} などの高頻度タグは、その期間が language、vision、generation、graph、agent、scientific domain のどこを中心にしているかを示します。", "implication": "示唆：孤立した benchmark 改善より、cross-modal grounding と外部検証が重要です。"},
+                {"label": "Trust And Deployment", "title": "信頼性は導入のボトルネックです", "body": "最上位論文が {topPaperCategory} に属していても、responsible deployment の問いは benchmark 外での使われ方を左右します。", "implication": "示唆：性能とともに calibration、uncertainty、provenance、privacy、auditability を追跡すべきです。"},
+                {"label": "Open Gaps", "title": "引用ベースの AI 地図には最新性補正が必要です", "body": "新しいモデル系列、open-source system、安全性研究、否定的結果は、引用信号が成熟するまで過小評価されることがあります。", "implication": "示唆：このビューを安定した地図として使い、動きの速い下位分野には最新の専門家レビューを重ねてください。"},
+            ],
+        },
+    }
+
+
 def build_period_analysis(selected):
     ranges = [
         {"key": period_key(start, end), "label": period_label(start, end), "from": start, "to": end}
@@ -1292,6 +1429,7 @@ def build_period_analysis(selected):
         rows = [p for p in selected if start <= p["year"] <= end]
         groups = category_groups(rows)
         entry = {}
+        entry["__overall__"] = overall_period_summary(rows, start, end)
         for category, papers in groups.items():
             entry[safe_slug(category)] = {
                 language: language_period_analysis(language, category, papers, start, end)
@@ -1786,10 +1924,14 @@ def write_site(selected):
         f'<option value="{code}"{" selected" if code == "en" else ""}>{html.escape(label)}</option>'
         for code, label in LANGUAGES.items()
     )
-    sections = all_taxonomy_section(selected) + "".join(taxonomy_section(category, groups[category]) for category, _ in stats.most_common())
+    sections = "\n".join(
+        [all_taxonomy_section(selected).strip()]
+        + [taxonomy_section(category, groups[category]).strip() for category, _ in stats.most_common()]
+    )
     keyword_html = site_keyword_convention_html()
-    research_overview = research_overview_html()
+    research_overview = research_overview_html().strip()
     research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
+    overall_research_templates_payload = json.dumps(overall_research_templates(), ensure_ascii=False)
     year_script = f"""
   <script>
     (() => {{
@@ -1813,6 +1955,7 @@ def write_site(selected):
       const defaultEnd = endSelect.value;
       const defaultLanguage = languageSelect.value;
       const researchCopy = {research_copy_payload};
+      const overallResearchTemplates = {overall_research_templates_payload};
       const periodOptions = Array.from(periodSelect.options);
       const validYears = Array.from(startSelect.options).map(option => option.value);
       const keywordGrid = document.querySelector(".keyword-grid");
@@ -1857,10 +2000,65 @@ def write_site(selected):
         }};
         return {{...fallback, ...(precomputed?.uiLabels?.en || {{}}), ...(precomputed?.uiLabels?.[languageSelect.value] || {{}})}};
       }}
-      function updateResearchCopy() {{
+      function escapeHtml(value) {{
+        const escapeMap = {{ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }};
+        return String(value ?? "").replace(/[&<>"']/g, ch => escapeMap[ch]);
+      }}
+      function names(items, key = "name") {{
+        return (items || []).slice(0, 3).map(item => item[key]).filter(Boolean).join(", ") || "n/a";
+      }}
+      function researchTemplateData(metric) {{
+        const topCategories = metric.topCategories || [];
+        const topKeywords = metric.topKeywords || [];
+        const topCategory = topCategories[0] || {{}};
+        const topPaper = metric.topPaper || {{}};
+        return {{
+          range: metric.rangeLabel || `${{metric.startYear}}-${{metric.endYear}}`,
+          papers: formatNumber(metric.totalPapers),
+          activeYears: formatNumber(metric.activeYears),
+          citations: formatNumber(metric.citationCount),
+          topCategories: names(topCategories),
+          topCategory: topCategory.name || "n/a",
+          topCategoryCount: formatNumber(topCategory.count || 0),
+          topKeywords: names(topKeywords),
+          peakYear: metric.peakYear || "n/a",
+          peakYearCount: formatNumber(metric.peakYearCount || 0),
+          peakCitationYear: metric.peakCitationYear || "n/a",
+          topPaper: topPaper.title || "n/a",
+          topPaperYear: topPaper.year || "n/a",
+          topPaperCategory: topPaper.category || "n/a",
+          topPaperCitations: formatNumber(topPaper.citations || 0)
+        }};
+      }}
+      function applyTemplate(template, data) {{
+        let output = template || "";
+        Object.keys(data).forEach(key => {{
+          output = output.split("{{" + key + "}}").join(escapeHtml(data[key]));
+        }});
+        return output;
+      }}
+      function renderOverallResearch(metric) {{
+        const copy = overallResearchTemplates[languageSelect.value] || overallResearchTemplates.en;
+        const data = researchTemplateData(metric);
+        const summaryHtml = (copy.summary || []).map(text => `<p>${{applyTemplate(text, data)}}</p>`).join("");
+        const insightHtml = (copy.insights || []).map(item => `
+          <article class="insight-box">
+            <div class="insight-label">${{escapeHtml(item.label)}}</div>
+            <h3>${{applyTemplate(item.title, data)}}</h3>
+            <p>${{applyTemplate(item.body, data)}}</p>
+            <p class="insight-implication">${{applyTemplate(item.implication, data)}}</p>
+          </article>`).join("");
+        return `
+          <h2 id="research-timeline-title">${{escapeHtml(copy.timelineTitle)}}</h2>
+          <div class="timeline-copy">${{summaryHtml}}</div>
+          <h2>${{escapeHtml(copy.insightsTitle)}}</h2>
+          <div class="research-insights">${{insightHtml}}</div>`;
+      }}
+      function updateResearchCopy(start, end) {{
         const brief = document.getElementById("researchBrief");
         if (!brief) return;
-        brief.innerHTML = researchCopy[languageSelect.value] || researchCopy.en;
+        const metric = precomputed?.analysis?.[rangeKey(start, end)]?.__overall__;
+        brief.innerHTML = metric ? renderOverallResearch(metric) : (researchCopy[languageSelect.value] || researchCopy.en);
       }}
       function setList(target, items) {{
         if (!target || !items) return;
@@ -1980,7 +2178,7 @@ def write_site(selected):
         let end = Number(endSelect.value);
         if (start > end) {{ const previous = start; start = end; end = previous; startSelect.value = String(start); endSelect.value = String(end); }}
         const copy = labels();
-        updateResearchCopy();
+        updateResearchCopy(start, end);
         const activeKeywords = selectedKeywords();
         let totalPapers = 0;
         let totalCitations = 0;
