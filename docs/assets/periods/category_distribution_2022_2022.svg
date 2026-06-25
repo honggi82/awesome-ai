@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="272" viewBox="0 0 1000 272" role="img" aria-label="Category distribution 2022-2022">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="32" y="38" fill="#0f172a" font-size="24" font-weight="800">AI Paper Taxonomy, 2022</text>
+<text x="32" y="60" fill="#64748b" font-size="14">Selected papers by category</text>
+<text x="32" y="96" fill="#172033" font-size="15">Foundation Models and Large Language Models</text><rect x="420" y="76" width="520" height="26" rx="5" fill="#2563eb"/><text x="950" y="96" fill="#172033" font-size="15" font-weight="700">17</text><text x="32" y="140" fill="#172033" font-size="15">Vision and Multimodal Learning</text><rect x="420" y="120" width="61" height="26" rx="5" fill="#0f766e"/><text x="491" y="140" fill="#172033" font-size="15" font-weight="700">2</text><text x="32" y="184" fill="#172033" font-size="15">Natural Language Processing and Knowledge</text><rect x="420" y="164" width="30" height="26" rx="5" fill="#a855f7"/><text x="460" y="184" fill="#172033" font-size="15" font-weight="700">1</text><text x="32" y="228" fill="#172033" font-size="15">Generative Models and Synthetic Media</text><rect x="420" y="208" width="30" height="26" rx="5" fill="#f59e0b"/><text x="460" y="228" fill="#172033" font-size="15" font-weight="700">1</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="272" viewBox="0 0 1000 272" role="img" aria-label="Category distribution 2023-2025">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="32" y="38" fill="#0f172a" font-size="24" font-weight="800">AI Paper Taxonomy, 2023-2025</text>
+<text x="32" y="60" fill="#64748b" font-size="14">Selected papers by category</text>
+<text x="32" y="96" fill="#172033" font-size="15">Foundation Models and Large Language Models</text><rect x="420" y="76" width="520" height="26" rx="5" fill="#2563eb"/><text x="950" y="96" fill="#172033" font-size="15" font-weight="700">31</text><text x="32" y="140" fill="#172033" font-size="15">Vision and Multimodal Learning</text><rect x="420" y="120" width="50" height="26" rx="5" fill="#0f766e"/><text x="480" y="140" fill="#172033" font-size="15" font-weight="700">3</text><text x="32" y="184" fill="#172033" font-size="15">Reinforcement Learning and Agents</text><rect x="420" y="164" width="33" height="26" rx="5" fill="#a855f7"/><text x="463" y="184" fill="#172033" font-size="15" font-weight="700">2</text><text x="32" y="228" fill="#172033" font-size="15">Generative Models and Synthetic Media</text><rect x="420" y="208" width="16" height="26" rx="5" fill="#f59e0b"/><text x="446" y="228" fill="#172033" font-size="15" font-weight="700">1</text>
+</svg>
