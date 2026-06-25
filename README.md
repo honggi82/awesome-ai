@@ -1,6 +1,7 @@
 # Awesome AI
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![Open Interactive Website](https://img.shields.io/badge/Open%20Interactive%20Website-GitHub%20Pages-0f766e)](https://honggi82.github.io/awesome-ai/)
 
 A taxonomy-first, citation-ranked map of AI research from 2020 through 2026.
 
@@ -8,11 +9,11 @@ Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition
 
 ## Project Links
 
-- Website: https://honggi82.github.io/awesome-ai/
+- Open Interactive Website: https://honggi82.github.io/awesome-ai/
 - Selected dataset: `data/papers_2020_2026.csv`
 - Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2020_2026.csv`
 - Precomputed period and language analysis: `data/period_analysis_2020_2026.json`
-- Candidate pool: `data/candidates_top1000_2020_2026.csv`
+- Candidate Pool: `data/candidates_top1000_2020_2026.csv`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
 
