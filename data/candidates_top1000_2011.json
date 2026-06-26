@@ -2,7 +2,7 @@
   "metadata": {
     "topic": "AI research",
     "source": "Semantic Scholar Academic Graph bulk search",
-    "generated": "2026-06-26",
+    "generated": "2026-06-27",
     "years": [
       2000,
       2001,
@@ -292,7 +292,7 @@
       "importanceReasons": "citations=3521; influential=232; recognized venue; open PDF metadata; title AI matches=1; AI term matches=4; query hits=2",
       "category": "Vision and Multimodal Learning",
       "methodTags": "metadata-ranked",
-      "keywordTags": "machine-learning; multimodal; nlp; vision",
+      "keywordTags": "machine-learning; multimodal; nlp; vision; github",
       "keyIdea": "Deep networks have been successfully applied to unsupervised feature learning for single modalities (e.g., text, images or audio).",
       "strengths": "high citation signal (3,521); influential citation signal (232); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",

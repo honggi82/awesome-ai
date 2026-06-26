@@ -2,7 +2,7 @@
   "metadata": {
     "topic": "AI research",
     "source": "Semantic Scholar Academic Graph bulk search",
-    "generated": "2026-06-26",
+    "generated": "2026-06-27",
     "years": [
       2000,
       2001,
@@ -1244,7 +1244,7 @@
       "importanceReasons": "citations=1651; influential=101; open PDF metadata; title AI matches=2; AI term matches=3; query hits=2",
       "category": "Representation, Self-Supervised, and Transfer Learning",
       "methodTags": "metadata-ranked",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; github",
       "keyIdea": "Catastrophic forgetting is a problem faced by many machine learning models and algorithms.",
       "strengths": "high citation signal (1,651); influential citation signal (101)",
       "limitations": "Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.",
@@ -1550,7 +1550,7 @@
       "importanceReasons": "citations=1294; influential=112; open PDF metadata; title AI matches=1; AI term matches=1",
       "category": "Generative Models and Synthetic Media",
       "methodTags": "metadata-ranked",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; github",
       "keyIdea": "Scikit-learn is an increasingly popular machine learning li- brary.",
       "strengths": "high citation signal (1,294); influential citation signal (112)",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",

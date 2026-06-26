@@ -10,7 +10,7 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
   </a>
 </p>
 
-Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
+Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
 
 ## Project Links
 
@@ -36,6 +36,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 - ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**: Explainability, robustness, safety, fairness, uncertainty, privacy, bias, or responsible AI.
 - ![graph-learning](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **graph-learning**: Graph neural networks, recommender systems, knowledge graphs, graph benchmarks, or graph-based core AI methods.
 - ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**: AI for science, healthcare, biology, molecules, proteins, robotics, autonomous systems, or clinical domains.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
 
 ## Taxonomy Overview
 
@@ -89,7 +90,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">11</td>
 <td>[XGBoost: A Scalable Tree Boosting System](https://doi.org/10.1145/2939672.2939785)<br><sub>Tianqi Chen, Carlos Guestrin</sub></td>
 <td>2016<br>Knowledge Discovery and Data Mining<br>55,903 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Tree boosting is a highly effective and widely used machine learning method.</td>
 <td>high citation signal (55,903); influential citation signal (4,189); open-access PDF metadata</td>
 <td>Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.</td>
@@ -223,7 +224,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">10</td>
 <td>[Language Models are Few-Shot Learners](https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0)<br><sub>Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, J. Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, et al.</sub></td>
 <td>2020<br>Neural Information Processing Systems<br>59,605 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task.</td>
 <td>high citation signal (59,605); influential citation signal (5,279)</td>
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
@@ -241,7 +242,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">30</td>
 <td>[Language Models are Unsupervised Multitask Learners](https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe)<br><sub>Alec Radford, Jeff Wu, R. Child, D. Luan, Dario Amodei, I. Sutskever</sub></td>
 <td>2019<br>Unknown venue<br>29,070 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Positions Language Models are Unsupervised Multitask Learners within Foundation Models and Large Language Models.</td>
 <td>high citation signal (29,070); influential citation signal (4,029)</td>
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
@@ -268,7 +269,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">45</td>
 <td>[Training language models to follow instructions with human feedback](https://doi.org/10.52202/068431-2011)<br><sub>Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, S. Agarwal, et al.</sub></td>
 <td>2022<br>Neural Information Processing Systems<br>21,755 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Making language models bigger does not inherently make them better at following a user&#x27;s intent.</td>
 <td>high citation signal (21,755); influential citation signal (2,276)</td>
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
@@ -277,7 +278,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">50</td>
 <td>[LLaMA: Open and Efficient Foundation Language Models](https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75)<br><sub>Hugo Touvron, Thibaut Lavril, Gautier Izacard, X. Martinet, M. Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, et al.</sub></td>
 <td>2023<br>arXiv.org<br>20,427 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters.</td>
 <td>high citation signal (20,427); influential citation signal (2,131)</td>
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
@@ -286,7 +287,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">51</td>
 <td>[LoRA: Low-Rank Adaptation of Large Language Models](https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092)<br><sub>J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen</sub></td>
 <td>2021<br>International Conference on Learning Representations<br>20,108 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains.</td>
 <td>high citation signal (20,108); influential citation signal (2,862)</td>
 <td>Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.</td>
@@ -375,7 +376,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">8</td>
 <td>[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://doi.org/10.1109/TPAMI.2016.2577031)<br><sub>Shaoqing Ren, Kaiming He, Ross B. Girshick, Jian Sun</sub></td>
 <td>2015<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>73,399 citations</td>
-<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations.</td>
 <td>high citation signal (73,399); influential citation signal (9,719); recognized venue; open-access PDF metadata</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
@@ -384,7 +385,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">9</td>
 <td>[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a)<br><sub>Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, M. Minderer, et al.</sub></td>
 <td>2020<br>International Conference on Learning Representations<br>64,585 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited.</td>
 <td>high citation signal (64,585); influential citation signal (7,105)</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
@@ -393,7 +394,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">13</td>
 <td>[Learning Transferable Visual Models From Natural Language Supervision](https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4)<br><sub>Alec Radford, Jong Wook Kim, Chris Hallacy, A. Ramesh, Gabriel Goh, S. Agarwal, G. Sastry, Amanda Askell, et al.</sub></td>
 <td>2021<br>International Conference on Machine Learning<br>50,664 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories.</td>
 <td>high citation signal (50,664); influential citation signal (9,732); recognized venue</td>
 <td>Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.</td>
@@ -464,7 +465,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">21</td>
 <td>[Highly accurate protein structure prediction with AlphaFold](https://doi.org/10.1038/s41586-021-03819-2)<br><sub>J. Jumper, Richard Evans, A. Pritzel, Tim Green, Michael Figurnov, O. Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, et al.</sub></td>
 <td>2021<br>Nature<br>36,737 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function.</td>
 <td>high citation signal (36,737); influential citation signal (3,767); recognized venue; open-access PDF metadata</td>
 <td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
@@ -473,7 +474,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">33</td>
 <td>[Graph Attention Networks](https://doi.org/10.17863/CAM.48429)<br><sub>Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio</sub></td>
 <td>2017<br>International Conference on Learning Representations<br>26,745 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.</td>
 <td>high citation signal (26,745); influential citation signal (3,772)</td>
 <td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
@@ -518,7 +519,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">103</td>
 <td>[TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.semanticscholar.org/paper/9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d)<br><sub>Martín Abadi, Ashish Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. Corrado, Andy Davis, et al.</sub></td>
 <td>2016<br>arXiv.org<br>11,751 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>TensorFlow is an interface for expressing machine learning algorithms, and an implementation for executing such algorithms.</td>
 <td>high citation signal (11,751); influential citation signal (1,207)</td>
 <td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
@@ -536,7 +537,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">111</td>
 <td>[V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation](https://doi.org/10.1109/3DV.2016.79)<br><sub>Fausto Milletarì, N. Navab, Seyed-Ahmad Ahmadi</sub></td>
 <td>2016<br>International Conference on 3D Vision<br>10,842 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis fields.</td>
 <td>high citation signal (10,842); influential citation signal (843); open-access PDF metadata</td>
 <td>External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.</td>
@@ -598,7 +599,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">42</td>
 <td>[“Why Should I Trust You?”: Explaining the Predictions of Any Classifier](https://doi.org/10.1145/2939672.2939778)<br><sub>Marco Tulio Ribeiro, Sameer Singh, Carlos Guestrin</sub></td>
 <td>2016<br>North American Chapter of the Association for Computational Linguistics<br>22,598 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Despite widespread adoption, machine learning models remain mostly black boxes.</td>
 <td>high citation signal (22,598); influential citation signal (2,170); open-access PDF metadata</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
@@ -607,7 +608,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">52</td>
 <td>[TensorFlow: A system for large-scale machine learning](https://www.semanticscholar.org/paper/4954fa180728932959997a4768411ff9136aac81)<br><sub>Martín Abadi, P. Barham, Jianmin Chen, Z. Chen, Andy Davis, J. Dean, M. Devin, S. Ghemawat, et al.</sub></td>
 <td>2016<br>USENIX Symposium on Operating Systems Design and Implementation<br>19,730 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments.</td>
 <td>high citation signal (19,730); influential citation signal (2,228)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
@@ -625,7 +626,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">127</td>
 <td>[How Powerful are Graph Neural Networks?](https://www.semanticscholar.org/paper/62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9)<br><sub>Keyulu Xu, Weihua Hu, J. Leskovec, S. Jegelka</sub></td>
 <td>2018<br>International Conference on Learning Representations<br>9,953 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Graph Neural Networks (GNNs) are an effective framework for representation learning of graphs.</td>
 <td>high citation signal (9,953); influential citation signal (1,771)</td>
 <td>Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.</td>
@@ -750,7 +751,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">82</td>
 <td>[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://www.semanticscholar.org/paper/c889d6f98e6d79b89c3a6adf8a921f88fa6ba518)<br><sub>Chelsea Finn, P. Abbeel, S. Levine</sub></td>
 <td>2017<br>International Conference on Machine Learning<br>14,605 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>We propose an algorithm for meta-learning that is model-agnostic, in the sense that it is compatible with any model trained with gradient descent and applicable to a variety of different learning problems, including classification, regression, and reinforcement learning.</td>
 <td>high citation signal (14,605); influential citation signal (2,715); recognized venue</td>
 <td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
@@ -777,7 +778,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">108</td>
 <td>[Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://www.semanticscholar.org/paper/811df72e210e20de99719539505da54762a11c6d)<br><sub>Tuomas Haarnoja, Aurick Zhou, P. Abbeel, S. Levine</sub></td>
 <td>2018<br>International Conference on Machine Learning<br>11,486 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Model-free deep reinforcement learning (RL) algorithms have been demonstrated on a range of challenging decision making and control tasks.</td>
 <td>high citation signal (11,486); influential citation signal (2,047); recognized venue</td>
 <td>Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.</td>
@@ -839,7 +840,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">2</td>
 <td>[Attention is All you Need](https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776)<br><sub>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, I. Polosukhin</sub></td>
 <td>2017<br>Neural Information Processing Systems<br>181,426 citations</td>
-<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration.</td>
 <td>high citation signal (181,426); influential citation signal (20,067)</td>
 <td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
@@ -848,7 +849,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">4</td>
 <td>[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/N19-1423)<br><sub>Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova</sub></td>
 <td>2019<br>North American Chapter of the Association for Computational Linguistics<br>116,382 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers.</td>
 <td>high citation signal (116,382); influential citation signal (22,457)</td>
 <td>Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.</td>
@@ -964,7 +965,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">79</td>
 <td>[Towards Deep Learning Models Resistant to Adversarial Attacks](https://www.semanticscholar.org/paper/7aa38b85fa8cba64d6a4010543f6695dbf5f1386)<br><sub>A. Ma̧dry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu</sub></td>
 <td>2017<br>International Conference on Learning Representations<br>14,919 citations</td>
-<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Recent work has demonstrated that deep neural networks are vulnerable to adversarial examples---inputs that are almost indistinguishable from natural data and yet classified incorrectly by the network.</td>
 <td>high citation signal (14,919); influential citation signal (3,852)</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
@@ -1009,7 +1010,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">188</td>
 <td>[Deep Learning with Differential Privacy](https://doi.org/10.1145/2976749.2978318)<br><sub>Martín Abadi, Andy Chu, I. Goodfellow, H. B. McMahan, Ilya Mironov, Kunal Talwar, Li Zhang</sub></td>
 <td>2016<br>Conference on Computer and Communications Security<br>7,901 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Machine learning techniques based on neural networks are achieving remarkable results in a wide variety of domains.</td>
 <td>high citation signal (7,901); influential citation signal (1,428); open-access PDF metadata</td>
 <td>Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.</td>
@@ -1116,7 +1117,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">100</td>
 <td>[mixup: Beyond Empirical Risk Minimization](https://www.semanticscholar.org/paper/4feef0fd284feb1233399b400eb897f59ec92755)<br><sub>Hongyi Zhang, Moustapha Cissé, Yann Dauphin, David Lopez-Paz</sub></td>
 <td>2017<br>International Conference on Learning Representations<br>11,909 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples.</td>
 <td>high citation signal (11,909); influential citation signal (1,764)</td>
 <td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
@@ -1125,7 +1126,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">110</td>
 <td>[Score-Based Generative Modeling through Stochastic Differential Equations](https://www.semanticscholar.org/paper/633e2fbfc0b21e959a244100937c5853afca4853)<br><sub>Yang Song, Jascha Narain Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole</sub></td>
 <td>2020<br>International Conference on Learning Representations<br>11,057 citations</td>
-<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
+<td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>Creating noise from data is easy; creating data from noise is generative modeling.</td>
 <td>high citation signal (11,057); influential citation signal (1,881)</td>
 <td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
@@ -1134,7 +1135,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">121</td>
 <td>[Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c)<br><sub>Jascha Narain Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, S. Ganguli</sub></td>
 <td>2015<br>International Conference on Machine Learning<br>10,158 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>A central problem in machine learning involves modeling complex data-sets using highly flexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable.</td>
 <td>high citation signal (10,158); influential citation signal (525); recognized venue</td>
 <td>Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.</td>
@@ -1268,7 +1269,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 <td align="right">130</td>
 <td>[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://www.semanticscholar.org/paper/a54b56af24bb4873ed0163b77df63b92bd018ddc)<br><sub>Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf</sub></td>
 <td>2019<br>arXiv.org<br>9,924 citations</td>
-<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
+<td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td>As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging.</td>
 <td>high citation signal (9,924); influential citation signal (1,225)</td>
 <td>Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.</td>

@@ -381,6 +381,11 @@ KEYWORD_CONVENTION = [
         "AI for science, healthcare, biology, molecules, proteins, robotics, autonomous systems, or clinical domains.",
         "16a34a",
     ),
+    (
+        "github",
+        "Papers with an official GitHub or code repository link identified in the metadata audit.",
+        "24292f",
+    ),
 ]
 KEYWORD_COLORS = {keyword: color for keyword, _, color in KEYWORD_CONVENTION}
 
@@ -1043,6 +1048,14 @@ def load_github_links():
     return links
 
 
+def sync_github_keyword_tag(row):
+    raw = str(row.get("keywordTags") or "")
+    tags = [tag.strip() for tag in raw.split(";") if tag.strip() and tag.strip() != "github"]
+    if row.get("githubUrl"):
+        tags.append("github")
+    row["keywordTags"] = "; ".join(tags)
+
+
 def apply_github_links(rows):
     links = load_github_links()
     for row in rows:
@@ -1051,6 +1064,7 @@ def apply_github_links(rows):
             row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
         else:
             row["githubUrl"] = ""
+        sync_github_keyword_tag(row)
     return rows
 
 
