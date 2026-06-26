@@ -2380,9 +2380,10 @@ def write_site(selected):
     #rangeStatus {{ color:var(--muted); font-weight:700; min-height:38px; display:inline-flex; align-items:center; }}
     .keyword-section {{ margin:28px 0; }}
     .keyword-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }}
-    .keyword-item {{ display:flex; gap:10px; align-items:flex-start; height:auto; min-height:54px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
+    .keyword-item {{ display:grid; gap:8px; align-items:flex-start; height:auto; min-height:96px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
     .keyword-item[aria-pressed="true"], .keyword-item.is-selected {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(37,99,235,0.16); color:var(--ink); }}
-    .keyword-chip {{ flex:0 0 auto; min-width:96px; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
+    .keyword-chip {{ justify-self:start; min-width:0; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
+    .keyword-item > span:not(.keyword-chip) {{ display:block; width:100%; }}
     .keyword-filter-status {{ margin:10px 0 0; font-weight:700; color:var(--accent2); }}
     .figures {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin:24px 0; }}
     .chart-figure {{ margin:0; }}
