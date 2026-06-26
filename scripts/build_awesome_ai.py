@@ -2390,6 +2390,7 @@ def write_site(selected):
     .chart-figure figcaption {{ margin-top:8px; color:var(--muted); font-size:13px; font-weight:700; }}
     .figures img {{ width:100%; aspect-ratio:16 / 9; object-fit:contain; background:white; border:1px solid var(--line); border-radius:8px; display:block; }}
     .taxonomy-section {{ margin-top:16px; }}
+    .taxonomy-section[hidden], .paper-card[hidden] {{ display:none !important; }}
     details {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
     summary {{ cursor:pointer; display:grid; grid-template-columns:64px minmax(260px,1fr) repeat(3,minmax(110px,auto)); gap:12px; align-items:center; padding:14px 18px; font-weight:700; }}
     .summary-thumb, .all-taxonomy-thumb {{ width:56px; height:40px; object-fit:cover; border:1px solid var(--line); border-radius:6px; background:#f8fafc; }}
