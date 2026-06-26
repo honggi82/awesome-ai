@@ -1,7 +1,7 @@
-# Awesome AI
+# 素晴らしい AI
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
+2000 年から 2026 年までの AI 研究の分類優先、引用順位付きマップ。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-ai/">
@@ -10,76 +10,76 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md"><strong>日本語</strong></a> |
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
   <a href="README.zh.md">中文</a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
+無料の公開 Semantic Scholar メタデータから 2026 年 6 月 27 日に生成されました。この版では、2000 年から 2026 年までの年間最大 1,000 件の AI 関連の候補論文を調査し、監査済みの候補者プール 27,000 件のレコードを保持し、引用数に基づいて各年の上位 100 件の論文 (合計 2,700 件の論文) を選択し、それらを AI 研究分類法に基づいて再編成します。
 
-## Project Links
+## プロジェクトリンク
 
-- Open Interactive Website: https://honggi82.github.io/awesome-ai/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- インタラクティブなウェブサイトを開く: https://honggi82.github.io/awesome-ai/
+- 選択したデータセット: `data/papers_2000_2026.csv`
+- 論文レベルのアイデア、長所、制限を含む分類データセット: `data/papers_taxonomy_2000_2026.csv`
+- 事前計算された時代と言語の分析: `data/period_analysis_2000_2026.json`
+- 候補者プール: `data/candidates_top1000_2000_2026.csv`
+- 英語レビュードラフト: `paper/review_en.html`、`paper/review_en.docx`
+- 韓国語レビュー草案: `paper/review_ko.html`
 
-## Keywords Convention
+## キーワードの規則
 
-These badges define the AI keyword tags used to read and extend this collection.
+これらのバッジは、このコレクションの読み取りと拡張に使用される AI キーワード タグを定義します。
 
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: Statistical learning, neural networks, SVMs, trees/boosting, data mining, pattern recognition, clustering, or core ML methods.
-- ![foundation-models](https://img.shields.io/badge/keyword-foundation--models-2563eb) **foundation-models**: Large language models, foundation models, scaling, prompting, alignment, or retrieval-augmented systems.
-- ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**: Generative adversarial, diffusion, synthetic media, text-to-image, or other model-based generation work.
-- ![multimodal](https://img.shields.io/badge/keyword-multimodal-0891b2) **multimodal**: Vision-language, audio-language, video-language, or cross-modal representation learning.
-- ![nlp](https://img.shields.io/badge/keyword-nlp-f59e0b) **nlp**: Natural language processing, language modeling, retrieval, dialogue, summarization, or speech-language work.
-- ![vision](https://img.shields.io/badge/keyword-vision-0f766e) **vision**: Computer vision, image/video understanding, object detection, segmentation, or visual recognition.
-- ![reinforcement-learning](https://img.shields.io/badge/keyword-reinforcement--learning-dc2626) **reinforcement-learning**: Reinforcement learning, agents, planning, control, robotics, reward modeling, or human feedback.
-- ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**: Explainability, robustness, safety, fairness, uncertainty, privacy, bias, or responsible AI.
-- ![graph-learning](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **graph-learning**: Graph neural networks, recommender systems, knowledge graphs, graph benchmarks, or graph-based core AI methods.
-- ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**: AI for science, healthcare, biology, molecules, proteins, robotics, autonomous systems, or clinical domains.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![機械学習](https://img.shields.io/badge/keyword-machine--learning-475569) **機械学習**: 統計学習、ニューラル ネットワーク、SVM、ツリー/ブースティング、データ マイニング、パターン認識、クラスタリング、またはコア ML メソッド。
+- ![foundation-models](https://img.shields.io/badge/keyword-foundation--models-2563eb) **foundation-models**: 大規模な言語モデル、基礎モデル、スケーリング、プロンプト、位置合わせ、または検索拡張システム。
+- ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**: 敵対的生成、拡散、合成メディア、テキストから画像への変換、またはその他のモデルベースの生成作業。
+- ![マルチモーダル](https://img.shields.io/badge/keyword-multimodal-0891b2) **マルチモーダル**: 視覚言語、音声言語、ビデオ言語、またはクロスモーダル表現の学習。
+- ![nlp](https://img.shields.io/badge/keyword-nlp-f59e0b) **nlp**: 自然言語処理、言語モデリング、検索、対話、要約、または音声言語の作業。
+- ![ビジョン](https://img.shields.io/badge/keyword-vision-0f766e) **ビジョン**: コンピューター ビジョン、画像/ビデオの理解、オブジェクト検出、セグメンテーション、または視覚認識。
+- ![強化学習](https://img.shields.io/badge/keyword-reinforcement--learning-dc2626) **強化学習**: 強化学習、エージェント、計画、制御、ロボット工学、報酬モデリング、または人間によるフィードバック。
+- ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**: 説明可能性、堅牢性、安全性、公平性、不確実性、プライバシー、偏見、または責任ある AI。
+- ![グラフ学習](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **グラフ学習**: グラフ ニューラル ネットワーク、レコメンダー システム、ナレッジ グラフ、グラフ ベンチマーク、またはグラフベースのコア AI メソッド。
+- ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**: 科学、ヘルスケア、生物学、分子、タンパク質、ロボット工学、自律システム、または臨床領域用の AI。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: メタデータ監査で特定された公式 GitHub またはコード リポジトリ リンクを含む論文。
 
-## Taxonomy Overview
+## 分類学の概要
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 8,567,142
-- **General AI Methods and Systems**: 688 papers
-- **Foundation Models and Large Language Models**: 490 papers
-- **Vision and Multimodal Learning**: 477 papers
-- **AI for Science, Healthcare, and Robotics**: 279 papers
-- **Graph Learning, Recommendation, and Core Methods**: 195 papers
-- **Reinforcement Learning and Agents**: 175 papers
-- **Natural Language Processing and Knowledge**: 160 papers
-- **Trustworthy, Explainable, and Responsible AI**: 98 papers
-- **Generative Models and Synthetic Media**: 83 papers
-- **Representation, Self-Supervised, and Transfer Learning**: 55 papers
+- **選択された論文の合計**: 2,700 論文
+- **監査された候補者プール**: 27,000 件の論文 (2000: 1,000、2001: 1,000、2002: 1,000、2003: 1,000、2004: 1,000、2005: 1,000、2006: 1,000、2007: 1,000、2008年：1,000、2009年：1,000、2010年：1,000、2011年：1,000、2012年：1,000、2013年：1,000、2014年：1,000、2015年：1,000、2016年： 1,000、2017年：1,000、2018年：1,000、2019年：1,000、2020年：1,000、2021年：1,000、2022年：1,000、2023年：1,000、2024年：1,000、2025年： 1,000、2026年: 1,000)
+- **選択したセット内の引用数**: 8,567,142
+- **一般的な AI 手法とシステム**: 688 件の論文
+- **基礎モデルと大規模言語モデル**: 490 件の論文
+- **ビジョンとマルチモーダル学習**: 477 件の論文
+- **科学、ヘルスケア、ロボット工学のための AI**: 279 件の論文
+- **グラフ学習、推奨、およびコアメソッド**: 195 件の論文
+- **強化学習とエージェント**: 175 件の論文
+- **自然言語処理と知識**: 160 件の論文
+- **信頼でき、説明可能で、責任ある AI**: 98 件の論文
+- **生成モデルと合成メディア**: 83 件の論文
+- **表現学習、自己教師あり学習、転移学習**: 論文 55 件
 
-## Taxonomy Collections
+## 分類コレクション
 
-### General AI Methods and Systems
+### 一般的な AI 手法とシステム
 
-- Papers selected: **688**
-- Years covered: **2000-2026**
-- Citation count in selected set: **1,366,275**
-- Category Overview (main research trends):
-  - General AI methods consolidate architectures, benchmarks, surveys, datasets, and system-level observations that cut across subfields.
-  - This category often captures high-citation survey or infrastructure work that shapes how later papers define progress.
-  - Citation-ranked views can be especially useful here, but they should be read as a map of influence rather than a complete quality assessment.
-- Limitations:
-  - Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.
-  - Broad claims need careful mapping to specific tasks, datasets, and operational constraints.
-  - Metadata-driven ranking cannot replace expert reading of full papers and experimental details.
+- 選択された論文: **688**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **1,366,275**
+- カテゴリー概要（主な研究傾向）：
+  - 一般的な AI 手法では、サブフィールドにまたがるアーキテクチャ、ベンチマーク、調査、データセット、システムレベルの観察が統合されます。
+  - このカテゴリには、多くの場合、後の論文で進歩を定義する方法を形作る、引用の多い調査やインフラストラクチャの作業が含まれます。
+  - ここでは引用ランキングのビューが特に役立ちますが、完全な品質評価ではなく、影響力の地図として読む必要があります。
+- 制限事項:
+  - 調査やインフラ関連の論文が引用の大半を占める一方で、経験的証拠はサブフィールド全体に分散したままになる可能性があります。
+  - 広範なクレームには、特定のタスク、データセット、運用上の制約を注意深くマッピングする必要があります。
+  - メタデータ主導のランキングは、専門家による論文全文や実験の詳細の読み取りに代わるものではありません。
 
 <details>
 <summary><strong>Show representative papers for General AI Methods and Systems</strong></summary>
@@ -192,19 +192,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Foundation Models and Large Language Models
+### 基礎モデルと大規模言語モデル
 
-- Papers selected: **490**
-- Years covered: **2000-2026**
-- Citation count in selected set: **1,376,019**
-- Category Overview (main research trends):
-  - The main trend is a shift from task-specific NLP systems toward general-purpose foundation models that transfer across tasks through prompting, retrieval, and instruction tuning.
-  - Scaling laws, retrieval augmentation, alignment, and data governance are now central design axes rather than afterthoughts.
-  - Citation-ranked work tends to emphasize architectures, pretraining corpora, benchmark behavior, and broad capability evaluation.
-- Limitations:
-  - Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.
-  - Alignment and safety claims often need stronger real-world and multilingual validation.
-  - Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.
+- 選択された論文: **490**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **1,376,019**
+- カテゴリー概要（主な研究傾向）：
+  - 主な傾向は、タスク固有の NLP システムから、プロンプト、検索、命令チューニングを通じてタスク間で転送する汎用の基礎モデルへの移行です。
+  - スケーリングの法則、検索の拡張、調整、データ ガバナンスは、現在では後付けではなく中心的な設計軸となっています。
+  - 引用ランク付けされた研究は、アーキテクチャ、事前トレーニング コーパス、ベンチマーク動作、および広範な能力評価を重視する傾向があります。
+- 制限事項:
+  - 能力の向上を、データのスケール、ベンチマークの漏洩、評価プロンプトの感度から切り離すのは困難です。
+  - 整合性と安全性の主張には、多くの場合、現実世界でのより強力な多言語検証が必要です。
+  - コンピューティング集中型のトレーニングでは再現性が制限され、フォローアップ作業が少数の施設に集中する可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Foundation Models and Large Language Models</strong></summary>
@@ -317,19 +317,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Vision and Multimodal Learning
+### ビジョンとマルチモーダル学習
 
-- Papers selected: **477**
-- Years covered: **2000-2026**
-- Citation count in selected set: **2,784,705**
-- Category Overview (main research trends):
-  - Vision research is increasingly organized around transformer backbones, self-supervised pretraining, segmentation/detection foundation models, and vision-language alignment.
-  - The strongest papers often combine large-scale data, reusable architectures, and transfer to multiple downstream tasks.
-  - Multimodal work is pushing vision beyond single-task recognition toward retrieval, grounding, robotics, and generative interfaces.
-- Limitations:
-  - Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.
-  - Multimodal alignment may inherit biases and spurious correlations from web-scale data.
-  - High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.
+- 選択された論文: **477**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **2,784,705**
+- カテゴリー概要（主な研究傾向）：
+  - 視覚研究は、変圧器バックボーン、自己教師付き事前トレーニング、セグメンテーション/検出基盤モデル、視覚と言語の調整を中心にますます組織化されています。
+  - 最も強力な論文は、大規模なデータ、再利用可能なアーキテクチャを組み合わせ、複数の下流タスクに転送することがよくあります。
+  - マルチモーダルな作業により、視覚は単一タスクの認識を超えて、検索、グラウンディング、ロボット工学、生成インターフェイスに向けて推進されています。
+- 制限事項:
+  - 大規模なベンチマークの成功は、ディストリビューションの変化、まれなクラス、実際のデプロイメントの制約の下では堅牢性を過大評価する可能性があります。
+  - マルチモーダル アライメントは、Web スケール データからバイアスや偽の相関を継承する可能性があります。
+  - 高性能システムには多くの場合、小規模なラボでは再現するのが難しいデータとコンピューティング リソースが必要です。
 
 <details>
 <summary><strong>Show representative papers for Vision and Multimodal Learning</strong></summary>
@@ -442,19 +442,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### AI for Science, Healthcare, and Robotics
+### 科学、ヘルスケア、ロボット工学のための AI
 
-- Papers selected: **279**
-- Years covered: **2000-2026**
-- Citation count in selected set: **633,472**
-- Category Overview (main research trends):
-  - Applied AI for science and healthcare is shifting from proof-of-concept prediction toward validated workflows for biology, medicine, molecules, and robotics.
-  - The most visible work couples domain data with deep learning architectures that can transfer into laboratory, clinical, or embodied settings.
-  - Evaluation increasingly needs external validation, prospective testing, reproducible datasets, and domain-specific safety constraints.
-- Limitations:
-  - External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.
-  - Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.
-  - Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.
+- 選択された論文: **279**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **633,472**
+- カテゴリー概要（主な研究傾向）：
+  - 科学とヘルスケアへの応用 AI は、概念実証の予測から、生物学、医学、分子、ロボット工学の検証済みのワークフローへと移行しています。
+  - 最も注目されている研究は、研究室、臨床、または身体的な設定に移行できる深層学習アーキテクチャとドメイン データを結合するものです。
+  - 評価には、外部検証、前向きテスト、再現可能なデータセット、ドメイン固有の安全制約がますます必要になります。
+- 制限事項:
+  - 多くの場合、外部検証、将来に向けたテスト、ドメイン専門家によるレビューの方が、遡及的なベンチマーク スコアよりも重要です。
+  - データ収集プロトコルがトレーニングの想定と異なる場合、臨床、生物学、ロボットの導入は失敗する可能性があります。
+  - 安全性、解釈可能性、不確実性、規制上の証拠は依然として翻訳に不可欠です。
 
 <details>
 <summary><strong>Show representative papers for AI for Science, Healthcare, and Robotics</strong></summary>
@@ -567,19 +567,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Graph Learning, Recommendation, and Core Methods
+### グラフの学習、推奨、およびコアメソッド
 
-- Papers selected: **195**
-- Years covered: **2000-2026**
-- Citation count in selected set: **441,156**
-- Category Overview (main research trends):
-  - Core AI methods include graph neural networks, recommender systems, optimization, neural architecture search, Bayesian methods, and efficient training recipes.
-  - Many papers in this category become reusable algorithmic infrastructure for applied AI systems.
-  - The dominant trend is stronger inductive bias for non-Euclidean data, sparse interaction data, and efficient hyperparameter or architecture search.
-- Limitations:
-  - Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.
-  - Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.
-  - Core methods need careful ablations before broad claims about generality or efficiency are accepted.
+- 選択された論文: **195**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **441,156**
+- カテゴリー概要（主な研究傾向）：
+  - コア AI 手法には、グラフ ニューラル ネットワーク、レコメンダー システム、最適化、ニューラル アーキテクチャ検索、ベイジアン手法、効率的なトレーニング レシピが含まれます。
+  - このカテゴリの多くの論文は、応用 AI システムの再利用可能なアルゴリズム インフラストラクチャになります。
+  - 主な傾向は、非ユークリッド データ、疎な相互作用データ、および効率的なハイパーパラメータまたはアーキテクチャ検索に対する強い帰納的バイアスです。
+- 制限事項:
+  - グラフとレコメンダーのベンチマークには、一時的な漏れ、人気の偏り、または非現実的なトレーニング/テストの分割が含まれる可能性があります。
+  - アルゴリズムのゲインは、ハイパーパラメーターの予算と実装の詳細に影響される可能性があります。
+  - コアメソッドは、一般性や効率性に関する広範な主張が受け入れられる前に、慎重な切除を必要とします。
 
 <details>
 <summary><strong>Show representative papers for Graph Learning, Recommendation, and Core Methods</strong></summary>
@@ -692,19 +692,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Reinforcement Learning and Agents
+### 強化学習とエージェント
 
-- Papers selected: **175**
-- Years covered: **2000-2026**
-- Citation count in selected set: **456,581**
-- Category Overview (main research trends):
-  - Reinforcement learning is converging with human feedback, offline datasets, robotics, planning, and agentic tool-use settings.
-  - A major thread is reducing sample inefficiency while improving robustness under distribution shift and sparse rewards.
-  - The field is increasingly judged by transfer, safety, and real-world interaction rather than benchmark score alone.
-- Limitations:
-  - Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.
-  - Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.
-  - Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.
+- 選択された論文: **175**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **456,581**
+- カテゴリー概要（主な研究傾向）：
+  - 強化学習は、人間のフィードバック、オフライン データセット、ロボット工学、計画、エージェント ツールの使用設定と融合しています。
+  - 主な目的は、分布の変化や報酬が少ない場合の堅牢性を向上させながら、サンプルの非効率を削減することです。
+  - この分野は、ベンチマーク スコアだけではなく、転送、安全性、現実世界のインタラクションによって判断されることが増えています。
+- 制限事項:
+  - サンプルの効率、報酬の仕様の誤り、シミュレーターのバイアス、探査中の安全性などが依然として根強い障壁となっています。
+  - ベンチマークのパフォーマンスは、物理的なロボット、人間と対面するツール、またはオープンエンド環境には移行しない可能性があります。
+  - エージェント システムには、信頼性、エラーからの回復、長期的な監視に関するより強力な証拠が必要です。
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Agents</strong></summary>
@@ -817,19 +817,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Natural Language Processing and Knowledge
+### 自然言語処理と知識
 
-- Papers selected: **160**
-- Years covered: **2000-2024**
-- Citation count in selected set: **746,046**
-- Category Overview (main research trends):
-  - NLP is moving from supervised task pipelines toward pretrained language models, retrieval-augmented methods, and knowledge-intensive reasoning benchmarks.
-  - Search, retrieval, summarization, dialogue, and domain adaptation are increasingly evaluated as integrated knowledge workflows.
-  - Citation-ranked NLP papers often become shared components, datasets, or baseline methods for later foundation model research.
-- Limitations:
-  - Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.
-  - Language coverage is often uneven, with English and high-resource domains overrepresented.
-  - Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.
+- 選択された論文: **160**
+- 対象年: **2000-2024**
+- 選択したセット内の引用数: **746,046**
+- カテゴリー概要（主な研究傾向）：
+  - NLP は、教師ありタスク パイプラインから、事前トレーニング済み言語モデル、検索拡張手法、知識集約型推論ベンチマークへと移行しています。
+  - 検索、取得、要約、対話、およびドメイン適応は、統合されたナレッジ ワークフローとしてますます評価されています。
+  - 引用ランク付けされた NLP 論文は、多くの場合、後の基礎モデル研究の共有コンポーネント、データセット、またはベースライン手法になります。
+- 制限事項:
+  - ベンチマーク スコアには、脆弱な推論、取得の失敗、幻覚、ドメイン転送の問題が隠れている可能性があります。
+  - 言語の範囲は不均等であることが多く、英語と高リソースのドメインが過半数を占めています。
+  - 評価は、注釈プロトコル、プロンプトの文言、およびモデル API の変更に影響を受ける可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Natural Language Processing and Knowledge</strong></summary>
@@ -942,19 +942,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Trustworthy, Explainable, and Responsible AI
+### 信頼でき、説明可能で、責任ある AI
 
-- Papers selected: **98**
-- Years covered: **2000-2026**
-- Citation count in selected set: **239,459**
-- Category Overview (main research trends):
-  - Trustworthy AI work is broadening from post-hoc explanations to robustness, fairness, privacy, calibration, uncertainty, and safety-aware evaluation.
-  - Highly cited papers provide taxonomies, metrics, attacks, or toolkits that make system behavior easier to inspect and compare.
-  - The area is increasingly coupled to foundation model deployment, high-stakes domains, and governance requirements.
-- Limitations:
-  - Explanations can be persuasive without being faithful to model internals or decision processes.
-  - Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.
-  - Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.
+- 選択された論文: **98**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **239,459**
+- カテゴリー概要（主な研究傾向）：
+  - 信頼できる AI の仕事は、事後的な説明から、堅牢性、公平性、プライバシー、校正、不確実性、安全性を意識した評価まで広がっています。
+  - 引用度の高い論文には、システム動作の検査と比較を容易にする分類法、指標、攻撃、またはツールキットが記載されています。
+  - この分野は、基盤モデルの導入、一か八かのドメイン、ガバナンス要件とますます結びついています。
+- 制限事項:
+  - 内部構造や意思決定プロセスのモデルに忠実でなくても、説明に説得力を持たせることができます。
+  - 公平性、堅牢性、プライバシー、安全性の指標は矛盾する可能性があり、ドメイン固有のトレードオフが必要になります。
+  - 責任ある AI の結果には、多くの場合、ベンチマークや合成設定を超える強力な導入証拠が必要です。
 
 <details>
 <summary><strong>Show representative papers for Trustworthy, Explainable, and Responsible AI</strong></summary>
@@ -1067,19 +1067,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Generative Models and Synthetic Media
+### 生成モデルと合成メディア
 
-- Papers selected: **83**
-- Years covered: **2000-2026**
-- Citation count in selected set: **277,971**
-- Category Overview (main research trends):
-  - Generative AI research has moved from GAN-centered image synthesis toward diffusion, score-based modeling, and controllable multimodal generation.
-  - The area increasingly connects generation quality with data curation, safety, copyright, controllability, and evaluation reliability.
-  - Highly cited papers often introduce reusable model families, training objectives, or evaluation protocols that become infrastructure for later systems.
-- Limitations:
-  - Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.
-  - Training data provenance and copyright constraints can be under-specified in highly cited generation work.
-  - Robust evaluation across cultures, modalities, and adversarial uses remains difficult.
+- 選択された論文: **83**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **277,971**
+- カテゴリー概要（主な研究傾向）：
+  - 生成 AI 研究は、GAN 中心の画像合成から、拡散、スコアベースのモデリング、および制御可能なマルチモーダル生成へと移行しました。
+  - この分野では、生成品質とデータキュレーション、安全性、著作権、制御性、および評価の信頼性がますます結びついています。
+  - 引用率の高い論文では、後のシステムのインフラストラクチャとなる再利用可能なモデル ファミリ、トレーニング目標、または評価プロトコルが紹介されることがよくあります。
+- 制限事項:
+  - 画像とメディアの品質指標は、事実性、制御可能性、出所、または下流の害を捉えていない可能性があります。
+  - トレーニング データの来歴と著作権の制約は、引用度の高い生成作業では十分に指定されていない可能性があります。
+  - 文化、様式、敵対的な使用を超えた堅牢な評価は依然として困難です。
 
 <details>
 <summary><strong>Show representative papers for Generative Models and Synthetic Media</strong></summary>
@@ -1192,19 +1192,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Representation, Self-Supervised, and Transfer Learning
+### 表現学習、自己教師あり学習、転移学習
 
-- Papers selected: **55**
-- Years covered: **2001-2026**
-- Citation count in selected set: **245,458**
-- Category Overview (main research trends):
-  - Self-supervised and contrastive methods are reducing dependence on labeled data while improving transfer across tasks and domains.
-  - Reusable representations, distillation, domain adaptation, and few-shot learning form the connective tissue between specialized AI subfields.
-  - Citation impact is often driven by methods that become default pretraining or adaptation recipes.
-- Limitations:
-  - Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.
-  - Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.
-  - Representation quality is hard to compare when model size, data scale, and training recipes differ.
+- 選択された論文: **55**
+- 対象年: **2001-2026**
+- 選択したセットの引用数: **245,458**
+- カテゴリー概要（主な研究傾向）：
+  - 自己監視型の対照的な手法により、ラベル付きデータへの依存が軽減され、タスクやドメイン間の転送が向上します。
+  - 再利用可能な表現、蒸留、ドメイン適応、および少数ショット学習は、専門化された AI サブフィールド間の結合組織を形成します。
+  - 引用の影響は、多くの場合、デフォルトの事前トレーニングまたは適応レシピとなるメソッドによって引き起こされます。
+- 制限事項:
+  - 転送要求は、下流のタスクの選択、データの重複、および評価プロトコルに大きく依存します。
+  - 対比法と自己教師法では、拡張または否定が十分に一致していない場合に、偽のショートカットを学習する可能性があります。
+  - モデルのサイズ、データ規模、トレーニング レシピが異なる場合、表現の品質を比較するのは困難です。
 
 <details>
 <summary><strong>Show representative papers for Representation, Self-Supervised, and Transfer Learning</strong></summary>
@@ -1317,7 +1317,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-## Yearly Coverage
+## 年間補償範囲
 
 | Year | Candidate papers audited | Selected top-100 papers | Citations in selected set | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1349,23 +1349,23 @@ These badges define the AI keyword tags used to read and extend this collection.
 | 2025 | 1,000 | 100 | 72,745 | [Qwen3 Technical Report](https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a) |
 | 2026 | 1,000 | 100 | 6,582 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://www.semanticscholar.org/paper/1b6e16cc72aee038eb1879b8686b53776be3d51f) |
 
-## Methodology
+## 方法論
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+このコレクションでは、Semantic Sc​​holar Academic Graph の一括検索を使用します。クエリは、AI、機械学習、深層学習、基礎モデル、言語、ビジョン、強化学習、生成モデル、グラフ学習、マルチモーダル学習、信頼できる AI、科学向け AI のテーマを幅広くカバーします。 2000 年から 2026 年までの各年について、結果は出版年にフィルタリングされ、タイトル/要約/会場メタデータ内の明示的な AI 関連表現でスクリーニングされ、DOI、arXiv、PubMed、CorpusId、paperId、タイトルによって重複が排除され、引用数に基づいて最大 1,000 件の候補に絞り込まれます。最後の素晴らしいリストでは、各出版年の中で引用数に基づいて上位 100 件の論文が選択されます。影響力のある引用数と決定論的なメタデータ重要度スコアは、タイブレーカーおよび監査シグナルとして保持されます。
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+分類法、主要なアイデア、長所、制限、メソッド タグ、およびキーワード タグは、パブリック メタデータとルールベースのドメイン規則から決定論的に生成されます。有料 API、有料 LLM、有料翻訳、有料コンピューティングは使用されませんでした。
 
-## Caveats
+## 注意事項
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation counts favor older papers; 2026 should be interpreted as a partial and still-moving year.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Citation ranking measures influence and visibility; it does not directly measure methodological quality, safety, or reproducibility.
+- これはメタデータ主導の引用マップであり、すべての PDF を完全に体系的にレビューしたものではありません。
+- 引用数は古い論文を優先します。 2026 年は部分的でまだ動いている年として解釈されるべきです。
+- Semantic Scholar のメタデータでは、一部のレコードについて、会場、抄録、PDF、または影響力のある引用数が省略される場合があります。
+- 引用ランキングは影響力と可視性を測定します。方法論的な品質、安全性、再現性を直接測定するものではありません。
 
-## Acknowledgements
+## 謝辞
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+このリポジトリとインタラクティブ サイトは、[jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) に感謝して作成されました。その論文キュレーションのワークフローとリポジトリの構成は、ここで分類法優先の引用ランク付けされた研究マップに使用されるアプローチに影響を与えました。
 
-## License
+## ライセンス
 
-CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.
+テキストとメタデータのキュレーションには CC-BY-4.0。上流の紙のメタデータはオリジナルのソースに属します。

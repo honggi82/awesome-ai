@@ -1,7 +1,7 @@
-# Awesome AI
+# 很棒的人工智能
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
+2000 年至 2026 年人工智能研究的分类优先、引文排名地图。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-ai/">
@@ -10,7 +10,7 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
@@ -18,68 +18,68 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
-  <a href="README.zh.md">中文</a>
+  <a href="README.zh.md"><strong>中文</strong></a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
+由免费公共语义学者元数据于 2026 年 6 月 27 日生成。该版本每年调查 2000-2026 年多达 1,000 篇与人工智能相关的候选论文，保留经过审核的 27,000 条记录的候选论文库，每年按引用次数选出前 100 篇论文（总共 2,700 篇论文），并通过人工智能研究分类法重新组织它们。
 
-## Project Links
+## 项目链接
 
-- Open Interactive Website: https://honggi82.github.io/awesome-ai/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- 打开互动网站：https://honggi82.github.io/awesome-ai/
+- 选定的数据集：`data/papers_2000_2026.csv`
+- 具有论文级想法、优点和局限性的分类数据集：`data/papers_taxonomy_2000_2026.csv`
+- 预计算周期和语言分析：`data/period_analysis_2000_2026.json`
+- 候选池：`data/candidates_top1000_2000_2026.csv`
+- 英文审稿稿：`paper/review_en.html`、`paper/review_en.docx`
+- 韩国审稿：`paper/review_ko.html`
 
-## Keywords Convention
+## 关键词约定
 
-These badges define the AI keyword tags used to read and extend this collection.
+这些徽章定义了用于读取和扩展此集合的 AI 关键字标签。
 
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: Statistical learning, neural networks, SVMs, trees/boosting, data mining, pattern recognition, clustering, or core ML methods.
-- ![foundation-models](https://img.shields.io/badge/keyword-foundation--models-2563eb) **foundation-models**: Large language models, foundation models, scaling, prompting, alignment, or retrieval-augmented systems.
-- ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**: Generative adversarial, diffusion, synthetic media, text-to-image, or other model-based generation work.
-- ![multimodal](https://img.shields.io/badge/keyword-multimodal-0891b2) **multimodal**: Vision-language, audio-language, video-language, or cross-modal representation learning.
-- ![nlp](https://img.shields.io/badge/keyword-nlp-f59e0b) **nlp**: Natural language processing, language modeling, retrieval, dialogue, summarization, or speech-language work.
-- ![vision](https://img.shields.io/badge/keyword-vision-0f766e) **vision**: Computer vision, image/video understanding, object detection, segmentation, or visual recognition.
-- ![reinforcement-learning](https://img.shields.io/badge/keyword-reinforcement--learning-dc2626) **reinforcement-learning**: Reinforcement learning, agents, planning, control, robotics, reward modeling, or human feedback.
-- ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**: Explainability, robustness, safety, fairness, uncertainty, privacy, bias, or responsible AI.
-- ![graph-learning](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **graph-learning**: Graph neural networks, recommender systems, knowledge graphs, graph benchmarks, or graph-based core AI methods.
-- ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**: AI for science, healthcare, biology, molecules, proteins, robotics, autonomous systems, or clinical domains.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![机器学习](https://img.shields.io/badge/keyword-machine--learning-475569) **机器学习**：统计学习、神经网络、SVM、树/提升、数据挖掘、模式识别、聚类或核心 ML 方法。
+- ![基础模型](https://img.shields.io/badge/keyword-foundation--models-2563eb) **基础模型**：大型语言模型、基础模型、缩放、提示、对齐或检索增强系统。
+- ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**：生成对抗、扩散、合成媒体、文本到图像或其他基于模型的生成工作。
+- ![multimodal](https://img.shields.io/badge/keyword-multimodal-0891b2) **multimodal**：视觉语言、音频语言、视频语言或跨模态表示学习。
+- ![nlp](https://img.shields.io/badge/keyword-nlp-f59e0b) **nlp**：自然语言处理、语言建模、检索、对话、摘要或语音语言工作。
+- ![vision](https://img.shields.io/badge/keyword-vision-0f766e) **vision**：计算机视觉、图像/视频理解、对象检测、分割或视觉识别。
+- ![强化学习](https://img.shields.io/badge/keyword-reinforcement--learning-dc2626) **强化学习**：强化学习、代理、规划、控制、机器人、奖励建模或人类反馈。
+- ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**：可解释性、稳健性、安全性、公平性、不确定性、隐私、偏见或负责任的人工智能。
+- ![图学习](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **图学习**：图神经网络、推荐系统、知识图、图基准或基于图的核心人工智能方法。
+- ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**：用于科学、医疗保健、生物学、分子、蛋白质、机器人、自主系统或临床领域的人工智能。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**：在元数据审计中识别出具有官方 GitHub 或代码存储库链接的论文。
 
-## Taxonomy Overview
+## 分类概述
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 8,567,142
-- **General AI Methods and Systems**: 688 papers
-- **Foundation Models and Large Language Models**: 490 papers
-- **Vision and Multimodal Learning**: 477 papers
-- **AI for Science, Healthcare, and Robotics**: 279 papers
-- **Graph Learning, Recommendation, and Core Methods**: 195 papers
-- **Reinforcement Learning and Agents**: 175 papers
-- **Natural Language Processing and Knowledge**: 160 papers
-- **Trustworthy, Explainable, and Responsible AI**: 98 papers
-- **Generative Models and Synthetic Media**: 83 papers
-- **Representation, Self-Supervised, and Transfer Learning**: 55 papers
+- **所选论文总数**：2,700 篇论文
+- **已审核的候选库**：27,000篇论文（2000年：1,000篇、2001年：1,000篇、2002年：1,000篇、2003年：1,000篇、2004年：1,000篇、2005年：1,000篇、2006年：1,000篇、2007年： 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000，2026 年：1,000)
+- **所选集中的引用计数**：8,567,142
+- **通用人工智能方法和系统**：688 篇论文
+- **基础模型和大型语言模型**：490 篇论文
+- **视觉和多模态学习**：477 篇论文
+- **科学、医疗保健和机器人领域的人工智能**：279 篇论文
+- **图学习、推荐和核心方法**：195 篇论文
+- **强化学习和代理**：175 篇论文
+- **自然语言处理和知识**：160 篇论文
+- **值得信赖、可解释且负责任的人工智能**：98 篇论文
+- **生成模型和合成媒体**：83 篇论文
+- **表示、自监督和迁移学习**：55 篇论文
 
-## Taxonomy Collections
+## 分类学集合
 
-### General AI Methods and Systems
+### 通用人工智能方法和系统
 
-- Papers selected: **688**
-- Years covered: **2000-2026**
-- Citation count in selected set: **1,366,275**
-- Category Overview (main research trends):
-  - General AI methods consolidate architectures, benchmarks, surveys, datasets, and system-level observations that cut across subfields.
-  - This category often captures high-citation survey or infrastructure work that shapes how later papers define progress.
-  - Citation-ranked views can be especially useful here, but they should be read as a map of influence rather than a complete quality assessment.
-- Limitations:
-  - Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.
-  - Broad claims need careful mapping to specific tasks, datasets, and operational constraints.
-  - Metadata-driven ranking cannot replace expert reading of full papers and experimental details.
+- 所选论文：**688**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**1,366,275**
+- 类别概述（主要研究趋势）：
+  - 通用人工智能方法整合了跨子领域的架构、基准、调查、数据集和系统级观察。
+  - 这一类别通常包含高被引调查或基础设施工作，这些工作决定了后来的论文如何定义进展。
+  - 引文排名视图在这里特别有用，但它们应该被视为影响力地图，而不是完整的质量评估。
+- 限制：
+  - 调查和基础设施论文可以主导引用，而经验证据仍然分布在各个子领域。
+  - 广泛的主张需要仔细映射到特定的任务、数据集和操作约束。
+  - 元数据驱动的排名不能取代专家对全文和实验细节的阅读。
 
 <details>
 <summary><strong>Show representative papers for General AI Methods and Systems</strong></summary>
@@ -192,19 +192,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Foundation Models and Large Language Models
+### 基础模型和大型语言模型
 
-- Papers selected: **490**
-- Years covered: **2000-2026**
-- Citation count in selected set: **1,376,019**
-- Category Overview (main research trends):
-  - The main trend is a shift from task-specific NLP systems toward general-purpose foundation models that transfer across tasks through prompting, retrieval, and instruction tuning.
-  - Scaling laws, retrieval augmentation, alignment, and data governance are now central design axes rather than afterthoughts.
-  - Citation-ranked work tends to emphasize architectures, pretraining corpora, benchmark behavior, and broad capability evaluation.
-- Limitations:
-  - Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.
-  - Alignment and safety claims often need stronger real-world and multilingual validation.
-  - Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.
+- 所选论文： **490**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**1,376,019**
+- 类别概述（主要研究趋势）：
+  - 主要趋势是从特定任务的 NLP 系统转向通用基础模型，通过提示、检索和指令调整跨任务转移。
+  - 扩展法则、检索增强、对齐和数据治理现在是中心设计轴，而不是事后的想法。
+  - 引文排名的工作往往强调架构、预训练语料库、基准行为和广泛的能力评估。
+- 限制：
+  - 能力增益很难与数据规模、基准泄漏和评估提示敏感性分开。
+  - 一致性和安全声明通常需要更强大的现实世界和多语言验证。
+  - 计算密集型培训可能会限制可重复性，并将后续工作集中在少数机构身上。
 
 <details>
 <summary><strong>Show representative papers for Foundation Models and Large Language Models</strong></summary>
@@ -317,19 +317,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Vision and Multimodal Learning
+### 视觉和多模态学习
 
-- Papers selected: **477**
-- Years covered: **2000-2026**
-- Citation count in selected set: **2,784,705**
-- Category Overview (main research trends):
-  - Vision research is increasingly organized around transformer backbones, self-supervised pretraining, segmentation/detection foundation models, and vision-language alignment.
-  - The strongest papers often combine large-scale data, reusable architectures, and transfer to multiple downstream tasks.
-  - Multimodal work is pushing vision beyond single-task recognition toward retrieval, grounding, robotics, and generative interfaces.
-- Limitations:
-  - Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.
-  - Multimodal alignment may inherit biases and spurious correlations from web-scale data.
-  - High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.
+- 所选论文：**477**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**2,784,705**
+- 类别概述（主要研究趋势）：
+  - 视觉研究越来越多地围绕变压器主干、自监督预训练、分割/检测基础模型和视觉语言对齐进行组织。
+  - 最强大的论文通常结合大规模数据、可重用架构，并转移到多个下游任务。
+  - 多模式工作正在推动视觉超越单一任务识别，走向检索、基础、机器人和生成界面。
+- 限制：
+  - 大规模基准测试的成功可能会夸大分布转移、稀有类别和实际部署约束下的稳健性。
+  - 多模态对齐可能会继承网络规模数据的偏差和虚假相关性。
+  - 高性能系统通常需要小型实验室难以重现的数据和计算资源。
 
 <details>
 <summary><strong>Show representative papers for Vision and Multimodal Learning</strong></summary>
@@ -442,19 +442,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### AI for Science, Healthcare, and Robotics
+### 科学、医疗保健和机器人领域的人工智能
 
-- Papers selected: **279**
-- Years covered: **2000-2026**
-- Citation count in selected set: **633,472**
-- Category Overview (main research trends):
-  - Applied AI for science and healthcare is shifting from proof-of-concept prediction toward validated workflows for biology, medicine, molecules, and robotics.
-  - The most visible work couples domain data with deep learning architectures that can transfer into laboratory, clinical, or embodied settings.
-  - Evaluation increasingly needs external validation, prospective testing, reproducible datasets, and domain-specific safety constraints.
-- Limitations:
-  - External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.
-  - Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.
-  - Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.
+- 所选论文：**279**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**633,472**
+- 类别概述（主要研究趋势）：
+  - 科学和医疗保健领域的应用人工智能正在从概念验证预测转向生物学、医学、分子和机器人技术的验证工作流程。
+  - 最引人注目的工作将领域数据与深度学习架构结合起来，可以转移到实验室、临床或具体环境中。
+  - 评估越来越需要外部验证、前瞻性测试、可重复的数据集和特定领域的安全约束。
+- 限制：
+  - 外部验证、前瞻性测试和领域专家评审通常比回顾性基准分数更重要。
+  - 当数据收集协议与训练假设不同时，临床、生物或机器人部署可能会失败。
+  - 安全性、可解释性、不确定性和监管证据对于翻译仍然至关重要。
 
 <details>
 <summary><strong>Show representative papers for AI for Science, Healthcare, and Robotics</strong></summary>
@@ -567,19 +567,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Graph Learning, Recommendation, and Core Methods
+### 图学习、推荐和核心方法
 
-- Papers selected: **195**
-- Years covered: **2000-2026**
-- Citation count in selected set: **441,156**
-- Category Overview (main research trends):
-  - Core AI methods include graph neural networks, recommender systems, optimization, neural architecture search, Bayesian methods, and efficient training recipes.
-  - Many papers in this category become reusable algorithmic infrastructure for applied AI systems.
-  - The dominant trend is stronger inductive bias for non-Euclidean data, sparse interaction data, and efficient hyperparameter or architecture search.
-- Limitations:
-  - Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.
-  - Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.
-  - Core methods need careful ablations before broad claims about generality or efficiency are accepted.
+- 所选论文：**195**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**441,156**
+- 类别概述（主要研究趋势）：
+  - 核心人工智能方法包括图神经网络、推荐系统、优化、神经架构搜索、贝叶斯方法和高效训练方法。
+  - 这一类别的许多论文成为应用人工智能系统的可重用算法基础设施。
+  - 主导趋势是对非欧几里得数据、稀疏交互数据和高效超参数或架构搜索的更强归纳偏差。
+- 限制：
+  - 图和推荐基准可能包含时间泄漏、流行度偏差或不切实际的训练/测试分割。
+  - 算法增益可能对超参数预算和实现细节敏感。
+  - 在普遍性或效率的广泛主张被接受之前，核心方法需要仔细消融。
 
 <details>
 <summary><strong>Show representative papers for Graph Learning, Recommendation, and Core Methods</strong></summary>
@@ -692,19 +692,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Reinforcement Learning and Agents
+### 强化学习和代理
 
-- Papers selected: **175**
-- Years covered: **2000-2026**
-- Citation count in selected set: **456,581**
-- Category Overview (main research trends):
-  - Reinforcement learning is converging with human feedback, offline datasets, robotics, planning, and agentic tool-use settings.
-  - A major thread is reducing sample inefficiency while improving robustness under distribution shift and sparse rewards.
-  - The field is increasingly judged by transfer, safety, and real-world interaction rather than benchmark score alone.
-- Limitations:
-  - Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.
-  - Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.
-  - Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.
+- 所选论文：**175**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**456,581**
+- 类别概述（主要研究趋势）：
+  - 强化学习正在与人类反馈、离线数据集、机器人、规划和代理工具使用设置相融合。
+  - 一个主要线索是减少样本效率低下，同时提高分布转移和稀疏奖励下的鲁棒性。
+  - 该领域越来越多地通过传输、安全性和现实世界的互动来评判，而不仅仅是基准分数。
+- 限制：
+  - 样本效率、奖励错误指定、模拟器偏差和探索安全性仍然是持续存在的障碍。
+  - 基准性能可能不会转移到物理机器人、面向人类的工具或开放式环境。
+  - 代理系统需要关于可靠性、错误恢复和长期监督的更有力证据。
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Agents</strong></summary>
@@ -817,19 +817,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Natural Language Processing and Knowledge
+### 自然语言处理和知识
 
-- Papers selected: **160**
-- Years covered: **2000-2024**
-- Citation count in selected set: **746,046**
-- Category Overview (main research trends):
-  - NLP is moving from supervised task pipelines toward pretrained language models, retrieval-augmented methods, and knowledge-intensive reasoning benchmarks.
-  - Search, retrieval, summarization, dialogue, and domain adaptation are increasingly evaluated as integrated knowledge workflows.
-  - Citation-ranked NLP papers often become shared components, datasets, or baseline methods for later foundation model research.
-- Limitations:
-  - Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.
-  - Language coverage is often uneven, with English and high-resource domains overrepresented.
-  - Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.
+- 所选论文： **160**
+- 涵盖年份： **2000-2024**
+- 所选集中的引用计数：**746,046**
+- 类别概述（主要研究趋势）：
+  - NLP 正在从监督任务管道转向预训练语言模型、检索增强方法和知识密集型推理基准。
+  - 搜索、检索、总结、对话和领域适应越来越多地被评估为集成的知识工作流程。
+  - 被引文排名的 NLP 论文通常会成为后来基础模型研究的共享组件、数据集或基线方法。
+- 限制：
+  - 基准分数可能隐藏脆弱的推理、检索失败、幻觉和域转移问题。
+  - 语言覆盖范围往往参差不齐，英语和高资源领域所占比例过高。
+  - 评估可能对注释协议、提示措辞和不断变化的模型 API 很敏感。
 
 <details>
 <summary><strong>Show representative papers for Natural Language Processing and Knowledge</strong></summary>
@@ -942,19 +942,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Trustworthy, Explainable, and Responsible AI
+### 值得信赖、可解释且负责任的人工智能
 
-- Papers selected: **98**
-- Years covered: **2000-2026**
-- Citation count in selected set: **239,459**
-- Category Overview (main research trends):
-  - Trustworthy AI work is broadening from post-hoc explanations to robustness, fairness, privacy, calibration, uncertainty, and safety-aware evaluation.
-  - Highly cited papers provide taxonomies, metrics, attacks, or toolkits that make system behavior easier to inspect and compare.
-  - The area is increasingly coupled to foundation model deployment, high-stakes domains, and governance requirements.
-- Limitations:
-  - Explanations can be persuasive without being faithful to model internals or decision processes.
-  - Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.
-  - Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.
+- 所选论文：**98**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**239,459**
+- 类别概述（主要研究趋势）：
+  - 值得信赖的人工智能工作正在从事后解释扩展到稳健性、公平性、隐私性、校准、不确定性和安全意识评估。
+  - 被高度引用的论文提供了分类法、指标、攻击或工具包，使系统行为更容易检查和比较。
+  - 该领域与基础模型部署、高风险领域和治理要求的耦合度越来越高。
+- 限制：
+  - 解释可以具有说服力，但不忠实于模型内部结构或决策过程。
+  - 公平性、稳健性、隐私性和安全性指标可能会发生冲突，需要针对特定​​领域进行权衡。
+  - 负责任的人工智能结果通常需要超越基准或综合设置的更强有力的部署证据。
 
 <details>
 <summary><strong>Show representative papers for Trustworthy, Explainable, and Responsible AI</strong></summary>
@@ -1067,19 +1067,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Generative Models and Synthetic Media
+### 生成模型和合成媒体
 
-- Papers selected: **83**
-- Years covered: **2000-2026**
-- Citation count in selected set: **277,971**
-- Category Overview (main research trends):
-  - Generative AI research has moved from GAN-centered image synthesis toward diffusion, score-based modeling, and controllable multimodal generation.
-  - The area increasingly connects generation quality with data curation, safety, copyright, controllability, and evaluation reliability.
-  - Highly cited papers often introduce reusable model families, training objectives, or evaluation protocols that become infrastructure for later systems.
-- Limitations:
-  - Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.
-  - Training data provenance and copyright constraints can be under-specified in highly cited generation work.
-  - Robust evaluation across cultures, modalities, and adversarial uses remains difficult.
+- 所选论文：**83**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**277,971**
+- 类别概述（主要研究趋势）：
+  - 生成式人工智能研究已经从以 GAN 为中心的图像合成转向扩散、基于评分的建模和可控多模态生成。
+  - 该领域日益将发电质量与数据管理、安全性、版权、可控性和评估可靠性联系起来。
+  - 被高度引用的论文通常会介绍可重用的模型系列、训练目标或评估协议，这些都成为后来系统的基础设施。
+- 限制：
+  - 图像和媒体质量指标可能无法反映事实性、可控性、来源或下游危害。
+  - 在被高度引用的生成作品中，训练数据的来源和版权限制可能未得到明确说明。
+  - 跨文化、模式和对抗性用途的稳健评估仍然很困难。
 
 <details>
 <summary><strong>Show representative papers for Generative Models and Synthetic Media</strong></summary>
@@ -1192,19 +1192,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Representation, Self-Supervised, and Transfer Learning
+### 表示、自我监督和迁移学习
 
-- Papers selected: **55**
-- Years covered: **2001-2026**
-- Citation count in selected set: **245,458**
-- Category Overview (main research trends):
-  - Self-supervised and contrastive methods are reducing dependence on labeled data while improving transfer across tasks and domains.
-  - Reusable representations, distillation, domain adaptation, and few-shot learning form the connective tissue between specialized AI subfields.
-  - Citation impact is often driven by methods that become default pretraining or adaptation recipes.
-- Limitations:
-  - Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.
-  - Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.
-  - Representation quality is hard to compare when model size, data scale, and training recipes differ.
+- 所选论文：**55**
+- 涵盖年份： **2001-2026**
+- 所选集中的引用计数：**245,458**
+- 类别概述（主要研究趋势）：
+  - 自监督和对比方法正在减少对标记数据的依赖，同时改善跨任务和领域的传输。
+  - 可重用的表示、蒸馏、领域适应和小样本学习形成了专门的人工智能子领域之间的结缔组织。
+  - 引文影响通常是由成为默认预训练或适应方法的方法驱动的。
+- 限制：
+  - 转移声明在很大程度上取决于下游任务选择、数据重叠和评估协议。
+  - 当增强或否定不匹配时，对比和自我监督方法可以学习虚假的捷径。
+  - 当模型大小、数据规模和训练方法不同时，表示质量很难比较。
 
 <details>
 <summary><strong>Show representative papers for Representation, Self-Supervised, and Transfer Learning</strong></summary>
@@ -1317,7 +1317,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-## Yearly Coverage
+## 年度覆盖范围
 
 | Year | Candidate papers audited | Selected top-100 papers | Citations in selected set | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1349,23 +1349,23 @@ These badges define the AI keyword tags used to read and extend this collection.
 | 2025 | 1,000 | 100 | 72,745 | [Qwen3 Technical Report](https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a) |
 | 2026 | 1,000 | 100 | 6,582 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://www.semanticscholar.org/paper/1b6e16cc72aee038eb1879b8686b53776be3d51f) |
 
-## Methodology
+## 方法论
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+该集合使用语义学者学术图批量搜索。查询涵盖广泛的人工智能、机器学习、深度学习、基础模型、语言、视觉、强化学习、生成模型、图学习、多模态学习、值得信赖的人工智能和人工智能科学主题。从 2000 年到 2026 年，每年的结果都会被过滤到出版年份，在标题/摘要/地点元数据中使用明确的 AI 相关表达式进行筛选，通过 DOI、arXiv、PubMed、CorpusId、paperId、标题进行重复数据删除，并根据引用计数将候选者减少到最多 1,000 个。最终的精彩榜单根据引用次数选出每个出版年度内排名前 100 的论文；有影响力的引用计数和确定性元数据重要性分数被保留作为决胜局和审核信号。
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+分类法、关键思想、优点、局限性、方法标签和关键字标签是根据公共元数据和基于规则的域约定确定性生成的。未使用付费 API、付费法学硕士、付费翻译或付费计算。
 
-## Caveats
+## 注意事项
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation counts favor older papers; 2026 should be interpreted as a partial and still-moving year.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Citation ranking measures influence and visibility; it does not directly measure methodological quality, safety, or reproducibility.
+- 这是一个元数据驱动的引文图，而不是对每个 PDF 的完整系统回顾。
+- 引用计数偏向较旧的论文； 2026年应该被理解为一个局部的、仍在移动的一年。
+- Semantic Sc​​holar 元数据可以省略某些记录的地点、摘要、PDF 或有影响力的引用计数。
+- 引文排名衡量影响力和知名度；它不直接衡量方法学质量、安全性或再现性。
 
-## Acknowledgements
+## 致谢
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+这个存储库和交互式网站是出于对 [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) 的赞赏而创建的。其论文管理工作流程和存储库组织为此处使用的分类优先、引文排名的研究地图提供了方法。
 
-## License
+## 执照
 
-CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.
+CC-BY-4.0 用于文本和元数据管理；上游论文元数据属于原始来源。

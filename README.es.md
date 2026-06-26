@@ -1,7 +1,7 @@
-# Awesome AI
+# Impresionante IA
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
+Un mapa de la investigación de IA clasificado por citas y en primer lugar en taxonomía desde 2000 hasta 2026.
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-ai/">
@@ -10,9 +10,9 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
+  <a href="README.es.md"><strong>Español</strong></a> |
   <a href="README.fr.md">français</a> |
   <a href="README.ja.md">日本語</a> |
   <a href="README.ko.md">한국어</a> |
@@ -21,65 +21,65 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
   <a href="README.zh.md">中文</a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
+Generado el 27 de junio de 2026 a partir de metadatos públicos gratuitos de Semantic Scholar. Esta edición investiga hasta 1000 artículos candidatos relacionados con la IA por año para el período 2000-2026, mantiene un grupo de candidatos auditados de 27 000 registros, selecciona los 100 artículos principales de cada año por recuento de citas (2700 artículos en total) y los reorganiza según la taxonomía de investigación de la IA.
 
-## Project Links
+## Enlaces de proyectos
 
-- Open Interactive Website: https://honggi82.github.io/awesome-ai/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- Sitio web interactivo abierto: https://honggi82.github.io/awesome-ai/
+- Conjunto de datos seleccionado: `data/papers_2000_2026.csv`
+- Conjunto de datos de taxonomía con ideas, fortalezas y limitaciones a nivel de documento: `data/papers_taxonomy_2000_2026.csv`
+- Análisis de lenguaje y período precalculado: `data/period_analysis_2000_2026.json`
+- Grupo de candidatos: `data/candidates_top1000_2000_2026.csv`
+- Borrador de revisión en inglés: `paper/review_en.html`, `paper/review_en.docx`
+- Borrador de revisión coreano: `paper/review_ko.html`
 
-## Keywords Convention
+## Convención de palabras clave
 
-These badges define the AI keyword tags used to read and extend this collection.
+Estas insignias definen las etiquetas de palabras clave de IA utilizadas para leer y ampliar esta colección.
 
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: Statistical learning, neural networks, SVMs, trees/boosting, data mining, pattern recognition, clustering, or core ML methods.
-- ![foundation-models](https://img.shields.io/badge/keyword-foundation--models-2563eb) **foundation-models**: Large language models, foundation models, scaling, prompting, alignment, or retrieval-augmented systems.
-- ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**: Generative adversarial, diffusion, synthetic media, text-to-image, or other model-based generation work.
-- ![multimodal](https://img.shields.io/badge/keyword-multimodal-0891b2) **multimodal**: Vision-language, audio-language, video-language, or cross-modal representation learning.
-- ![nlp](https://img.shields.io/badge/keyword-nlp-f59e0b) **nlp**: Natural language processing, language modeling, retrieval, dialogue, summarization, or speech-language work.
-- ![vision](https://img.shields.io/badge/keyword-vision-0f766e) **vision**: Computer vision, image/video understanding, object detection, segmentation, or visual recognition.
-- ![reinforcement-learning](https://img.shields.io/badge/keyword-reinforcement--learning-dc2626) **reinforcement-learning**: Reinforcement learning, agents, planning, control, robotics, reward modeling, or human feedback.
-- ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**: Explainability, robustness, safety, fairness, uncertainty, privacy, bias, or responsible AI.
-- ![graph-learning](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **graph-learning**: Graph neural networks, recommender systems, knowledge graphs, graph benchmarks, or graph-based core AI methods.
-- ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**: AI for science, healthcare, biology, molecules, proteins, robotics, autonomous systems, or clinical domains.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![aprendizaje automático](https://img.shields.io/badge/keyword-machine--learning-475569) **aprendizaje automático**: aprendizaje estadístico, redes neuronales, SVM, árboles/impulso, minería de datos, reconocimiento de patrones, agrupación en clústeres o métodos centrales de aprendizaje automático.
+- ![modelos-fundamentales](https://img.shields.io/badge/keyword-foundation--models-2563eb) **modelos-fundamentales**: modelos de lenguaje grandes, modelos básicos, sistemas de escalamiento, indicaciones, alineación o recuperación aumentada.
+- ![generative-ai](https://img.shields.io/badge/keyword-generative--ai-a855f7) **generative-ai**: Generativo adversario, difusión, medios sintéticos, texto a imagen u otro trabajo de generación basado en modelos.
+- ![multimodal](https://img.shields.io/badge/keyword-multimodal-0891b2) **multimodal**: aprendizaje de representación visual-lenguaje, audio-lenguaje, video-lenguaje o multimodal.
+- ![nlp](https://img.shields.io/badge/keyword-nlp-f59e0b) **nlp**: Procesamiento del lenguaje natural, modelado del lenguaje, recuperación, diálogo, resumen o trabajo de habla-lenguaje.
+- ![visión](https://img.shields.io/badge/keyword-vision-0f766e) **visión**: visión por computadora, comprensión de imágenes/videos, detección de objetos, segmentación o reconocimiento visual.
+- ![aprendizaje-refuerzo](https://img.shields.io/badge/keyword-reinforcement--learning-dc2626) **aprendizaje-refuerzo**: Aprendizaje por refuerzo, agentes, planificación, control, robótica, modelado de recompensas o retroalimentación humana.
+- ![trustworthy-ai](https://img.shields.io/badge/keyword-trustworthy--ai-be123c) **trustworthy-ai**: explicabilidad, solidez, seguridad, equidad, incertidumbre, privacidad, sesgo o IA responsable.
+- ![graph-learning](https://img.shields.io/badge/keyword-graph--learning-4f46e5) **graph-learning**: Graficar redes neuronales, sistemas de recomendación, gráficos de conocimiento, puntos de referencia de gráficos o métodos centrales de IA basados en gráficos.
+- ![ai4science](https://img.shields.io/badge/keyword-ai4science-16a34a) **ai4science**: IA para ciencia, atención médica, biología, moléculas, proteínas, robótica, sistemas autónomos o dominios clínicos.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Artículos con un enlace oficial de GitHub o repositorio de código identificado en la auditoría de metadatos.
 
-## Taxonomy Overview
+## Descripción general de la taxonomía
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 8,567,142
-- **General AI Methods and Systems**: 688 papers
-- **Foundation Models and Large Language Models**: 490 papers
-- **Vision and Multimodal Learning**: 477 papers
-- **AI for Science, Healthcare, and Robotics**: 279 papers
-- **Graph Learning, Recommendation, and Core Methods**: 195 papers
-- **Reinforcement Learning and Agents**: 175 papers
-- **Natural Language Processing and Knowledge**: 160 papers
-- **Trustworthy, Explainable, and Responsible AI**: 98 papers
-- **Generative Models and Synthetic Media**: 83 papers
-- **Representation, Self-Supervised, and Transfer Learning**: 55 papers
+- **Total de artículos seleccionados**: 2,700 artículos
+- **Bolsa de candidatos auditada**: 27.000 artículos (2000: 1.000, 2001: 1.000, 2002: 1.000, 2003: 1.000, 2004: 1.000, 2005: 1.000, 2006: 1.000, 2007: 1.000, 2008: 1.000, 2009: 1.000, 2010: 1.000, 2011: 1.000, 2012: 1.000, 2013: 1.000, 2014: 1.000, 2015: 1.000, 2016: 1.000, 2017: 1.000, 2018: 1.000, 2019: 1.000, 2020: 1.000, 2021: 1.000, 2022: 1.000, 2023: 1.000, 2024: 1.000, 2025: 1.000, 2026: 1.000)
+- **Recuento de citas en el conjunto seleccionado**: 8.567.142
+- **Métodos y sistemas generales de IA**: 688 artículos
+- **Modelos básicos y modelos de lenguaje grande**: 490 artículos
+- **Visión y Aprendizaje Multimodal**: 477 artículos
+- **IA para ciencia, atención médica y robótica**: 279 artículos
+- **Aprendizaje de gráficos, recomendaciones y métodos básicos**: 195 artículos
+- **Aprendizaje por refuerzo y agentes**: 175 artículos
+- **Procesamiento y conocimiento del lenguaje natural**: 160 artículos
+- **IA confiable, explicable y responsable**: 98 artículos
+- **Modelos Generativos y Medios Sintéticos**: 83 artículos
+- **Representación, aprendizaje autosupervisado y transferencia**: 55 artículos
 
-## Taxonomy Collections
+## Colecciones de taxonomía
 
-### General AI Methods and Systems
+### Métodos y sistemas generales de IA
 
-- Papers selected: **688**
-- Years covered: **2000-2026**
-- Citation count in selected set: **1,366,275**
-- Category Overview (main research trends):
-  - General AI methods consolidate architectures, benchmarks, surveys, datasets, and system-level observations that cut across subfields.
-  - This category often captures high-citation survey or infrastructure work that shapes how later papers define progress.
-  - Citation-ranked views can be especially useful here, but they should be read as a map of influence rather than a complete quality assessment.
-- Limitations:
-  - Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.
-  - Broad claims need careful mapping to specific tasks, datasets, and operational constraints.
-  - Metadata-driven ranking cannot replace expert reading of full papers and experimental details.
+- Artículos seleccionados: **688**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **1,366,275**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - Los métodos generales de IA consolidan arquitecturas, puntos de referencia, encuestas, conjuntos de datos y observaciones a nivel de sistema que abarcan subcampos.
+  - Esta categoría a menudo captura encuestas con un alto número de citas o trabajos de infraestructura que dan forma a cómo los artículos posteriores definen el progreso.
+  - Las vistas clasificadas por citas pueden ser especialmente útiles en este caso, pero deben leerse como un mapa de influencia más que como una evaluación de calidad completa.
+- Limitaciones:
+  - Los artículos de encuestas e infraestructura pueden dominar las citas, mientras que la evidencia empírica permanece distribuida en todos los subcampos.
+  - Los reclamos amplios necesitan un mapeo cuidadoso de tareas, conjuntos de datos y limitaciones operativas específicas.
+  - La clasificación basada en metadatos no puede reemplazar la lectura experta de artículos completos y detalles experimentales.
 
 <details>
 <summary><strong>Show representative papers for General AI Methods and Systems</strong></summary>
@@ -192,19 +192,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Foundation Models and Large Language Models
+### Modelos básicos y modelos de lenguaje grande
 
-- Papers selected: **490**
-- Years covered: **2000-2026**
-- Citation count in selected set: **1,376,019**
-- Category Overview (main research trends):
-  - The main trend is a shift from task-specific NLP systems toward general-purpose foundation models that transfer across tasks through prompting, retrieval, and instruction tuning.
-  - Scaling laws, retrieval augmentation, alignment, and data governance are now central design axes rather than afterthoughts.
-  - Citation-ranked work tends to emphasize architectures, pretraining corpora, benchmark behavior, and broad capability evaluation.
-- Limitations:
-  - Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.
-  - Alignment and safety claims often need stronger real-world and multilingual validation.
-  - Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.
+- Artículos seleccionados: **490**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **1,376,019**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - La tendencia principal es un cambio de sistemas de PNL para tareas específicas hacia modelos básicos de propósito general que se transfieren entre tareas mediante indicaciones, recuperación y ajuste de instrucciones.
+  - Las leyes de escala, el aumento de la recuperación, la alineación y la gobernanza de datos son ahora ejes centrales de diseño en lugar de ideas de último momento.
+  - El trabajo clasificado por citas tiende a enfatizar las arquitecturas, los corpus de preentrenamiento, el comportamiento de referencia y la evaluación amplia de capacidades.
+- Limitaciones:
+  - Las ganancias de capacidad son difíciles de separar de la escala de datos, la fuga de puntos de referencia y la sensibilidad de las indicaciones de evaluación.
+  - Las afirmaciones de alineación y seguridad a menudo necesitan una validación más sólida en el mundo real y en varios idiomas.
+  - La capacitación informática intensiva puede limitar la reproducibilidad y concentrar el trabajo de seguimiento en un pequeño número de instituciones.
 
 <details>
 <summary><strong>Show representative papers for Foundation Models and Large Language Models</strong></summary>
@@ -317,19 +317,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Vision and Multimodal Learning
+### Visión y aprendizaje multimodal
 
-- Papers selected: **477**
-- Years covered: **2000-2026**
-- Citation count in selected set: **2,784,705**
-- Category Overview (main research trends):
-  - Vision research is increasingly organized around transformer backbones, self-supervised pretraining, segmentation/detection foundation models, and vision-language alignment.
-  - The strongest papers often combine large-scale data, reusable architectures, and transfer to multiple downstream tasks.
-  - Multimodal work is pushing vision beyond single-task recognition toward retrieval, grounding, robotics, and generative interfaces.
-- Limitations:
-  - Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.
-  - Multimodal alignment may inherit biases and spurious correlations from web-scale data.
-  - High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.
+- Artículos seleccionados: **477**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **2,784,705**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - La investigación de la visión se organiza cada vez más en torno a redes troncales transformadoras, entrenamiento previo autosupervisado, modelos básicos de segmentación/detección y alineación visión-lenguaje.
+  - Los artículos más sólidos a menudo combinan datos a gran escala, arquitecturas reutilizables y transferencias a múltiples tareas posteriores.
+  - El trabajo multimodal está impulsando la visión más allá del reconocimiento de una sola tarea hacia la recuperación, la conexión a tierra, la robótica y las interfaces generativas.
+- Limitaciones:
+  - El éxito de los benchmarks a gran escala puede exagerar la solidez ante cambios de distribución, clases raras y limitaciones reales de implementación.
+  - La alineación multimodal puede heredar sesgos y correlaciones espurias de datos a escala web.
+  - Los sistemas de alto rendimiento a menudo requieren datos y recursos informáticos que son difíciles de reproducir para los laboratorios más pequeños.
 
 <details>
 <summary><strong>Show representative papers for Vision and Multimodal Learning</strong></summary>
@@ -442,19 +442,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### AI for Science, Healthcare, and Robotics
+### IA para la ciencia, la atención sanitaria y la robótica
 
-- Papers selected: **279**
-- Years covered: **2000-2026**
-- Citation count in selected set: **633,472**
-- Category Overview (main research trends):
-  - Applied AI for science and healthcare is shifting from proof-of-concept prediction toward validated workflows for biology, medicine, molecules, and robotics.
-  - The most visible work couples domain data with deep learning architectures that can transfer into laboratory, clinical, or embodied settings.
-  - Evaluation increasingly needs external validation, prospective testing, reproducible datasets, and domain-specific safety constraints.
-- Limitations:
-  - External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.
-  - Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.
-  - Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.
+- Artículos seleccionados: **279**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **633,472**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - La IA aplicada a la ciencia y la atención sanitaria está pasando de la predicción de prueba de concepto a flujos de trabajo validados para la biología, la medicina, las moléculas y la robótica.
+  - El trabajo más visible combina datos de dominio con arquitecturas de aprendizaje profundo que pueden transferirse a entornos de laboratorio, clínicos o físicos.
+  - La evaluación necesita cada vez más validación externa, pruebas prospectivas, conjuntos de datos reproducibles y restricciones de seguridad específicas del dominio.
+- Limitaciones:
+  - La validación externa, las pruebas prospectivas y la revisión de expertos en el dominio suelen ser más importantes que las puntuaciones de referencia retrospectivas.
+  - La implementación clínica, biológica o robótica puede fallar cuando los protocolos de recopilación de datos difieren de los supuestos de entrenamiento.
+  - La seguridad, la interpretabilidad, la incertidumbre y la evidencia regulatoria siguen siendo esenciales para la traducción.
 
 <details>
 <summary><strong>Show representative papers for AI for Science, Healthcare, and Robotics</strong></summary>
@@ -567,19 +567,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Graph Learning, Recommendation, and Core Methods
+### Aprendizaje de gráficos, recomendaciones y métodos básicos
 
-- Papers selected: **195**
-- Years covered: **2000-2026**
-- Citation count in selected set: **441,156**
-- Category Overview (main research trends):
-  - Core AI methods include graph neural networks, recommender systems, optimization, neural architecture search, Bayesian methods, and efficient training recipes.
-  - Many papers in this category become reusable algorithmic infrastructure for applied AI systems.
-  - The dominant trend is stronger inductive bias for non-Euclidean data, sparse interaction data, and efficient hyperparameter or architecture search.
-- Limitations:
-  - Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.
-  - Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.
-  - Core methods need careful ablations before broad claims about generality or efficiency are accepted.
+- Artículos seleccionados: **195**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **441,156**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - Los métodos básicos de IA incluyen redes neuronales gráficas, sistemas de recomendación, optimización, búsqueda de arquitectura neuronal, métodos bayesianos y recetas de entrenamiento eficientes.
+  - Muchos artículos de esta categoría se convierten en infraestructura algorítmica reutilizable para sistemas de IA aplicados.
+  - La tendencia dominante es un sesgo inductivo más fuerte para datos no euclidianos, datos de interacción escasos y búsqueda eficiente de arquitectura o hiperparámetros.
+- Limitaciones:
+  - Los puntos de referencia de gráficos y recomendaciones pueden contener fugas temporales, sesgos de popularidad o divisiones de tren/prueba poco realistas.
+  - Las ganancias algorítmicas pueden ser sensibles a los presupuestos de hiperparámetros y los detalles de implementación.
+  - Los métodos básicos necesitan ablaciones cuidadosas antes de que se acepten afirmaciones amplias sobre generalidad o eficiencia.
 
 <details>
 <summary><strong>Show representative papers for Graph Learning, Recommendation, and Core Methods</strong></summary>
@@ -692,19 +692,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Reinforcement Learning and Agents
+### Aprendizaje por refuerzo y agentes
 
-- Papers selected: **175**
-- Years covered: **2000-2026**
-- Citation count in selected set: **456,581**
-- Category Overview (main research trends):
-  - Reinforcement learning is converging with human feedback, offline datasets, robotics, planning, and agentic tool-use settings.
-  - A major thread is reducing sample inefficiency while improving robustness under distribution shift and sparse rewards.
-  - The field is increasingly judged by transfer, safety, and real-world interaction rather than benchmark score alone.
-- Limitations:
-  - Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.
-  - Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.
-  - Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.
+- Artículos seleccionados: **175**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **456,581**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - El aprendizaje por refuerzo está convergiendo con la retroalimentación humana, los conjuntos de datos fuera de línea, la robótica, la planificación y las configuraciones de uso de herramientas agentes.
+  - Un hilo importante es reducir la ineficiencia de la muestra y al mismo tiempo mejorar la solidez en condiciones de cambio de distribución y recompensas escasas.
+  - El campo se juzga cada vez más por la transferencia, la seguridad y la interacción con el mundo real en lugar de solo por la puntuación de referencia.
+- Limitaciones:
+  - La eficiencia de las muestras, la especificación errónea de las recompensas, el sesgo del simulador y la seguridad durante la exploración siguen siendo barreras persistentes.
+  - Es posible que el rendimiento de referencia no se transfiera a robots físicos, herramientas orientadas a humanos o entornos abiertos.
+  - Los sistemas agentes necesitan evidencia más sólida sobre confiabilidad, recuperación de errores y supervisión a largo plazo.
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Agents</strong></summary>
@@ -817,19 +817,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Natural Language Processing and Knowledge
+### Procesamiento y conocimiento del lenguaje natural
 
-- Papers selected: **160**
-- Years covered: **2000-2024**
-- Citation count in selected set: **746,046**
-- Category Overview (main research trends):
-  - NLP is moving from supervised task pipelines toward pretrained language models, retrieval-augmented methods, and knowledge-intensive reasoning benchmarks.
-  - Search, retrieval, summarization, dialogue, and domain adaptation are increasingly evaluated as integrated knowledge workflows.
-  - Citation-ranked NLP papers often become shared components, datasets, or baseline methods for later foundation model research.
-- Limitations:
-  - Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.
-  - Language coverage is often uneven, with English and high-resource domains overrepresented.
-  - Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.
+- Artículos seleccionados: **160**
+- Años cubiertos: **2000-2024**
+- Recuento de citas en el conjunto seleccionado: **746,046**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - La PNL está pasando de procesos de tareas supervisados a modelos de lenguaje previamente entrenados, métodos de recuperación aumentada y puntos de referencia de razonamiento intensivos en conocimiento.
+  - La búsqueda, la recuperación, el resumen, el diálogo y la adaptación de dominios se evalúan cada vez más como flujos de trabajo de conocimiento integrados.
+  - Los artículos de PNL clasificados por citas a menudo se convierten en componentes, conjuntos de datos o métodos de referencia compartidos para investigaciones posteriores de modelos básicos.
+- Limitaciones:
+  - Las puntuaciones de referencia pueden ocultar razonamientos frágiles, errores de recuperación, alucinaciones y problemas de transferencia de dominio.
+  - La cobertura lingüística suele ser desigual, con una representación excesiva del inglés y de los dominios con altos recursos.
+  - La evaluación puede ser sensible a los protocolos de anotación, la redacción de mensajes y los cambios en las API del modelo.
 
 <details>
 <summary><strong>Show representative papers for Natural Language Processing and Knowledge</strong></summary>
@@ -942,19 +942,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Trustworthy, Explainable, and Responsible AI
+### IA confiable, explicable y responsable
 
-- Papers selected: **98**
-- Years covered: **2000-2026**
-- Citation count in selected set: **239,459**
-- Category Overview (main research trends):
-  - Trustworthy AI work is broadening from post-hoc explanations to robustness, fairness, privacy, calibration, uncertainty, and safety-aware evaluation.
-  - Highly cited papers provide taxonomies, metrics, attacks, or toolkits that make system behavior easier to inspect and compare.
-  - The area is increasingly coupled to foundation model deployment, high-stakes domains, and governance requirements.
-- Limitations:
-  - Explanations can be persuasive without being faithful to model internals or decision processes.
-  - Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.
-  - Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.
+- Artículos seleccionados: **98**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **239,459**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - El trabajo confiable de IA se está ampliando desde explicaciones post hoc hasta solidez, equidad, privacidad, calibración, incertidumbre y evaluación consciente de la seguridad.
+  - Los artículos muy citados proporcionan taxonomías, métricas, ataques o conjuntos de herramientas que hacen que el comportamiento del sistema sea más fácil de inspeccionar y comparar.
+  - El área está cada vez más vinculada a la implementación de modelos básicos, dominios de alto riesgo y requisitos de gobernanza.
+- Limitaciones:
+  - Las explicaciones pueden ser persuasivas sin ser fieles al modelo interno o a los procesos de decisión.
+  - Las métricas de equidad, solidez, privacidad y seguridad pueden entrar en conflicto y requerir compensaciones específicas de cada dominio.
+  - Los resultados de la IA responsable a menudo necesitan pruebas de implementación más sólidas más allá de los entornos sintéticos o de referencia.
 
 <details>
 <summary><strong>Show representative papers for Trustworthy, Explainable, and Responsible AI</strong></summary>
@@ -1067,19 +1067,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Generative Models and Synthetic Media
+### Modelos generativos y medios sintéticos
 
-- Papers selected: **83**
-- Years covered: **2000-2026**
-- Citation count in selected set: **277,971**
-- Category Overview (main research trends):
-  - Generative AI research has moved from GAN-centered image synthesis toward diffusion, score-based modeling, and controllable multimodal generation.
-  - The area increasingly connects generation quality with data curation, safety, copyright, controllability, and evaluation reliability.
-  - Highly cited papers often introduce reusable model families, training objectives, or evaluation protocols that become infrastructure for later systems.
-- Limitations:
-  - Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.
-  - Training data provenance and copyright constraints can be under-specified in highly cited generation work.
-  - Robust evaluation across cultures, modalities, and adversarial uses remains difficult.
+- Artículos seleccionados: **83**
+- Años cubiertos: **2000-2026**
+- Recuento de citas en el conjunto seleccionado: **277,971**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - La investigación de la IA generativa ha pasado de la síntesis de imágenes centrada en GAN a la difusión, el modelado basado en puntuaciones y la generación multimodal controlable.
+  - El área conecta cada vez más la calidad de la generación con la conservación de datos, la seguridad, los derechos de autor, la controlabilidad y la confiabilidad de la evaluación.
+  - Los artículos muy citados a menudo presentan familias de modelos reutilizables, objetivos de capacitación o protocolos de evaluación que se convierten en infraestructura para sistemas posteriores.
+- Limitaciones:
+  - Es posible que las métricas de calidad de la imagen y los medios no capturen la factibilidad, la controlabilidad, la procedencia o los daños posteriores.
+  - La procedencia de los datos de formación y las limitaciones de los derechos de autor pueden no estar suficientemente especificadas en trabajos de generación muy citados.
+  - Sigue siendo difícil realizar una evaluación sólida entre culturas, modalidades y usos contradictorios.
 
 <details>
 <summary><strong>Show representative papers for Generative Models and Synthetic Media</strong></summary>
@@ -1192,19 +1192,19 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-### Representation, Self-Supervised, and Transfer Learning
+### Aprendizaje por representación, autosupervisión y transferencia
 
-- Papers selected: **55**
-- Years covered: **2001-2026**
-- Citation count in selected set: **245,458**
-- Category Overview (main research trends):
-  - Self-supervised and contrastive methods are reducing dependence on labeled data while improving transfer across tasks and domains.
-  - Reusable representations, distillation, domain adaptation, and few-shot learning form the connective tissue between specialized AI subfields.
-  - Citation impact is often driven by methods that become default pretraining or adaptation recipes.
-- Limitations:
-  - Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.
-  - Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.
-  - Representation quality is hard to compare when model size, data scale, and training recipes differ.
+- Artículos seleccionados: **55**
+- Años cubiertos: **2001-2026**
+- Recuento de citas en el conjunto seleccionado: **245,458**
+- Descripción general de la categoría (principales tendencias de investigación):
+  - Los métodos contrastantes y autosupervisados están reduciendo la dependencia de los datos etiquetados y al mismo tiempo mejoran la transferencia entre tareas y dominios.
+  - Las representaciones reutilizables, la destilación, la adaptación de dominios y el aprendizaje en pocas oportunidades forman el tejido conectivo entre los subcampos especializados de la IA.
+  - El impacto de las citas a menudo está impulsado por métodos que se convierten en recetas predeterminadas de adaptación o preentrenamiento.
+- Limitaciones:
+  - Las reclamaciones de transferencia dependen en gran medida de la elección de tareas posteriores, la superposición de datos y el protocolo de evaluación.
+  - Los métodos contrastantes y autosupervisados pueden aprender atajos espurios cuando los aumentos o los negativos no coinciden.
+  - La calidad de la representación es difícil de comparar cuando el tamaño del modelo, la escala de datos y las recetas de entrenamiento difieren.
 
 <details>
 <summary><strong>Show representative papers for Representation, Self-Supervised, and Transfer Learning</strong></summary>
@@ -1317,7 +1317,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 
 </details>
 
-## Yearly Coverage
+## Cobertura Anual
 
 | Year | Candidate papers audited | Selected top-100 papers | Citations in selected set | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1349,23 +1349,23 @@ These badges define the AI keyword tags used to read and extend this collection.
 | 2025 | 1,000 | 100 | 72,745 | [Qwen3 Technical Report](https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a) |
 | 2026 | 1,000 | 100 | 6,582 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://www.semanticscholar.org/paper/1b6e16cc72aee038eb1879b8686b53776be3d51f) |
 
-## Methodology
+## Metodología
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover broad AI, machine learning, deep learning, foundation models, language, vision, reinforcement learning, generative models, graph learning, multimodal learning, trustworthy AI, and AI-for-science themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit AI relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+La colección utiliza la búsqueda masiva de Semantic Scholar Academic Graph. Las consultas cubren temas amplios de IA, aprendizaje automático, aprendizaje profundo, modelos básicos, lenguaje, visión, aprendizaje por refuerzo, modelos generativos, aprendizaje de gráficos, aprendizaje multimodal, IA confiable y IA para la ciencia. Para cada año desde 2000 hasta 2026, los resultados se filtran según el año de publicación, se seleccionan con expresiones explícitas de relevancia de IA en los metadatos del título/resumen/lugar, se deduplican por DOI, arXiv, PubMed, CorpusId, paperId, luego título, y se reducen a un máximo de 1000 candidatos según el recuento de citas. La impresionante lista final selecciona los 100 artículos principales dentro de cada año de publicación por recuento de citas; El recuento de citas influyentes y una puntuación determinista de importancia de los metadatos se mantienen como criterios de desempate y señales de auditoría.
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+La taxonomía, las ideas clave, las fortalezas, las limitaciones, las etiquetas de métodos y las etiquetas de palabras clave se generan de manera determinista a partir de metadatos públicos y convenciones de dominio basadas en reglas. No se utilizó API paga, LLM pago, traducción paga ni computación paga.
 
-## Caveats
+## Advertencias
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation counts favor older papers; 2026 should be interpreted as a partial and still-moving year.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Citation ranking measures influence and visibility; it does not directly measure methodological quality, safety, or reproducibility.
+- Este es un mapa de citas basado en metadatos, no una revisión sistemática completa de cada PDF.
+- El recuento de citas favorece a los artículos más antiguos; 2026 debe interpretarse como un año parcial y aún en movimiento.
+- Los metadatos de Semantic Scholar pueden omitir lugares, resúmenes, archivos PDF o recuentos de citas influyentes para algunos registros.
+- La clasificación de citas mide la influencia y la visibilidad; no mide directamente la calidad metodológica, la seguridad o la reproducibilidad.
 
-## Acknowledgements
+## Agradecimientos
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+Este repositorio y sitio interactivo se crearon con agradecimiento a [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Su flujo de trabajo de curación de artículos y la organización del repositorio informaron el enfoque utilizado aquí para un mapa de investigación clasificado por citas y que prioriza la taxonomía.
 
-## License
+## Licencia
 
-CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.
+CC-BY-4.0 para curación de textos y metadatos; Los metadatos en papel ascendentes pertenecen a fuentes originales.
