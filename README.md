@@ -10,6 +10,19 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
   </a>
 </p>
 
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://github.com/honggi82/awesome-ai">English</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=de">Deutsch</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=es">Español</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=fr">français</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=ja">日本語</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=ko">한국어</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=pt">Português</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=ru">Русский</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-ai?lang=zh">中文</a>
+</div>
+
 Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
 
 ## Project Links

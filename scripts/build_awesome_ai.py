@@ -1714,6 +1714,25 @@ def readme_taxonomy_table(rows, max_rows=10):
     return "\n".join(out)
 
 
+def readme_language_selector_lines(owner, repo):
+    base = f"https://www.readme-i18n.com/{owner}/{repo}"
+    return [
+        '<div align="center">',
+        "  <!-- Keep these links. Translations will automatically update with the README. -->",
+        f'  <a href="https://github.com/{owner}/{repo}">English</a> |',
+        f'  <a href="{base}?lang=de">Deutsch</a> |',
+        f'  <a href="{base}?lang=es">Español</a> |',
+        f'  <a href="{base}?lang=fr">français</a> |',
+        f'  <a href="{base}?lang=ja">日本語</a> |',
+        f'  <a href="{base}?lang=ko">한국어</a> |',
+        f'  <a href="{base}?lang=pt">Português</a> |',
+        f'  <a href="{base}?lang=ru">Русский</a> |',
+        f'  <a href="{base}?lang=zh">中文</a>',
+        "</div>",
+        "",
+    ]
+
+
 def write_readme(selected, candidates):
     stats = category_stats(selected)
     years = year_stats(selected)
@@ -1733,6 +1752,7 @@ def write_readme(selected, candidates):
         "  </a>",
         "</p>",
         "",
+        *readme_language_selector_lines("honggi82", "awesome-ai"),
         f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. This edition investigates up to {CANDIDATES_PER_YEAR:,} AI-related candidate papers per year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool of {len(candidates):,} records, selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total), and reorganizes them by AI research taxonomy.",
         "",
         "## Project Links",
