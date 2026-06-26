@@ -221,7 +221,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">10</td>
-<td>[Language Models are Few-Shot Learners](https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0)<br><sub>Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, J. Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, et al.</sub></td>
+<td>[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)<br><sub>Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, J. Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, et al.</sub></td>
 <td>2020<br>Neural Information Processing Systems<br>59,605 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task.</td>
@@ -230,7 +230,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">12</td>
-<td>[PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1)<br><sub>Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, et al.</sub></td>
+<td>[PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/abs/1912.01703)<br><sub>Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, et al.</sub></td>
 <td>2019<br>Neural Information Processing Systems<br>52,984 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>Deep learning frameworks have often focused on either usability or speed, but not both.</td>
@@ -248,7 +248,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">37</td>
-<td>[Communication-Efficient Learning of Deep Networks from Decentralized Data](https://www.semanticscholar.org/paper/d1dbf643447405984eeef098b1b320dee0b3b8a7)<br><sub>H. B. McMahan, Eider Moore, Daniel Ramage, S.C.D. Hampson, B. A. Y. Arcas</sub></td>
+<td>[Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629)<br><sub>H. B. McMahan, Eider Moore, Daniel Ramage, S.C.D. Hampson, B. A. Y. Arcas</sub></td>
 <td>2016<br>International Conference on Artificial Intelligence and Statistics<br>24,984 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Modern mobile devices have access to a wealth of data suitable for learning models, which in turn can greatly improve the user experience on the device.</td>
@@ -257,7 +257,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">38</td>
-<td>[Distilling the Knowledge in a Neural Network](https://www.semanticscholar.org/paper/0c908739fbff75f03469d13d4a1a07de3414ee19)<br><sub>Geoffrey E. Hinton, O. Vinyals, J. Dean</sub></td>
+<td>[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)<br><sub>Geoffrey E. Hinton, O. Vinyals, J. Dean</sub></td>
 <td>2015<br>arXiv.org<br>24,671 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
 <td>A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions.</td>
@@ -275,7 +275,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">50</td>
-<td>[LLaMA: Open and Efficient Foundation Language Models](https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75)<br><sub>Hugo Touvron, Thibaut Lavril, Gautier Izacard, X. Martinet, M. Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, et al.</sub></td>
+<td>[LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)<br><sub>Hugo Touvron, Thibaut Lavril, Gautier Izacard, X. Martinet, M. Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, et al.</sub></td>
 <td>2023<br>arXiv.org<br>20,427 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"></td>
 <td>We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters.</td>
@@ -284,7 +284,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">51</td>
-<td>[LoRA: Low-Rank Adaptation of Large Language Models](https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092)<br><sub>J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen</sub></td>
+<td>[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)<br><sub>J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen</sub></td>
 <td>2021<br>International Conference on Learning Representations<br>20,108 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains.</td>
@@ -355,7 +355,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">5</td>
-<td>[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108)<br><sub>K. Simonyan, Andrew Zisserman</sub></td>
+<td>[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)<br><sub>K. Simonyan, Andrew Zisserman</sub></td>
 <td>2014<br>International Conference on Learning Representations<br>112,194 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting.</td>
@@ -364,7 +364,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">7</td>
-<td>[ImageNet: A large-scale hierarchical image database](https://doi.org/10.1109/CVPR.2009.5206848)<br><sub>Jia Deng, Wei Dong, R. Socher, Li-Jia Li, K. Li, Li Fei-Fei</sub></td>
+<td>[ImageNet: A large-scale hierarchical image database](https://doi.org/10.1109/cvpr.2009.5206848)<br><sub>Jia Deng, Wei Dong, R. Socher, Li-Jia Li, K. Li, Li Fei-Fei</sub></td>
 <td>2009<br>2009 IEEE Conference on Computer Vision and Pattern Recognition<br>73,960 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>Positions ImageNet: A large-scale hierarchical image database within Vision and Multimodal Learning.</td>
@@ -373,7 +373,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">8</td>
-<td>[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://doi.org/10.1109/TPAMI.2016.2577031)<br><sub>Shaoqing Ren, Kaiming He, Ross B. Girshick, Jian Sun</sub></td>
+<td>[Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://doi.org/10.1109/tpami.2016.2577031)<br><sub>Shaoqing Ren, Kaiming He, Ross B. Girshick, Jian Sun</sub></td>
 <td>2015<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>73,399 citations</td>
 <td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations.</td>
@@ -382,7 +382,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">9</td>
-<td>[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a)<br><sub>Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, M. Minderer, et al.</sub></td>
+<td>[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)<br><sub>Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, M. Minderer, et al.</sub></td>
 <td>2020<br>International Conference on Learning Representations<br>64,585 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited.</td>
@@ -391,7 +391,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">13</td>
-<td>[Learning Transferable Visual Models From Natural Language Supervision](https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4)<br><sub>Alec Radford, Jong Wook Kim, Chris Hallacy, A. Ramesh, Gabriel Goh, S. Agarwal, G. Sastry, Amanda Askell, et al.</sub></td>
+<td>[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)<br><sub>Alec Radford, Jong Wook Kim, Chris Hallacy, A. Ramesh, Gabriel Goh, S. Agarwal, G. Sastry, Amanda Askell, et al.</sub></td>
 <td>2021<br>International Conference on Machine Learning<br>50,664 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="multimodal" src="https://img.shields.io/badge/keyword-multimodal-0891b2"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories.</td>
@@ -400,7 +400,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">14</td>
-<td>[Going deeper with convolutions](https://doi.org/10.1109/CVPR.2015.7298594)<br><sub>Christian Szegedy, Wei Liu, Yangqing Jia, P. Sermanet, Scott E. Reed, Dragomir Anguelov, D. Erhan, Vincent Vanhoucke, et al.</sub></td>
+<td>[Going deeper with convolutions](https://doi.org/10.1109/cvpr.2015.7298594)<br><sub>Christian Szegedy, Wei Liu, Yangqing Jia, P. Sermanet, Scott E. Reed, Dragomir Anguelov, D. Erhan, Vincent Vanhoucke, et al.</sub></td>
 <td>2014<br>Computer Vision and Pattern Recognition<br>47,471 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>We propose a deep convolutional neural network architecture codenamed Inception that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14).</td>
@@ -409,7 +409,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">15</td>
-<td>[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://www.semanticscholar.org/paper/995c5f5e62614fcb4d2796ad2faab969da51713e)<br><sub>Sergey Ioffe, Christian Szegedy</sub></td>
+<td>[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)<br><sub>Sergey Ioffe, Christian Szegedy</sub></td>
 <td>2015<br>International Conference on Machine Learning<br>46,995 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>Training Deep Neural Networks is complicated by the fact that the distribution of each layer&#x27;s inputs changes during training, as the parameters of the previous layers change.</td>
@@ -418,7 +418,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">16</td>
-<td>[You Only Look Once: Unified, Real-Time Object Detection](https://doi.org/10.1109/CVPR.2016.91)<br><sub>J. Redmon, S. Divvala, Ross B. Girshick, Ali Farhadi</sub></td>
+<td>[You Only Look Once: Unified, Real-Time Object Detection](https://doi.org/10.1109/cvpr.2016.91)<br><sub>J. Redmon, S. Divvala, Ross B. Girshick, Ali Farhadi</sub></td>
 <td>2015<br>Computer Vision and Pattern Recognition<br>46,088 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>We present YOLO, a new approach to object detection.</td>
@@ -471,7 +471,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">33</td>
-<td>[Graph Attention Networks](https://doi.org/10.17863/CAM.48429)<br><sub>Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio</sub></td>
+<td>[Graph Attention Networks](https://doi.org/10.17863/cam.48429)<br><sub>Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Liò, Yoshua Bengio</sub></td>
 <td>2017<br>International Conference on Learning Representations<br>26,745 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
 <td>We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.</td>
@@ -480,7 +480,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">74</td>
-<td>[Are we ready for autonomous driving? The KITTI vision benchmark suite](https://doi.org/10.1109/CVPR.2012.6248074)<br><sub>Andreas Geiger, Philip Lenz, R. Urtasun</sub></td>
+<td>[Are we ready for autonomous driving? The KITTI vision benchmark suite](https://doi.org/10.1109/cvpr.2012.6248074)<br><sub>Andreas Geiger, Philip Lenz, R. Urtasun</sub></td>
 <td>2012<br>2012 IEEE Conference on Computer Vision and Pattern Recognition<br>15,202 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
 <td>Positions Are we ready for autonomous driving? The KITTI vision benchmark suite within AI for Science, Healthcare, and Robotics.</td>
@@ -516,7 +516,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">103</td>
-<td>[TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://www.semanticscholar.org/paper/9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d)<br><sub>Martín Abadi, Ashish Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. Corrado, Andy Davis, et al.</sub></td>
+<td>[TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](https://arxiv.org/abs/1603.04467)<br><sub>Martín Abadi, Ashish Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G. Corrado, Andy Davis, et al.</sub></td>
 <td>2016<br>arXiv.org<br>11,751 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
 <td>TensorFlow is an interface for expressing machine learning algorithms, and an implementation for executing such algorithms.</td>
@@ -534,7 +534,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">111</td>
-<td>[V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation](https://doi.org/10.1109/3DV.2016.79)<br><sub>Fausto Milletarì, N. Navab, Seyed-Ahmad Ahmadi</sub></td>
+<td>[V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation](https://doi.org/10.1109/3dv.2016.79)<br><sub>Fausto Milletarì, N. Navab, Seyed-Ahmad Ahmadi</sub></td>
 <td>2016<br>International Conference on 3D Vision<br>10,842 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
 <td>Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis fields.</td>
@@ -587,7 +587,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr></thead><tbody>
 <tr>
 <td align="right">22</td>
-<td>[Semi-Supervised Classification with Graph Convolutional Networks](https://www.semanticscholar.org/paper/36eff562f65125511b5dfab68ce7f7a943c27478)<br><sub>Thomas Kipf, M. Welling</sub></td>
+<td>[Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907)<br><sub>Thomas Kipf, M. Welling</sub></td>
 <td>2016<br>International Conference on Learning Representations<br>35,590 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
 <td>We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs.</td>
@@ -605,7 +605,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">52</td>
-<td>[TensorFlow: A system for large-scale machine learning](https://www.semanticscholar.org/paper/4954fa180728932959997a4768411ff9136aac81)<br><sub>Martín Abadi, P. Barham, Jianmin Chen, Z. Chen, Andy Davis, J. Dean, M. Devin, S. Ghemawat, et al.</sub></td>
+<td>[TensorFlow: A system for large-scale machine learning](https://arxiv.org/abs/1605.08695)<br><sub>Martín Abadi, P. Barham, Jianmin Chen, Z. Chen, Andy Davis, J. Dean, M. Devin, S. Ghemawat, et al.</sub></td>
 <td>2016<br>USENIX Symposium on Operating Systems Design and Implementation<br>19,730 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
 <td>TensorFlow is a machine learning system that operates at large scale and in heterogeneous environments.</td>
@@ -614,7 +614,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">109</td>
-<td>[A Comprehensive Survey on Graph Neural Networks](https://doi.org/10.1109/TNNLS.2020.2978386)<br><sub>Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu</sub></td>
+<td>[A Comprehensive Survey on Graph Neural Networks](https://doi.org/10.1109/tnnls.2020.2978386)<br><sub>Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu</sub></td>
 <td>2019<br>IEEE Transactions on Neural Networks and Learning Systems<br>11,346 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
 <td>Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classification and video processing to speech recognition and natural language understanding.</td>
@@ -623,7 +623,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">127</td>
-<td>[How Powerful are Graph Neural Networks?](https://www.semanticscholar.org/paper/62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9)<br><sub>Keyulu Xu, Weihua Hu, J. Leskovec, S. Jegelka</sub></td>
+<td>[How Powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826)<br><sub>Keyulu Xu, Weihua Hu, J. Leskovec, S. Jegelka</sub></td>
 <td>2018<br>International Conference on Learning Representations<br>9,953 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
 <td>Graph Neural Networks (GNNs) are an effective framework for representation learning of graphs.</td>
@@ -641,7 +641,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">138</td>
-<td>[The Graph Neural Network Model](https://doi.org/10.1109/TNN.2008.2005605)<br><sub>F. Scarselli, M. Gori, A. Tsoi, M. Hagenbuchner, G. Monfardini</sub></td>
+<td>[The Graph Neural Network Model](https://doi.org/10.1109/tnn.2008.2005605)<br><sub>F. Scarselli, M. Gori, A. Tsoi, M. Hagenbuchner, G. Monfardini</sub></td>
 <td>2009<br>IEEE Transactions on Neural Networks<br>9,468 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="graph-learning" src="https://img.shields.io/badge/keyword-graph--learning-4f46e5"></td>
 <td>Positions The Graph Neural Network Model within Graph Learning, Recommendation, and Core Methods.</td>
@@ -650,7 +650,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">139</td>
-<td>[Practical Bayesian Optimization of Machine Learning Algorithms](https://www.semanticscholar.org/paper/2e2089ae76fe914706e6fa90081a79c8fe01611e)<br><sub>Jasper Snoek, H. Larochelle, Ryan P. Adams</sub></td>
+<td>[Practical Bayesian Optimization of Machine Learning Algorithms](https://arxiv.org/abs/1206.2944)<br><sub>Jasper Snoek, H. Larochelle, Ryan P. Adams</sub></td>
 <td>2012<br>Neural Information Processing Systems<br>9,467 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
 <td>The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters.</td>
@@ -668,7 +668,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">174</td>
-<td>[An Introduction to Support Vector Machines and Other Kernel-based Learning Methods](https://doi.org/10.1017/CBO9780511801389.013)<br><sub>N. Cristianini, J. Shawe-Taylor</sub></td>
+<td>[An Introduction to Support Vector Machines and Other Kernel-based Learning Methods](https://doi.org/10.1017/cbo9780511801389.013)<br><sub>N. Cristianini, J. Shawe-Taylor</sub></td>
 <td>2000<br>Unknown venue<br>8,367 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
 <td>Positions An Introduction to Support Vector Machines and Other Kernel-based Learning Methods within Graph Learning, Recommendation, and Core Methods.</td>
@@ -721,7 +721,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">31</td>
-<td>[Proximal Policy Optimization Algorithms](https://www.semanticscholar.org/paper/dce6f9d4017b1785979e7520fd0834ef8cf02f4b)<br><sub>John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov</sub></td>
+<td>[Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)<br><sub>John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov</sub></td>
 <td>2017<br>arXiv.org<br>28,532 citations</td>
 <td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a &quot;surrogate&quot; objective function using stochastic gradient ascent.</td>
@@ -739,7 +739,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">73</td>
-<td>[Continuous control with deep reinforcement learning](https://www.semanticscholar.org/paper/024006d4c2a89f7acacc6e4438d156525b60a98f)<br><sub>T. Lillicrap, Jonathan J. Hunt, A. Pritzel, N. Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra</sub></td>
+<td>[Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)<br><sub>T. Lillicrap, Jonathan J. Hunt, A. Pritzel, N. Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra</sub></td>
 <td>2015<br>International Conference on Learning Representations<br>15,535 citations</td>
 <td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>We adapt the ideas underlying the success of Deep Q-Learning to the continuous action domain.</td>
@@ -748,7 +748,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">82</td>
-<td>[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://www.semanticscholar.org/paper/c889d6f98e6d79b89c3a6adf8a921f88fa6ba518)<br><sub>Chelsea Finn, P. Abbeel, S. Levine</sub></td>
+<td>[Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/abs/1703.03400)<br><sub>Chelsea Finn, P. Abbeel, S. Levine</sub></td>
 <td>2017<br>International Conference on Machine Learning<br>14,605 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>We propose an algorithm for meta-learning that is model-agnostic, in the sense that it is compatible with any model trained with gradient descent and applicable to a variety of different learning problems, including classification, regression, and reinforcement learning.</td>
@@ -757,7 +757,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">88</td>
-<td>[Playing Atari with Deep Reinforcement Learning](https://www.semanticscholar.org/paper/2319a491378867c7049b3da055c5df60e1671158)<br><sub>Volodymyr Mnih, K. Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin A. Riedmiller</sub></td>
+<td>[Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)<br><sub>Volodymyr Mnih, K. Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou, Daan Wierstra, Martin A. Riedmiller</sub></td>
 <td>2013<br>arXiv.org<br>13,759 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning.</td>
@@ -766,7 +766,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">99</td>
-<td>[Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://www.semanticscholar.org/paper/f35de4f9b1a7c4d3fa96a0d2ab1bf8937671f6b6)<br><sub>Y. Gal, Zoubin Ghahramani</sub></td>
+<td>[Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning](https://arxiv.org/abs/1506.02142)<br><sub>Y. Gal, Zoubin Ghahramani</sub></td>
 <td>2015<br>International Conference on Machine Learning<br>11,994 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Deep learning tools have gained tremendous attention in applied machine learning.</td>
@@ -775,7 +775,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">108</td>
-<td>[Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://www.semanticscholar.org/paper/811df72e210e20de99719539505da54762a11c6d)<br><sub>Tuomas Haarnoja, Aurick Zhou, P. Abbeel, S. Levine</sub></td>
+<td>[Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/abs/1801.01290)<br><sub>Tuomas Haarnoja, Aurick Zhou, P. Abbeel, S. Levine</sub></td>
 <td>2018<br>International Conference on Machine Learning<br>11,486 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>Model-free deep reinforcement learning (RL) algorithms have been demonstrated on a range of challenging decision making and control tasks.</td>
@@ -784,7 +784,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">118</td>
-<td>[Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning](https://doi.org/10.1023/A:1022672621406)<br><sub>Ronald J. Williams</sub></td>
+<td>[Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning](https://doi.org/10.1023/a:1022672621406)<br><sub>Ronald J. Williams</sub></td>
 <td>2004<br>Machine-mediated learning<br>10,344 citations</td>
 <td><img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>Positions Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning within Reinforcement Learning and Agents.</td>
@@ -837,7 +837,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr></thead><tbody>
 <tr>
 <td align="right">2</td>
-<td>[Attention is All you Need](https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776)<br><sub>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, I. Polosukhin</sub></td>
+<td>[Attention is All you Need](https://arxiv.org/abs/1706.03762)<br><sub>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, I. Polosukhin</sub></td>
 <td>2017<br>Neural Information Processing Systems<br>181,426 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration.</td>
@@ -846,7 +846,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">4</td>
-<td>[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/N19-1423)<br><sub>Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova</sub></td>
+<td>[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/n19-1423)<br><sub>Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova</sub></td>
 <td>2019<br>North American Chapter of the Association for Computational Linguistics<br>116,382 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers.</td>
@@ -855,7 +855,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">34</td>
-<td>[Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://doi.org/10.3115/v1/D14-1179)<br><sub>Kyunghyun Cho, B. V. Merrienboer, Çaglar Gülçehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio</sub></td>
+<td>[Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://doi.org/10.3115/v1/d14-1179)<br><sub>Kyunghyun Cho, B. V. Merrienboer, Çaglar Gülçehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio</sub></td>
 <td>2014<br>Conference on Empirical Methods in Natural Language Processing<br>26,531 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>In this paper, we propose a novel neural network model called RNN Encoder‐ Decoder that consists of two recurrent neural networks (RNN).</td>
@@ -864,7 +864,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">35</td>
-<td>[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://www.semanticscholar.org/paper/6c4b76232bb72897685d19b3d264c6ee3005bc2b)<br><sub>Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, et al.</sub></td>
+<td>[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)<br><sub>Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, et al.</sub></td>
 <td>2019<br>Journal of machine learning research<br>26,182 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>Transfer learning, where a model is first pre-trained on a data-rich task before being fine-tuned on a downstream task, has emerged as a powerful technique in natural language processing (NLP).</td>
@@ -873,7 +873,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">44</td>
-<td>[Sequence to Sequence Learning with Neural Networks](https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d)<br><sub>I. Sutskever, O. Vinyals, Quoc V. Le</sub></td>
+<td>[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)<br><sub>I. Sutskever, O. Vinyals, Quoc V. Le</sub></td>
 <td>2014<br>Neural Information Processing Systems<br>22,110 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks.</td>
@@ -882,7 +882,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">84</td>
-<td>[Convolutional Neural Networks for Sentence Classification](https://doi.org/10.3115/v1/D14-1181)<br><sub>Yoon Kim</sub></td>
+<td>[Convolutional Neural Networks for Sentence Classification](https://doi.org/10.3115/v1/d14-1181)<br><sub>Yoon Kim</sub></td>
 <td>2014<br>Conference on Empirical Methods in Natural Language Processing<br>14,275 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks.</td>
@@ -909,7 +909,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">154</td>
-<td>[Speech recognition with deep recurrent neural networks](https://doi.org/10.1109/ICASSP.2013.6638947)<br><sub>Alex Graves, Abdel-rahman Mohamed, Geoffrey E. Hinton</sub></td>
+<td>[Speech recognition with deep recurrent neural networks](https://doi.org/10.1109/icassp.2013.6638947)<br><sub>Alex Graves, Abdel-rahman Mohamed, Geoffrey E. Hinton</sub></td>
 <td>2013<br>IEEE International Conference on Acoustics, Speech, and Signal Processing<br>9,003 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>Recurrent neural networks (RNNs) are a powerful model for sequential data.</td>
@@ -918,7 +918,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">182</td>
-<td>[Spatial Transformer Networks](https://www.semanticscholar.org/paper/dbb6ded623159c867fbeca0772db7b2eb9489523)<br><sub>Max Jaderberg, K. Simonyan, Andrew Zisserman, K. Kavukcuoglu</sub></td>
+<td>[Spatial Transformer Networks](https://arxiv.org/abs/1506.02025)<br><sub>Max Jaderberg, K. Simonyan, Andrew Zisserman, K. Kavukcuoglu</sub></td>
 <td>2015<br>Neural Information Processing Systems<br>8,100 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>Convolutional Neural Networks define an exceptionally powerful class of models, but are still limited by the lack of ability to be spatially invariant to the input data in a computationally and parameter efficient manner.</td>
@@ -962,7 +962,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr></thead><tbody>
 <tr>
 <td align="right">79</td>
-<td>[Towards Deep Learning Models Resistant to Adversarial Attacks](https://www.semanticscholar.org/paper/7aa38b85fa8cba64d6a4010543f6695dbf5f1386)<br><sub>A. Ma̧dry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu</sub></td>
+<td>[Towards Deep Learning Models Resistant to Adversarial Attacks](https://arxiv.org/abs/1706.06083)<br><sub>A. Ma̧dry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, Adrian Vladu</sub></td>
 <td>2017<br>International Conference on Learning Representations<br>14,919 citations</td>
 <td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Recent work has demonstrated that deep neural networks are vulnerable to adversarial examples---inputs that are almost indistinguishable from natural data and yet classified incorrectly by the network.</td>
@@ -971,7 +971,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">94</td>
-<td>[Layer Normalization](https://www.semanticscholar.org/paper/97fb4e3d45bb098e27e0071448b6152217bd35a5)<br><sub>Jimmy Ba, J. Kiros, Geoffrey E. Hinton</sub></td>
+<td>[Layer Normalization](https://arxiv.org/abs/1607.06450)<br><sub>Jimmy Ba, J. Kiros, Geoffrey E. Hinton</sub></td>
 <td>2016<br>arXiv.org<br>12,696 citations</td>
 <td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Training state-of-the-art, deep neural networks is computationally expensive.</td>
@@ -980,7 +980,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">128</td>
-<td>[Towards Evaluating the Robustness of Neural Networks](https://doi.org/10.1109/SP.2017.49)<br><sub>Nicholas Carlini, D. Wagner</sub></td>
+<td>[Towards Evaluating the Robustness of Neural Networks](https://doi.org/10.1109/sp.2017.49)<br><sub>Nicholas Carlini, D. Wagner</sub></td>
 <td>2016<br>IEEE Symposium on Security and Privacy<br>9,937 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Neural networks provide state-of-the-art results for most machine learning tasks.</td>
@@ -1016,7 +1016,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">248</td>
-<td>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](https://www.semanticscholar.org/paper/f63e917638553414526a0cc8550de4ad2d83fe7a)<br><sub>Djork-Arné Clevert, Thomas Unterthiner, Sepp Hochreiter</sub></td>
+<td>[Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](https://arxiv.org/abs/1511.07289)<br><sub>Djork-Arné Clevert, Thomas Unterthiner, Sepp Hochreiter</sub></td>
 <td>2015<br>International Conference on Learning Representations<br>6,108 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>We introduce the &quot;exponential linear unit&quot; (ELU) which speeds up learning in deep neural networks and leads to higher classification accuracies.</td>
@@ -1025,7 +1025,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">251</td>
-<td>[Federated Learning: Challenges, Methods, and Future Directions](https://doi.org/10.1109/MSP.2020.2975749)<br><sub>Tian Li, Anit Kumar Sahu, Ameet Talwalkar, Virginia Smith</sub></td>
+<td>[Federated Learning: Challenges, Methods, and Future Directions](https://doi.org/10.1109/msp.2020.2975749)<br><sub>Tian Li, Anit Kumar Sahu, Ameet Talwalkar, Virginia Smith</sub></td>
 <td>2019<br>IEEE Signal Processing Magazine<br>6,030 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Federated learning involves training statistical models over remote devices or siloed data centers, such as mobile phones or hospitals, while keeping data localized.</td>
@@ -1043,7 +1043,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">293</td>
-<td>[Explanation in Artificial Intelligence: Insights from the Social Sciences](https://doi.org/10.1016/J.ARTINT.2018.07.007)<br><sub>Tim Miller</sub></td>
+<td>[Explanation in Artificial Intelligence: Insights from the Social Sciences](https://doi.org/10.1016/j.artint.2018.07.007)<br><sub>Tim Miller</sub></td>
 <td>2017<br>Artificial Intelligence<br>5,342 citations</td>
 <td><img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"> <img alt="ai4science" src="https://img.shields.io/badge/keyword-ai4science-16a34a"></td>
 <td>There has been a recent resurgence in the area of explainable artificial intelligence as researchers and practitioners seek to make their algorithms more understandable.</td>
@@ -1087,7 +1087,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr></thead><tbody>
 <tr>
 <td align="right">64</td>
-<td>[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/J.JCP.2018.10.045)<br><sub>M. Raissi, P. Perdikaris, G. Karniadakis</sub></td>
+<td>[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://doi.org/10.1016/j.jcp.2018.10.045)<br><sub>M. Raissi, P. Perdikaris, G. Karniadakis</sub></td>
 <td>2019<br>Journal of Computational Physics<br>17,614 citations</td>
 <td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
 <td>Abstract We introduce physics-informed neural networks – neural networks that are trained to solve supervised learning tasks while respecting any given laws of physics described by general nonlinear partial differential equations.</td>
@@ -1096,7 +1096,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">75</td>
-<td>[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://www.semanticscholar.org/paper/8388f1be26329fa45e5807e968a641ce170ea078)<br><sub>Alec Radford, Luke Metz, Soumith Chintala</sub></td>
+<td>[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)<br><sub>Alec Radford, Luke Metz, Soumith Chintala</sub></td>
 <td>2015<br>International Conference on Learning Representations<br>15,122 citations</td>
 <td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications.</td>
@@ -1105,7 +1105,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">98</td>
-<td>[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://doi.org/10.1109/CVPR.2017.19)<br><sub>C. Ledig, Lucas Theis, Ferenc Huszár, Jose Caballero, Andrew P. Aitken, Alykhan Tejani, J. Totz, Zehan Wang, et al.</sub></td>
+<td>[Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://doi.org/10.1109/cvpr.2017.19)<br><sub>C. Ledig, Lucas Theis, Ferenc Huszár, Jose Caballero, Andrew P. Aitken, Alykhan Tejani, J. Totz, Zehan Wang, et al.</sub></td>
 <td>2016<br>Computer Vision and Pattern Recognition<br>12,152 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the finer texture details when we super-resolve at large upscaling factors?</td>
@@ -1114,7 +1114,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">100</td>
-<td>[mixup: Beyond Empirical Risk Minimization](https://www.semanticscholar.org/paper/4feef0fd284feb1233399b400eb897f59ec92755)<br><sub>Hongyi Zhang, Moustapha Cissé, Yann Dauphin, David Lopez-Paz</sub></td>
+<td>[mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412)<br><sub>Hongyi Zhang, Moustapha Cissé, Yann Dauphin, David Lopez-Paz</sub></td>
 <td>2017<br>International Conference on Learning Representations<br>11,909 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples.</td>
@@ -1123,7 +1123,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">110</td>
-<td>[Score-Based Generative Modeling through Stochastic Differential Equations](https://www.semanticscholar.org/paper/633e2fbfc0b21e959a244100937c5853afca4853)<br><sub>Yang Song, Jascha Narain Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole</sub></td>
+<td>[Score-Based Generative Modeling through Stochastic Differential Equations](https://arxiv.org/abs/2011.13456)<br><sub>Yang Song, Jascha Narain Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole</sub></td>
 <td>2020<br>International Conference on Learning Representations<br>11,057 citations</td>
 <td><img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>Creating noise from data is easy; creating data from noise is generative modeling.</td>
@@ -1132,7 +1132,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">121</td>
-<td>[Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c)<br><sub>Jascha Narain Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, S. Ganguli</sub></td>
+<td>[Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://arxiv.org/abs/1503.03585)<br><sub>Jascha Narain Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, S. Ganguli</sub></td>
 <td>2015<br>International Conference on Machine Learning<br>10,158 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
 <td>A central problem in machine learning involves modeling complex data-sets using highly flexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable.</td>
@@ -1168,7 +1168,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">201</td>
-<td>[Neural Discrete Representation Learning](https://www.semanticscholar.org/paper/f466157848d1a7772fb6d02cdac9a7a5e7ef982e)<br><sub>Aäron van den Oord, O. Vinyals, K. Kavukcuoglu</sub></td>
+<td>[Neural Discrete Representation Learning](https://arxiv.org/abs/1711.00937)<br><sub>Aäron van den Oord, O. Vinyals, K. Kavukcuoglu</sub></td>
 <td>2017<br>Neural Information Processing Systems<br>7,422 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="generative-ai" src="https://img.shields.io/badge/keyword-generative--ai-a855f7"></td>
 <td>Learning useful representations without supervision remains a key challenge in machine learning.</td>
@@ -1212,7 +1212,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr></thead><tbody>
 <tr>
 <td align="right">25</td>
-<td>[Efficient Estimation of Word Representations in Vector Space](https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09)<br><sub>Tomas Mikolov, Kai Chen, G. Corrado, J. Dean</sub></td>
+<td>[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)<br><sub>Tomas Mikolov, Kai Chen, G. Corrado, J. Dean</sub></td>
 <td>2013<br>International Conference on Learning Representations<br>34,503 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
 <td>We propose two novel model architectures for computing continuous vector representations of words from very large data sets.</td>
@@ -1221,7 +1221,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">41</td>
-<td>[A Survey on Transfer Learning](https://doi.org/10.1109/TKDE.2009.191)<br><sub>Sinno Jialin Pan, Qiang Yang</sub></td>
+<td>[A Survey on Transfer Learning](https://doi.org/10.1109/tkde.2009.191)<br><sub>Sinno Jialin Pan, Qiang Yang</sub></td>
 <td>2010<br>IEEE Transactions on Knowledge and Data Engineering<br>23,383 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>A major assumption in many machine learning and data mining algorithms is that the training and future data must be in the same feature space and have the same distribution.</td>
@@ -1230,7 +1230,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">43</td>
-<td>[Explaining and Harnessing Adversarial Examples](https://www.semanticscholar.org/paper/bee044c8e8903fb67523c1f8c105ab4718600cdb)<br><sub>I. Goodfellow, Jonathon Shlens, Christian Szegedy</sub></td>
+<td>[Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572)<br><sub>I. Goodfellow, Jonathon Shlens, Christian Szegedy</sub></td>
 <td>2014<br>International Conference on Learning Representations<br>22,363 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>cluding neural networks, consistently misclassify adversarial examples---inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence.</td>
@@ -1239,7 +1239,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">86</td>
-<td>[Representation Learning: A Review and New Perspectives](https://doi.org/10.1109/TPAMI.2013.50)<br><sub>Yoshua Bengio, Aaron C. Courville, P. Vincent</sub></td>
+<td>[Representation Learning: A Review and New Perspectives](https://doi.org/10.1109/tpami.2013.50)<br><sub>Yoshua Bengio, Aaron C. Courville, P. Vincent</sub></td>
 <td>2012<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>13,937 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
 <td>The success of machine learning algorithms generally depends on data representation, and we hypothesize that this is because different representations can entangle and hide more or less the different explanatory factors of variation behind the data.</td>
@@ -1248,7 +1248,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">90</td>
-<td>[Representation Learning with Contrastive Predictive Coding](https://www.semanticscholar.org/paper/b227f3e4c0dc96e5ac5426b85485a70f2175a205)<br><sub>Aäron van den Oord, Yazhe Li, O. Vinyals</sub></td>
+<td>[Representation Learning with Contrastive Predictive Coding](https://arxiv.org/abs/1807.03748)<br><sub>Aäron van den Oord, Yazhe Li, O. Vinyals</sub></td>
 <td>2018<br>arXiv.org<br>13,607 citations</td>
 <td><img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"> <img alt="reinforcement-learning" src="https://img.shields.io/badge/keyword-reinforcement--learning-dc2626"></td>
 <td>While supervised learning has enabled great progress in many applications, unsupervised learning has not seen such widespread adoption, and remains an important and challenging endeavor for artificial intelligence.</td>
@@ -1266,7 +1266,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">130</td>
-<td>[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://www.semanticscholar.org/paper/a54b56af24bb4873ed0163b77df63b92bd018ddc)<br><sub>Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf</sub></td>
+<td>[DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/abs/1910.01108)<br><sub>Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf</sub></td>
 <td>2019<br>arXiv.org<br>9,924 citations</td>
 <td><img alt="foundation-models" src="https://img.shields.io/badge/keyword-foundation--models-2563eb"> <img alt="nlp" src="https://img.shields.io/badge/keyword-nlp-f59e0b"></td>
 <td>As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-the-edge and/or under constrained computational training or inference budgets remains challenging.</td>
@@ -1275,7 +1275,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">133</td>
-<td>[Deep Learning Face Attributes in the Wild](https://doi.org/10.1109/ICCV.2015.425)<br><sub>Ziwei Liu, Ping Luo, Xiaogang Wang, Xiaoou Tang</sub></td>
+<td>[Deep Learning Face Attributes in the Wild](https://doi.org/10.1109/iccv.2015.425)<br><sub>Ziwei Liu, Ping Luo, Xiaogang Wang, Xiaoou Tang</sub></td>
 <td>2014<br>IEEE International Conference on Computer Vision<br>9,701 citations</td>
 <td><img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"></td>
 <td>Predicting face attributes in the wild is challenging due to complex face variations.</td>
@@ -1293,7 +1293,7 @@ These badges define the AI keyword tags used to read and extend this collection.
 </tr>
 <tr>
 <td align="right">266</td>
-<td>[Learning Transferable Features with Deep Adaptation Networks](https://www.semanticscholar.org/paper/7340f090f8a0df5b109682e9f6d57e4b8ca1a2f7)<br><sub>Mingsheng Long, Yue Cao, Jianmin Wang, Michael I. Jordan</sub></td>
+<td>[Learning Transferable Features with Deep Adaptation Networks](https://arxiv.org/abs/1502.02791)<br><sub>Mingsheng Long, Yue Cao, Jianmin Wang, Michael I. Jordan</sub></td>
 <td>2015<br>International Conference on Machine Learning<br>5,954 citations</td>
 <td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="vision" src="https://img.shields.io/badge/keyword-vision-0f766e"> <img alt="trustworthy-ai" src="https://img.shields.io/badge/keyword-trustworthy--ai-be123c"></td>
 <td>Recent studies reveal that a deep neural network can learn transferable features which generalize well to novel tasks for domain adaptation.</td>
@@ -1314,28 +1314,28 @@ These badges define the AI keyword tags used to read and extend this collection.
 | 2002 | 1,000 | 100 | 163,015 | [Data Mining - Concepts and Techniques](https://www.semanticscholar.org/paper/982b955c900b04e9da64e3b39422690c13d6b94f) |
 | 2003 | 1,000 | 100 | 124,417 | [Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond](https://doi.org/10.1198/jasa.2003.s270) |
 | 2004 | 1,000 | 100 | 142,172 | [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://doi.org/10.1198/jasa.2004.s339) |
-| 2005 | 1,000 | 100 | 124,983 | [Survey of clustering algorithms](https://doi.org/10.1109/TNN.2005.845141) |
+| 2005 | 1,000 | 100 | 124,983 | [Survey of clustering algorithms](https://doi.org/10.1109/tnn.2005.845141) |
 | 2006 | 1,000 | 100 | 117,674 | [Supporting Online Material for Reducing the Dimensionality of Data with Neural Networks](https://www.semanticscholar.org/paper/02552a8b40f3a82a5353f596264db71d899a9b4a) |
 | 2007 | 1,000 | 100 | 128,381 | [Classification and Regression by randomForest](https://www.semanticscholar.org/paper/6e633b41d93051375ef9135102d54fa097dc8cf8) |
 | 2008 | 1,000 | 100 | 116,790 | [LIBLINEAR: A Library for Large Linear Classification](https://doi.org/10.5555/1390681.1442794) |
-| 2009 | 1,000 | 100 | 247,309 | [ImageNet: A large-scale hierarchical image database](https://doi.org/10.1109/CVPR.2009.5206848) |
-| 2010 | 1,000 | 100 | 184,831 | [A Survey on Transfer Learning](https://doi.org/10.1109/TKDE.2009.191) |
+| 2009 | 1,000 | 100 | 247,309 | [ImageNet: A large-scale hierarchical image database](https://doi.org/10.1109/cvpr.2009.5206848) |
+| 2010 | 1,000 | 100 | 184,831 | [A Survey on Transfer Learning](https://doi.org/10.1109/tkde.2009.191) |
 | 2011 | 1,000 | 100 | 254,295 | [Scikit-learn: Machine Learning in Python](https://doi.org/10.5555/1953048.2078195) |
 | 2012 | 1,000 | 100 | 332,579 | [ImageNet classification with deep convolutional neural networks](https://doi.org/10.1145/3065386) |
-| 2013 | 1,000 | 100 | 274,215 | [Efficient Estimation of Word Representations in Vector Space](https://www.semanticscholar.org/paper/f6b51c8753a871dc94ff32152c00c01e94f90f09) |
-| 2014 | 1,000 | 100 | 742,024 | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108) |
+| 2013 | 1,000 | 100 | 274,215 | [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) |
+| 2014 | 1,000 | 100 | 742,024 | [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) |
 | 2015 | 1,000 | 100 | 960,511 | [Deep Residual Learning for Image Recognition](https://doi.org/10.1109/cvpr.2016.90) |
 | 2016 | 1,000 | 100 | 738,490 | [XGBoost: A Scalable Tree Boosting System](https://doi.org/10.1145/2939672.2939785) |
-| 2017 | 1,000 | 100 | 775,257 | [Attention is All you Need](https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776) |
+| 2017 | 1,000 | 100 | 775,257 | [Attention is All you Need](https://arxiv.org/abs/1706.03762) |
 | 2018 | 1,000 | 100 | 445,723 | [CBAM: Convolutional Block Attention Module](https://doi.org/10.1007/978-3-030-01234-2_1) |
-| 2019 | 1,000 | 100 | 638,014 | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/N19-1423) |
-| 2020 | 1,000 | 100 | 436,445 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a) |
-| 2021 | 1,000 | 100 | 425,132 | [Learning Transferable Visual Models From Natural Language Supervision](https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4) |
+| 2019 | 1,000 | 100 | 638,014 | [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://doi.org/10.18653/v1/n19-1423) |
+| 2020 | 1,000 | 100 | 436,445 | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) |
+| 2021 | 1,000 | 100 | 425,132 | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) |
 | 2022 | 1,000 | 100 | 284,273 | [Training language models to follow instructions with human feedback](https://doi.org/10.52202/068431-2011) |
-| 2023 | 1,000 | 100 | 334,364 | [LLaMA: Open and Efficient Foundation Language Models](https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75) |
-| 2024 | 1,000 | 100 | 145,505 | [The Llama 3 Herd of Models](https://www.semanticscholar.org/paper/40e8af970329135ec95057d73e239dab805ad128) |
-| 2025 | 1,000 | 100 | 72,745 | [Qwen3 Technical Report](https://www.semanticscholar.org/paper/d2d84d56f730f81d276a02b48d5d44db5bde0b4a) |
-| 2026 | 1,000 | 100 | 6,582 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://www.semanticscholar.org/paper/1b6e16cc72aee038eb1879b8686b53776be3d51f) |
+| 2023 | 1,000 | 100 | 334,364 | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) |
+| 2024 | 1,000 | 100 | 145,505 | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) |
+| 2025 | 1,000 | 100 | 72,745 | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
+| 2026 | 1,000 | 100 | 6,582 | [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://arxiv.org/abs/2605.29358) |
 
 ## Methodology
 

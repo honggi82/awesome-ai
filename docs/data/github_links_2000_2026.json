@@ -5,15 +5,15 @@
   "sourceLicense": "CC-BY-SA-4.0 for Papers with Code archive entries; paper-text links come from existing scholarly metadata",
   "matchingPolicy": "Only display GitHub links that are explicit official paper links: direct GitHub URLs in paper abstract/metadata with code/repository availability context, or Papers with Code archive entries where githubOfficial and mentionedInPaper are both true. Broad title/arXiv code matches, third-party reimplementations, and metadata-only carryover links are excluded.",
   "paperCount": 2700,
-  "githubLinkCount": 428,
+  "githubLinkCount": 421,
   "matchedBy": {
-    "arxiv": 298,
-    "paper-text": 118,
+    "arxiv": 297,
+    "paper-text": 112,
     "title": 12
   },
   "sources": {
-    "paper-text": 118,
-    "paperswithcode-archive": 310
+    "paperswithcode-archive": 309,
+    "paper-text": 112
   },
   "links": {
     "4d spatio temporal convnets minkowski convolutional neural networks": {
@@ -3314,22 +3314,6 @@
       "year": 2023,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     },
-    "mambair a simple baseline for image restoration with state space model": {
-      "githubUrl": "https://github.com/csguoh/MambaIR}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "example, MambaIR outperforms SwinIR by up to 0.45dB on image SR, using similar computational cost but with a global receptive field. Code is available at \\url{https://github.com/csguoh/MambaIR}.",
-      "title": "MambaIR: A Simple Baseline for Image Restoration with State-Space Model",
-      "year": 2024
-    },
     "maple multi modal prompt learning": {
       "githubUrl": "https://github.com/muzairkhattak/multimodal-prompt-learning",
       "githubOfficial": true,
@@ -3864,22 +3848,6 @@
       "year": 2021,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     },
-    "olympiadbench a challenging benchmark for promoting agi with olympiad level bilingual multimodal scientific problems": {
-      "githubUrl": "https://github.com/OpenBMB/OlympiadBench}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "e that our challenging benchmark can serve as a valuable resource for helping future AGI research endeavors. The data and evaluation code are available at \\url{https://github.com/OpenBMB/OlympiadBench}",
-      "title": "OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems",
-      "year": 2024
-    },
     "on calibration of modern neural networks": {
       "githubUrl": "https://github.com/gpleiss/temperature_scaling",
       "githubOfficial": true,
@@ -4198,22 +4166,6 @@
       "year": 2021,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     },
-    "pythia a suite for analyzing large language models across training and scaling": {
-      "githubUrl": "https://github.com/EleutherAI/pythia}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "n be used to yield novel insights toward LLMs and their training dynamics. Trained models, analysis code, training code, and training data can be found at \\url{https://github.com/EleutherAI/pythia}.",
-      "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
-      "year": 2023
-    },
     "qwen technical report": {
       "githubUrl": "https://github.com/qwenlm/qwen",
       "githubOfficial": true,
@@ -4404,20 +4356,6 @@
       "matchBy": "arxiv",
       "title": "RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation",
       "year": 2016,
-      "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
-    },
-    "reflexion language agents with verbal reinforcement learning": {
-      "githubUrl": "https://github.com/noahshinn024/reflexion",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": true,
-      "framework": "none",
-      "pwcPaperTitle": "Reflexion: Language Agents with Verbal Reinforcement Learning",
-      "pwcArxivId": "2303.11366",
-      "source": "paperswithcode-archive",
-      "matchBy": "arxiv",
-      "title": "Reflexion: language agents with verbal reinforcement learning",
-      "year": 2023,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     },
     "refusal in language models is mediated by a single direction": {
@@ -4738,22 +4676,6 @@
       "title": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
       "year": 2023
     },
-    "search o1 agentic search enhanced large reasoning models": {
-      "githubUrl": "https://github.com/sunnynexus/Search-o1}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "thiness and applicability of LRMs in complex reasoning tasks, paving the way for more reliable and versatile intelligent systems. The code is available at \\url{https://github.com/sunnynexus/Search-o1}.",
-      "title": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
-      "year": 2025
-    },
     "search r1 training llms to reason and leverage search engines with reinforcement learning": {
       "githubUrl": "https://github.com/PeterGriffinJin/Search-R1",
       "githubOfficial": true,
@@ -4811,22 +4733,6 @@
       "title": "Segment anything in medical images",
       "year": 2023,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
-    },
-    "selective kernel networks": {
-      "githubUrl": "https://github.com/implus/SKNet",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "les, which verifies the capability of neurons for adaptively adjusting their receptive field sizes according to the input. The code and models are available at https://github.com/implus/SKNet.",
-      "title": "Selective Kernel Networks",
-      "year": 2019
     },
     "self attention with relative position representations": {
       "githubUrl": "https://github.com/tensorflow/tensor2tensor",
@@ -6168,22 +6074,6 @@
       "year": 2024,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     },
-    "yolo world real time open vocabulary object detection": {
-      "githubUrl": "https://github.com/AILab-eve/YOLO-World",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "ves remarkable performance on several downstream tasks, including object detection and open-vocabulary instance segmentation. Code and models are available at: https://github.com/AILab-eve/YOLO-World.",
-      "title": "YOLO-World: Real-Time Open-Vocabulary Object Detection",
-      "year": 2024
-    },
     "yolov4 optimal speed and accuracy of object detection": {
       "githubUrl": "https://github.com/AlexeyAB/darknet",
       "githubOfficial": true,
@@ -6244,5 +6134,36 @@
       "year": 2020,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
     }
-  }
+  },
+  "removedByLinkAudit": [
+    {
+      "key": "mambair a simple baseline for image restoration with state space model",
+      "githubUrl": "https://github.com/csguoh/MambaIR}"
+    },
+    {
+      "key": "olympiadbench a challenging benchmark for promoting agi with olympiad level bilingual multimodal scientific problems",
+      "githubUrl": "https://github.com/OpenBMB/OlympiadBench}"
+    },
+    {
+      "key": "pythia a suite for analyzing large language models across training and scaling",
+      "githubUrl": "https://github.com/EleutherAI/pythia}"
+    },
+    {
+      "key": "reflexion language agents with verbal reinforcement learning",
+      "githubUrl": "https://github.com/noahshinn024/reflexion"
+    },
+    {
+      "key": "search o1 agentic search enhanced large reasoning models",
+      "githubUrl": "https://github.com/sunnynexus/Search-o1}"
+    },
+    {
+      "key": "selective kernel networks",
+      "githubUrl": "https://github.com/implus/SKNet"
+    },
+    {
+      "key": "yolo world real time open vocabulary object detection",
+      "githubUrl": "https://github.com/AILab-eve/YOLO-World"
+    }
+  ],
+  "linkAuditPolicy": "Display only official paper-indicated GitHub repositories that passed direct reachability checks; remove 404/unreachable repositories."
 }
