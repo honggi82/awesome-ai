@@ -1,9 +1,14 @@
 # Awesome AI
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-[![Open Interactive Website](https://img.shields.io/badge/Open%20Interactive%20Website-GitHub%20Pages-0f766e)](https://honggi82.github.io/awesome-ai/)
 
 A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
+
+<p align="center">
+  <a href="https://honggi82.github.io/awesome-ai/">
+    <img src="https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--ai-0f766e?style=for-the-badge" alt="Open Interactive Website">
+  </a>
+</p>
 
 Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
 
