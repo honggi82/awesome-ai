@@ -93,7 +93,8 @@
       "strengths": "high citation signal (73,960); influential citation signal (10,493); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 1,
-      "rank": 7
+      "rank": 7,
+      "githubUrl": ""
     },
     {
       "paperId": "6d8c9fcce8177d6f8d122d653c7d32d7624d6714",
@@ -126,7 +127,8 @@
       "strengths": "high citation signal (20,731); influential citation signal (2,167); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 2,
-      "rank": 48
+      "rank": 48,
+      "githubUrl": ""
     },
     {
       "paperId": "bcea7be5123a287c824f42d4164d8b9588a4c9a6",
@@ -159,7 +161,8 @@
       "strengths": "high citation signal (11,859); influential citation signal (805)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 3,
-      "rank": 101
+      "rank": 101,
+      "githubUrl": ""
     },
     {
       "paperId": "3efd851140aa28e95221b55fcc5659eea97b172d",
@@ -192,7 +195,8 @@
       "strengths": "high citation signal (9,468); influential citation signal (448); recognized venue; open-access PDF metadata",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 4,
-      "rank": 138
+      "rank": 138,
+      "githubUrl": ""
     },
     {
       "paperId": "36eb6fea39ce06e2807f074fa3d5e79ed0f2bcef",
@@ -225,7 +229,8 @@
       "strengths": "high citation signal (8,131); influential citation signal (1,146)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 5,
-      "rank": 180
+      "rank": 180,
+      "githubUrl": ""
     },
     {
       "paperId": "c11d0ba3e581e691f1bee0022dc0807ff4c428f2",
@@ -258,7 +263,8 @@
       "strengths": "high citation signal (6,441); influential citation signal (324)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 6,
-      "rank": 236
+      "rank": 236,
+      "githubUrl": ""
     },
     {
       "paperId": "1dae4d61cd74cc919ecc638bde6b7125728ea97b",
@@ -291,7 +297,8 @@
       "strengths": "high citation signal (4,448); influential citation signal (597); recognized venue; open-access PDF metadata",
       "limitations": "Transfer claims depend heavily on downstream task choice, data overlap, and evaluation protocol.; Contrastive and self-supervised methods can learn spurious shortcuts when augmentations or negatives are poorly matched.; Representation quality is hard to compare when model size, data scale, and training recipes differ.",
       "yearRank": 7,
-      "rank": 374
+      "rank": 374,
+      "githubUrl": ""
     },
     {
       "paperId": "2ea6a93199c9227fa0c1c7de13725f918c9be3a4",
@@ -324,7 +331,8 @@
       "strengths": "high citation signal (3,552); influential citation signal (220); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 8,
-      "rank": 520
+      "rank": 520,
+      "githubUrl": ""
     },
     {
       "paperId": "72c600b4f1e49eee8ebf1aa84ccb5f4b95387285",
@@ -357,7 +365,8 @@
       "strengths": "high citation signal (3,416); influential citation signal (349)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 9,
-      "rank": 547
+      "rank": 547,
+      "githubUrl": ""
     },
     {
       "paperId": "fad1bd501aa769f7701c1016f8a4d1473ca77601",
@@ -390,7 +399,8 @@
       "strengths": "high citation signal (2,912); influential citation signal (176)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 10,
-      "rank": 680
+      "rank": 680,
+      "githubUrl": ""
     },
     {
       "paperId": "69e5339c0c3928a354e848b9ccf5349f6397e60b",
@@ -423,7 +433,8 @@
       "strengths": "high citation signal (2,911); influential citation signal (206); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 11,
-      "rank": 682
+      "rank": 682,
+      "githubUrl": ""
     },
     {
       "paperId": "93f61088195d97dd3cce9ead6ed6cba2d547f138",
@@ -456,7 +467,8 @@
       "strengths": "high citation signal (2,834); influential citation signal (305)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 12,
-      "rank": 711
+      "rank": 711,
+      "githubUrl": ""
     },
     {
       "paperId": "69ef9ef82a8df81d3069427c10f4283f75e900f3",
@@ -489,7 +501,8 @@
       "strengths": "high citation signal (2,832); influential citation signal (125); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 13,
-      "rank": 712
+      "rank": 712,
+      "githubUrl": ""
     },
     {
       "paperId": "0566bf06a0368b518b8b474166f7b1dfef3f9283",
@@ -522,7 +535,8 @@
       "strengths": "high citation signal (2,668); influential citation signal (369); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 14,
-      "rank": 770
+      "rank": 770,
+      "githubUrl": ""
     },
     {
       "paperId": "2ff6fcebe5561433a2d2abeb8b30b2fbf3c0e303",
@@ -555,7 +569,8 @@
       "strengths": "high citation signal (2,305); influential citation signal (120); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 15,
-      "rank": 909
+      "rank": 909,
+      "githubUrl": ""
     },
     {
       "paperId": "c62043a7d2537bbf40a84b9913957452a47fdb83",
@@ -588,7 +603,8 @@
       "strengths": "high citation signal (2,239); influential citation signal (76)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 16,
-      "rank": 944
+      "rank": 944,
+      "githubUrl": ""
     },
     {
       "paperId": "64f9643cf5cefbce3cd9b4b950f57f2f1f37d844",
@@ -621,7 +637,8 @@
       "strengths": "high citation signal (2,232); influential citation signal (94); open-access PDF metadata",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 17,
-      "rank": 947
+      "rank": 947,
+      "githubUrl": ""
     },
     {
       "paperId": "c1e48526eddd68b5bf98739a578ab69a009f570d",
@@ -654,7 +671,8 @@
       "strengths": "high citation signal (2,200); influential citation signal (208)",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 18,
-      "rank": 957
+      "rank": 957,
+      "githubUrl": ""
     },
     {
       "paperId": "dd116435b6f93e803e8db708ad4d0bce71499982",
@@ -687,7 +705,8 @@
       "strengths": "high citation signal (2,123); influential citation signal (243); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 19,
-      "rank": 986
+      "rank": 986,
+      "githubUrl": ""
     },
     {
       "paperId": "8b9cd90af0631bbed04c0718230f0faed1eca209",
@@ -720,7 +739,8 @@
       "strengths": "high citation signal (2,093); influential citation signal (146)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 20,
-      "rank": 995
+      "rank": 995,
+      "githubUrl": ""
     },
     {
       "paperId": "94549a171a61039ed1f9b5954ce42181c574ccc3",
@@ -753,7 +773,8 @@
       "strengths": "high citation signal (2,082); influential citation signal (243); open-access PDF metadata",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 21,
-      "rank": 999
+      "rank": 999,
+      "githubUrl": ""
     },
     {
       "paperId": "467568f1777bc51a15a5100516cd4fe8de62b9ab",
@@ -786,7 +807,8 @@
       "strengths": "high citation signal (2,048); influential citation signal (118); recognized venue",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 22,
-      "rank": 1012
+      "rank": 1012,
+      "githubUrl": ""
     },
     {
       "paperId": "6a324ff29bca5cb4584ca869a9bab987fc8bed3f",
@@ -819,7 +841,8 @@
       "strengths": "high citation signal (1,979); influential citation signal (160); open-access PDF metadata",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 23,
-      "rank": 1047
+      "rank": 1047,
+      "githubUrl": ""
     },
     {
       "paperId": "d13e466cbd7c8ac764b3dfd3e3a12c7e8736412f",
@@ -852,7 +875,8 @@
       "strengths": "high citation signal (1,853); influential citation signal (166); open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 24,
-      "rank": 1094
+      "rank": 1094,
+      "githubUrl": ""
     },
     {
       "paperId": "b6df5c2ac2f91d71b1d08d76135e2a470ac1ad1e",
@@ -885,7 +909,8 @@
       "strengths": "high citation signal (1,828); influential citation signal (46)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 25,
-      "rank": 1106
+      "rank": 1106,
+      "githubUrl": ""
     },
     {
       "paperId": "b57c54350769ffa59ff57f79ee5aad918844d298",
@@ -918,7 +943,8 @@
       "strengths": "high citation signal (1,605); influential citation signal (186); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 26,
-      "rank": 1209
+      "rank": 1209,
+      "githubUrl": ""
     },
     {
       "paperId": "438cd004c7fa0a5ed74acc28bff1ac3d11b8c80a",
@@ -951,7 +977,8 @@
       "strengths": "high citation signal (1,601); influential citation signal (62)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 27,
-      "rank": 1215
+      "rank": 1215,
+      "githubUrl": ""
     },
     {
       "paperId": "3673bccde93025e05431a2bcac4e8ff18c9c273a",
@@ -984,7 +1011,8 @@
       "strengths": "high citation signal (1,597); influential citation signal (104); open-access PDF metadata",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 28,
-      "rank": 1216
+      "rank": 1216,
+      "githubUrl": ""
     },
     {
       "paperId": "894e0bb5b42294f6b89b4f5b9498fd86139c96f9",
@@ -1017,7 +1045,8 @@
       "strengths": "high citation signal (1,590); influential citation signal (160)",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 29,
-      "rank": 1221
+      "rank": 1221,
+      "githubUrl": ""
     },
     {
       "paperId": "3055134761ca2e7748d7d5325d70231d3391d847",
@@ -1050,7 +1079,8 @@
       "strengths": "high citation signal (1,564); influential citation signal (136)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 30,
-      "rank": 1237
+      "rank": 1237,
+      "githubUrl": ""
     },
     {
       "paperId": "bf15a0ccc14ac1deb5cea570c870389c16be019c",
@@ -1083,7 +1113,8 @@
       "strengths": "high citation signal (1,503); influential citation signal (99); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 31,
-      "rank": 1279
+      "rank": 1279,
+      "githubUrl": ""
     },
     {
       "paperId": "3e083dc8aeb7983a5cdff146985363d38caf0886",
@@ -1116,7 +1147,8 @@
       "strengths": "high citation signal (1,502); influential citation signal (184); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 32,
-      "rank": 1280
+      "rank": 1280,
+      "githubUrl": ""
     },
     {
       "paperId": "85b73447455cfe511e3df3b1befa93fedd9ed46a",
@@ -1149,7 +1181,8 @@
       "strengths": "high citation signal (1,445); influential citation signal (98); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 33,
-      "rank": 1312
+      "rank": 1312,
+      "githubUrl": ""
     },
     {
       "paperId": "cf87e167446bd22e9422445dfed4f74a3f0579f9",
@@ -1182,7 +1215,8 @@
       "strengths": "high citation signal (1,404); influential citation signal (92); recognized venue",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 34,
-      "rank": 1340
+      "rank": 1340,
+      "githubUrl": ""
     },
     {
       "paperId": "642b89cdc165de1b9dac019c76e2cac6efdc5f37",
@@ -1215,7 +1249,8 @@
       "strengths": "high citation signal (1,326); influential citation signal (81)",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 35,
-      "rank": 1387
+      "rank": 1387,
+      "githubUrl": ""
     },
     {
       "paperId": "b0300ea708c8115a6540fb183d49916c0fd4ae15",
@@ -1248,7 +1283,8 @@
       "strengths": "high citation signal (1,303); influential citation signal (55); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 36,
-      "rank": 1403
+      "rank": 1403,
+      "githubUrl": ""
     },
     {
       "paperId": "05fd1da7b2e34f86ec7f010bef068717ae964332",
@@ -1281,7 +1317,8 @@
       "strengths": "high citation signal (1,256); influential citation signal (43); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 37,
-      "rank": 1432
+      "rank": 1432,
+      "githubUrl": ""
     },
     {
       "paperId": "bc20444f09186991b2b5f05a174c7aac4ec1dd25",
@@ -1314,7 +1351,8 @@
       "strengths": "high citation signal (1,251); influential citation signal (52); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 38,
-      "rank": 1436
+      "rank": 1436,
+      "githubUrl": ""
     },
     {
       "paperId": "4e6238c8613b5b81f81552939bce33296aedfbfe",
@@ -1347,7 +1385,8 @@
       "strengths": "high citation signal (1,182); influential citation signal (62); recognized venue",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 39,
-      "rank": 1470
+      "rank": 1470,
+      "githubUrl": ""
     },
     {
       "paperId": "bf38dfb13352449b965c08282b66d3ffc5a0539f",
@@ -1380,7 +1419,8 @@
       "strengths": "high citation signal (1,174); influential citation signal (49)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 40,
-      "rank": 1477
+      "rank": 1477,
+      "githubUrl": ""
     },
     {
       "paperId": "9c40543348fef37369c5b19ea26994ca1db8d9e8",
@@ -1413,7 +1453,8 @@
       "strengths": "high citation signal (1,167); influential citation signal (150)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 41,
-      "rank": 1481
+      "rank": 1481,
+      "githubUrl": ""
     },
     {
       "paperId": "102018300acd7893209830cc2dd6c1e33924020f",
@@ -1446,7 +1487,8 @@
       "strengths": "high citation signal (1,138); influential citation signal (59); recognized venue; open-access PDF metadata",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 42,
-      "rank": 1500
+      "rank": 1500,
+      "githubUrl": ""
     },
     {
       "paperId": "ea86b804a5f4536d9646e4ac26898a43e35c6bc4",
@@ -1479,7 +1521,8 @@
       "strengths": "high citation signal (1,135); influential citation signal (129); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 43,
-      "rank": 1501
+      "rank": 1501,
+      "githubUrl": ""
     },
     {
       "paperId": "5e01be6b9cd090d207e91d953c6e901be179f8c1",
@@ -1512,7 +1555,8 @@
       "strengths": "high citation signal (1,126); influential citation signal (112); open-access PDF metadata",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 44,
-      "rank": 1510
+      "rank": 1510,
+      "githubUrl": ""
     },
     {
       "paperId": "40927c5d81988a1151639fad150cbc74f64e0d68",
@@ -1545,7 +1589,8 @@
       "strengths": "high citation signal (1,046); influential citation signal (33)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 45,
-      "rank": 1579
+      "rank": 1579,
+      "githubUrl": ""
     },
     {
       "paperId": "1bb490fcd384c4bcda60cd8d1c592b266da5dbd1",
@@ -1578,7 +1623,8 @@
       "strengths": "high citation signal (1,037); influential citation signal (15); open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 46,
-      "rank": 1584
+      "rank": 1584,
+      "githubUrl": ""
     },
     {
       "paperId": "727f14e94f33f7bf9d1fa9d3d4649cc828a30ba6",
@@ -1611,7 +1657,8 @@
       "strengths": "high citation signal (1,031); influential citation signal (36)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 47,
-      "rank": 1589
+      "rank": 1589,
+      "githubUrl": ""
     },
     {
       "paperId": "1cacac4f0ea9fdff3cd88c151c94115a9fddcf33",
@@ -1644,7 +1691,8 @@
       "strengths": "high citation signal (1,011); influential citation signal (63)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 48,
-      "rank": 1605
+      "rank": 1605,
+      "githubUrl": ""
     },
     {
       "paperId": "bd64f461bf8bdfa837d8e2c25a3e6b21961e3893",
@@ -1677,7 +1725,8 @@
       "strengths": "high citation signal (1,011); influential citation signal (44); recognized venue; open-access PDF metadata",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 49,
-      "rank": 1606
+      "rank": 1606,
+      "githubUrl": ""
     },
     {
       "paperId": "af3fbee1cc4db03df8b050fb59d3517828d87617",
@@ -1710,7 +1759,8 @@
       "strengths": "high citation signal (985); influential citation signal (44)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 50,
-      "rank": 1627
+      "rank": 1627,
+      "githubUrl": ""
     },
     {
       "paperId": "432e5d09f080c95286dc461f419b0685b41eb7e3",
@@ -1743,7 +1793,8 @@
       "strengths": "high citation signal (980); influential citation signal (118)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 51,
-      "rank": 1631
+      "rank": 1631,
+      "githubUrl": ""
     },
     {
       "paperId": "d9279fe29ae1e4ecd0ee34d546560f8a70d17d1d",
@@ -1776,7 +1827,8 @@
       "strengths": "high citation signal (938); influential citation signal (99); recognized venue",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 52,
-      "rank": 1674
+      "rank": 1674,
+      "githubUrl": ""
     },
     {
       "paperId": "8ea8da551ef6b1c909ca5b37ba94be4cae02e9ac",
@@ -1809,7 +1861,8 @@
       "strengths": "high citation signal (913); influential citation signal (87); recognized venue; open-access PDF metadata",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 53,
-      "rank": 1709
+      "rank": 1709,
+      "githubUrl": ""
     },
     {
       "paperId": "424c32ae1d3cbef94286d72ca44581a857005a80",
@@ -1842,7 +1895,8 @@
       "strengths": "high citation signal (904); influential citation signal (75); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 54,
-      "rank": 1719
+      "rank": 1719,
+      "githubUrl": ""
     },
     {
       "paperId": "c981b9e7fa3a8bd96d6b1158289da5d48349f31e",
@@ -1875,7 +1929,8 @@
       "strengths": "high citation signal (877); influential citation signal (103)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 55,
-      "rank": 1754
+      "rank": 1754,
+      "githubUrl": ""
     },
     {
       "paperId": "a0f4787426af8a317698fc7f2b25016a857caf96",
@@ -1908,7 +1963,8 @@
       "strengths": "high citation signal (873); influential citation signal (130)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 56,
-      "rank": 1759
+      "rank": 1759,
+      "githubUrl": ""
     },
     {
       "paperId": "6e744cf0273a84b087e94191fd654210e8fec8e9",
@@ -1941,7 +1997,8 @@
       "strengths": "high citation signal (869); influential citation signal (77)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 57,
-      "rank": 1768
+      "rank": 1768,
+      "githubUrl": ""
     },
     {
       "paperId": "41b0fbe7b579b04e0f2de087f650d85b2a071c5a",
@@ -1974,7 +2031,8 @@
       "strengths": "high citation signal (866); influential citation signal (38); recognized venue",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 58,
-      "rank": 1773
+      "rank": 1773,
+      "githubUrl": ""
     },
     {
       "paperId": "77e379fd57ea44638fc628623e383eccada82689",
@@ -2007,7 +2065,8 @@
       "strengths": "high citation signal (858); influential citation signal (120)",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 59,
-      "rank": 1780
+      "rank": 1780,
+      "githubUrl": ""
     },
     {
       "paperId": "e700d9222697201207564a0e31f446dab8c3a98d",
@@ -2040,7 +2099,8 @@
       "strengths": "high citation signal (848); influential citation signal (64); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 60,
-      "rank": 1794
+      "rank": 1794,
+      "githubUrl": ""
     },
     {
       "paperId": "4fd1484ace880a725e9c5441fc355ab39e47da83",
@@ -2073,7 +2133,8 @@
       "strengths": "high citation signal (833); influential citation signal (23)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 61,
-      "rank": 1815
+      "rank": 1815,
+      "githubUrl": ""
     },
     {
       "paperId": "fe83150bc326fd62d352cb2993ac91344f195e10",
@@ -2106,7 +2167,8 @@
       "strengths": "high citation signal (832); influential citation signal (58)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 62,
-      "rank": 1816
+      "rank": 1816,
+      "githubUrl": ""
     },
     {
       "paperId": "c5ab7a66a0a94137427bf5b4fbcac1ab710b9188",
@@ -2139,7 +2201,8 @@
       "strengths": "high citation signal (830); influential citation signal (37)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 63,
-      "rank": 1819
+      "rank": 1819,
+      "githubUrl": ""
     },
     {
       "paperId": "07d403f01ca39b87c65d610e918a2d3ff7d58214",
@@ -2172,7 +2235,8 @@
       "strengths": "high citation signal (824); influential citation signal (58)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 64,
-      "rank": 1827
+      "rank": 1827,
+      "githubUrl": ""
     },
     {
       "paperId": "de4808f2bdec2011eb4d3b70d610d85a76a3fb3f",
@@ -2205,7 +2269,8 @@
       "strengths": "high citation signal (819); influential citation signal (45); open-access PDF metadata",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 65,
-      "rank": 1835
+      "rank": 1835,
+      "githubUrl": ""
     },
     {
       "paperId": "9a0ef2e00a28623c49b695ec6088ea1d965db257",
@@ -2238,7 +2303,8 @@
       "strengths": "high citation signal (819); influential citation signal (44); open-access PDF metadata",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 66,
-      "rank": 1837
+      "rank": 1837,
+      "githubUrl": ""
     },
     {
       "paperId": "98f9db6743bc1f781b10bf2a8fa72fafdaa85067",
@@ -2271,7 +2337,8 @@
       "strengths": "high citation signal (810); influential citation signal (30); open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 67,
-      "rank": 1849
+      "rank": 1849,
+      "githubUrl": ""
     },
     {
       "paperId": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
@@ -2304,7 +2371,8 @@
       "strengths": "high citation signal (789); influential citation signal (47); open-access PDF metadata",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 68,
-      "rank": 1874
+      "rank": 1874,
+      "githubUrl": ""
     },
     {
       "paperId": "59bf2a4efdd6fce10f9d0e37ffc8ef689e35f315",
@@ -2337,7 +2405,8 @@
       "strengths": "high citation signal (780); influential citation signal (54); open-access PDF metadata",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 69,
-      "rank": 1891
+      "rank": 1891,
+      "githubUrl": ""
     },
     {
       "paperId": "98023bf20451e7a801ca9534c0cbed7b08d443d3",
@@ -2370,7 +2439,8 @@
       "strengths": "high citation signal (757); influential citation signal (42)",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 70,
-      "rank": 1932
+      "rank": 1932,
+      "githubUrl": ""
     },
     {
       "paperId": "f19122b082188e626ff8355cfcaa432e68509272",
@@ -2403,7 +2473,8 @@
       "strengths": "high citation signal (755); influential citation signal (37); recognized venue",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 71,
-      "rank": 1936
+      "rank": 1936,
+      "githubUrl": ""
     },
     {
       "paperId": "e99e6cdb3d3667a6192250586d19f50438206cef",
@@ -2436,7 +2507,8 @@
       "strengths": "high citation signal (753); influential citation signal (55); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 72,
-      "rank": 1943
+      "rank": 1943,
+      "githubUrl": ""
     },
     {
       "paperId": "85f57aa4b0bc3a443bbd076ed352106721f4a5cc",
@@ -2469,7 +2541,8 @@
       "strengths": "high citation signal (720); influential citation signal (52)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 73,
-      "rank": 2006
+      "rank": 2006,
+      "githubUrl": ""
     },
     {
       "paperId": "23db2d9c5a97f36f1b63ea249402b4be0919ebc9",
@@ -2502,7 +2575,8 @@
       "strengths": "high citation signal (705); influential citation signal (36)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 74,
-      "rank": 2031
+      "rank": 2031,
+      "githubUrl": ""
     },
     {
       "paperId": "53dd4141f85857c366766c1ac5f78c2b7392372e",
@@ -2535,7 +2609,8 @@
       "strengths": "high citation signal (701); influential citation signal (30)",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 75,
-      "rank": 2043
+      "rank": 2043,
+      "githubUrl": ""
     },
     {
       "paperId": "79217fc643a2ee73b2d36c12f97dbd3b8d85be45",
@@ -2568,7 +2643,8 @@
       "strengths": "high citation signal (699); influential citation signal (18)",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 76,
-      "rank": 2049
+      "rank": 2049,
+      "githubUrl": ""
     },
     {
       "paperId": "ed98884e807148fa957cc5ca21b43ae4a5502871",
@@ -2601,7 +2677,8 @@
       "strengths": "high citation signal (688); influential citation signal (32); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 77,
-      "rank": 2069
+      "rank": 2069,
+      "githubUrl": ""
     },
     {
       "paperId": "5b73be2f2373f9f6bf3d3137bcdc7b8065901746",
@@ -2634,7 +2711,8 @@
       "strengths": "high citation signal (677); influential citation signal (14); open-access PDF metadata",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 78,
-      "rank": 2088
+      "rank": 2088,
+      "githubUrl": ""
     },
     {
       "paperId": "db176bcafb749ada615f719e7f89b5eea69b6e82",
@@ -2667,7 +2745,8 @@
       "strengths": "high citation signal (659); influential citation signal (37); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 79,
-      "rank": 2126
+      "rank": 2126,
+      "githubUrl": ""
     },
     {
       "paperId": "ec2b2569b3a0d70a5b45d48b041dec9060d85eb7",
@@ -2700,7 +2779,8 @@
       "strengths": "high citation signal (658); influential citation signal (17); recognized venue",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 80,
-      "rank": 2134
+      "rank": 2134,
+      "githubUrl": ""
     },
     {
       "paperId": "184ee75ed2f7c0cde7338be47a9f2f3a446079e8",
@@ -2733,7 +2813,8 @@
       "strengths": "high citation signal (653); influential citation signal (18)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 81,
-      "rank": 2146
+      "rank": 2146,
+      "githubUrl": ""
     },
     {
       "paperId": "17cd447e313b8405b65be57785fd7c6bea51379e",
@@ -2766,7 +2847,8 @@
       "strengths": "high citation signal (647); influential citation signal (46)",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 82,
-      "rank": 2156
+      "rank": 2156,
+      "githubUrl": ""
     },
     {
       "paperId": "079c2926db5caa9adfef1303f54c38f11e982b2b",
@@ -2799,7 +2881,8 @@
       "strengths": "high citation signal (646); influential citation signal (59); open-access PDF metadata",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 83,
-      "rank": 2158
+      "rank": 2158,
+      "githubUrl": ""
     },
     {
       "paperId": "f056b896ef139385e0e9e9a5105357cb44a1cda2",
@@ -2832,7 +2915,8 @@
       "strengths": "high citation signal (642); influential citation signal (33)",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 84,
-      "rank": 2165
+      "rank": 2165,
+      "githubUrl": ""
     },
     {
       "paperId": "f2642db17084b14068d56f332de2f2d5a1622c5a",
@@ -2865,7 +2949,8 @@
       "strengths": "high citation signal (634); influential citation signal (33); recognized venue",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 85,
-      "rank": 2180
+      "rank": 2180,
+      "githubUrl": ""
     },
     {
       "paperId": "cde66ff34b934d0eb6a33263a036a410a89159bc",
@@ -2898,7 +2983,8 @@
       "strengths": "high citation signal (632); influential citation signal (13); recognized venue",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 86,
-      "rank": 2187
+      "rank": 2187,
+      "githubUrl": ""
     },
     {
       "paperId": "7630724e68a1ea5a7d270eb4d3de53007f600bb6",
@@ -2931,7 +3017,8 @@
       "strengths": "high citation signal (630); influential citation signal (18)",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 87,
-      "rank": 2190
+      "rank": 2190,
+      "githubUrl": ""
     },
     {
       "paperId": "1ba585c374ba84cb7a6ca53d36a7641627d9397b",
@@ -2964,7 +3051,8 @@
       "strengths": "high citation signal (629); influential citation signal (45); recognized venue",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 88,
-      "rank": 2191
+      "rank": 2191,
+      "githubUrl": ""
     },
     {
       "paperId": "7fdf31d5ebdd293b3027e6555e256a936ff5515a",
@@ -2997,7 +3085,8 @@
       "strengths": "high citation signal (623); influential citation signal (81); recognized venue",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 89,
-      "rank": 2200
+      "rank": 2200,
+      "githubUrl": ""
     },
     {
       "paperId": "dd46de744cd1529190471c18a9e1d3cf45a7842f",
@@ -3030,7 +3119,8 @@
       "strengths": "high citation signal (614); influential citation signal (55)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 90,
-      "rank": 2216
+      "rank": 2216,
+      "githubUrl": ""
     },
     {
       "paperId": "c3392106a981bdb6f393e061efe0fec9989e15d7",
@@ -3063,7 +3153,8 @@
       "strengths": "high citation signal (607); influential citation signal (44)",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 91,
-      "rank": 2232
+      "rank": 2232,
+      "githubUrl": ""
     },
     {
       "paperId": "180cdd491373a00eacc44a0f86946748d3c53078",
@@ -3096,7 +3187,8 @@
       "strengths": "high citation signal (606); influential citation signal (62)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 92,
-      "rank": 2236
+      "rank": 2236,
+      "githubUrl": ""
     },
     {
       "paperId": "fa5e5ece78098b1acd6ff53749bb54592166663a",
@@ -3129,7 +3221,8 @@
       "strengths": "high citation signal (605); influential citation signal (24); recognized venue; open-access PDF metadata",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 93,
-      "rank": 2241
+      "rank": 2241,
+      "githubUrl": ""
     },
     {
       "paperId": "333493706cb73e34e30641da87dab19c9e387abc",
@@ -3162,7 +3255,8 @@
       "strengths": "high citation signal (594); influential citation signal (88); recognized venue; open-access PDF metadata",
       "limitations": "Graph and recommender benchmarks can contain temporal leakage, popularity bias, or unrealistic train/test splits.; Algorithmic gains may be sensitive to hyperparameter budgets and implementation details.; Core methods need careful ablations before broad claims about generality or efficiency are accepted.",
       "yearRank": 94,
-      "rank": 2273
+      "rank": 2273,
+      "githubUrl": ""
     },
     {
       "paperId": "0eda1b40e7866ea5368b1d5e42c3a5c3b768347b",
@@ -3195,7 +3289,8 @@
       "strengths": "high citation signal (592); influential citation signal (54)",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 95,
-      "rank": 2277
+      "rank": 2277,
+      "githubUrl": ""
     },
     {
       "paperId": "6f144fde2fed74566180b5d35f2c7ed00d920401",
@@ -3228,7 +3323,8 @@
       "strengths": "high citation signal (570); influential citation signal (63); open-access PDF metadata",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 96,
-      "rank": 2321
+      "rank": 2321,
+      "githubUrl": ""
     },
     {
       "paperId": "5aa68ad09c5549039569bc196455b8a7a0a64ba5",
@@ -3261,7 +3357,8 @@
       "strengths": "high citation signal (561); influential citation signal (15)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 97,
-      "rank": 2349
+      "rank": 2349,
+      "githubUrl": ""
     },
     {
       "paperId": "efc0cb142588a6dd571e52b30217c4a7905f254d",
@@ -3294,7 +3391,8 @@
       "strengths": "high citation signal (559); influential citation signal (24); open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 98,
-      "rank": 2354
+      "rank": 2354,
+      "githubUrl": ""
     },
     {
       "paperId": "66405753664af1895830f147365cc5903388dea1",
@@ -3327,7 +3425,8 @@
       "strengths": "high citation signal (553); influential citation signal (18)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 99,
-      "rank": 2364
+      "rank": 2364,
+      "githubUrl": ""
     },
     {
       "paperId": "775979e2178edb83ea279327ae3939d2c6b38193",
@@ -3360,7 +3459,8 @@
       "strengths": "high citation signal (543); influential citation signal (27)",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 100,
-      "rank": 2388
+      "rank": 2388,
+      "githubUrl": ""
     },
     {
       "paperId": "a7f5a8fb71f6c939a876dcd2446ea4daeb00408e",

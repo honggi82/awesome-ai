@@ -93,7 +93,8 @@
       "strengths": "high citation signal (16,216); influential citation signal (3,038)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 1,
-      "rank": 70
+      "rank": 70,
+      "githubUrl": ""
     },
     {
       "paperId": "7943ec4a67151a559b25cd34369e661c9a7924c8",
@@ -126,7 +127,8 @@
       "strengths": "high citation signal (4,341); influential citation signal (880)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 2,
-      "rank": 391
+      "rank": 391,
+      "githubUrl": ""
     },
     {
       "paperId": "a22b23b65cdbc0335b872ed7c7a7206c710f8997",
@@ -159,7 +161,8 @@
       "strengths": "high citation signal (4,318); influential citation signal (590)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 3,
-      "rank": 392
+      "rank": 392,
+      "githubUrl": "https://github.com/QwenLM/Qwen2-VL"
     },
     {
       "paperId": "88aa6b1f37d1fd8e0a40499ce9bb87873f03aaa8",
@@ -192,7 +195,8 @@
       "strengths": "high citation signal (4,243); influential citation signal (582)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 4,
-      "rank": 406
+      "rank": 406,
+      "githubUrl": "https://github.com/qwenlm/qwen2.5"
     },
     {
       "paperId": "cf70392a3b1ae92fdb1b70448aaddcbd03726d3d",
@@ -225,7 +229,8 @@
       "strengths": "high citation signal (3,870); influential citation signal (256)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 5,
-      "rank": 462
+      "rank": 462,
+      "githubUrl": "https://github.com/WongKinYiu/yolov9"
     },
     {
       "paperId": "c811bedbe8f4c21d0cba9f9175f7c2eb203284a7",
@@ -258,7 +263,8 @@
       "strengths": "high citation signal (3,706); influential citation signal (806)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 6,
-      "rank": 489
+      "rank": 489,
+      "githubUrl": ""
     },
     {
       "paperId": "92a09cdfc19f3f582d89c28c1b4f386299cc69e1",
@@ -291,7 +297,8 @@
       "strengths": "high citation signal (3,469); influential citation signal (504)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 7,
-      "rank": 533
+      "rank": 533,
+      "githubUrl": "https://github.com/facebookresearch/sam2"
     },
     {
       "paperId": "adccc00dbd0fe63e4e34bc3445a29bc2ec910cbc",
@@ -324,7 +331,8 @@
       "strengths": "high citation signal (2,854); influential citation signal (222)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 8,
-      "rank": 703
+      "rank": 703,
+      "githubUrl": ""
     },
     {
       "paperId": "b24e899ec0f77eef2fc87a9b8e50516367aa1f97",
@@ -357,7 +365,8 @@
       "strengths": "high citation signal (2,430); influential citation signal (344)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 9,
-      "rank": 856
+      "rank": 856,
+      "githubUrl": "https://github.com/MzeroMiko/VMamba"
     },
     {
       "paperId": "54fb839f621e3fe787437ab8ca5f37e7e4726bfe",
@@ -390,7 +399,8 @@
       "strengths": "high citation signal (2,237); influential citation signal (268)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 10,
-      "rank": 945
+      "rank": 945,
+      "githubUrl": "https://github.com/qwenlm/qwen2"
     },
     {
       "paperId": "1b0f498d3d314d69850046574272404c52539302",
@@ -423,7 +433,8 @@
       "strengths": "high citation signal (2,197); influential citation signal (57); open-access PDF metadata",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 11,
-      "rank": 958
+      "rank": 958,
+      "githubUrl": ""
     },
     {
       "paperId": "7e7e59d2e247d99954081080ddd5aae93d10b9e0",
@@ -456,7 +467,8 @@
       "strengths": "high citation signal (1,900); influential citation signal (365)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 12,
-      "rank": 1080
+      "rank": 1080,
+      "githubUrl": ""
     },
     {
       "paperId": "f2d0f3d47ae850f49a58f4977393bd0025af4bec",
@@ -489,7 +501,8 @@
       "strengths": "high citation signal (1,874); influential citation signal (146); open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 13,
-      "rank": 1086
+      "rank": 1086,
+      "githubUrl": "https://github.com/volcengine/verl"
     },
     {
       "paperId": "8292083dd8f6ae898ea0ee54a6b97997d1a51c9d",
@@ -522,7 +535,8 @@
       "strengths": "high citation signal (1,871); influential citation signal (135)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 14,
-      "rank": 1087
+      "rank": 1087,
+      "githubUrl": ""
     },
     {
       "paperId": "38c48a1cd296d16dc9c56717495d6e44cc354444",
@@ -555,7 +569,8 @@
       "strengths": "high citation signal (1,864); influential citation signal (195); recognized venue",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 15,
-      "rank": 1089
+      "rank": 1089,
+      "githubUrl": "https://github.com/hustvl/Vim"
     },
     {
       "paperId": "afea54c7f17f4fac0f71bebed6bc782ed69d8bd0",
@@ -588,7 +603,8 @@
       "strengths": "high citation signal (1,863); influential citation signal (232); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 16,
-      "rank": 1091
+      "rank": 1091,
+      "githubUrl": "https://github.com/LiheYoung/Depth-Anything"
     },
     {
       "paperId": "e86182c7d2668acf927ffee37a150cd9e7749020",
@@ -621,7 +637,8 @@
       "strengths": "high citation signal (1,792); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 17,
-      "rank": 1121
+      "rank": 1121,
+      "githubUrl": ""
     },
     {
       "paperId": "1406bb4cb6801bc4767b661308118c888a9b09da",
@@ -654,7 +671,8 @@
       "strengths": "high citation signal (1,788); influential citation signal (203)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 18,
-      "rank": 1124
+      "rank": 1124,
+      "githubUrl": ""
     },
     {
       "paperId": "d5d7b26dbdf09737878644530b226a79c9f43bfb",
@@ -687,7 +705,8 @@
       "strengths": "high citation signal (1,737); influential citation signal (72)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 19,
-      "rank": 1150
+      "rank": 1150,
+      "githubUrl": "https://github.com/hiyouga/LLaMA-Factory"
     },
     {
       "paperId": "1f2a20a6efaf83214861dddae4a38a83ae18fe32",
@@ -720,7 +739,8 @@
       "strengths": "high citation signal (1,699); influential citation signal (249)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 20,
-      "rank": 1165
+      "rank": 1165,
+      "githubUrl": "https://github.com/deepseek-ai/DeepSeek-Coder"
     },
     {
       "paperId": "afe0998d191f3ea8490c7df100a3ffc5dcc62c5e",
@@ -753,7 +773,8 @@
       "strengths": "high citation signal (1,693); influential citation signal (273)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 21,
-      "rank": 1168
+      "rank": 1168,
+      "githubUrl": ""
     },
     {
       "paperId": "2258e69186c4ab39cbf4868746bba651c086f1d9",
@@ -786,7 +807,8 @@
       "strengths": "high citation signal (1,660); recognized venue",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 22,
-      "rank": 1180
+      "rank": 1180,
+      "githubUrl": ""
     },
     {
       "paperId": "c1799bf28d1ae93e1631be5b59196ee1e568f538",
@@ -819,7 +841,8 @@
       "strengths": "high citation signal (1,614); influential citation signal (234)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 23,
-      "rank": 1204
+      "rank": 1204,
+      "githubUrl": ""
     },
     {
       "paperId": "c3c01a94e04d8d6e3f3e2a501467cb1f77da76af",
@@ -852,7 +875,8 @@
       "strengths": "high citation signal (1,605); influential citation signal (72)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 24,
-      "rank": 1211
+      "rank": 1211,
+      "githubUrl": ""
     },
     {
       "paperId": "ca9f5b3bf0f54ad97513e6175b30497873670fed",
@@ -885,7 +909,8 @@
       "strengths": "high citation signal (1,603); influential citation signal (277); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 25,
-      "rank": 1213
+      "rank": 1213,
+      "githubUrl": "https://github.com/state-spaces/mamba"
     },
     {
       "paperId": "c7f9706898bdfa3241601e075b1305649b174ff1",
@@ -918,7 +943,8 @@
       "strengths": "high citation signal (1,585); influential citation signal (173)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 26,
-      "rank": 1222
+      "rank": 1222,
+      "githubUrl": "https://github.com/THUDM"
     },
     {
       "paperId": "5f49ec9560ca9e03eff32a607f6caabc08f98926",
@@ -951,7 +977,8 @@
       "strengths": "high citation signal (1,536); influential citation signal (255)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 27,
-      "rank": 1252
+      "rank": 1252,
+      "githubUrl": "https://github.com/opengvlab/internvl"
     },
     {
       "paperId": "cac496ddebbff6bbba78242780cde01bd962bfc9",
@@ -984,7 +1011,8 @@
       "strengths": "high citation signal (1,491); influential citation signal (190); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 28,
-      "rank": 1287
+      "rank": 1287,
+      "githubUrl": ""
     },
     {
       "paperId": "e24424283c02fbe7f641e5b3490d7bb059f8355a",
@@ -1017,7 +1045,8 @@
       "strengths": "high citation signal (1,451); influential citation signal (120)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 29,
-      "rank": 1307
+      "rank": 1307,
+      "githubUrl": "https://github.com/idea-finai/llm-as-a-judge"
     },
     {
       "paperId": "1fa298e3f745099d39ca5bd088fcb62f87e8cc2f",
@@ -1050,7 +1079,8 @@
       "strengths": "high citation signal (1,381); influential citation signal (231)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 30,
-      "rank": 1355
+      "rank": 1355,
+      "githubUrl": "https://github.com/Tencent/HunyuanVideo"
     },
     {
       "paperId": "ad2f4f35aef9cc66d756a9a846136a7d38f9f664",
@@ -1083,7 +1113,8 @@
       "strengths": "high citation signal (1,357); influential citation signal (29); open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 31,
-      "rank": 1368
+      "rank": 1368,
+      "githubUrl": ""
     },
     {
       "paperId": "f82f49c20c6acc69f884f05e3a9f1ceea91061ce",
@@ -1116,7 +1147,8 @@
       "strengths": "high citation signal (1,337); influential citation signal (140); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 32,
-      "rank": 1379
+      "rank": 1379,
+      "githubUrl": ""
     },
     {
       "paperId": "53f4fb0e9972989194368faf288ff8e3cba5bd60",
@@ -1149,7 +1181,8 @@
       "strengths": "high citation signal (1,328); influential citation signal (189); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 33,
-      "rank": 1385
+      "rank": 1385,
+      "githubUrl": ""
     },
     {
       "paperId": "61ec7be824db60d4e40385c17ef5aab40f831195",
@@ -1182,7 +1215,8 @@
       "strengths": "high citation signal (1,319); recognized venue; open-access PDF metadata",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 34,
-      "rank": 1392
+      "rank": 1392,
+      "githubUrl": ""
     },
     {
       "paperId": "22552dd0e7789f175a302055f06444a12e22b652",
@@ -1215,7 +1249,8 @@
       "strengths": "high citation signal (1,309); influential citation signal (249); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 35,
-      "rank": 1397
+      "rank": 1397,
+      "githubUrl": ""
     },
     {
       "paperId": "53a803388e83ae89261624099d7be4287ace67cb",
@@ -1248,7 +1283,8 @@
       "strengths": "high citation signal (1,253); influential citation signal (124)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 36,
-      "rank": 1433
+      "rank": 1433,
+      "githubUrl": "https://github.com/deepseek-ai/deepseek-v2"
     },
     {
       "paperId": "b82ccc66c14f531a444c74d2a9a9d86a86a8be99",
@@ -1281,7 +1317,8 @@
       "strengths": "high citation signal (1,230); influential citation signal (292); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 37,
-      "rank": 1446
+      "rank": 1446,
+      "githubUrl": "https://github.com/centerforaisafety/HarmBench"
     },
     {
       "paperId": "a509670659e8b054e2b7d1b6f8a0bc722398fa62",
@@ -1314,7 +1351,8 @@
       "strengths": "high citation signal (1,215); influential citation signal (150)",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 38,
-      "rank": 1452
+      "rank": 1452,
+      "githubUrl": ""
     },
     {
       "paperId": "887306ee7ebd9eebd7faea24106ec8e8f1a50987",
@@ -1347,7 +1385,8 @@
       "strengths": "high citation signal (1,201); influential citation signal (184); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 39,
-      "rank": 1462
+      "rank": 1462,
+      "githubUrl": "https://github.com/OpenGVLab/InternVL"
     },
     {
       "paperId": "bd0fae435b93819d407f36d9d52565d5dfb5f87c",
@@ -1380,7 +1419,8 @@
       "strengths": "high citation signal (1,157); influential citation signal (234)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 40,
-      "rank": 1488
+      "rank": 1488,
+      "githubUrl": ""
     },
     {
       "paperId": "bcf2c7e3f4ed64c8294c35a59220a26dd4f40060",
@@ -1413,7 +1453,8 @@
       "strengths": "high citation signal (1,142); influential citation signal (135)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 41,
-      "rank": 1496
+      "rank": 1496,
+      "githubUrl": ""
     },
     {
       "paperId": "4a2b5058000d567036fc9aaad75bbf71cce53002",
@@ -1446,7 +1487,8 @@
       "strengths": "high citation signal (1,130); influential citation signal (58); open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 42,
-      "rank": 1508
+      "rank": 1508,
+      "githubUrl": ""
     },
     {
       "paperId": "13dc81fce2c73de67dbe3829a32ec23d663cec89",
@@ -1479,7 +1521,8 @@
       "strengths": "high citation signal (1,097); influential citation signal (100); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 43,
-      "rank": 1530
+      "rank": 1530,
+      "githubUrl": ""
     },
     {
       "paperId": "dd33f1cef0471e4fedb5615dafff222295a42cf4",
@@ -1512,7 +1555,8 @@
       "strengths": "high citation signal (1,097); influential citation signal (65)",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 44,
-      "rank": 1531
+      "rank": 1531,
+      "githubUrl": "https://github.com/Beckschen/TransUNet"
     },
     {
       "paperId": "81e8666325b02b1287d4fdcf33232c74e7144f9a",
@@ -1545,7 +1589,8 @@
       "strengths": "high citation signal (1,070); influential citation signal (42); open-access PDF metadata",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 45,
-      "rank": 1555
+      "rank": 1555,
+      "githubUrl": ""
     },
     {
       "paperId": "9fb201282f53a4ce89f28cbe5026af78912aa8c1",
@@ -1578,7 +1623,8 @@
       "strengths": "high citation signal (1,006); influential citation signal (93)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 46,
-      "rank": 1609
+      "rank": 1609,
+      "githubUrl": ""
     },
     {
       "paperId": "ac5824e9ff924a937d9eef379d0b581de2417678",
@@ -1611,7 +1657,8 @@
       "strengths": "high citation signal (1,000); influential citation signal (244)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 47,
-      "rank": 1612
+      "rank": 1612,
+      "githubUrl": "https://github.com/hsiehjackson/ruler"
     },
     {
       "paperId": "a1f76db91c0debcf93ae9889736bce8470902113",
@@ -1644,7 +1691,8 @@
       "strengths": "high citation signal (997); influential citation signal (44)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 48,
-      "rank": 1616
+      "rank": 1616,
+      "githubUrl": ""
     },
     {
       "paperId": "a052d88ba5e144bb86ffcd8656b40e4a7e05b7f8",
@@ -1677,7 +1725,8 @@
       "strengths": "high citation signal (993); influential citation signal (15)",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 49,
-      "rank": 1620
+      "rank": 1620,
+      "githubUrl": ""
     },
     {
       "paperId": "9472e198f790cb396c088c8e98bd4c5f5134cf62",
@@ -1710,7 +1759,8 @@
       "strengths": "high citation signal (985); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 50,
-      "rank": 1628
+      "rank": 1628,
+      "githubUrl": ""
     },
     {
       "paperId": "c8b18682965ff9dccc0130dab3d679f78cefa617",
@@ -1743,7 +1793,8 @@
       "strengths": "high citation signal (977); influential citation signal (39)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 51,
-      "rank": 1636
+      "rank": 1636,
+      "githubUrl": ""
     },
     {
       "paperId": "8f070e301979732e0dd73f6aa6170309cf73aa7d",
@@ -1776,7 +1827,8 @@
       "strengths": "high citation signal (976); influential citation signal (48); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 52,
-      "rank": 1637
+      "rank": 1637,
+      "githubUrl": "https://github.com/taichengguo/llm_multiagents_survey_papers"
     },
     {
       "paperId": "0746410e1250576cc1b9621ef602e4bceb1c07ca",
@@ -1809,7 +1861,8 @@
       "strengths": "high citation signal (961); influential citation signal (119); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 53,
-      "rank": 1651
+      "rank": 1651,
+      "githubUrl": ""
     },
     {
       "paperId": "ad06c8a5fd292af518f878c7ced132b61739cdd8",
@@ -1842,7 +1895,8 @@
       "strengths": "high citation signal (946); influential citation signal (22); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 54,
-      "rank": 1663
+      "rank": 1663,
+      "githubUrl": ""
     },
     {
       "paperId": "b83a9e35c3aeeb37708e362473c7617d59b815b5",
@@ -1875,7 +1929,8 @@
       "strengths": "high citation signal (942); influential citation signal (145)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 55,
-      "rank": 1669
+      "rank": 1669,
+      "githubUrl": ""
     },
     {
       "paperId": "3b6d06cad165e6e886fa69a86af54e02218c3b53",
@@ -1908,7 +1963,8 @@
       "strengths": "high citation signal (941); recognized venue; open-access PDF metadata",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 56,
-      "rank": 1672
+      "rank": 1672,
+      "githubUrl": ""
     },
     {
       "paperId": "f64446de8b1e7d487dd1b837b5a97835e978e7b9",
@@ -1941,7 +1997,8 @@
       "strengths": "high citation signal (931); recognized venue; open-access PDF metadata",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 57,
-      "rank": 1682
+      "rank": 1682,
+      "githubUrl": ""
     },
     {
       "paperId": "eb9c4a07a336e8deefe7b399c550d3af0241238e",
@@ -1974,7 +2031,8 @@
       "strengths": "high citation signal (928); influential citation signal (21)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 58,
-      "rank": 1686
+      "rank": 1686,
+      "githubUrl": ""
     },
     {
       "paperId": "0d2c38b39f73003ec23ee3e2382e319e20bd5d18",
@@ -2007,7 +2065,8 @@
       "strengths": "high citation signal (927); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 59,
-      "rank": 1690
+      "rank": 1690,
+      "githubUrl": ""
     },
     {
       "paperId": "7057bd0ede388d0eb3bd4b4031150564b5f205a6",
@@ -2040,7 +2099,8 @@
       "strengths": "high citation signal (927); recognized venue; open-access PDF metadata",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 60,
-      "rank": 1691
+      "rank": 1691,
+      "githubUrl": ""
     },
     {
       "paperId": "16d6e1ed1cf72212f6154644f3aa59d18bc95fda",
@@ -2073,7 +2133,8 @@
       "strengths": "high citation signal (900); influential citation signal (106)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 61,
-      "rank": 1725
+      "rank": 1725,
+      "githubUrl": "https://github.com/deepseek-ai/deepseek-moe"
     },
     {
       "paperId": "31d2ccff82e313eb5c1620c44bb8322da4a38513",
@@ -2106,7 +2167,8 @@
       "strengths": "high citation signal (899); influential citation signal (33)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 62,
-      "rank": 1727
+      "rank": 1727,
+      "githubUrl": ""
     },
     {
       "paperId": "37c112454a236ab91c9c6b5cc165a6c3251e9206",
@@ -2139,7 +2201,8 @@
       "strengths": "high citation signal (896); influential citation signal (115); recognized venue; open-access PDF metadata",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 63,
-      "rank": 1730
+      "rank": 1730,
+      "githubUrl": ""
     },
     {
       "paperId": "5b3969e0404b96524e03ddbbae6ac10e3357dc75",
@@ -2172,7 +2235,8 @@
       "strengths": "high citation signal (875); influential citation signal (91); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 64,
-      "rank": 1757
+      "rank": 1757,
+      "githubUrl": ""
     },
     {
       "paperId": "32112b798f70faab00e14806f51d46058cf5e597",
@@ -2205,7 +2269,8 @@
       "strengths": "high citation signal (869); influential citation signal (105)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 65,
-      "rank": 1766
+      "rank": 1766,
+      "githubUrl": ""
     },
     {
       "paperId": "33161a5a9b5dcb635b5a97475e6a6209a69ada7d",
@@ -2238,7 +2303,8 @@
       "strengths": "high citation signal (869); influential citation signal (80)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 66,
-      "rank": 1767
+      "rank": 1767,
+      "githubUrl": "https://github.com/SakanaAI/AI-Scientist"
     },
     {
       "paperId": "94773f22b5befd0e167a7de525d29bec2b09937a",
@@ -2271,7 +2337,8 @@
       "strengths": "high citation signal (860); influential citation signal (140)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 67,
-      "rank": 1778
+      "rank": 1778,
+      "githubUrl": ""
     },
     {
       "paperId": "c0b454e0a6aa51ff3ba56778787d0c43932ef6ba",
@@ -2304,7 +2371,8 @@
       "strengths": "high citation signal (849); influential citation signal (76)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 68,
-      "rank": 1792
+      "rank": 1792,
+      "githubUrl": "https://github.com/01-ai/yi"
     },
     {
       "paperId": "c1a04730c83967d0bb904b02263b17893cb50bad",
@@ -2337,7 +2405,8 @@
       "strengths": "high citation signal (848); influential citation signal (63)",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 69,
-      "rank": 1795
+      "rank": 1795,
+      "githubUrl": ""
     },
     {
       "paperId": "b3954728823a82d6bc45ce2921ccb71c10406480",
@@ -2370,7 +2439,8 @@
       "strengths": "high citation signal (846); influential citation signal (80)",
       "limitations": "Explanations can be persuasive without being faithful to model internals or decision processes.; Fairness, robustness, privacy, and safety metrics can conflict and require domain-specific tradeoffs.; Responsible AI results often need stronger deployment evidence beyond benchmark or synthetic settings.",
       "yearRank": 70,
-      "rank": 1797
+      "rank": 1797,
+      "githubUrl": ""
     },
     {
       "paperId": "8a9e11addba791860a9dbf15de75cc28d2cf844c",
@@ -2403,7 +2473,8 @@
       "strengths": "high citation signal (844); influential citation signal (142)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 71,
-      "rank": 1799
+      "rank": 1799,
+      "githubUrl": ""
     },
     {
       "paperId": "b767c165e7e9621c38c98c247856087f76e9f340",
@@ -2436,7 +2507,8 @@
       "strengths": "high citation signal (830); influential citation signal (43); open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 72,
-      "rank": 1818
+      "rank": 1818,
+      "githubUrl": ""
     },
     {
       "paperId": "603d3f90fc40f79ff51258f0295de3ec5107f73e",
@@ -2469,7 +2541,8 @@
       "strengths": "high citation signal (828); influential citation signal (51); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 73,
-      "rank": 1821
+      "rank": 1821,
+      "githubUrl": ""
     },
     {
       "paperId": "b14e5138d4d1f3577b2390541dc7b730a41bb651",
@@ -2502,7 +2575,8 @@
       "strengths": "high citation signal (825); influential citation signal (90)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 74,
-      "rank": 1825
+      "rank": 1825,
+      "githubUrl": "https://github.com/deepseek-ai/deepseek-vl"
     },
     {
       "paperId": "02fa77e4f355198cb4270f6d4a07517bf09c46dd",
@@ -2535,7 +2609,8 @@
       "strengths": "high citation signal (796); influential citation signal (163)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 75,
-      "rank": 1863
+      "rank": 1863,
+      "githubUrl": "https://github.com/SalesforceAIResearch/uni2ts"
     },
     {
       "paperId": "de0cd1cb27ab7a8774b61cb0ee7d6795cb99c690",
@@ -2568,7 +2643,8 @@
       "strengths": "high citation signal (783); influential citation signal (21); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 76,
-      "rank": 1884
+      "rank": 1884,
+      "githubUrl": ""
     },
     {
       "paperId": "88f9af8b0a28e14c42d4f70ce2d911b51a06cd16",
@@ -2601,7 +2677,8 @@
       "strengths": "high citation signal (773); influential citation signal (156)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 77,
-      "rank": 1901
+      "rank": 1901,
+      "githubUrl": "https://github.com/andyrdt/refusal_direction"
     },
     {
       "paperId": "c6dd31c40836d616b50feab17aff569591c4262e",
@@ -2634,7 +2711,8 @@
       "strengths": "high citation signal (771); influential citation signal (145)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 78,
-      "rank": 1903
+      "rank": 1903,
+      "githubUrl": "https://github.com/damo-nlp-sg/videollama2"
     },
     {
       "paperId": "7260442ef9c0448f07ce3803efd49cebaffcebe9",
@@ -2667,7 +2745,8 @@
       "strengths": "high citation signal (768); influential citation signal (69)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 79,
-      "rank": 1912
+      "rank": 1912,
+      "githubUrl": ""
     },
     {
       "paperId": "ca00f4056f9039d3c1a4c3a113f5ee0527149b66",
@@ -2700,7 +2779,8 @@
       "strengths": "high citation signal (767); influential citation signal (97); recognized venue; open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 80,
-      "rank": 1914
+      "rank": 1914,
+      "githubUrl": ""
     },
     {
       "paperId": "a21ab8824cdba6f16324e93efc15551445ed34b6",
@@ -2733,7 +2813,8 @@
       "strengths": "high citation signal (755); influential citation signal (45); open-access PDF metadata",
       "limitations": "Survey and infrastructure papers can dominate citations while empirical evidence remains distributed across subfields.; Broad claims need careful mapping to specific tasks, datasets, and operational constraints.; Metadata-driven ranking cannot replace expert reading of full papers and experimental details.",
       "yearRank": 81,
-      "rank": 1935
+      "rank": 1935,
+      "githubUrl": ""
     },
     {
       "paperId": "e730beb44042499763d36214c0498434e470dfd5",
@@ -2766,7 +2847,8 @@
       "strengths": "high citation signal (754); influential citation signal (101)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 82,
-      "rank": 1938
+      "rank": 1938,
+      "githubUrl": ""
     },
     {
       "paperId": "57e7af0b69325fafb371ef5d502e39ef9c90ef7e",
@@ -2799,7 +2881,8 @@
       "strengths": "high citation signal (753); influential citation signal (147); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 83,
-      "rank": 1941
+      "rank": 1941,
+      "githubUrl": "https://github.com/fasterdecoding/medusa"
     },
     {
       "paperId": "cafe66a9bdcef9ec43c91d57ece9087203b0a0e3",
@@ -2832,7 +2915,8 @@
       "strengths": "high citation signal (737); influential citation signal (54)",
       "limitations": "Sample efficiency, reward misspecification, simulator bias, and safety under exploration remain persistent barriers.; Benchmark performance may not transfer to physical robots, human-facing tools, or open-ended environments.; Agentic systems need stronger evidence on reliability, recovery from errors, and long-horizon oversight.",
       "yearRank": 84,
-      "rank": 1973
+      "rank": 1973,
+      "githubUrl": "https://github.com/Farama-Foundation/Gymnasium"
     },
     {
       "paperId": "e6566253e08e3d9abd2878f57a1448cb5a9f4aae",
@@ -2865,7 +2949,8 @@
       "strengths": "high citation signal (734); influential citation signal (56); open-access PDF metadata",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 85,
-      "rank": 1977
+      "rank": 1977,
+      "githubUrl": ""
     },
     {
       "paperId": "b15e6e2b1d81bc110f8fc98c3caf2e25e2512539",
@@ -2898,7 +2983,8 @@
       "strengths": "high citation signal (733); influential citation signal (167)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 86,
-      "rank": 1979
+      "rank": 1979,
+      "githubUrl": "https://github.com/foundationvision/llamagen"
     },
     {
       "paperId": "49873ee415619efd9e1e4c16f73ee066ff008c1f",
@@ -2931,7 +3017,8 @@
       "strengths": "high citation signal (726); influential citation signal (78)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 87,
-      "rank": 1995
+      "rank": 1995,
+      "githubUrl": "https://github.com/OpenBMB/MiniCPM"
     },
     {
       "paperId": "6a7c29829227bfd65ae0ffec294a874bb9ea0871",
@@ -2964,7 +3051,8 @@
       "strengths": "high citation signal (725); influential citation signal (86)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 88,
-      "rank": 1997
+      "rank": 1997,
+      "githubUrl": "https://github.com/allenai/open-instruct"
     },
     {
       "paperId": "1d07e5b6f978cf69c0186f3d5f434fa92d471e46",
@@ -2997,7 +3085,8 @@
       "strengths": "high citation signal (713); influential citation signal (80)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 89,
-      "rank": 2014
+      "rank": 2014,
+      "githubUrl": "https://github.com/opendevin/opendevin"
     },
     {
       "paperId": "3281d5a46c9de4f7d80c28f58f3aea03e445bd0a",
@@ -3030,7 +3119,8 @@
       "strengths": "high citation signal (707); influential citation signal (61)",
       "limitations": "Large-scale benchmark success can overstate robustness under distribution shift, rare classes, and real deployment constraints.; Multimodal alignment may inherit biases and spurious correlations from web-scale data.; High-performing systems often require data and compute resources that are hard for smaller labs to reproduce.",
       "yearRank": 90,
-      "rank": 2027
+      "rank": 2027,
+      "githubUrl": ""
     },
     {
       "paperId": "5666d551bc9f86e2f379ede8b8ffddbe4d1d53a8",
@@ -3063,7 +3153,8 @@
       "strengths": "high citation signal (704); influential citation signal (197); recognized venue",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 91,
-      "rank": 2035
+      "rank": 2035,
+      "githubUrl": "https://github.com/Microsoft/TRELLIS"
     },
     {
       "paperId": "c181d9e2e488d3e4a78f67e9e8884565f3c7051e",
@@ -3096,7 +3187,8 @@
       "strengths": "high citation signal (703); recognized venue; open-access PDF metadata",
       "limitations": "Benchmark scores can hide brittle reasoning, retrieval failures, hallucination, and domain transfer issues.; Language coverage is often uneven, with English and high-resource domains overrepresented.; Evaluation can be sensitive to annotation protocols, prompt wording, and changing model APIs.",
       "yearRank": 92,
-      "rank": 2040
+      "rank": 2040,
+      "githubUrl": ""
     },
     {
       "paperId": "19f6ed24abf591c4c592cf52106e7b8248df7155",
@@ -3129,7 +3221,8 @@
       "strengths": "high citation signal (702); recognized venue; open-access PDF metadata",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 93,
-      "rank": 2042
+      "rank": 2042,
+      "githubUrl": ""
     },
     {
       "paperId": "72f77a393079431e4207b3afe678ee80b420e6f8",
@@ -3162,7 +3255,8 @@
       "strengths": "high citation signal (699); influential citation signal (124)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 94,
-      "rank": 2047
+      "rank": 2047,
+      "githubUrl": ""
     },
     {
       "paperId": "14969de024c6e2e396fae835d737602733d9418a",
@@ -3195,7 +3289,8 @@
       "strengths": "high citation signal (692); influential citation signal (66)",
       "limitations": "Image and media quality metrics may not capture factuality, controllability, provenance, or downstream harms.; Training data provenance and copyright constraints can be under-specified in highly cited generation work.; Robust evaluation across cultures, modalities, and adversarial uses remains difficult.",
       "yearRank": 95,
-      "rank": 2064
+      "rank": 2064,
+      "githubUrl": "https://github.com/hpcaitech/Open-Sora"
     },
     {
       "paperId": "1784c987e681d60c634765fe64c8d9c26f73d5ff",
@@ -3228,7 +3323,8 @@
       "strengths": "high citation signal (688); influential citation signal (149)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 96,
-      "rank": 2067
+      "rank": 2067,
+      "githubUrl": "https://github.com/fasterdecoding/snapkv"
     },
     {
       "paperId": "5d4a6ce39cfe7bfc6305cba86464efff8bc20c97",
@@ -3261,7 +3357,8 @@
       "strengths": "high citation signal (683); influential citation signal (30); open-access PDF metadata",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 97,
-      "rank": 2078
+      "rank": 2078,
+      "githubUrl": ""
     },
     {
       "paperId": "a779f5dd28c8aaab0e1bdceeb6700f17d655c0a4",
@@ -3294,7 +3391,8 @@
       "strengths": "high citation signal (683); influential citation signal (20); open-access PDF metadata",
       "limitations": "External validation, prospective testing, and domain expert review are often more important than retrospective benchmark scores.; Clinical, biological, or robotic deployment can fail when data collection protocols differ from training assumptions.; Safety, interpretability, uncertainty, and regulatory evidence remain essential for translation.",
       "yearRank": 98,
-      "rank": 2079
+      "rank": 2079,
+      "githubUrl": ""
     },
     {
       "paperId": "9dc337bd18bc0201839942931b12aff8ec1c93f5",
@@ -3327,7 +3425,8 @@
       "strengths": "high citation signal (678); influential citation signal (60)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 99,
-      "rank": 2083
+      "rank": 2083,
+      "githubUrl": "https://github.com/showlab/Show-o"
     },
     {
       "paperId": "41ba8127b73abd32051a89764cb976095b1dee94",
@@ -3360,7 +3459,8 @@
       "strengths": "high citation signal (673); influential citation signal (67)",
       "limitations": "Capability gains are difficult to separate from data scale, benchmark leakage, and evaluation prompt sensitivity.; Alignment and safety claims often need stronger real-world and multilingual validation.; Compute-intensive training can limit reproducibility and concentrate follow-up work around a small number of institutions.",
       "yearRank": 100,
-      "rank": 2097
+      "rank": 2097,
+      "githubUrl": ""
     },
     {
       "paperId": "18e7ab056c16928d8f9539509a4b366889106d97",

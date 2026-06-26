@@ -18,3 +18,7 @@ Records are filtered to the requested publication year, screened for explicit AI
 ## Enrichment
 
 Taxonomy, key ideas, strengths, limitations, method tags, and keyword convention tags are generated with deterministic rules from public metadata. No paid API, paid LLM, paid translation, or paid compute was used.
+
+## GitHub-Awesome Skill2 and Paper-Curation Provenance
+
+This regeneration follows `github-awesome-skill2` in metadata-adapter mode for a large citation-ranked awesome repository while preserving the selected paper set in `data/papers_2000_2026.csv`. The workflow inspected the local `jehyunlee/paper-curation` checkout and is configured for Zotero-free folder-source PDF staging under `E:\조선대\연구\paper-curation\paper\awesome-ai`. Full PDF LLM review stages from paper-curation were not run because they require explicit approval for paid or metered APIs.
