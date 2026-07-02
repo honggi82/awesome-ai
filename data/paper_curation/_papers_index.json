@@ -5,7 +5,7 @@
     {
       "slug": "001_Deep_Residual_Learning_for_Image_Recognition",
       "title": "Deep Residual Learning for Image Recognition",
-      "category": "HDBSCAN Cluster: deep, residual, networks, learning",
+      "category": "HDBSCAN Cluster: residual, deep, learning, networks",
       "key": "FOLDER00001_2f5b4eb26d81",
       "sourceIndex": null,
       "textBytes": 64609,
@@ -15,7 +15,7 @@
     {
       "slug": "007_Attention_is_All_you_Need",
       "title": "Attention is All you Need",
-      "category": "HDBSCAN Cluster: com, google, research, university",
+      "category": "HDBSCAN Cluster: com, google, research, facebook",
       "key": "FOLDER00002_6c5d86adb8b5",
       "sourceIndex": null,
       "textBytes": 41754,
@@ -25,7 +25,7 @@
     {
       "slug": "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan",
       "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: language, com, google, models",
       "key": "FOLDER00004_7bb36a4333d6",
       "sourceIndex": null,
       "textBytes": 67134,
@@ -35,7 +35,7 @@
     {
       "slug": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
       "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
-      "category": "HDBSCAN Cluster: deep, residual, networks, learning",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00005_427afce12eef",
       "sourceIndex": null,
       "textBytes": 66338,
@@ -45,7 +45,7 @@
     {
       "slug": "010_Scikit-learn_Machine_Learning_in_Python",
       "title": "Scikit-learn: Machine Learning in Python",
-      "category": "HDBSCAN Cluster: com, google, research, university",
+      "category": "HDBSCAN Cluster: machine, learning, inria, university",
       "key": "FOLDER00006_4d1eb91cb1c3",
       "sourceIndex": null,
       "textBytes": 15291,
@@ -55,7 +55,7 @@
     {
       "slug": "032_Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region",
       "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
-      "category": "HDBSCAN Cluster: detection, object, network, region",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00008_007dee3edadf",
       "sourceIndex": 5,
       "textBytes": 78485,
@@ -75,7 +75,7 @@
     {
       "slug": "034_Language_Models_are_Few-Shot_Learners",
       "title": "Language Models are Few-Shot Learners",
-      "category": "HDBSCAN Cluster: models, language, ne-tuning, human",
+      "category": "HDBSCAN Cluster: language, models, human, model",
       "key": "FOLDER00010_c55edca7f09a",
       "sourceIndex": 7,
       "textBytes": 238784,
@@ -95,7 +95,7 @@
     {
       "slug": "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L",
       "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
-      "category": "HDBSCAN Cluster: com, google, research, university",
+      "category": "HDBSCAN Cluster: com, google, research, facebook",
       "key": "FOLDER00012_ddef35c6eab1",
       "sourceIndex": 9,
       "textBytes": 40738,
@@ -115,7 +115,7 @@
     {
       "slug": "038_Going_deeper_with_convolutions",
       "title": "Going deeper with convolutions",
-      "category": "HDBSCAN Cluster: google, inc, com, architecture",
+      "category": "HDBSCAN Cluster: google, vision, inc, com",
       "key": "FOLDER00014_d8d89d62b9e9",
       "sourceIndex": 11,
       "textBytes": 44376,
@@ -135,7 +135,7 @@
     {
       "slug": "040_You_Only_Look_Once_Unified_Real-Time_Object_Detection",
       "title": "You Only Look Once: Unified, Real-Time Object Detection",
-      "category": "HDBSCAN Cluster: detection, object, network, region",
+      "category": "HDBSCAN Cluster: detection, object, single, network",
       "key": "FOLDER00016_c18358009b2b",
       "sourceIndex": 13,
       "textBytes": 43892,
@@ -145,7 +145,7 @@
     {
       "slug": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
       "title": "ImageNet Large Scale Visual Recognition Challenge",
-      "category": "HDBSCAN Cluster: object, features, large, recognition",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00019_1f640961fb10",
       "sourceIndex": 14,
       "textBytes": 200270,
@@ -155,7 +155,7 @@
     {
       "slug": "042_Fully_convolutional_networks_for_semantic_segmentation",
       "title": "Fully convolutional networks for semantic segmentation",
-      "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic",
+      "category": "HDBSCAN Cluster: convolutional, segmentation, semantic, networks",
       "key": "FOLDER00020_b6c9bbbfd94f",
       "sourceIndex": 15,
       "textBytes": 61022,
@@ -165,7 +165,7 @@
     {
       "slug": "043_Semi-Supervised_Classification_with_Graph_Convolutional_Netw",
       "title": "Semi-Supervised Classification with Graph Convolutional Networks",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: graph, networks, neural, convolutional",
       "key": "FOLDER00022_3de159f186cb",
       "sourceIndex": 16,
       "textBytes": 44151,
@@ -175,7 +175,7 @@
     {
       "slug": "143_SSD_Single_Shot_MultiBox_Detector",
       "title": "SSD: Single Shot MultiBox Detector",
-      "category": "HDBSCAN Cluster: detection, object, network, region",
+      "category": "HDBSCAN Cluster: detection, object, single, network",
       "key": "FOLDER00023_0ac08c2bbf67",
       "sourceIndex": 17,
       "textBytes": 57531,
@@ -195,7 +195,7 @@
     {
       "slug": "145_Efficient_Estimation_of_Word_Representations_in_Vector_Space",
       "title": "Efficient Estimation of Word Representations in Vector Space",
-      "category": "HDBSCAN Cluster: google, inc, com, face",
+      "category": "HDBSCAN Cluster: google, representations, com, inc",
       "key": "FOLDER00025_66e9ce76f901",
       "sourceIndex": 19,
       "textBytes": 40231,
@@ -215,7 +215,7 @@
     {
       "slug": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
       "title": "Rethinking the Inception Architecture for Computer Vision",
-      "category": "HDBSCAN Cluster: google, inc, com, architecture",
+      "category": "HDBSCAN Cluster: google, vision, inc, com",
       "key": "FOLDER00028_02fb980466f8",
       "sourceIndex": 21,
       "textBytes": 44228,
@@ -225,7 +225,7 @@
     {
       "slug": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
       "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: detection, object, single, network",
       "key": "FOLDER00029_863cb738a96d",
       "sourceIndex": 22,
       "textBytes": 103015,
@@ -235,7 +235,7 @@
     {
       "slug": "149_Proximal_Policy_Optimization_Algorithms",
       "title": "Proximal Policy Optimization Algorithms",
-      "category": "HDBSCAN Cluster: learning, policy, reinforcement, deep",
+      "category": "HDBSCAN Cluster: reinforcement, learning, deep, policy",
       "key": "FOLDER00031_69be8a076eef",
       "sourceIndex": 23,
       "textBytes": 29869,
@@ -245,7 +245,7 @@
     {
       "slug": "150_Grad-CAM_Visual_Explanations_from_Deep_Networks_via_Gradient",
       "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: grad-cam, image, visual, explanations",
       "key": "FOLDER00032_1b474065bcaa",
       "sourceIndex": 24,
       "textBytes": 81535,
@@ -255,7 +255,7 @@
     {
       "slug": "151_Graph_Attention_Networks",
       "title": "Graph Attention Networks",
-      "category": "HDBSCAN Cluster: com, google, research, university",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00033_2a1c075b47dd",
       "sourceIndex": 25,
       "textBytes": 43805,
@@ -275,7 +275,7 @@
     {
       "slug": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
       "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-      "category": "HDBSCAN Cluster: com, google, learning, transfer",
+      "category": "HDBSCAN Cluster: language, com, google, models",
       "key": "FOLDER00035_d1ef841609e2",
       "sourceIndex": 27,
       "textBytes": 206173,
@@ -285,7 +285,7 @@
     {
       "slug": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
       "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: google, vision, inc, com",
       "key": "FOLDER00036_a40c63e36cc7",
       "sourceIndex": 28,
       "textBytes": 37643,
@@ -305,7 +305,7 @@
     {
       "slug": "156_Distilling_the_Knowledge_in_a_Neural_Network",
       "title": "Distilling the Knowledge in a Neural Network",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: neural, deep, networks, google",
       "key": "FOLDER00038_47da78686dbd",
       "sourceIndex": 30,
       "textBytes": 36500,
@@ -345,7 +345,7 @@
     {
       "slug": "160_Explaining_and_Harnessing_Adversarial_Examples",
       "title": "Explaining and Harnessing Adversarial Examples",
-      "category": "HDBSCAN Cluster: adversarial, learning, mit, networks",
+      "category": "HDBSCAN Cluster: adversarial, neural, networks, mit",
       "key": "FOLDER00043_6d953b863612",
       "sourceIndex": 34,
       "textBytes": 47079,
@@ -355,7 +355,7 @@
     {
       "slug": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
       "title": "Sequence to Sequence Learning with Neural Networks",
-      "category": "HDBSCAN Cluster: sequence, learning, neural, networks",
+      "category": "HDBSCAN Cluster: networks, neural, recurrent, sequence",
       "key": "FOLDER00044_dfaaab913877",
       "sourceIndex": 35,
       "textBytes": 37306,
@@ -365,7 +365,7 @@
     {
       "slug": "162_Training_language_models_to_follow_instructions_with_human_f",
       "title": "Training language models to follow instructions with human feedback",
-      "category": "HDBSCAN Cluster: models, language, ne-tuning, human",
+      "category": "HDBSCAN Cluster: language, models, human, model",
       "key": "FOLDER00045_5458d654c05a",
       "sourceIndex": 36,
       "textBytes": 191261,
@@ -375,7 +375,7 @@
     {
       "slug": "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional",
       "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
-      "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic",
+      "category": "HDBSCAN Cluster: convolutional, segmentation, semantic, networks",
       "key": "FOLDER00047_520d767f3d69",
       "sourceIndex": 37,
       "textBytes": 77059,
@@ -385,7 +385,7 @@
     {
       "slug": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
       "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
-      "category": "HDBSCAN Cluster: deep, residual, networks, learning",
+      "category": "HDBSCAN Cluster: residual, deep, learning, networks",
       "key": "FOLDER00049_42d1e6e93f89",
       "sourceIndex": 38,
       "textBytes": 49609,
@@ -395,7 +395,7 @@
     {
       "slug": "165_LLaMA_Open_and_Efficient_Foundation_Language_Models",
       "title": "LLaMA: Open and Efficient Foundation Language Models",
-      "category": "HDBSCAN Cluster: models, llama, language, foundation",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00050_36878e25c024",
       "sourceIndex": 39,
       "textBytes": 91074,
@@ -405,7 +405,7 @@
     {
       "slug": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
       "title": "LoRA: Low-Rank Adaptation of Large Language Models",
-      "category": "HDBSCAN Cluster: com, google, learning, transfer",
+      "category": "HDBSCAN Cluster: language, com, google, models",
       "key": "FOLDER00051_f5d07c47a04e",
       "sourceIndex": 40,
       "textBytes": 86268,
@@ -425,7 +425,7 @@
     {
       "slug": "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua",
       "title": "Chain of Thought Prompting Elicits Reasoning in Large Language Models",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: models, language, llama, reasoning",
       "key": "FOLDER00054_381e65591022",
       "sourceIndex": 42,
       "textBytes": 139203,
@@ -445,7 +445,7 @@
     {
       "slug": "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for",
       "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
-      "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic",
+      "category": "HDBSCAN Cluster: convolutional, segmentation, semantic, networks",
       "key": "FOLDER00060_77fa6c729b1c",
       "sourceIndex": 44,
       "textBytes": 89606,
@@ -455,7 +455,7 @@
     {
       "slug": "171_Xception_Deep_Learning_with_Depthwise_Separable_Convolutions",
       "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
-      "category": "HDBSCAN Cluster: deep, residual, networks, learning",
+      "category": "HDBSCAN Cluster: residual, deep, learning, networks",
       "key": "FOLDER00061_2e1076144bd6",
       "sourceIndex": 45,
       "textBytes": 29782,
@@ -475,7 +475,7 @@
     {
       "slug": "173_Deep_learning_in_neural_networks_An_overview",
       "title": "Deep learning in neural networks: An overview",
-      "category": "HDBSCAN Cluster: deep, neural, networks, learning",
+      "category": "HDBSCAN Cluster: neural, deep, networks, google",
       "key": "FOLDER00065_e7113ba61557",
       "sourceIndex": 47,
       "textBytes": 295273,
@@ -485,7 +485,7 @@
     {
       "slug": "174_Llama_2_Open_Foundation_and_Fine-Tuned_Chat_Models",
       "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: models, alex, llama, open",
       "key": "FOLDER00066_6b58ee7096a8",
       "sourceIndex": 48,
       "textBytes": 271951,
@@ -495,7 +495,7 @@
     {
       "slug": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
       "title": "Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation",
-      "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic",
+      "category": "HDBSCAN Cluster: convolutional, segmentation, semantic, networks",
       "key": "FOLDER00068_dc31cf064592",
       "sourceIndex": 49,
       "textBytes": 47787,
@@ -505,7 +505,7 @@
     {
       "slug": "176_Intriguing_properties_of_neural_networks",
       "title": "Intriguing properties of neural networks",
-      "category": "HDBSCAN Cluster: deep, neural, networks, learning",
+      "category": "HDBSCAN Cluster: neural, deep, networks, google",
       "key": "FOLDER00069_159bd7df2dc2",
       "sourceIndex": 50,
       "textBytes": 35811,
@@ -515,7 +515,7 @@
     {
       "slug": "177_The_Llama_3_Herd_of_Models",
       "title": "The Llama 3 Herd of Models",
-      "category": "HDBSCAN Cluster: models, llama, language, foundation",
+      "category": "HDBSCAN Cluster: models, language, llama, reasoning",
       "key": "FOLDER00070_d8baa1b8b44f",
       "sourceIndex": 51,
       "textBytes": 364459,
@@ -525,7 +525,7 @@
     {
       "slug": "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection",
       "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
-      "category": "HDBSCAN Cluster: object, features, large, recognition",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00071_6fda337932eb",
       "sourceIndex": 52,
       "textBytes": 70958,
@@ -535,7 +535,7 @@
     {
       "slug": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
       "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning",
-      "category": "HDBSCAN Cluster: deep, residual, networks, learning",
+      "category": "HDBSCAN Cluster: residual, deep, learning, networks",
       "key": "FOLDER00072_cc21a0712afc",
       "sourceIndex": 53,
       "textBytes": 28155,
@@ -545,7 +545,7 @@
     {
       "slug": "180_Continuous_control_with_deep_reinforcement_learning",
       "title": "Continuous control with deep reinforcement learning",
-      "category": "HDBSCAN Cluster: learning, policy, reinforcement, deep",
+      "category": "HDBSCAN Cluster: learning, deep, google, reinforcement",
       "key": "FOLDER00073_7a2e4bdc4d9b",
       "sourceIndex": 54,
       "textBytes": 48372,
@@ -555,7 +555,7 @@
     {
       "slug": "181_Unsupervised_Representation_Learning_with_Deep_Convolutional",
       "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
-      "category": "HDBSCAN Cluster: adversarial, learning, mit, networks",
+      "category": "HDBSCAN Cluster: learning, unsupervised, mixup, adversarial",
       "key": "FOLDER00075_f30e3b6db8a4",
       "sourceIndex": 55,
       "textBytes": 35842,
@@ -565,7 +565,7 @@
     {
       "slug": "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T",
       "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: language, com, google, models",
       "key": "FOLDER00077_39896229fa9e",
       "sourceIndex": 56,
       "textBytes": 70683,
@@ -575,7 +575,7 @@
     {
       "slug": "183_FaceNet_A_unified_embedding_for_face_recognition_and_cluster",
       "title": "FaceNet: A unified embedding for face recognition and clustering",
-      "category": "HDBSCAN Cluster: google, inc, com, face",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00078_c31c2c061a20",
       "sourceIndex": 57,
       "textBytes": 45662,
@@ -585,7 +585,7 @@
     {
       "slug": "184_Towards_Deep_Learning_Models_Resistant_to_Adversarial_Attack",
       "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
-      "category": "HDBSCAN Cluster: adversarial, learning, mit, networks",
+      "category": "HDBSCAN Cluster: adversarial, neural, networks, mit",
       "key": "FOLDER00079_deea1c6ff5d6",
       "sourceIndex": 58,
       "textBytes": 77509,
@@ -605,7 +605,7 @@
     {
       "slug": "186_Empirical_Evaluation_of_Gated_Recurrent_Neural_Networks_on_S",
       "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: networks, neural, recurrent, sequence",
       "key": "FOLDER00081_d6735998cb34",
       "sourceIndex": 60,
       "textBytes": 24720,
@@ -635,7 +635,7 @@
     {
       "slug": "189_Convolutional_Neural_Networks_for_Sentence_Classification",
       "title": "Convolutional Neural Networks for Sentence Classification",
-      "category": "HDBSCAN Cluster: sequence, learning, neural, networks",
+      "category": "HDBSCAN Cluster: networks, neural, recurrent, sequence",
       "key": "FOLDER00084_e2f11fef38b2",
       "sourceIndex": 63,
       "textBytes": 24177,
@@ -665,12 +665,612 @@
     {
       "slug": "192_Playing_Atari_with_Deep_Reinforcement_Learning",
       "title": "Playing Atari with Deep Reinforcement Learning",
-      "category": "HDBSCAN Cluster: learning, policy, reinforcement, deep",
+      "category": "HDBSCAN Cluster: learning, deep, google, reinforcement",
       "key": "FOLDER00088_f9332bcc53ba",
       "sourceIndex": 66,
       "textBytes": 37174,
       "figuresExtracted": 3,
       "excerpt": "# arXiv:1312.5602v1[cs.LG]19Dec2013 ## Playing Atari with Deep Reinforcement Learning #### Volodymyr Mnih Koray Kavukcuoglu David Silver Alex Graves Ioannis Antonoglou Daan Wierstra Martin Riedmiller DeepMind Technologies {vlad,koray,david,alex.graves,ioannis,daan,martin.riedmiller} @ deepmind.com ### Abstract We present the ﬁrst deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We ﬁnd that it outperforms all previous approaches on six of the games and surpasses a human expert on three of the"
+    },
+    {
+      "slug": "686_The_Cityscapes_Dataset_for_Semantic_Urban_Scene_Understandin",
+      "title": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00089_86fe358719e2",
+      "sourceIndex": 67,
+      "textBytes": 84684,
+      "figuresExtracted": 5,
+      "excerpt": "## The Cityscapes Dataset for Semantic Urban Scene Understanding # arXiv:1604.01685v2[cs.CV]7Apr2016 Marius Cordts1,2 Mohamed Omran3 Sebastian Ramos1,4 Timo Rehfeld1,2 Markus Enzweiler1 Rodrigo Benenson3 Uwe Franke1 Stefan Roth2 Bernt Schiele3 1Daimler AG R&D, 2TU Darmstadt, 3MPI Informatics, 4TU Dresden www.cityscapes-dataset.net [Figure 1] [Figure 2] [Figure 3] train/val – ﬁne annotation – 3475 images train – coarse annotation – 20 000 images test – ﬁne annotation – 1525 images ### Abstract Visual understanding of complex urban street scenes is an enabling factor for a wide range of applications. Object detection has beneﬁted enormously from large-scale datasets, especially in the context of deep learning. For semantic urban scene understanding, however, no current dataset adequately captures the complexity of real-world urban scenes. To address this, we introduce Cityscapes, a benchma"
+    },
+    {
+      "slug": "687_Representation_Learning_with_Contrastive_Predictive_Coding",
+      "title": "Representation Learning with Contrastive Predictive Coding",
+      "category": "HDBSCAN Cluster: learning, unsupervised, mixup, adversarial",
+      "key": "FOLDER00090_147147669d65",
+      "sourceIndex": 68,
+      "textBytes": 43520,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1807.03748v2[cs.LG]22Jan2019 ## Representation Learning with Contrastive Predictive Coding Aaron van den Oord DeepMind avdnoord@google.com Yazhe Li DeepMind yazhe@google.com Oriol Vinyals DeepMind vinyals@google.com #### Abstract While supervised learning has enabled great progress in many applications, unsupervised learning has not seen such widespread adoption, and remains an important and challenging endeavor for artiﬁcial intelligence. In this work, we propose a universal unsupervised learning approach to extract useful representations from high-dimensional data, which we call Contrastive Predictive Coding. The key insight of our model is to learn such representations by predicting the future in latent space by using powerful autoregressive models. We use a probabilistic contrastive loss which induces the latent space to capture information that is maximally useful to predict"
+    },
+    {
+      "slug": "688_A_survey_on_deep_learning_in_medical_image_analysis",
+      "title": "A survey on deep learning in medical image analysis",
+      "category": "HDBSCAN Cluster: medical, image, deep, learning",
+      "key": "FOLDER00091_f42a2b64db85",
+      "sourceIndex": 69,
+      "textBytes": 220168,
+      "figuresExtracted": 3,
+      "excerpt": "## A Survey on Deep Learning in Medical Image Analysis Geert Litjens, Thijs Kooi, Babak Ehteshami Bejnordi, Arnaud Arindra Adiyoso Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen A.W.M. van der Laak, Bram van Ginneken, Clara I. S´anchez Diagnostic Image Analysis Group Radboud University Medical Center Nijmegen, The Netherlands # arXiv:1702.05747v2[cs.CV]4Jun2017 ### Abstract Deep learning algorithms, in particular convolutional networks, have rapidly become a methodology of choice for analyzing medical images. This paper reviews the major deep learning concepts pertinent to medical image analysis and summarizes over 300 contributions to the ﬁeld, most of which appeared in the last year. We survey the use of deep learning for image classiﬁcation, object detection, segmentation, registration, and other tasks. Concise overviews are provided of studies per application area: neuro, retinal"
+    },
+    {
+      "slug": "689_Layer_Normalization",
+      "title": "Layer Normalization",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00094_d30e27060d33",
+      "sourceIndex": 70,
+      "textBytes": 48647,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1607.06450v1[stat.ML]21Jul2016 ## Layer Normalization Jimmy Lei Ba University of Toronto jimmy@psi.toronto.edu Jamie Ryan Kiros University of Toronto rkiros@cs.toronto.edu Geoffrey E. Hinton University of Toronto and Google Inc. hinton@cs.toronto.edu ### Abstract Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This signiﬁcantly reduces the training time in feedforward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to rec"
+    },
+    {
+      "slug": "690_Spatial_Pyramid_Pooling_in_Deep_Convolutional_Networks_for_V",
+      "title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00096_976a4898961c",
+      "sourceIndex": 71,
+      "textBytes": 72123,
+      "figuresExtracted": 5,
+      "excerpt": "# Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun Abstract—Existing deep convolutional neural networks (CNNs) require a ﬁxed-size (e.g., 224×224) input image. This requirement is “artiﬁcial” and may reduce the recognition accuracy for the images or sub-images of an arbitrary size/scale. In this work, we equip the networks with another pooling strategy, “spatial pyramid pooling”, to eliminate the above requirement. The new network structure, called SPP-net, can generate a ﬁxed-length representation regardless of image size/scale. Pyramid pooling is also robust to object deformations. With these advantages, SPP-net should in general improve all CNN-based image classiﬁcation methods. On the ImageNet 2012 dataset, we demonstrate that SPP-net boosts the accuracy of a variety of CNN architectures despite their "
+    },
+    {
+      "slug": "691_Deep_Contextualized_Word_Representations",
+      "title": "Deep Contextualized Word Representations",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00097_cc83fdb70546",
+      "sourceIndex": 72,
+      "textBytes": 45249,
+      "figuresExtracted": 2,
+      "excerpt": "# Deep contextualized word representations Matthew E. Peters†, Mark Neumann†, Mohit Iyyer†, Matt Gardner†, {matthewp,markn,mohiti,mattg}@allenai.org Christopher Clark⇤, Kenton Lee⇤, Luke Zettlemoyer†⇤ {csquared,kentonl,lsz}@cs.washington.edu †Allen Institute for Artiﬁcial Intelligence ⇤Paul G. Allen School of Computer Science & Engineering, University of Washington ### Abstract We introduce a new type of deep contextualized word representation that models both (1) complex characteristics of word use (e.g., syntax and semantics), and (2) how these uses vary across linguistic contexts (i.e., to model polysemy). Our word vectors are learned functions of the internal states of a deep bidirectional language model (biLM), which is pretrained on a large text corpus. We show that these representations can be easily added to existing models and signiﬁcantly improve the state of the art across six"
+    },
+    {
+      "slug": "692_Photo-Realistic_Single_Image_Super-Resolution_Using_a_Genera",
+      "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00098_ac989da004f1",
+      "sourceIndex": 73,
+      "textBytes": 56651,
+      "figuresExtracted": 5,
+      "excerpt": "## Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network # arXiv:1609.04802v5[cs.CV]25May2017 Christian Ledig, Lucas Theis, Ferenc Husz´ar, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi Twitter {cledig,ltheis,fhuszar,jcaballero,aacostadiaz,aaitken,atejani,jtotz,zehanw,wshi}@twitter.com ### Abstract Despite the breakthroughs in accuracy and speed of single image super-resolution using faster and deeper convolutional neural networks, one central problem remains largely unsolved: how do we recover the ﬁner texture details when we super-resolve at large upscaling factors? The behavior of optimization-based super-resolution methods is principally driven by the choice of the objective function. Recent work has largely focused on minimizing the mean squared reconstruction error. The result"
+    },
+    {
+      "slug": "693_Dropout_as_a_Bayesian_Approximation_Representing_Model_Uncer",
+      "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+      "category": "HDBSCAN Cluster: learning, deep, stanford, model",
+      "key": "FOLDER00099_b29f17a9c759",
+      "sourceIndex": 74,
+      "textBytes": 46128,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1506.02142v6[stat.ML]4Oct2016 ## Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning Yarin Gal YG279@CAM.AC.UK Zoubin Ghahramani ZG201@CAM.AC.UK University of Cambridge ### Abstract Deep learning tools have gained tremendous attention in applied machine learning. However such tools for regression and classiﬁcation do not capture model uncertainty. In comparison, Bayesian models offer a mathematically grounded framework to reason about model uncertainty, but usually come with a prohibitive computational cost. In this paper we develop a new theoretical framework casting dropout training in deep neural networks (NNs) as approximate Bayesian inference in deep Gaussian processes. A direct result of this theory gives us tools to model uncertainty with dropout NNs – extracting information from existing models that has been thrown away so far. This mitiga"
+    },
+    {
+      "slug": "694_mixup_Beyond_Empirical_Risk_Minimization",
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "category": "HDBSCAN Cluster: learning, unsupervised, mixup, adversarial",
+      "key": "FOLDER00100_b0518a072ac9",
+      "sourceIndex": 75,
+      "textBytes": 44867,
+      "figuresExtracted": 3,
+      "excerpt": "# arXiv:1710.09412v2[cs.LG]27Apr2018 mixup: BEYOND EMPIRICAL RISK MINIMIZATION Hongyi Zhang MIT Moustapha Cisse, Yann N. Dauphin, David Lopez-Paz∗ FAIR ABSTRACT Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples. In this work, we propose mixup, a simple learning principle to alleviate these issues. In essence, mixup trains a neural network on convex combinations of pairs of examples and their labels. By doing so, mixup regularizes the neural network to favor simple linear behavior in-between training examples. Our experiments on the ImageNet-2012, CIFAR-10, CIFAR-100, Google commands and UCI datasets show that mixup improves the generalization of state-of-the-art neural network architectures. We also ﬁnd that mixup reduces the memorization of corrupt labels, increases the robustness to adversarial exampl"
+    },
+    {
+      "slug": "695_Masked_Autoencoders_Are_Scalable_Vision_Learners",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "category": "HDBSCAN Cluster: grad-cam, image, visual, explanations",
+      "key": "FOLDER00102_a32549cf3976",
+      "sourceIndex": 76,
+      "textBytes": 64943,
+      "figuresExtracted": 5,
+      "excerpt": "## Masked Autoencoders Are Scalable Vision Learners Kaiming He∗,† Xinlei Chen∗ Saining Xie Yanghao Li Piotr Doll´ar Ross Girshick ∗equal technical contribution †project lead Facebook AI Research (FAIR) # arXiv:2111.06377v3[cs.CV]19Dec2021 ### Abstract This paper shows that masked autoencoders (MAE) are scalable self-supervised learners for computer vision. Our MAE approach is simple: we mask random patches of the input image and reconstruct the missing pixels. It is based on two core designs. First, we develop an asymmetric encoder-decoder architecture, with an encoder that operates only on the visible subset of patches (without mask tokens), along with a lightweight decoder that reconstructs the original image from the latent representation and mask tokens. Second, we ﬁnd that masking a high proportion of the input image, e.g., 75%, yields a nontrivial and meaningful self-supervisory ta"
+    },
+    {
+      "slug": "696_TensorFlow_Large-Scale_Machine_Learning_on_Heterogeneous_Dis",
+      "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00103_e68af23ea17e",
+      "sourceIndex": 77,
+      "textBytes": 78273,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1603.04467v2[cs.DC]16Mar2016 ## TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems (Preliminary White Paper, November 9, 2015) Mart´ın Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp, Geoffrey Irving, Michael Isard, Yangqing Jia, Rafal Jozefowicz, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan Man´e, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Mike Schuster, Jonathon Shlens, Benoit Steiner, Ilya Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Vi´egas, Oriol Vinyals, Pete Warden, Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng Google Research∗ Abstract sequence prediction [47], move selection for Go [34], pedestrian detection [2], reinforcement learning [38], "
+    },
+    {
+      "slug": "697_Aggregated_Residual_Transformations_for_Deep_Neural_Networks",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "category": "HDBSCAN Cluster: residual, deep, learning, networks",
+      "key": "FOLDER00104_621208c9e078",
+      "sourceIndex": 78,
+      "textBytes": 47060,
+      "figuresExtracted": 5,
+      "excerpt": "## Aggregated Residual Transformations for Deep Neural Networks Saining Xie1 Ross Girshick2 Piotr Doll´ar2 Zhuowen Tu1 Kaiming He2 1UC San Diego 2Facebook AI Research {s9xie,ztu}@ucsd.edu {rbg,pdollar,kaiminghe}@fb.com # arXiv:1611.05431v2[cs.CV]11Apr2017 ### Abstract We present a simple, highly modularized network architecture for image classiﬁcation. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call “cardinality” (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of maintaining complexity, increasing"
+    },
+    {
+      "slug": "698_Domain-Adversarial_Training_of_Neural_Networks",
+      "title": "Domain-Adversarial Training of Neural Networks",
+      "category": "HDBSCAN Cluster: machine, learning, inria, university",
+      "key": "FOLDER00106_2e083874f614",
+      "sourceIndex": 79,
+      "textBytes": 102907,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1505.07818v4[stat.ML]26May2016 Journal of Machine Learning Research 17 (2016) 1-35 Submitted 5/15; Published 4/16 ### Domain-Adversarial Training of Neural Networks Yaroslav Ganin ganin@skoltech.ru Evgeniya Ustinova evgeniya.ustinova@skoltech.ru Skolkovo Institute of Science and Technology (Skoltech) Skolkovo, Moscow Region, Russia Hana Ajakan hana.ajakan.1@ulaval.ca Pascal Germain Pascal.Germain@ift.ulaval.ca D´epartement d’informatique et de g´enie logiciel, Universit´e Laval Qu´ebec, Canada, G1V 0A6 Hugo Larochelle hugo.larochelle@usherbrooke.ca D´epartement d’informatique, Universite´ de Sherbrooke Qu´ebec, Canada, J1K 2R1 Fran¸cois Laviolette Francois.Laviolette@ift.ulaval.ca Mario Marchand Mario.Marchand@ift.ulaval.ca D´epartement d’informatique et de g´enie logiciel, Universit´e Laval Qu´ebec, Canada, G1V 0A6 Victor Lempitsky lempitsky@skoltech.ru Skolkovo Institute of Sci"
+    },
+    {
+      "slug": "699_Perceptual_Losses_for_Real-Time_Style_Transfer_and_Super-Res",
+      "title": "Perceptual Losses for Real-Time Style Transfer and Super-Resolution",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00107_1858c7d9a948",
+      "sourceIndex": 80,
+      "textBytes": 47883,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1603.08155v1[cs.CV]27Mar2016 ## Perceptual Losses for Real-Time Style Transfer and Super-Resolution Justin Johnson, Alexandre Alahi, Li Fei-Fei {jcjohns, alahi, feifeili}@cs.stanford.edu Department of Computer Science, Stanford University Abstract. We consider image transformation problems, where an input image is transformed into an output image. Recent methods for such problems typically train feed-forward convolutional neural networks using a per-pixel loss between the output and ground-truth images. Parallel work has shown that high-quality images can be generated by deﬁning and optimizing perceptual loss functions based on high-level features extracted from pretrained networks. We combine the beneﬁts of both approaches, and propose the use of perceptual loss functions for training feed-forward networks for image transformation tasks. We show results on image style transfer, "
+    },
+    {
+      "slug": "700_Soft_Actor-Critic_Off-Policy_Maximum_Entropy_Deep_Reinforcem",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+      "category": "HDBSCAN Cluster: reinforcement, learning, deep, policy",
+      "key": "FOLDER00108_c478a01d9fed",
+      "sourceIndex": 81,
+      "textBytes": 54871,
+      "figuresExtracted": 4,
+      "excerpt": "## Soft Actor-Critic: ### Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor Tuomas Haarnoja1 Aurick Zhou1 Pieter Abbeel1 Sergey Levine1 # arXiv:1801.01290v2[cs.LG]8Aug2018 #### Abstract Model-free deep reinforcement learning (RL) algorithms have been demonstrated on a range of challenging decision making and control tasks. However, these methods typically suffer from two major challenges: very high sample complexity and brittle convergence properties, which necessitate meticulous hyperparameter tuning. Both of these challenges severely limit the applicability of such methods to complex, real-world domains. In this paper, we propose soft actor-critic, an offpolicy actor-critic deep RL algorithm based on the maximum entropy reinforcement learning framework. In this framework, the actor aims to maximize expected reward while also maximizing entropy. That is, to "
+    },
+    {
+      "slug": "701_A_Comprehensive_Survey_on_Graph_Neural_Networks",
+      "title": "A Comprehensive Survey on Graph Neural Networks",
+      "category": "HDBSCAN Cluster: graph, networks, neural, convolutional",
+      "key": "FOLDER00109_5894d9e1338b",
+      "sourceIndex": 82,
+      "textBytes": 155302,
+      "figuresExtracted": 4,
+      "excerpt": "## A Comprehensive Survey on Graph Neural Networks Zonghan Wu, Shirui Pan, Member, IEEE, Fengwen Chen, Guodong Long, Chengqi Zhang, Senior Member, IEEE, Philip S. Yu, Fellow, IEEE ### arXiv:1901.00596v4[cs.LG]4Dec2019 Abstract—Deep learning has revolutionized many machine learning tasks in recent years, ranging from image classiﬁcation and video processing to speech recognition and natural language understanding. The data in these tasks are typically represented in the Euclidean space. However, there is an increasing number of applications where data are generated from non-Euclidean domains and are represented as graphs with complex relationships and interdependency between objects. The complexity of graph data has imposed signiﬁcant challenges on existing machine learning algorithms. Recently, many studies on extending deep learning approaches for graph data have emerged. In this survey"
+    },
+    {
+      "slug": "702_Score-Based_Generative_Modeling_through_Stochastic_Different",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00110_182be22323d2",
+      "sourceIndex": 83,
+      "textBytes": 97510,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2011.13456v2[cs.LG]10Feb2021 ## SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS Yang Song˚ Stanford University yangsong@cs.stanford.edu Jascha Sohl-Dickstein Google Brain jaschasd@google.com Diederik P. Kingma Google Brain durk@google.com Abhishek Kumar Google Brain abhishk@google.com Stefano Ermon Stanford University ermon@cs.stanford.edu Ben Poole Google Brain pooleb@google.com ABSTRACT Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. Crucially, the reverse-time SDE depends only on the time-dependent gradient ﬁeld (a.k.a., s"
+    },
+    {
+      "slug": "703_V-Net_Fully_Convolutional_Neural_Networks_for_Volumetric_Med",
+      "title": "V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation",
+      "category": "HDBSCAN Cluster: medical, image, deep, learning",
+      "key": "FOLDER00111_ae9b9566b91b",
+      "sourceIndex": 84,
+      "textBytes": 28823,
+      "figuresExtracted": 0,
+      "excerpt": "# arXiv:1606.04797v1[cs.CV]15Jun2016 ## V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation ##### Fausto Milletari1, Nassir Navab1,2, Seyed-Ahmad Ahmadi3 - 1 Computer Aided Medical Procedures, Technische Universit¨at Mu¨nchen, Germany - 2 Computer Aided Medical Procedures, Johns Hopkins University, Baltimore, USA - 3 Department of Neurology, Klinikum Grosshadern, Ludwig-Maximilians-Universita¨t M¨unchen, Germany Abstract. Convolutional Neural Networks (CNNs) have been recently employed to solve problems from both the computer vision and medical image analysis ﬁelds. Despite their popularity, most approaches are only able to process 2D images while most medical data used in clinical practice consists of 3D volumes. In this work we propose an approach to 3D image segmentation based on a volumetric, fully convolutional, neural network. Our CNN is trained end"
+    },
+    {
+      "slug": "704_DeepWalk_online_learning_of_social_representations",
+      "title": "DeepWalk: online learning of social representations",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00112_2f9dfed9ab0a",
+      "sourceIndex": 85,
+      "textBytes": 54119,
+      "figuresExtracted": 3,
+      "excerpt": "## DeepWalk: Online Learning of Social Representations # arXiv:1403.6652v2[cs.SI]27Jun2014 Bryan Perozzi Stony Brook University Department of Computer Science Rami Al-Rfou Stony Brook University Department of Computer Science Steven Skiena Stony Brook University Department of Computer Science {bperozzi, ralrfou, skiena}@cs.stonybrook.edu ### ABSTRACT We present DeepWalk, a novel approach for learning latent representations of vertices in a network. These latent representations encode social relations in a continuous vector space, which is easily exploited by statistical models. DeepWalk generalizes recent advancements in language modeling and unsupervised feature learning (or deep learning) from sequences of words to graphs. DeepWalk uses local information obtained from truncated random walks to learn latent representations by treating walks as the equivalent of sentences. We demonstrate"
+    },
+    {
+      "slug": "705_Fashion-MNIST_a_Novel_Image_Dataset_for_Benchmarking_Machine",
+      "title": "Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00113_df769c1be8c3",
+      "sourceIndex": 86,
+      "textBytes": 16042,
+      "figuresExtracted": 0,
+      "excerpt": "arXiv:1708.07747v2[cs.LG]15Sep2017 [Figure 1] Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms [Figure 2] Han Xiao Zalando Research Mühlenstraße 25, 10243 Berlin han.xiao@zalando.de Kashif Rasul Zalando Research Mühlenstraße 25, 10243 Berlin kashif.rasul@zalando.de Roland Vollgraf Zalando Research Mühlenstraße 25, 10243 Berlin roland.vollgraf@zalando.de Abstract We present Fashion-MNIST, a new dataset comprising of 28 × 28 grayscale images of 70,000 fashion products from 10 categories, with 7,000 images per category. The training set has 60,000 images and the test set has 10,000 images. Fashion-MNIST is intended to serve as a direct dropin replacement for the original MNIST dataset for benchmarking machine learning algorithms, as it shares the same image size, data format and the structure of training and testing splits. The dataset is freely available at"
+    },
+    {
+      "slug": "706_Learning_Deep_Features_for_Discriminative_Localization",
+      "title": "Learning Deep Features for Discriminative Localization",
+      "category": "HDBSCAN Cluster: google, vision, inc, com",
+      "key": "FOLDER00115_41e7dbee45f4",
+      "sourceIndex": 87,
+      "textBytes": 41532,
+      "figuresExtracted": 5,
+      "excerpt": "#### Learning Deep Features for Discriminative Localization Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba Computer Science and Artiﬁcial Intelligence Laboratory, MIT {bzhou,khosla,agata,oliva,torralba}@csail.mit.edu # arXiv:1512.04150v1[cs.CV]14Dec2015 ##### Abstract In this work, we revisit the global average pooling layer proposed in [13], and shed light on how it explicitly enables the convolutional neural network to have remarkable localization ability despite being trained on image-level labels. While this technique was previously proposed as a means for regularizing training, we ﬁnd that it actually builds a generic localizable deep representation that can be applied to a variety of tasks. Despite the apparent simplicity of global average pooling, we are able to achieve 37.1% top-5 error for object localization on ILSVRC 2014, which is remarkably close to"
+    },
+    {
+      "slug": "707_SGDR_Stochastic_Gradient_Descent_with_Warm_Restarts",
+      "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00116_0db9fb977b09",
+      "sourceIndex": 88,
+      "textBytes": 44660,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1608.03983v5[cs.LG]3May2017 ## SGDR: STOCHASTIC GRADIENT DESCENT WITH WARM RESTARTS Ilya Loshchilov & Frank Hutter University of Freiburg Freiburg, Germany, {ilya,fh}@cs.uni-freiburg.de ABSTRACT Restart techniques are common in gradient-free optimization to deal with multimodal functions. Partial warm restarts are also gaining popularity in gradientbased optimization to improve the rate of convergence in accelerated gradient schemes to deal with ill-conditioned functions. In this paper, we propose a simple warm restart technique for stochastic gradient descent to improve its anytime performance when training deep neural networks. We empirically study its performance on the CIFAR-10 and CIFAR-100 datasets, where we demonstrate new state-of-the-art results at 3.14% and 16.21%, respectively. We also demonstrate its advantages on a dataset of EEG recordings and on a downsampled versi"
+    },
+    {
+      "slug": "708_YOLOv7_Trainable_Bag-of-Freebies_Sets_New_State-of-the-Art_f",
+      "title": "YOLOv7: Trainable Bag-of-Freebies Sets New State-of-the-Art for Real-Time Object Detectors",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00117_ebc07e8f0090",
+      "sourceIndex": 89,
+      "textBytes": 68233,
+      "figuresExtracted": 5,
+      "excerpt": "## YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors Chien-Yao Wang1, Alexey Bochkovskiy, and Hong-Yuan Mark Liao1 1Institute of Information Science, Academia Sinica, Taiwan kinyiu@iis.sinica.edu.tw, alexeyab84@gmail.com, and liao@iis.sinica.edu.tw # arXiv:2207.02696v1[cs.CV]6Jul2022 ### Abstract YOLOv7 surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy 56.8% AP among all known real-time object detectors with 30 FPS or higher on GPU V100. YOLOv7-E6 object detector (56 FPS V100, 55.9% AP) outperforms both transformer-based detector SWINL Cascade-Mask R-CNN (9.2 FPS A100, 53.9% AP) by 509% in speed and 2% in accuracy, and convolutionalbased detector ConvNeXt-XL Cascade-Mask R-CNN (8.6 FPS A100, 55.2% AP) by 551% in speed and 0.7% AP in accuracy, as well as YOLOv7 outperform"
+    },
+    {
+      "slug": "709_Non-local_Neural_Networks",
+      "title": "Non-local Neural Networks",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00120_29fa9163d04e",
+      "sourceIndex": 90,
+      "textBytes": 51498,
+      "figuresExtracted": 4,
+      "excerpt": "## Non-local Neural Networks Xiaolong Wang1,2∗ Ross Girshick2 Abhinav Gupta1 Kaiming He2 1Carnegie Mellon University 2Facebook AI Research # arXiv:1711.07971v3[cs.CV]13Apr2018 ### Abstract Both convolutional and recurrent operations are building blocks that process one local neighborhood at a time. In this paper, we present non-local operations as a generic family of building blocks for capturing long-range dependencies. Inspired by the classical non-local means method [4] in computer vision, our non-local operation computes the response at a position as a weighted sum of the features at all positions. This building block can be plugged into many computer vision architectures. On the task of video classiﬁcation, even without any bells and whistles, our nonlocal models can compete or outperform current competition winners on both Kinetics and Charades datasets. In static image recognition"
+    },
+    {
+      "slug": "710_Deep_Unsupervised_Learning_using_Nonequilibrium_Thermodynami",
+      "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+      "category": "HDBSCAN Cluster: learning, deep, stanford, model",
+      "key": "FOLDER00121_11decf7335d6",
+      "sourceIndex": 91,
+      "textBytes": 59799,
+      "figuresExtracted": 5,
+      "excerpt": "## arXiv:1503.03585v8[cs.LG]18Nov2015 ### Deep Unsupervised Learning using Nonequilibrium Thermodynamics Jascha Sohl-Dickstein JASCHA@STANFORD.EDU Stanford University Eric A. Weiss EAWEISS@BERKELEY.EDU University of California, Berkeley Niru Maheswaranathan NIRUM@STANFORD.EDU Stanford University Surya Ganguli SGANGULI@STANFORD.EDU Stanford University #### Abstract A central problem in machine learning involves modeling complex data-sets using highly ﬂexible families of probability distributions in which learning, sampling, inference, and evaluation are still analytically or computationally tractable. Here, we develop an approach that simultaneously achieves both ﬂexibility and tractability. The essential idea, inspired by non-equilibrium statistical physics, is to systematically and slowly destroy structure in a data distribution through an iterative forward diffusion process. We then le"
+    },
+    {
+      "slug": "711_Evaluating_Large_Language_Models_Trained_on_Code",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "category": "HDBSCAN Cluster: models, alex, llama, open",
+      "key": "FOLDER00122_753da282ad37",
+      "sourceIndex": 92,
+      "textBytes": 156613,
+      "figuresExtracted": 5,
+      "excerpt": "## Evaluating Large Language Models Trained on Code # arXiv:2107.03374v2[cs.LG]14Jul2021 Mark Chen*1 Jerry Tworek*1 Heewoo Jun*1 Qiming Yuan*1 Henrique Ponde de Oliveira Pinto*1 Jared Kaplan*2 Harri Edwards1 Yuri Burda1 Nicholas Joseph2 Greg Brockman1 Alex Ray1 Raul Puri1 Gretchen Krueger1 Michael Petrov1 Heidy Khlaaf3 Girish Sastry1 Pamela Mishkin1 Brooke Chan1 Scott Gray1 Nick Ryder1 Mikhail Pavlov1 Alethea Power1 Lukasz Kaiser1 Mohammad Bavarian1 Clemens Winter1 Philippe Tillet1 Felipe Petroski Such1 Dave Cummings1 Matthias Plappert1 Fotios Chantzis1 Elizabeth Barnes1 Ariel Herbert-Voss1 William Hebgen Guss1 Alex Nichol1 Alex Paino1 Nikolas Tezak1 Jie Tang1 Igor Babuschkin1 Suchir Balaji1 Shantanu Jain1 William Saunders1 Christopher Hesse1 Andrew N. Carr1 Jan Leike1 Josh Achiam1 Vedant Misra1 Evan Morikawa1 Alec Radford1 Matthew Knight1 Miles Brundage1 Mira Murati1 Katie Mayer1 Peter "
+    },
+    {
+      "slug": "712_Overcoming_catastrophic_forgetting_in_neural_networks",
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00123_4d9c6bdc163c",
+      "sourceIndex": 93,
+      "textBytes": 52811,
+      "figuresExtracted": 4,
+      "excerpt": "# arXiv:1612.00796v2[cs.LG]25Jan2017 ## Overcoming catastrophic forgetting in neural networks James Kirkpatricka, Razvan Pascanua, Neil Rabinowitza, Joel Venessa, Guillaume Desjardinsa, Andrei A. Rusua, Kieran Milana, John Quana, Tiago Ramalhoa, Agnieszka Grabska-Barwinska a, Demis Hassabisa, Claudia Clopathb, Dharshan Kumarana, and Raia Hadsella aDeepMind, London, N1C 4AG, United Kingdom bBioengineering department, Imperial College London, SW7 2AZ, London, United Kingdom ### Abstract The ability to learn tasks in a sequential fashion is crucial to the development of artiﬁcial intelligence. Neural networks are not, in general, capable of this and it has been widely thought that catastrophic forgetting is an inevitable feature of connectionist models. We show that it is possible to overcome this limitation and train networks that can maintain expertise on tasks which they have not experie"
+    },
+    {
+      "slug": "713_Deep_Compression_Compressing_Deep_Neural_Network_with_Prunin",
+      "title": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00124_ebb07eeea646",
+      "sourceIndex": 94,
+      "textBytes": 46732,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1510.00149v5[cs.CV]15Feb2016 ## DEEP COMPRESSION: COMPRESSING DEEP NEURAL NETWORKS WITH PRUNING, TRAINED QUANTIZATION AND HUFFMAN CODING Song Han Stanford University, Stanford, CA 94305, USA songhan@stanford.edu Huizi Mao Tsinghua University, Beijing, 100084, China mhz12@mails.tsinghua.edu.cn William J. Dally Stanford University, Stanford, CA 94305, USA NVIDIA, Santa Clara, CA 95050, USA dally@stanford.edu ABSTRACT Neural networks are both computationally intensive and memory intensive, making them difﬁcult to deploy on embedded systems with limited hardware resources. To address this limitation, we introduce “deep compression”, a three stage pipeline: pruning, trained quantization and Huffman coding, that work together to reduce the storage requirement of neural networks by 35× to 49× without affecting their accuracy. Our method ﬁrst prunes the network by learning only the impor"
+    },
+    {
+      "slug": "714_Asynchronous_Methods_for_Deep_Reinforcement_Learning",
+      "title": "Asynchronous Methods for Deep Reinforcement Learning",
+      "category": "HDBSCAN Cluster: learning, deep, google, reinforcement",
+      "key": "FOLDER00125_d0ecf7b4d0ec",
+      "sourceIndex": 95,
+      "textBytes": 84649,
+      "figuresExtracted": 4,
+      "excerpt": "### Asynchronous Methods for Deep Reinforcement Learning # arXiv:1602.01783v2[cs.LG]16Jun2016 Volodymyr Mnih1 VMNIH@GOOGLE.COM Adrià Puigdomènech Badia1 ADRIAP@GOOGLE.COM Mehdi Mirza1,2 MIRZAMOM@IRO.UMONTREAL.CA Alex Graves1 GRAVESA@GOOGLE.COM Tim Harley1 THARLEY@GOOGLE.COM Timothy P. Lillicrap1 COUNTZERO@GOOGLE.COM David Silver1 DAVIDSILVER@GOOGLE.COM Koray Kavukcuoglu 1 KORAYK@GOOGLE.COM - 1 Google DeepMind - 2 Montreal Institute for Learning Algorithms (MILA), University of Montreal #### Abstract We propose a conceptually simple and lightweight framework for deep reinforcement learning that uses asynchronous gradient descent for optimization of deep neural network controllers. We present asynchronous variants of four standard reinforcement learning algorithms and show that parallel actor-learners have a stabilizing effect on training allowing all four methods to successfully train neu"
+    },
+    {
+      "slug": "715_Rethinking_Atrous_Convolution_for_Semantic_Image_Segmentatio",
+      "title": "Rethinking Atrous Convolution for Semantic Image Segmentation",
+      "category": "HDBSCAN Cluster: convolutional, segmentation, semantic, networks",
+      "key": "FOLDER00126_12d25055200a",
+      "sourceIndex": 96,
+      "textBytes": 55006,
+      "figuresExtracted": 5,
+      "excerpt": "## Rethinking Atrous Convolution for Semantic Image Segmentation Liang-Chieh Chen George Papandreou Florian Schroff Hartwig Adam Google Inc. {lcchen, gpapan, fschroff, hadam}@google.com # arXiv:1706.05587v3[cs.CV]5Dec2017 ### Abstract In this work, we revisit atrous convolution, a powerful tool to explicitly adjust ﬁlter’s ﬁeld-of-view as well as control the resolution of feature responses computed by Deep Convolutional Neural Networks, in the application of semantic image segmentation. To handle the problem of segmenting objects at multiple scales, we design modules which employ atrous convolution in cascade or in parallel to capture multi-scale context by adopting multiple atrous rates. Furthermore, we propose to augment our previously proposed Atrous Spatial Pyramid Pooling module, which probes convolutional features at multiple scales, with image-level features encoding global contex"
+    },
+    {
+      "slug": "716_How_Powerful_are_Graph_Neural_Networks",
+      "title": "How Powerful are Graph Neural Networks?",
+      "category": "HDBSCAN Cluster: graph, networks, neural, convolutional",
+      "key": "FOLDER00127_e179365e6b04",
+      "sourceIndex": 97,
+      "textBytes": 63848,
+      "figuresExtracted": 4,
+      "excerpt": "## arXiv:1810.00826v3[cs.LG]22Feb2019 #### HOW POWERFUL ARE GRAPH NEURAL NETWORKS? Keyulu Xu ∗† MIT keyulu@mit.edu Stefanie Jegelka MIT stefje@mit.edu Weihua Hu ∗‡ Stanford University weihuahu@stanford.edu Jure Leskovec Stanford University jure@cs.stanford.edu ABSTRACT Graph Neural Networks (GNNs) are an effective framework for representation learning of graphs. GNNs follow a neighborhood aggregation scheme, where the representation vector of a node is computed by recursively aggregating and transforming representation vectors of its neighboring nodes. Many GNN variants have been proposed and have achieved state-of-the-art results on both node and graph classiﬁcation tasks. However, despite GNNs revolutionizing graph representation learning, there is limited understanding of their representational properties and limitations. Here, we present a theoretical framework for analyzing the expr"
+    },
+    {
+      "slug": "717_Towards_Evaluating_the_Robustness_of_Neural_Networks",
+      "title": "Towards Evaluating the Robustness of Neural Networks",
+      "category": "HDBSCAN Cluster: adversarial, neural, networks, mit",
+      "key": "FOLDER00128_cc352e6a2b15",
+      "sourceIndex": 98,
+      "textBytes": 82628,
+      "figuresExtracted": 5,
+      "excerpt": "# Towards Evaluating the Robustness of Neural Networks Nicholas Carlini David Wagner University of California, Berkeley ## arXiv:1608.04644v2[cs.CR]22Mar2017 ABSTRACT Neural networks provide state-of-the-art results for most machine learning tasks. Unfortunately, neural networks are vulnerable to adversarial examples: given an input x and any target classiﬁcation t, it is possible to ﬁnd a new input x that is similar to x but classiﬁed as t. This makes it difﬁcult to apply neural networks in security-critical areas. Defensive distillation is a recently proposed approach that can take an arbitrary neural network, and increase its robustness, reducing the success rate of current attacks’ ability to ﬁnd adversarial examples from 95% to 0.5%. In this paper, we demonstrate that defensive distillation does not signiﬁcantly increase the robustness of neural networks by introducing three new att"
+    },
+    {
+      "slug": "718_Visual_Instruction_Tuning",
+      "title": "Visual Instruction Tuning",
+      "category": "HDBSCAN Cluster: language, instruction, pretraining, visual",
+      "key": "FOLDER00129_bb744c124d05",
+      "sourceIndex": 99,
+      "textBytes": 88695,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2304.08485v2[cs.CV]11Dec2023 ## Visual Instruction Tuning Haotian Liu1∗, Chunyuan Li2∗, Qingyang Wu3, Yong Jae Lee1 1University of Wisconsin–Madison 2Microsoft Research 3Columbia University https://llava-vl.github.io ### Abstract Instruction tuning large language models (LLMs) using machine-generated instruction-following data has been shown to improve zero-shot capabilities on new tasks, but the idea is less explored in the multimodal field. We present the first attempt to use language-only GPT-4 to generate multimodal language-image instruction-following data. By instruction tuning on such generated data, we introduce LLaVA: Large Language and Vision Assistant, an end-to-end trained large multimodal model that connects a vision encoder and an LLM for generalpurpose visual and language understanding. To facilitate future research on visual instruction following, we construct two"
+    },
+    {
+      "slug": "719_DistilBERT_a_distilled_version_of_BERT_smaller_faster_cheape",
+      "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+      "category": "HDBSCAN Cluster: language, com, google, models",
+      "key": "FOLDER00130_19b2422d50eb",
+      "sourceIndex": 100,
+      "textBytes": 18894,
+      "figuresExtracted": 1,
+      "excerpt": "# arXiv:1910.01108v4[cs.CL]1Mar2020 ## DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter Victor SANH, Lysandre DEBUT, Julien CHAUMOND, Thomas WOLF Hugging Face {victor,lysandre,julien,thomas}@huggingface.co ### Abstract As Transfer Learning from large-scale pre-trained models becomes more prevalent in Natural Language Processing (NLP), operating these large models in on-theedge and/or under constrained computational training or inference budgets remains challenging. In this work, we propose a method to pre-train a smaller generalpurpose language representation model, called DistilBERT, which can then be ﬁnetuned with good performances on a wide range of tasks like its larger counterparts. While most prior work investigated the use of distillation for building task-speciﬁc models, we leverage knowledge distillation during the pre-training phase and show that it"
+    },
+    {
+      "slug": "720_Distributed_Representations_of_Sentences_and_Documents",
+      "title": "Distributed Representations of Sentences and Documents",
+      "category": "HDBSCAN Cluster: google, representations, com, inc",
+      "key": "FOLDER00132_e982f63d9577",
+      "sourceIndex": 101,
+      "textBytes": 44005,
+      "figuresExtracted": 3,
+      "excerpt": "[Figure 1] # Distributed Representations of Sentences and Documents [Figure 2] arXiv:1405.4053v2[cs.CL]22May2014 Quoc Le QVL@GOOGLE.COM Tomas Mikolov TMIKOLOV@GOOGLE.COM Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043 ## Abstract Many machine learning algorithms require the input to be represented as a ﬁxed-length feature vector. When it comes to texts, one of the most common ﬁxed-length features is bag-of-words. Despite their popularity, bag-of-words features have two major weaknesses: they lose the ordering of the words and they also ignore semantics of the words. For example, “powerful,” “strong” and “Paris” are equally distant. In this paper, we propose ParagraphVector, an unsupervisedalgorithm that learns ﬁxed-length feature representations from variable-length pieces of texts, such as sentences, paragraphs, and documents. Our algorithm represents each document by a d"
+    },
+    {
+      "slug": "721_Deep_Learning_Face_Attributes_in_the_Wild",
+      "title": "Deep Learning Face Attributes in the Wild",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00133_3c052863ea0f",
+      "sourceIndex": 102,
+      "textBytes": 57204,
+      "figuresExtracted": 5,
+      "excerpt": "## Deep Learning Face Attributes in the Wild∗ # arXiv:1411.7766v3[cs.CV]24Sep2015 Ziwei Liu1 Ping Luo1 Xiaogang Wang2 Xiaoou Tang1 - 1Department of Information Engineering, The Chinese University of Hong Kong - 2Department of Electronic Engineering, The Chinese University of Hong Kong {lz013,pluo,xtang}@ie.cuhk.edu.hk, xgwang@ee.cuhk.edu.hk ### Abstract Predicting face attributes in the wild is challenging due to complex face variations. We propose a novel deep learning framework for attribute prediction in the wild. It cascades two CNNs, LNet and ANet, which are ﬁnetuned jointly with attribute tags, but pre-trained differently. LNet is pre-trained by massive general object categories for face localization, while ANet is pre-trained by massive face identities for attribute prediction. This framework not only outperforms the state-of-the-art with a large margin, but also reveals valuable "
+    },
+    {
+      "slug": "722_Convolutional_LSTM_Network_A_Machine_Learning_Approach_for_P",
+      "title": "Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00134_d0847f7dec6d",
+      "sourceIndex": 103,
+      "textBytes": 39197,
+      "figuresExtracted": 3,
+      "excerpt": "# arXiv:1506.04214v2[cs.CV]19Sep2015 ## Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting Xingjian Shi Zhourong Chen Hao Wang Dit-Yan Yeung Department of Computer Science and Engineering Hong Kong University of Science and Technology {xshiab,zchenbb,hwangaz,dyyeung}@cse.ust.hk Wai-kin Wong Wang-chun Woo Hong Kong Observatory Hong Kong, China {wkwong,wcwoo}@hko.gov.hk #### Abstract The goal of precipitation nowcasting is to predict the future rainfall intensity in a local region over a relatively short period of time. Very few previous studies have examined this crucial and challenging weather forecasting problem from the machine learning perspective. In this paper, we formulate precipitation nowcasting as a spatiotemporal sequence forecasting problem in which both the input and the prediction target are spatiotemporal sequences. By extending the fully c"
+    },
+    {
+      "slug": "723_Thumbs_up_Sentiment_Classification_using_Machine_Learning_Te",
+      "title": "Thumbs up? Sentiment Classification using Machine Learning Techniques",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00136_b4dfc558e02c",
+      "sourceIndex": 104,
+      "textBytes": 40388,
+      "figuresExtracted": 0,
+      "excerpt": "Appears in Proc. 2002 Conf. on Empirical Methods in Natural Language Processing (EMNLP) # Thumbs up? Sentiment Classiﬁcation using Machine Learning Techniques arXiv:cs/0205070v1[cs.CL]28May2002 Bo Pang and Lillian Lee Department of Computer Science Cornell University Ithaca, NY 14853 USA {pabo,llee}@cs.cornell.edu Shivakumar Vaithyanathan IBM Almaden Research Center 650 Harry Rd. San Jose, CA 95120 USA shiv@almaden.ibm.com Abstract We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative. Using movie reviews as data, we ﬁnd that standard machine learning techniques deﬁnitively outperform human-produced baselines. However, the three machine learning methods we employed (Naive Bayes, maximum entropy classiﬁcation, and support vector machines) do not perform as well on sentiment classiﬁcation as on tr"
+    },
+    {
+      "slug": "724_Practical_Bayesian_Optimization_of_Machine_Learning_Algorith",
+      "title": "Practical Bayesian Optimization of Machine Learning Algorithms",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00139_34acf576629c",
+      "sourceIndex": 105,
+      "textBytes": 37926,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1206.2944v2[stat.ML]29Aug2012 ## PRACTICAL BAYESIAN OPTIMIZATION OF MACHINE LEARNING ALGORITHMS By Jasper Snoek, Hugo Larochelle and Ryan P. Adams University of Toronto, Universite´ de Sherbrooke and Harvard University Machine learning algorithms frequently require careful tuning of model hyperparameters, regularization terms, and optimization parameters. Unfortunately, this tuning is often a “black art” that requires expert experience, unwritten rules of thumb, or sometimes brute-force search. Much more appealing is the idea of developing automatic approaches which can optimize the performance of a given learning algorithm to the task at hand. In this work, we consider the automatic tuning problem within the framework of Bayesian optimization, in which a learning algorithm’s generalization performance is modeled as a sample from a Gaussian process (GP). The tractable posterior d"
+    },
+    {
+      "slug": "725_The_Algorithmic_Foundations_of_Differential_Privacy",
+      "title": "The Algorithmic Foundations of Differential Privacy",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00140_05b131dac5c1",
+      "sourceIndex": 106,
+      "textBytes": 11040,
+      "figuresExtracted": 0,
+      "excerpt": "УДК 004.056, 004.8 М. В. Онай, к.т.н., доцент, А. І. Северін (Національний технічний університет України «Київський політехнічний інститут імені Ігоря Сікорського», Україна) КОМПЛЕКСНИЙ ПОРІВНЯЛЬНИЙ АНАЛІЗ МЕТОДІВ ЗБЕРЕЖЕННЯ ПРИВАТНОСТІ В МАШИННОМУ НАВЧАННІ M. V. Onai, PhD, Assoc. Prof., A. I. Severin COMPREHENSIVE COMPARATIVE ANALYSIS OF PRIVACY-PRESERVING METHODS IN MACHINE LEARNING З точки зору захисту приватності наборів даних, ключовими загрозами є атаки на логічний висновок [1]. Наприклад, атаки логічного висновку (inference attack) дозволяють зловмиснику зробити висновок про використання конкретного профілю пацієнта для навчання класифікатора, пов'язаного із захворюванням. Іншим прикладом є атаки на інверсію моделі (model inversion attacks), які можуть використовувати доступу «чорної скриньки» до моделей передбачення для оцінки аспектів геномної інформації особи. Також, глибокий в"
+    },
+    {
+      "slug": "726_XLNet_Generalized_Autoregressive_Pretraining_for_Language_Un",
+      "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+      "category": "HDBSCAN Cluster: language, instruction, pretraining, visual",
+      "key": "FOLDER00141_ade09b2c1f83",
+      "sourceIndex": 107,
+      "textBytes": 59113,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1906.08237v2[cs.CL]2Jan2020 ## XLNet: Generalized Autoregressive Pretraining for Language Understanding #### Zhilin Yang∗1, Zihang Dai∗12, Yiming Yang1, Jaime Carbonell1, Ruslan Salakhutdinov1, Quoc V. Le2 1Carnegie Mellon University, 2Google AI Brain Team {zhiliny,dzihang,yiming,jgc,rsalakhu}@cs.cmu.edu, qvl@google.com ### Abstract With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining approaches based on autoregressive language modeling. However, relying on corrupting the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-ﬁnetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all "
+    },
+    {
+      "slug": "727_Image_Super-Resolution_Using_Deep_Convolutional_Networks",
+      "title": "Image Super-Resolution Using Deep Convolutional Networks",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00142_608ad5cfec1f",
+      "sourceIndex": 108,
+      "textBytes": 71160,
+      "figuresExtracted": 5,
+      "excerpt": "# Image Super-Resolution Using Deep Convolutional Networks Chao Dong, Chen Change Loy, Member, IEEE, Kaiming He, Member, IEEE, and Xiaoou Tang, Fellow, IEEE ## arXiv:1501.00092v3[cs.CV]31Jul2015 Abstract—We propose a deep learning method for single image super-resolution (SR). Our method directly learns an end-to-end mapping between the low/high-resolution images. The mapping is represented as a deep convolutional neural network (CNN) that takes the low-resolution image as the input and outputs the high-resolution one. We further show that traditional sparse-coding-based SR methods can also be viewed as a deep convolutional network. But unlike traditional methods that handle each component separately, our method jointly optimizes all layers. Our deep CNN has a lightweight structure, yet demonstrates state-of-the-art restoration quality, and achieves fast speed for practical on-line usage"
+    },
+    {
+      "slug": "728_Training_data-efficient_image_transformers__distillation_thr",
+      "title": "Training data-efficient image transformers & distillation through attention",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00143_9e891d329d9d",
+      "sourceIndex": 109,
+      "textBytes": 54267,
+      "figuresExtracted": 2,
+      "excerpt": "# arXiv:2012.12877v2[cs.CV]15Jan2021 ## Training data-efﬁcient image transformers & distillation through attention Hugo Touvron ,† Matthieu Cord† Matthijs Douze Francisco Massa Alexandre Sablayrolles Herv´e J´egou Facebook AI †Sorbonne University Abstract Recently, neural networks purely based on attention were shown to address image understanding tasks such as image classiﬁcation. These highperforming vision transformers are pre-trained with hundreds of millions of images using a large infrastructure, thereby limiting their adoption. In this work, we produce competitive convolution-free transformers by training on Imagenet only. We train them on a single computer in less than 3 days. Our reference vision transformer (86M parameters) achieves top-1 accuracy of 83.1% (single-crop) on ImageNet with no external data. More importantly, we introduce a teacher-student strategy speciﬁc to trans"
+    },
+    {
+      "slug": "729_How_transferable_are_features_in_deep_neural_networks",
+      "title": "How transferable are features in deep neural networks?",
+      "category": "HDBSCAN Cluster: neural, deep, networks, google",
+      "key": "FOLDER00144_983b90288eeb",
+      "sourceIndex": 110,
+      "textBytes": 44916,
+      "figuresExtracted": 2,
+      "excerpt": "Preprint release. Full citation: Yosinski J, Clune J, Bengio Y, and Lipson H. How transferable are features in deep neural networks? In Advances in Neural Information Processing Systems 27 (NIPS ’14), NIPS Foundation, 2014. # arXiv:1411.1792v1[cs.LG]6Nov2014 ## How transferable are features in deep neural networks? #### Jason Yosinski,1 Jeff Clune,2 Yoshua Bengio,3 and Hod Lipson4 - 1 Dept. Computer Science, Cornell University - 2 Dept. Computer Science, University of Wyoming 3 Dept. Computer Science & Operations Research, University of Montreal 4 Dept. Mechanical & Aerospace Engineering, Cornell University ### Abstract Many deep neural networks trained on natural images exhibit a curious phenomenon in common: on the ﬁrst layer they learn features similar to Gabor ﬁlters and color blobs. Such ﬁrst-layer features appear not to be speciﬁc to a particular dataset or task, but general in tha"
+    },
+    {
+      "slug": "730_Judging_LLM-as-a-judge_with_MT-Bench_and_Chatbot_Arena",
+      "title": "Judging LLM-as-a-judge with MT-Bench and Chatbot Arena",
+      "category": "HDBSCAN Cluster: language, models, human, model",
+      "key": "FOLDER00145_8f2223a7b418",
+      "sourceIndex": 111,
+      "textBytes": 91001,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2306.05685v4[cs.CL]24Dec2023 ## Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena Lianmin Zheng1∗ Wei-Lin Chiang1∗ Ying Sheng4∗ Siyuan Zhuang1 Zhanghao Wu1 Yonghao Zhuang3 Zi Lin2 Zhuohan Li1 Dacheng Li13 Eric P. Xing35 Hao Zhang12 Joseph E. Gonzalez1 Ion Stoica1 1 UC Berkeley 2 UC San Diego 3 Carnegie Mellon University 4 Stanford 5 MBZUAI ### Abstract Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between L"
+    },
+    {
+      "slug": "731_Direct_Preference_Optimization_Your_Language_Model_is_Secret",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "category": "HDBSCAN Cluster: language, models, human, model",
+      "key": "FOLDER00146_aa2d4aebd95c",
+      "sourceIndex": 112,
+      "textBytes": 96208,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2305.18290v3[cs.LG]29Jul2024 ## Direct Preference Optimization: Your Language Model is Secretly a Reward Model Rafael Rafailov∗† Archit Sharma∗† Eric Mitchell∗† Stefano Ermon†‡ Christopher D. Manning† Chelsea Finn† †Stanford University ‡CZ Biohub {rafailov,architsh,eric.mitchell}@cs.stanford.edu ### Abstract While large-scale unsupervised language models (LMs) learn broad world knowledge and some reasoning skills, achieving precise control of their behavior is difficult due to the completely unsupervised nature of their training. Existing methods for gaining such steerability collect human labels of the relative quality of model generations and fine-tune the unsupervised LM to align with these preferences, often with reinforcement learning from human feedback (RLHF). However, RLHF is a complex and often unstable procedure, first fitting a reward model that reflects the human pref"
+    },
+    {
+      "slug": "732_Independent_component_analysis_algorithms_and_applications",
+      "title": "Independent component analysis: algorithms and applications",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00147_b8c8941b0a6c",
+      "sourceIndex": 113,
+      "textBytes": 83443,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] Neural Networks PERGAMON Neural Networks 13 (2000) 411–430 www.elsevier.com/locate/neunet Invited article # Independent component analysis: algorithms and applications A. Hyva¨rinen, E. Oja* Neural Networks Research Centre, Helsinki University of Technology, P.O. Box 5400, FIN-02015 HUT, Helsinki, Finland Received 28 March 2000; accepted 28 March 2000 #### Abstract A fundamental problem in neural network research, as well as in many other disciplines, is ﬁnding a suitable representation of multivariate data, i.e. random vectors. For reasons of computational and conceptual simplicity, the representation is often sought as a linear transformation of the original data. In other words, each component of the representation is a linear combination of the original variables. Well-known linear transformation methods include principal component analysis, factor analysis, and projection"
+    },
+    {
+      "slug": "733_Deep_Reinforcement_Learning_with_Double_Q-Learning",
+      "title": "Deep Reinforcement Learning with Double Q-Learning",
+      "category": "HDBSCAN Cluster: reinforcement, learning, deep, policy",
+      "key": "FOLDER00149_4dfbe3a7f3e7",
+      "sourceIndex": 114,
+      "textBytes": 38003,
+      "figuresExtracted": 4,
+      "excerpt": "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence (AAAI-16) # Deep Reinforcement Learning with Double Q-Learning ### Hado van Hasselt , Arthur Guez, and David Silver Google DeepMind ##### Abstract The popular Q-learning algorithm is known to overestimate action values under certain conditions. It was not previously known whether, in practice, such overestimations are common, whether they harm performance, and whether they can generally be prevented. In this paper, we answer all these questions afﬁrmatively. In particular, we ﬁrst show that the recent DQN algorithm, which combines Q-learning with a deep neural network, suffers from substantial overestimations in some games in the Atari 2600 domain. We then show that the idea behind the Double Q-learning algorithm, which was introduced in a tabular setting, can be generalized to work with large-scale function approxim"
+    },
+    {
+      "slug": "734_Neural_Message_Passing_for_Quantum_Chemistry",
+      "title": "Neural Message Passing for Quantum Chemistry",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00150_b6fc380552d3",
+      "sourceIndex": 115,
+      "textBytes": 60471,
+      "figuresExtracted": 1,
+      "excerpt": "### Neural Message Passing for Quantum Chemistry Justin Gilmer1 Samuel S. Schoenholz1 Patrick F. Riley2 Oriol Vinyals3 George E. Dahl1 # arXiv:1704.01212v2[cs.LG]12Jun2017 ##### Abstract Supervised learning on molecules has incredible potential to be useful in chemistry, drug discovery, and materials science. Luckily, several promising and closely related neural network models invariant to molecular symmetries have already been described in the literature. These models learn a message passing algorithm and aggregation procedure to compute a function of their entire input graph. At this point, the next step is to ﬁnd a particularly effective variant of this general approach and apply it to chemical prediction benchmarks until we either solve them or reach the limits of the approach. In this paper, we reformulate existing models into a single common framework we call Message Passing Neural"
+    },
+    {
+      "slug": "735_Machine_learning_in_automated_text_categorization",
+      "title": "Machine learning in automated text categorization",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00152_8984db32c63c",
+      "sourceIndex": 116,
+      "textBytes": 205467,
+      "figuresExtracted": 1,
+      "excerpt": "arXiv:cs/0110053v1[cs.IR]26Oct2001 Machine Learning in Automated Text Categorization Fabrizio Sebastiani Consiglio Nazionale delle Ricerche, Italy [Figure 1] The automated categorization (or classiﬁcation) of texts into predeﬁned categories has witnessed a booming interest in the last ten years, due to the increased availability of documents in digital form and the ensuing need to organize them. In the research community the dominant approach to this problem is based on machine learning techniques: a general inductive process automatically builds a classiﬁer by learning, from a set of preclassiﬁed documents, the characteristics of the categories. The advantages of this approach over the knowledge engineering approach (consisting in the manual deﬁnition of a classiﬁer by domain experts) are a very good eﬀectiveness, considerable savings in terms of expert manpower, and straightforward por"
+    },
+    {
+      "slug": "736_nnU-Net_a_self-configuring_method_for_deep_learning-based_bi",
+      "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+      "category": "HDBSCAN Cluster: medical, image, deep, learning",
+      "key": "FOLDER00153_49a4d7e032c2",
+      "sourceIndex": 117,
+      "textBytes": 155739,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1904.08128v2[cs.CV]2Apr2020 ## Automated Design of Deep Learning Methods for Biomedical Image Segmentation Fabian Isensee1,2†, Paul F. Jaeger1†, Simon A. A. Kohl3‡, Jens Petersen1,4, and Klaus H. Maier-Hein1,5* 1Division of Medical Image Computing, German Cancer Research Center, Heidelberg 2Faculty of Biosciences, University of Heidelberg, Heidelberg, Germany 3DeepMind, London, United Kingdom 4Faculty of Physics & Astronomy, University of Heidelberg, Heidelberg, Germany 5Pattern Analysis and Learning Group, Heidelberg University Hospital, Department of Radiation Oncology, Heidelberg, Germany *k.maier-hein@dkfz.de ### Abstract Biomedical imaging is a driver of scientiﬁc discovery and core component of medical care, currently stimulated by the ﬁeld of deep learning. While semantic segmentation algorithms enable 3D image analysis and quantiﬁcation in many applications, the design of"
+    },
+    {
+      "slug": "737_Speech_recognition_with_deep_recurrent_neural_networks",
+      "title": "Speech recognition with deep recurrent neural networks",
+      "category": "HDBSCAN Cluster: networks, neural, recurrent, sequence",
+      "key": "FOLDER00154_5e20026c5c7c",
+      "sourceIndex": 118,
+      "textBytes": 23279,
+      "figuresExtracted": 2,
+      "excerpt": "SPEECH RECOGNITION WITH DEEP RECURRENT NEURAL NETWORKS Alex Graves, Abdel-rahman Mohamed and Geoffrey Hinton Department of Computer Science, University of Toronto # arXiv:1303.5778v1[cs.NE]22Mar2013 ## ABSTRACT Recurrent neural networks (RNNs) are a powerful model for sequential data. End-to-end training methods such as Connectionist Temporal Classiﬁcation make it possible to train RNNs for sequence labelling problems where the input-output alignment is unknown. The combination of these methods with the Long Short-term Memory RNN architecture has proved particularly fruitful, delivering state-of-the-art results in cursive handwriting recognition. However RNN performance in speech recognition has so far been disappointing, with better results returned by deep feedforward networks. This paper investigates deep recurrent neural networks, which combine the multiple levels of representation t"
+    },
+    {
+      "slug": "738_3D_Gaussian_Splatting_for_Real-Time_Radiance_Field_Rendering",
+      "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00156_54fec421efa8",
+      "sourceIndex": 119,
+      "textBytes": 82277,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2308.04079v1[cs.GR]8Aug2023 ## 3D Gaussian Splatting for Real-Time Radiance Field Rendering BERNHARD KERBL∗, Inria, Université Côte d’Azur, France GEORGIOS KOPANAS∗, Inria, Université Côte d’Azur, France THOMAS LEIMKÜHLER, Max-Planck-Institut für Informatik, Germany GEORGE DRETTAKIS, Inria, Université Côte d’Azur, France [Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] InstantNGP (9.2 fps) Plenoxels (8.2 fps) Train: 7min, PSNR: 22.1 Train: 26min, PSNR: 21.9 Ours (135 fps) Train: 6 min, PSNR: 23.6 Ours (93 fps) Train: 51min, PSNR: 25.2 Mip-NeRF360 (0.071 fps) Ground Truth Train: 48 h, PSNR: 24.3 Fig. 1. Our method achieves real-time rendering of radiance fields with quality that equals the previous method with the best quality [Barron et al. 2022], while only requiring optimization times competitive with the fastest previous methods [Fridovich-Keil and Yu et al. 2"
+    },
+    {
+      "slug": "739_Advances_and_Open_Problems_in_Federated_Learning",
+      "title": "Advances and Open Problems in Federated Learning",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00159_ee29b9989969",
+      "sourceIndex": 120,
+      "textBytes": 433335,
+      "figuresExtracted": 2,
+      "excerpt": "[Figure 1] Manuscript version: Author’s Accepted Manuscript The version presented in WRAP is the author’s accepted manuscript and may differ from the published version or Version of Record. Persistent WRAP URL: http://wrap.warwick.ac.uk/170168 ##### How to cite: Please refer to published version for the most recent bibliographic citation information. If a published version is known of, the repository item page linked to above, will contain details on accessing it. Copyright and reuse: The Warwick Research Archive Portal (WRAP) makes this work by researchers of the University of Warwick available open access under the following conditions. Copyright © and all moral rights to the version of the paper presented here belong to the individual author(s) and/or other copyright owners. To the extent reasonable and practicable the material made available in WRAP has been checked for eligibility b"
+    },
+    {
+      "slug": "740_Explainable_Artificial_Intelligence_XAI_Concepts_Taxonomies",
+      "title": "Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00160_4312a527c316",
+      "sourceIndex": 121,
+      "textBytes": 270255,
+      "figuresExtracted": 5,
+      "excerpt": "# Explainable Artiﬁcial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI Alejandro Barredo Arrietaa, Natalia D´ıaz-Rodr´ıguezb, Javier Del Sera,c,d, Adrien Bennetotb,e,f, Siham Tabikg, Alberto Barbadoh, Salvador Garciag, Sergio Gil-Lopeza, Daniel Molinag, Richard Benjaminsh, Raja Chatilaf, and Francisco Herrerag aTECNALIA, 48160 Derio, Spain bENSTA, Institute Polytechnique Paris and INRIA Flowers Team, Palaiseau, France cUniversity of the Basque Country (UPV/EHU), 48013 Bilbao, Spain dBasque Center for Applied Mathematics (BCAM), 48009 Bilbao, Bizkaia, Spain eSegula Technologies, Parc d’activit´e de Pissaloup, Trappes, France fInstitut des Syst`emes Intelligents et de Robotique, Sorbonne Universit`e, France gDaSCI Andalusian Institute of Data Science and Computational Intelligence, University of Granada, 18071 Granada, Spain hTelefonica, 28050 "
+    },
+    {
+      "slug": "741_DINOv2_Learning_Robust_Visual_Features_without_Supervision",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "category": "HDBSCAN Cluster: models, language, learning, google",
+      "key": "FOLDER00161_0f95f73e5562",
+      "sourceIndex": 122,
+      "textBytes": 106523,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2304.07193v2[cs.CV]2Feb2024 ## DINOv2: Learning Robust Visual Features without Supervision Maxime Oquab∗∗, Timothée Darcet∗∗, Théo Moutakanni∗∗, Huy V. Vo∗, Marc Szafraniec∗, Vasil Khalidov∗, Pierre Fernandez, Daniel Haziza, Francisco Massa, Alaaeldin El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech Galuba, Russell Howes, Po-Yao Huang, Shang-Wen Li, Ishan Misra, Michael Rabbat, Vasu Sharma, Gabriel Synnaeve, Hu Xu, Hervé Jegou, Julien Mairal1, Patrick Labatut∗, Armand Joulin∗, Piotr Bojanowski∗ Meta AI Research 1Inria ∗core team ∗∗equal contribution Reviewed on OpenReview: https://openreview.net/forum?id=a68SUt6zFt ### Abstract The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundation models in computer vision. These models could greatly simplify the use of images in any system by produci"
+    },
+    {
+      "slug": "742_Bootstrap_Your_Own_Latent_A_New_Approach_to_Self-Supervised",
+      "title": "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning",
+      "category": "HDBSCAN Cluster: models, language, learning, google",
+      "key": "FOLDER00162_08880b8cfcae",
+      "sourceIndex": 123,
+      "textBytes": 115371,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2006.07733v3[cs.LG]10Sep2020 ## Bootstrap Your Own Latent A New Approach to Self-Supervised Learning Jean-Bastien Grill∗,1 Florian Strub∗,1 Florent Altché∗,1 Corentin Tallec∗,1 Pierre H.Richemond∗,1,2 Elena Buchatskaya1 Carl Doersch1 Bernardo Avila Pires1 Zhaohan Daniel Guo1 Mohammad Gheshlaghi Azar1 Bilal Piot1 Koray Kavukcuoglu1 Rémi Munos1 Michal Valko1 1DeepMind 2Imperial College [jbgrill,fstrub,altche,corentint,richemond]@google.com ##### Abstract We introduce Bootstrap Your Own Latent (BYOL), a new approach to self-supervised image representation learning. BYOL relies on two neural networks, referred to as online and target networks, that interact and learn from each other. From an augmented view of an image, we train the online network to predict the target network representation of the same image under a different augmented view. At the same time, we update the target net"
+    },
+    {
+      "slug": "743_Convolutional_Neural_Networks_on_Graphs_with_Fast_Localized",
+      "title": "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering",
+      "category": "HDBSCAN Cluster: graph, networks, neural, convolutional",
+      "key": "FOLDER00163_81c29a66978d",
+      "sourceIndex": 124,
+      "textBytes": 37755,
+      "figuresExtracted": 3,
+      "excerpt": "# arXiv:1606.09375v3[cs.LG]5Feb2017 ## Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering Michaël Defferrard Xavier Bresson Pierre Vandergheynst EPFL, Lausanne, Switzerland {michael.defferrard,xavier.bresson,pierre.vandergheynst}@epfl.ch ### Abstract In this work, we are interested in generalizing convolutional neural networks (CNNs) from low-dimensional regular grids, where image, video and speech are represented, to high-dimensional irregular domains, such as social networks, brain connectomes or words’ embedding, represented by graphs. We present a formulation of CNNs in the context of spectral graph theory, which provides the necessary mathematical background and efﬁcient numerical schemes to design fast localized convolutional ﬁlters on graphs. Importantly, the proposed technique offers the same linear computational complexity and constant learning comple"
+    },
+    {
+      "slug": "744_Photorealistic_Text-to-Image_Diffusion_Models_with_Deep_Lang",
+      "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "category": "HDBSCAN Cluster: models, language, learning, google",
+      "key": "FOLDER00164_fd3aa0ef2efd",
+      "sourceIndex": 125,
+      "textBytes": 97404,
+      "figuresExtracted": 4,
+      "excerpt": "# arXiv:2205.11487v1[cs.CV]23May2022 ## Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding Chitwan Saharia∗, William Chan∗, Saurabh Saxena†, Lala Li†, Jay Whang†, Emily Denton, Seyed Kamyar Seyed Ghasemipour, Burcu Karagol Ayan, S. Sara Mahdavi, Rapha Gontijo Lopes, Tim Salimans, Jonathan Ho†, David J Fleet†, Mohammad Norouzi∗ {sahariac,williamchan,mnorouzi}@google.com {srbs,lala,jwhang,jonathanho,davidfleet}@google.com Google Research, Brain Team Toronto, Ontario, Canada ### Abstract We present Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-ﬁdelity image generation. Our key discovery is that generic large language models (e.g. T5), pretrain"
+    },
+    {
+      "slug": "745_A_ConvNet_for_the_2020s",
+      "title": "A ConvNet for the 2020s",
+      "category": "HDBSCAN Cluster: google, vision, inc, com",
+      "key": "FOLDER00166_59669c04fffd",
+      "sourceIndex": 126,
+      "textBytes": 74590,
+      "figuresExtracted": 3,
+      "excerpt": "## A ConvNet for the 2020s Zhuang Liu1,2* Hanzi Mao1 Chao-Yuan Wu1 Christoph Feichtenhofer1 Trevor Darrell2 Saining Xie1† 1Facebook AI Research (FAIR) 2UC Berkeley Code: https://github.com/facebookresearch/ConvNeXt # arXiv:2201.03545v2[cs.CV]2Mar2022 ### Abstract The “Roaring 20s” of visual recognition began with the introduction of Vision Transformers (ViTs), which quickly superseded ConvNets as the state-of-the-art image classiﬁcation model. A vanilla ViT, on the other hand, faces difﬁculties when applied to general computer vision tasks such as object detection and semantic segmentation. It is the hierarchical Transformers (e.g., Swin Transformers) that reintroduced several ConvNet priors, making Transformers practically viable as a generic vision backbone and demonstrating remarkable performance on a wide variety of vision tasks. However, the effectiveness of such hybrid approaches i"
     }
   ]
 }

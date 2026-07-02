@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-01T20:21:57.264205+00:00",
+  "generated": "2026-07-02T09:43:03.645693+00:00",
   "mode": "codex-native-full-curation",
   "topic": "ai",
   "paperCurationDir": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect",
   "awesomeRepo": "E:\\조선대\\연구\\awesome-ai",
   "extractReport": "E:\\조선대\\연구\\paper-curation\\paper\\awesome-ai\\_folder_source_extract_report.json",
-  "processedPapers": 67,
-  "sourceReportTotal": 67,
+  "processedPapers": 127,
+  "sourceReportTotal": 127,
   "sourceManifestTotal": 1216,
   "docsEntry": "docs/paper_curation/index.html",
   "networkEntry": "docs/paper_curation/ai/network.html",
@@ -19,6 +19,6 @@
   "clusterer": "hdbscan.HDBSCAN",
   "projection": "umap.UMAP",
   "missingRequired": [],
-  "copiedFiles": 672,
+  "copiedFiles": 1244,
   "note": "Codex-native artifacts generated from extract-only evidence. Cached local SPECTER2, HDBSCAN, and UMAP are attempted; any fallback is recorded in _topic_model_info.json. External Claude/Gemini/PaperBanana APIs were not called."
 }
