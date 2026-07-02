@@ -1,0 +1,86 @@
+{
+  "mode": "codex-native-paperbanana-compatible-timeline",
+  "summary": "Codex generated a PaperBanana-compatible timeline artifact path without calling external image APIs.",
+  "categories": [
+    {
+      "id": "hdbscan-bridge-and-noise-papers",
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "count": 27
+    },
+    {
+      "id": "hdbscan-cluster-deep-residual-networks-learning",
+      "name": "HDBSCAN Cluster: deep, residual, networks, learning",
+      "count": 5
+    },
+    {
+      "id": "hdbscan-cluster-com-google-research-university",
+      "name": "HDBSCAN Cluster: com, google, research, university",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-convolutional-segmentation-networks-semantic",
+      "name": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-detection-object-network-region",
+      "name": "HDBSCAN Cluster: detection, object, network, region",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-learning-policy-reinforcement-deep",
+      "name": "HDBSCAN Cluster: learning, policy, reinforcement, deep",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-adversarial-learning-mit-networks",
+      "name": "HDBSCAN Cluster: adversarial, learning, mit, networks",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-models-language-ne-tuning-human",
+      "name": "HDBSCAN Cluster: models, language, ne-tuning, human",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-google-inc-com-architecture",
+      "name": "HDBSCAN Cluster: google, inc, com, architecture",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-object-features-large-recognition",
+      "name": "HDBSCAN Cluster: object, features, large, recognition",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-google-inc-com-face",
+      "name": "HDBSCAN Cluster: google, inc, com, face",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-com-google-learning-transfer",
+      "name": "HDBSCAN Cluster: com, google, learning, transfer",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-sequence-learning-neural-networks",
+      "name": "HDBSCAN Cluster: sequence, learning, neural, networks",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-models-llama-language-foundation",
+      "name": "HDBSCAN Cluster: models, llama, language, foundation",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-point-pointnet-sets-deep",
+      "name": "HDBSCAN Cluster: point, pointnet, sets, deep",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-deep-neural-networks-learning",
+      "name": "HDBSCAN Cluster: deep, neural, networks, learning",
+      "count": 2
+    }
+  ]
+}

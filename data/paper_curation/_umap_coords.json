@@ -1,0 +1,337 @@
+{
+  "001_Deep_Residual_Learning_for_Image_Recognition": {
+    "x": 2.239311,
+    "y": 1.202725,
+    "category": "HDBSCAN Cluster: deep, residual, networks, learning"
+  },
+  "007_Attention_is_All_you_Need": {
+    "x": 3.535706,
+    "y": -1.574324,
+    "category": "HDBSCAN Cluster: com, google, research, university"
+  },
+  "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan": {
+    "x": 5.03338,
+    "y": 0.155211,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog": {
+    "x": 2.054178,
+    "y": 0.79627,
+    "category": "HDBSCAN Cluster: deep, residual, networks, learning"
+  },
+  "010_Scikit-learn_Machine_Learning_in_Python": {
+    "x": 3.117216,
+    "y": -1.299655,
+    "category": "HDBSCAN Cluster: com, google, research, university"
+  },
+  "032_Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region": {
+    "x": 0.94702,
+    "y": 0.304596,
+    "category": "HDBSCAN Cluster: detection, object, network, region"
+  },
+  "033_An_Image_is_Worth_16x16_Words_Transformers_for_Image_Recogni": {
+    "x": 2.426792,
+    "y": -0.760079,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "034_Language_Models_are_Few-Shot_Learners": {
+    "x": 4.915674,
+    "y": -1.149832,
+    "category": "HDBSCAN Cluster: models, language, ne-tuning, human"
+  },
+  "035_XGBoost_A_Scalable_Tree_Boosting_System": {
+    "x": 3.372187,
+    "y": 0.122382,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L": {
+    "x": 3.380658,
+    "y": -1.545091,
+    "category": "HDBSCAN Cluster: com, google, research, university"
+  },
+  "037_Learning_Transferable_Visual_Models_From_Natural_Language_Su": {
+    "x": 4.897565,
+    "y": -0.002696,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "038_Going_deeper_with_convolutions": {
+    "x": 2.765427,
+    "y": 0.234937,
+    "category": "HDBSCAN Cluster: google, inc, com, architecture"
+  },
+  "039_Batch_Normalization_Accelerating_Deep_Network_Training_by_Re": {
+    "x": 3.041126,
+    "y": 1.210269,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "040_You_Only_Look_Once_Unified_Real-Time_Object_Detection": {
+    "x": 1.091377,
+    "y": -0.462532,
+    "category": "HDBSCAN Cluster: detection, object, network, region"
+  },
+  "041_ImageNet_Large_Scale_Visual_Recognition_Challenge": {
+    "x": 1.940864,
+    "y": -1.003264,
+    "category": "HDBSCAN Cluster: object, features, large, recognition"
+  },
+  "042_Fully_convolutional_networks_for_semantic_segmentation": {
+    "x": 1.517721,
+    "y": 1.188279,
+    "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic"
+  },
+  "043_Semi-Supervised_Classification_with_Graph_Convolutional_Netw": {
+    "x": 2.630092,
+    "y": 1.488354,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "143_SSD_Single_Shot_MultiBox_Detector": {
+    "x": 1.183838,
+    "y": -0.307705,
+    "category": "HDBSCAN Cluster: detection, object, network, region"
+  },
+  "144_Squeeze-and-Excitation_Networks": {
+    "x": 2.357075,
+    "y": 0.620134,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "145_Efficient_Estimation_of_Word_Representations_in_Vector_Space": {
+    "x": 4.130903,
+    "y": -0.188114,
+    "category": "HDBSCAN Cluster: google, inc, com, face"
+  },
+  "146_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shift": {
+    "x": 2.044263,
+    "y": -0.624462,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "147_Rethinking_the_Inception_Architecture_for_Computer_Vision": {
+    "x": 2.614135,
+    "y": -0.275911,
+    "category": "HDBSCAN Cluster: google, inc, com, architecture"
+  },
+  "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S": {
+    "x": 1.369948,
+    "y": -0.906454,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "149_Proximal_Policy_Optimization_Algorithms": {
+    "x": 3.217635,
+    "y": 2.192152,
+    "category": "HDBSCAN Cluster: learning, policy, reinforcement, deep"
+  },
+  "150_Grad-CAM_Visual_Explanations_from_Deep_Networks_via_Gradient": {
+    "x": 1.797689,
+    "y": 1.567865,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "151_Graph_Attention_Networks": {
+    "x": 3.04839,
+    "y": -1.245626,
+    "category": "HDBSCAN Cluster: com, google, research, university"
+  },
+  "152_Learning_Phrase_Representations_using_RNN_EncoderDecoder_for": {
+    "x": 4.515481,
+    "y": 0.011742,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex": {
+    "x": 4.616521,
+    "y": -0.47444,
+    "category": "HDBSCAN Cluster: com, google, learning, transfer"
+  },
+  "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil": {
+    "x": 2.132518,
+    "y": 0.350712,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "155_Communication-Efficient_Learning_of_Deep_Networks_from_Decen": {
+    "x": 3.761309,
+    "y": 0.002462,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "156_Distilling_the_Knowledge_in_a_Neural_Network": {
+    "x": 3.976563,
+    "y": 0.311375,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "157_EfficientNet_Rethinking_Model_Scaling_for_Convolutional_Neur": {
+    "x": 2.56305,
+    "y": 0.679729,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "158_CBAM_Convolutional_Block_Attention_Module": {
+    "x": 2.497492,
+    "y": 0.155161,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "159_Why_Should_I_Trust_You_Explaining_the_Predictions_of_Any_Cla": {
+    "x": 4.64575,
+    "y": -0.672793,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "160_Explaining_and_Harnessing_Adversarial_Examples": {
+    "x": 4.108758,
+    "y": 1.499123,
+    "category": "HDBSCAN Cluster: adversarial, learning, mit, networks"
+  },
+  "161_Sequence_to_Sequence_Learning_with_Neural_Networks": {
+    "x": 4.601702,
+    "y": 0.533877,
+    "category": "HDBSCAN Cluster: sequence, learning, neural, networks"
+  },
+  "162_Training_language_models_to_follow_instructions_with_human_f": {
+    "x": 4.947304,
+    "y": -0.908328,
+    "category": "HDBSCAN Cluster: models, language, ne-tuning, human"
+  },
+  "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional": {
+    "x": 1.339389,
+    "y": 0.902127,
+    "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic"
+  },
+  "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa": {
+    "x": 2.814345,
+    "y": 1.344335,
+    "category": "HDBSCAN Cluster: deep, residual, networks, learning"
+  },
+  "165_LLaMA_Open_and_Efficient_Foundation_Language_Models": {
+    "x": 5.54848,
+    "y": -0.487664,
+    "category": "HDBSCAN Cluster: models, llama, language, foundation"
+  },
+  "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models": {
+    "x": 5.14422,
+    "y": -0.098881,
+    "category": "HDBSCAN Cluster: com, google, learning, transfer"
+  },
+  "167_TensorFlow_A_system_for_large-scale_machine_learning": {
+    "x": 2.91409,
+    "y": -0.28797,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua": {
+    "x": 5.191934,
+    "y": -0.755032,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "169_The_Unreasonable_Effectiveness_of_Deep_Features_as_a_Percept": {
+    "x": 1.465063,
+    "y": -1.088981,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for": {
+    "x": 1.110513,
+    "y": 1.136187,
+    "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic"
+  },
+  "171_Xception_Deep_Learning_with_Depthwise_Separable_Convolutions": {
+    "x": 2.097109,
+    "y": 0.939569,
+    "category": "HDBSCAN Cluster: deep, residual, networks, learning"
+  },
+  "172_PointNet_Deep_Learning_on_Point_Sets_for_3D_Classification_a": {
+    "x": 1.455558,
+    "y": 0.237249,
+    "category": "HDBSCAN Cluster: point, pointnet, sets, deep"
+  },
+  "173_Deep_learning_in_neural_networks_An_overview": {
+    "x": 3.777608,
+    "y": 1.119103,
+    "category": "HDBSCAN Cluster: deep, neural, networks, learning"
+  },
+  "174_Llama_2_Open_Foundation_and_Fine-Tuned_Chat_Models": {
+    "x": 4.433827,
+    "y": -1.352945,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant": {
+    "x": 1.186617,
+    "y": 1.376685,
+    "category": "HDBSCAN Cluster: convolutional, segmentation, networks, semantic"
+  },
+  "176_Intriguing_properties_of_neural_networks": {
+    "x": 3.936908,
+    "y": 0.604526,
+    "category": "HDBSCAN Cluster: deep, neural, networks, learning"
+  },
+  "177_The_Llama_3_Herd_of_Models": {
+    "x": 5.439912,
+    "y": -0.454494,
+    "category": "HDBSCAN Cluster: models, llama, language, foundation"
+  },
+  "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection": {
+    "x": 2.302654,
+    "y": -1.261748,
+    "category": "HDBSCAN Cluster: object, features, large, recognition"
+  },
+  "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con": {
+    "x": 2.968152,
+    "y": 0.880883,
+    "category": "HDBSCAN Cluster: deep, residual, networks, learning"
+  },
+  "180_Continuous_control_with_deep_reinforcement_learning": {
+    "x": 2.982951,
+    "y": 1.942816,
+    "category": "HDBSCAN Cluster: learning, policy, reinforcement, deep"
+  },
+  "181_Unsupervised_Representation_Learning_with_Deep_Convolutional": {
+    "x": 3.818419,
+    "y": 1.757509,
+    "category": "HDBSCAN Cluster: adversarial, learning, mit, networks"
+  },
+  "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T": {
+    "x": 5.037493,
+    "y": -0.599304,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "183_FaceNet_A_unified_embedding_for_face_recognition_and_cluster": {
+    "x": 1.913637,
+    "y": -0.127795,
+    "category": "HDBSCAN Cluster: google, inc, com, face"
+  },
+  "184_Towards_Deep_Learning_Models_Resistant_to_Adversarial_Attack": {
+    "x": 3.950751,
+    "y": 1.68348,
+    "category": "HDBSCAN Cluster: adversarial, learning, mit, networks"
+  },
+  "185_Caffe_Convolutional_Architecture_for_Fast_Feature_Embedding": {
+    "x": 2.673995,
+    "y": -0.18286,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "186_Empirical_Evaluation_of_Gated_Recurrent_Neural_Networks_on_S": {
+    "x": 3.504254,
+    "y": 0.646194,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "187_Model-Agnostic_Meta-Learning_for_Fast_Adaptation_of_Deep_Net": {
+    "x": 3.323342,
+    "y": 1.651407,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "188_PointNet_Deep_Hierarchical_Feature_Learning_on_Point_Sets_in": {
+    "x": 1.575371,
+    "y": 0.387772,
+    "category": "HDBSCAN Cluster: point, pointnet, sets, deep"
+  },
+  "189_Convolutional_Neural_Networks_for_Sentence_Classification": {
+    "x": 3.460275,
+    "y": 0.961978,
+    "category": "HDBSCAN Cluster: sequence, learning, neural, networks"
+  },
+  "190_Segment_Anything": {
+    "x": 1.306974,
+    "y": -1.221341,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "191_Representation_Learning_A_Review_and_New_Perspectives": {
+    "x": 4.138917,
+    "y": 0.95676,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "192_Playing_Atari_with_Deep_Reinforcement_Learning": {
+    "x": 3.140395,
+    "y": 2.103734,
+    "category": "HDBSCAN Cluster: learning, policy, reinforcement, deep"
+  }
+}

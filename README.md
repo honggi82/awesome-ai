@@ -23,6 +23,20 @@ A taxonomy-first, citation-ranked map of AI research from 2000 through 2026.
 
 Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 AI-related candidate papers per year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers total), and reorganizes them by AI research taxonomy.
 
+
+<!-- BEGIN CODEX PAPER CURATION -->
+
+## Codex-Native Full Curation
+
+- Full curation site: https://honggi82.github.io/awesome-ai/paper_curation/
+- Local static entry: `docs/paper_curation/index.html`
+- Related Papers graph: `docs/paper_curation/ai/network.html`
+- PaperBanana-compatible timeline: `docs/paper_curation/ai/category_timeline_codex_native.png`
+- Processed PDF evidence in this staged run: 67 papers
+- Modeling stack: `allenai/specter2_base` embeddings, `hdbscan.HDBSCAN` clustering, `umap.UMAP` projection
+
+<!-- END CODEX PAPER CURATION -->
+
 ## Project Links
 
 - Open Interactive Website: https://honggi82.github.io/awesome-ai/

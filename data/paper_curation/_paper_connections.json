@@ -1,0 +1,1811 @@
+{
+  "001_Deep_Residual_Learning_for_Image_Recognition": [
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.968,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "171_Xception_Deep_Learning_with_Depthwise_Separable_Convolutions",
+      "score": 0.9533,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9525,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9519,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "007_Attention_is_All_you_Need": [
+    {
+      "target": "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L",
+      "score": 0.9309,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9277,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9248,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9202,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9199,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan": [
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9425,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "037_Learning_Transferable_Visual_Models_From_Natural_Language_Su",
+      "score": 0.9348,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.9317,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9289,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "189_Convolutional_Neural_Networks_for_Sentence_Classification",
+      "score": 0.9244,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.956,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9531,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9455,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "010_Scikit-learn_Machine_Learning_in_Python": [
+    {
+      "target": "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L",
+      "score": 0.9263,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "151_Graph_Attention_Networks",
+      "score": 0.9225,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.8957,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "007_Attention_is_All_you_Need",
+      "score": 0.8908,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "152_Learning_Phrase_Representations_using_RNN_EncoderDecoder_for",
+      "score": 0.8854,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "032_Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region": [
+    {
+      "target": "040_You_Only_Look_Once_Unified_Real-Time_Object_Detection",
+      "score": 0.9364,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9215,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9192,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9189,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for",
+      "score": 0.9155,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "033_An_Image_is_Worth_16x16_Words_Transformers_for_Image_Recogni": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9491,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "146_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shift",
+      "score": 0.9484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9431,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "034_Language_Models_are_Few-Shot_Learners": [
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9434,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9354,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "174_Llama_2_Open_Foundation_and_Fine-Tuned_Chat_Models",
+      "score": 0.9322,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T",
+      "score": 0.93,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "037_Learning_Transferable_Visual_Models_From_Natural_Language_Su",
+      "score": 0.9223,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "035_XGBoost_A_Scalable_Tree_Boosting_System": [
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9106,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "157_EfficientNet_Rethinking_Model_Scaling_for_Convolutional_Neur",
+      "score": 0.9069,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9035,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9024,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "155_Communication-Efficient_Learning_of_Deep_Networks_from_Decen",
+      "score": 0.9007,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L": [
+    {
+      "target": "007_Attention_is_All_you_Need",
+      "score": 0.9309,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "151_Graph_Attention_Networks",
+      "score": 0.9285,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "010_Scikit-learn_Machine_Learning_in_Python",
+      "score": 0.9263,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.911,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9096,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "037_Learning_Transferable_Visual_Models_From_Natural_Language_Su": [
+    {
+      "target": "150_Grad-CAM_Visual_Explanations_from_Deep_Networks_via_Gradient",
+      "score": 0.9397,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan",
+      "score": 0.9348,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9327,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9318,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.9275,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "038_Going_deeper_with_convolutions": [
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9704,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9594,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9582,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.956,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9525,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "039_Batch_Normalization_Accelerating_Deep_Network_Training_by_Re": [
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9422,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "187_Model-Agnostic_Meta-Learning_for_Fast_Adaptation_of_Deep_Net",
+      "score": 0.941,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "157_EfficientNet_Rethinking_Model_Scaling_for_Convolutional_Neur",
+      "score": 0.9371,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9368,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9351,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "040_You_Only_Look_Once_Unified_Real-Time_Object_Detection": [
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "143_SSD_Single_Shot_MultiBox_Detector",
+      "score": 0.9402,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "032_Faster_R-CNN_Towards_Real-Time_Object_Detection_with_Region",
+      "score": 0.9364,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9328,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection",
+      "score": 0.9297,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "041_ImageNet_Large_Scale_Visual_Recognition_Challenge": [
+    {
+      "target": "033_An_Image_is_Worth_16x16_Words_Transformers_for_Image_Recogni",
+      "score": 0.9475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9466,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9465,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection",
+      "score": 0.9462,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9426,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "042_Fully_convolutional_networks_for_semantic_segmentation": [
+    {
+      "target": "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional",
+      "score": 0.9724,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.964,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for",
+      "score": 0.9574,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.944,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "043_Semi-Supervised_Classification_with_Graph_Convolutional_Netw": [
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9281,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "191_Representation_Learning_A_Review_and_New_Perspectives",
+      "score": 0.926,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9259,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9257,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "143_SSD_Single_Shot_MultiBox_Detector": [
+    {
+      "target": "040_You_Only_Look_Once_Unified_Real-Time_Object_Detection",
+      "score": 0.9402,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9313,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9299,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9279,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection",
+      "score": 0.9252,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "144_Squeeze-and-Excitation_Networks": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.944,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9383,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9353,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9351,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9347,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "145_Efficient_Estimation_of_Word_Representations_in_Vector_Space": [
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9288,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.924,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9231,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.922,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "183_FaceNet_A_unified_embedding_for_face_recognition_and_cluster",
+      "score": 0.9202,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "146_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shift": [
+    {
+      "target": "033_An_Image_is_Worth_16x16_Words_Transformers_for_Image_Recogni",
+      "score": 0.9484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9374,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9345,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "158_CBAM_Convolutional_Block_Attention_Module",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9295,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "147_Rethinking_the_Inception_Architecture_for_Computer_Vision": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9704,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9531,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9498,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "185_Caffe_Convolutional_Architecture_for_Fast_Feature_Embedding",
+      "score": 0.9487,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S": [
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9466,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "040_You_Only_Look_Once_Unified_Real-Time_Object_Detection",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "190_Segment_Anything",
+      "score": 0.9417,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "169_The_Unreasonable_Effectiveness_of_Deep_Features_as_a_Percept",
+      "score": 0.9347,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9294,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "149_Proximal_Policy_Optimization_Algorithms": [
+    {
+      "target": "180_Continuous_control_with_deep_reinforcement_learning",
+      "score": 0.9353,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "192_Playing_Atari_with_Deep_Reinforcement_Learning",
+      "score": 0.9334,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "187_Model-Agnostic_Meta-Learning_for_Fast_Adaptation_of_Deep_Net",
+      "score": 0.9215,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.8977,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "191_Representation_Learning_A_Review_and_New_Perspectives",
+      "score": 0.8977,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "150_Grad-CAM_Visual_Explanations_from_Deep_Networks_via_Gradient": [
+    {
+      "target": "037_Learning_Transferable_Visual_Models_From_Natural_Language_Su",
+      "score": 0.9397,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9397,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9395,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9391,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional",
+      "score": 0.9385,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "151_Graph_Attention_Networks": [
+    {
+      "target": "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L",
+      "score": 0.9285,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9277,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9269,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "010_Scikit-learn_Machine_Learning_in_Python",
+      "score": 0.9225,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection",
+      "score": 0.9224,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "152_Learning_Phrase_Representations_using_RNN_EncoderDecoder_for": [
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.9326,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9259,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9171,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "186_Empirical_Evaluation_of_Gated_Recurrent_Neural_Networks_on_S",
+      "score": 0.9101,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "145_Efficient_Estimation_of_Word_Representations_in_Vector_Space",
+      "score": 0.902,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex": [
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9459,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T",
+      "score": 0.9364,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "034_Language_Models_are_Few-Shot_Learners",
+      "score": 0.9354,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.933,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9594,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.95,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "157_EfficientNet_Rethinking_Model_Scaling_for_Convolutional_Neur",
+      "score": 0.9481,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9477,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "155_Communication-Efficient_Learning_of_Deep_Networks_from_Decen": [
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9251,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9181,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9127,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9124,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "191_Representation_Learning_A_Review_and_New_Perspectives",
+      "score": 0.9057,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "156_Distilling_the_Knowledge_in_a_Neural_Network": [
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.935,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.933,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.9292,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9289,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "145_Efficient_Estimation_of_Word_Representations_in_Vector_Space",
+      "score": 0.9288,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "157_EfficientNet_Rethinking_Model_Scaling_for_Convolutional_Neur": [
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9481,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9457,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9448,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9409,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9402,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "158_CBAM_Convolutional_Block_Attention_Module": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9404,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9343,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.934,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "185_Caffe_Convolutional_Architecture_for_Fast_Feature_Embedding",
+      "score": 0.9331,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.932,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "159_Why_Should_I_Trust_You_Explaining_the_Predictions_of_Any_Cla": [
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9047,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9022,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.8971,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua",
+      "score": 0.8968,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.8935,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "160_Explaining_and_Harnessing_Adversarial_Examples": [
+    {
+      "target": "184_Towards_Deep_Learning_Models_Resistant_to_Adversarial_Attack",
+      "score": 0.9602,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "181_Unsupervised_Representation_Learning_with_Deep_Convolutional",
+      "score": 0.9365,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9332,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9195,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9137,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "161_Sequence_to_Sequence_Learning_with_Neural_Networks": [
+    {
+      "target": "189_Convolutional_Neural_Networks_for_Sentence_Classification",
+      "score": 0.9332,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "152_Learning_Phrase_Representations_using_RNN_EncoderDecoder_for",
+      "score": 0.9326,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan",
+      "score": 0.9317,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9297,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9292,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "162_Training_language_models_to_follow_instructions_with_human_f": [
+    {
+      "target": "034_Language_Models_are_Few-Shot_Learners",
+      "score": 0.9434,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "037_Learning_Transferable_Visual_Models_From_Natural_Language_Su",
+      "score": 0.9327,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua",
+      "score": 0.9281,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional": [
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9724,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9663,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for",
+      "score": 0.954,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.943,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9419,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa": [
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.968,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9512,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9489,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9477,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "165_LLaMA_Open_and_Efficient_Foundation_Language_Models": [
+    {
+      "target": "177_The_Llama_3_Herd_of_Models",
+      "score": 0.9449,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9307,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9248,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9224,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T",
+      "score": 0.9192,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models": [
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9459,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan",
+      "score": 0.9425,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9358,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "165_LLaMA_Open_and_Efficient_Foundation_Language_Models",
+      "score": 0.9307,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "167_TensorFlow_A_system_for_large-scale_machine_learning": [
+    {
+      "target": "185_Caffe_Convolutional_Architecture_for_Fast_Feature_Embedding",
+      "score": 0.9414,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9179,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "033_An_Image_is_Worth_16x16_Words_Transformers_for_Image_Recogni",
+      "score": 0.9039,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9033,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9028,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua": [
+    {
+      "target": "177_The_Llama_3_Herd_of_Models",
+      "score": 0.9284,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9281,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T",
+      "score": 0.9254,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9087,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9036,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "169_The_Unreasonable_Effectiveness_of_Deep_Features_as_a_Percept": [
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9347,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "190_Segment_Anything",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9096,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "146_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shift",
+      "score": 0.8926,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "007_Attention_is_All_you_Need",
+      "score": 0.8913,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for": [
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.958,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.9574,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional",
+      "score": 0.954,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "150_Grad-CAM_Visual_Explanations_from_Deep_Networks_via_Gradient",
+      "score": 0.9258,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "171_Xception_Deep_Learning_with_Depthwise_Separable_Convolutions",
+      "score": 0.9256,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "171_Xception_Deep_Learning_with_Depthwise_Separable_Convolutions": [
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9533,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9499,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9487,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9391,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9355,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "172_PointNet_Deep_Learning_on_Point_Sets_for_3D_Classification_a": [
+    {
+      "target": "188_PointNet_Deep_Hierarchical_Feature_Learning_on_Point_Sets_in",
+      "score": 0.9562,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9223,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9188,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.918,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional",
+      "score": 0.918,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "173_Deep_learning_in_neural_networks_An_overview": [
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9503,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9433,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "191_Representation_Learning_A_Review_and_New_Perspectives",
+      "score": 0.9433,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9407,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9378,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "174_Llama_2_Open_Foundation_and_Fine-Tuned_Chat_Models": [
+    {
+      "target": "034_Language_Models_are_Few-Shot_Learners",
+      "score": 0.9322,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "036_PyTorch_An_Imperative_Style_High-Performance_Deep_Learning_L",
+      "score": 0.8819,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.8818,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "007_Attention_is_All_you_Need",
+      "score": 0.8778,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "165_LLaMA_Open_and_Efficient_Foundation_Language_Models",
+      "score": 0.8722,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant": [
+    {
+      "target": "163_DeepLab_Semantic_Image_Segmentation_with_Deep_Convolutional",
+      "score": 0.9663,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "042_Fully_convolutional_networks_for_semantic_segmentation",
+      "score": 0.964,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "170_SegNet_A_Deep_Convolutional_Encoder-Decoder_Architecture_for",
+      "score": 0.958,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9489,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9448,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "176_Intriguing_properties_of_neural_networks": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9504,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9503,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "033_An_Image_is_Worth_16x16_Words_Transformers_for_Image_Recogni",
+      "score": 0.9475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "191_Representation_Learning_A_Review_and_New_Perspectives",
+      "score": 0.9422,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "184_Towards_Deep_Learning_Models_Resistant_to_Adversarial_Attack",
+      "score": 0.9393,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "177_The_Llama_3_Herd_of_Models": [
+    {
+      "target": "165_LLaMA_Open_and_Efficient_Foundation_Language_Models",
+      "score": 0.9449,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua",
+      "score": 0.9284,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9194,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9188,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9178,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "178_YOLOv4_Optimal_Speed_and_Accuracy_of_Object_Detection": [
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9462,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.946,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9385,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9375,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9316,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9582,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9519,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "171_Xception_Deep_Learning_with_Depthwise_Separable_Convolutions",
+      "score": 0.9499,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9498,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "180_Continuous_control_with_deep_reinforcement_learning": [
+    {
+      "target": "192_Playing_Atari_with_Deep_Reinforcement_Learning",
+      "score": 0.9634,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "149_Proximal_Policy_Optimization_Algorithms",
+      "score": 0.9353,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "187_Model-Agnostic_Meta-Learning_for_Fast_Adaptation_of_Deep_Net",
+      "score": 0.9168,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9136,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9051,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "181_Unsupervised_Representation_Learning_with_Deep_Convolutional": [
+    {
+      "target": "184_Towards_Deep_Learning_Models_Resistant_to_Adversarial_Attack",
+      "score": 0.9523,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "160_Explaining_and_Harnessing_Adversarial_Examples",
+      "score": 0.9365,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9355,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "191_Representation_Learning_A_Review_and_New_Perspectives",
+      "score": 0.9351,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9346,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "182_Retrieval-Augmented_Generation_for_Knowledge-Intensive_NLP_T": [
+    {
+      "target": "153_Exploring_the_Limits_of_Transfer_Learning_with_a_Unified_Tex",
+      "score": 0.9364,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "034_Language_Models_are_Few-Shot_Learners",
+      "score": 0.93,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "162_Training_language_models_to_follow_instructions_with_human_f",
+      "score": 0.9265,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "168_Chain_of_Thought_Prompting_Elicits_Reasoning_in_Large_Langua",
+      "score": 0.9254,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.9215,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "183_FaceNet_A_unified_embedding_for_face_recognition_and_cluster": [
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.9253,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9246,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "188_PointNet_Deep_Hierarchical_Feature_Learning_on_Point_Sets_in",
+      "score": 0.9238,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9216,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9214,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "184_Towards_Deep_Learning_Models_Resistant_to_Adversarial_Attack": [
+    {
+      "target": "160_Explaining_and_Harnessing_Adversarial_Examples",
+      "score": 0.9602,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "181_Unsupervised_Representation_Learning_with_Deep_Convolutional",
+      "score": 0.9523,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9393,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9242,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.924,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "185_Caffe_Convolutional_Architecture_for_Fast_Feature_Embedding": [
+    {
+      "target": "038_Going_deeper_with_convolutions",
+      "score": 0.9499,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "147_Rethinking_the_Inception_Architecture_for_Computer_Vision",
+      "score": 0.9487,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "154_MobileNets_Efficient_Convolutional_Neural_Networks_for_Mobil",
+      "score": 0.9438,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "167_TensorFlow_A_system_for_large-scale_machine_learning",
+      "score": 0.9414,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "158_CBAM_Convolutional_Block_Attention_Module",
+      "score": 0.9331,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "186_Empirical_Evaluation_of_Gated_Recurrent_Neural_Networks_on_S": [
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9285,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "189_Convolutional_Neural_Networks_for_Sentence_Classification",
+      "score": 0.9223,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9217,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9215,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.9187,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "187_Model-Agnostic_Meta-Learning_for_Fast_Adaptation_of_Deep_Net": [
+    {
+      "target": "039_Batch_Normalization_Accelerating_Deep_Network_Training_by_Re",
+      "score": 0.941,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9288,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "192_Playing_Atari_with_Deep_Reinforcement_Learning",
+      "score": 0.9286,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "166_LoRA_Low-Rank_Adaptation_of_Large_Language_Models",
+      "score": 0.928,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.923,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "188_PointNet_Deep_Hierarchical_Feature_Learning_on_Point_Sets_in": [
+    {
+      "target": "172_PointNet_Deep_Learning_on_Point_Sets_for_3D_Classification_a",
+      "score": 0.9562,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "009_Very_Deep_Convolutional_Networks_for_Large-Scale_Image_Recog",
+      "score": 0.9354,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.9247,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "183_FaceNet_A_unified_embedding_for_face_recognition_and_cluster",
+      "score": 0.9238,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.9228,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "189_Convolutional_Neural_Networks_for_Sentence_Classification": [
+    {
+      "target": "164_Delving_Deep_into_Rectifiers_Surpassing_Human-Level_Performa",
+      "score": 0.9341,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "161_Sequence_to_Sequence_Learning_with_Neural_Networks",
+      "score": 0.9332,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9316,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "001_Deep_Residual_Learning_for_Image_Recognition",
+      "score": 0.931,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "008_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Lan",
+      "score": 0.9244,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "190_Segment_Anything": [
+    {
+      "target": "148_Rich_Feature_Hierarchies_for_Accurate_Object_Detection_and_S",
+      "score": 0.9417,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "041_ImageNet_Large_Scale_Visual_Recognition_Challenge",
+      "score": 0.933,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "169_The_Unreasonable_Effectiveness_of_Deep_Features_as_a_Percept",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "146_Swin_Transformer_Hierarchical_Vision_Transformer_using_Shift",
+      "score": 0.9183,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "175_Encoder-Decoder_with_Atrous_Separable_Convolution_for_Semant",
+      "score": 0.917,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "191_Representation_Learning_A_Review_and_New_Perspectives": [
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9433,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "176_Intriguing_properties_of_neural_networks",
+      "score": 0.9422,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "181_Unsupervised_Representation_Learning_with_Deep_Convolutional",
+      "score": 0.9351,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "156_Distilling_the_Knowledge_in_a_Neural_Network",
+      "score": 0.9288,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "150_Grad-CAM_Visual_Explanations_from_Deep_Networks_via_Gradient",
+      "score": 0.9272,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "192_Playing_Atari_with_Deep_Reinforcement_Learning": [
+    {
+      "target": "180_Continuous_control_with_deep_reinforcement_learning",
+      "score": 0.9634,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "149_Proximal_Policy_Optimization_Algorithms",
+      "score": 0.9334,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "173_Deep_learning_in_neural_networks_An_overview",
+      "score": 0.9329,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "187_Model-Agnostic_Meta-Learning_for_Fast_Adaptation_of_Deep_Net",
+      "score": 0.9286,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "179_Inception-v4_Inception-ResNet_and_the_Impact_of_Residual_Con",
+      "score": 0.9259,
+      "reason": "Codex local embedding similarity"
+    }
+  ]
+}
